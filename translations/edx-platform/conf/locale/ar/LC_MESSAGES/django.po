@@ -26726,3 +26726,32 @@ msgstr "ضع نصّ حقوق النشر والطبع الخاصة بك هنا!"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "محرر الرمز"
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/courses.html
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "أطلق إمكاناتك: اكتشف دورات جديدة اليوم!"
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/courses.html
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "استكشف عالمًا من المعرفة وطوّر مهاراتك مع مجموعتنا المتنوعة من الدورات"
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/courses.html
+#: tutorindigo/templates/indigo/lms/templates/footer.html
+msgid "Filters"
+msgstr "الفلاتر"
+
+#: tutorindigo/templates/indigo/lms/templates/footer.html
+msgid "Powered by:"
+msgstr "مدعوم من:"
+
+#: tutorindigo/templates/indigo/lms/templates/footer.html
+msgid "Copyrights"
+msgstr "حقوق النشر"
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/course_about.html
+msgid "Course Summary"
+msgstr "ملخص الدورة"
+
+#: tutorindigo/templates/indigo/lms/templates/index_overlay.html
+msgid "The place for all your online learning"
+msgstr "المكان المثالي لتعلّمك الإلكتروني"

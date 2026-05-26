@@ -10115,3 +10115,7 @@ msgid ""
 msgstr ""
 "ملاحظة: يمكن أن يتواجد الطلّاب في شعبة واحدة فقط. وتُلغي إضافة الطلّاب إلى "
 "هذه الشعبة أي تعيين سابق لهم."
+
+#: tutorindigo/templates/indigo/lms/templates/discovery/course_card.underscore
+msgid "Learn More"
+msgstr "اعرف المزيد"

@@ -26755,3 +26755,15 @@ msgstr "ملخص الدورة"
 #: tutorindigo/templates/indigo/lms/templates/index_overlay.html
 msgid "The place for all your online learning"
 msgstr "المكان المثالي لتعلّمك الإلكتروني"
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/courses.html
+msgid "Explore course"
+msgstr "استكشف الدورة"
+
+#: tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html
+msgid "Discover courses"
+msgstr "اكتشف الدورات"
+
+#: tutorindigo/templates/indigo/lms/templates/footer.html
+msgid "About Us"
+msgstr "من نحن"

@@ -1283,6 +1283,8 @@
   "course-authoring.group-configurations.sidebar.learnmore.button": "Learn more",
   "course-authoring.import.file-section.title": "Select a .tar.gz file to replace your course content",
   "course-authoring.import.file-section.chosen-file": "File chosen: {fileName}",
+  "course-authoring.import.file-section.enable-draft-state.label": "Enable Draft State",
+  "course-authoring.import.file-section.enable-draft-state.description": "Import all content as draft. Nothing will be visible to learners until you manually publish from Studio.",
   "course-authoring.import.sidebar.title1": "Why import a course?",
   "course-authoring.import.sidebar.description1": "You may want to run a new version of an existing course, or replace an existing course altogether. Or, you may have developed a course outside {studioShortName}.",
   "course-authoring.import.sidebar.importedContent": "What content is imported?",

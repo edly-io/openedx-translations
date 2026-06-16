@@ -1283,6 +1283,8 @@
   "course-authoring.group-configurations.sidebar.learnmore.button": "اعرف المزيد",
   "course-authoring.import.file-section.title": "اختَر ملف .tar.gz لاستبدال محتوى مساقك",
   "course-authoring.import.file-section.chosen-file": "الملف المختار: {fileName}",
+  "course-authoring.import.file-section.enable-draft-state.label": "تفعيل حالة المسودة",
+  "course-authoring.import.file-section.enable-draft-state.description": "استيراد كل المحتوى كمسودة. لن يظهر أي شيء للمتعلمين حتى تقوم بالنشر يدوياً من الاستوديو.",
   "course-authoring.import.sidebar.title1": "ما الهدف من استيراد مساق؟",
   "course-authoring.import.sidebar.description1": "قد ترغب في تشغيل إصدار جديد من مساقٍ موجود بالفِعل، او استبدال المساق الموجود بالكامل. أو لربما انّك قد طورتَ مساقاً خارج {studioShortName}.",
   "course-authoring.import.sidebar.importedContent": "ما المحتوى الذي يُستَورَد؟",

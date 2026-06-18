@@ -10119,3 +10119,119 @@ msgstr ""
 #: tutorindigo/templates/indigo/lms/templates/discovery/course_card.underscore
 msgid "Learn More"
 msgstr "اعرف المزيد"
+
+#: lms/templates/learner_dashboard/program_list_header_view.underscore:1
+msgid "My programs"
+msgstr "برامجي"
+
+#: lms/templates/learner_dashboard/program_card.underscore:28
+msgid "Completed"
+msgstr "مكتمل"
+
+#: lms/templates/learner_dashboard/program_card.underscore:34
+msgid "Remaining"
+msgstr "متبقٍ"
+
+#: lms/templates/learner_dashboard/program_card.underscore:24
+#: lms/templates/learner_dashboard/program_card.underscore:30
+#: lms/templates/learner_dashboard/program_card.underscore:36
+msgid "Course"
+msgid_plural "Courses"
+msgstr[0] "مساق"
+msgstr[1] "مساق"
+msgstr[2] "مساقان"
+msgstr[3] "مساقات"
+msgstr[4] "مساق"
+msgstr[5] "مساقات"
+
+#, python-format
+#: lms/templates/learner_dashboard/program_card.underscore:52
+msgid "%(programName)s Home Page."
+msgstr "الصفحة الرئيسية لـ %(programName)s."
+
+#: lms/templates/learner_dashboard/empty_programs_list.underscore:2
+msgid "You are not enrolled in any programs yet."
+msgstr "لم تسجّل في أي برنامج حتى الآن."
+
+#: lms/templates/learner_dashboard/empty_programs_list.underscore:4
+msgid "Explore Programs"
+msgstr "استكشف البرامج"
+
+#: lms/templates/learner_dashboard/program_details_view.underscore:7
+msgid "Congratulations!"
+msgstr "تهانينا!"
+
+#, python-format
+#: lms/templates/learner_dashboard/program_details_view.underscore:9
+msgid "You have successfully completed all the requirements for the %(title)s %(type)s."
+msgstr "لقد أتممتَ بنجاح جميع متطلبات %(title)s %(type)s."
+
+#: lms/templates/learner_dashboard/program_details_view.underscore:13
+msgid "Your Program Journey"
+msgstr "رحلتك في البرنامج"
+
+#, python-format
+#: lms/templates/learner_dashboard/program_details_view.underscore:16
+msgid "Track and plan your progress through the %(count)s courses in this program. To complete the program, you must earn a verified certificate for each course."
+msgstr "تابع تقدّمك وخطّط له عبر %(count)s مساق في هذا البرنامج. لإتمام البرنامج، يجب عليك الحصول على شهادة معتمدة في كل مساق."
+
+#: lms/templates/learner_dashboard/program_details_view.underscore:43
+msgid "COURSES IN PROGRESS"
+msgstr "المساقات الجارية"
+
+#: lms/templates/learner_dashboard/program_details_view.underscore:51
+msgid "REMAINING COURSES"
+msgstr "المساقات المتبقية"
+
+#: lms/templates/learner_dashboard/program_details_view.underscore:59
+msgid "COMPLETED COURSES"
+msgstr "المساقات المكتملة"
+
+#: lms/templates/learner_dashboard/program_details_view.underscore:64
+msgid "As you complete courses, you will see them listed here."
+msgstr "ستظهر المساقات التي تُكملها هنا."
+
+#: lms/templates/learner_dashboard/program_details_view.underscore:65
+msgid "Complete courses on your schedule to ensure you stand out in your field!"
+msgstr "أكمل المساقات وفق جدولك لتتميّز في مجالك!"
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:3
+msgid "Your {program} Certificate"
+msgstr "شهادتك في {program}"
+
+#, python-format
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:6
+msgid "Open the certificate you earned for the %(title)s program."
+msgstr "افتح الشهادة التي حصلتَ عليها لبرنامج %(title)s."
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:12
+msgid "Program Record"
+msgstr "سجل البرنامج"
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:14
+msgid "Once you complete one of the program requirements you have a program record. This record is marked complete once you meet all program requirements. A program record can be used to continue your learning journey and demonstrate your learning to others."
+msgstr "بمجرد إتمامك أحد متطلبات البرنامج، يُنشأ لك سجل خاص به. يُعلَّم هذا السجل مكتملاً عند استيفاء جميع متطلبات البرنامج، ويمكن الاستفادة منه لمواصلة رحلتك التعليمية وإثبات ما حققتَه من إنجازات للآخرين."
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:18
+msgid "View Program Record"
+msgstr "عرض سجل البرنامج"
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:24
+msgid "Additional Credit Opportunities"
+msgstr "فرص اعتماد إضافية"
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:40
+msgid "Additional Professional Opportunities"
+msgstr "فرص مهنية إضافية"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:43
+msgid "Track and plan your progress through the %(count)s course(s) in this program. To complete the program, you must earn a verified certificate for each course."
+msgstr "تابع تقدّمك وخطّط له عبر %(count)s مساق في هذا البرنامج. لإتمام البرنامج، يجب عليك الحصول على شهادة معتمدة في كل مساق."
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:122
+msgid "Transform your %(org)s %(type)s into a full master's degree"
+msgstr "حوّل %(type)s الخاص بـ %(org)s إلى درجة الماجستير الكاملة"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:125
+msgid "Successful completion of %(org)s %(program)s credential can be applied towards flexible, rigorous, and affordable masters degrees from the world's leading universities."
+msgstr "يمكن تطبيق إتمام %(program)s من %(org)s بنجاح نحو درجات الماجستير المرنة والصارمة والميسورة من أبرز جامعات العالم."

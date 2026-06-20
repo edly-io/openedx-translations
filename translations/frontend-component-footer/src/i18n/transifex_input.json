@@ -26,7 +26,7 @@
   "footer.connectLinks.donate": "Donate",
   "footer.mobileApp.apple": "Download the edX mobile app from the Apple App Store",
   "footer.mobileApp.google": "Download the edX mobile app from Google Play",
-  "footer.logo.altText": "Powered by Open edX",
+  "footer.logo.altText": "Rwaq",
   "footer.logo.ariaLabel": "edX Home",
   "footer.ariaLabel": "Page Footer",
   "authoring.footer.help.openHelp.button.label": "Looking for help with Studio?",
@@ -37,5 +37,11 @@
   "authoring.footer.termsOfService.link.label": "Terms of Service",
   "authoring.footer.privacyPolicy.link.label": "Privacy Policy",
   "authoring.footer.accessibilityRequest.link.label": "Accessibility Accomodation Request",
-  "authoring.footer.trademark.message": "edX and Open edX, and the edX and Open edX logos are registered trademarks of"
+  "authoring.footer.trademark.message": "edX and Open edX, and the edX and Open edX logos are registered trademarks of",
+  "footer.copyright.text": "{organization} ©{year}. All Rights Reserved.",
+  "footer.navlink.aboutUs": "About Us",
+  "footer.navlink.privacyPolicy": "Privacy Policy",
+  "footer.navlink.joinAsPartner": "Join as Partner",
+  "footer.navlink.joinAsInstructor": "Join as Instructor",
+  "footer.navlink.contactUs": "Contact Us"
 }

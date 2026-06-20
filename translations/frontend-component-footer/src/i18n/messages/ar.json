@@ -26,7 +26,7 @@
   "footer.connectLinks.donate": "تبرَّع",
   "footer.mobileApp.apple": "حمِّل تطبيق edX للهواتف المحمولة من متجر Apple",
   "footer.mobileApp.google": "حمِّل تطبيق edX للهواتف المحمولة من Google Play",
-  "footer.logo.altText": "شعار edX",
+  "footer.logo.altText": "رواق",
   "footer.logo.ariaLabel": "صفحة edX الرئيسية",
   "footer.ariaLabel": "ذيل الصفحة",
   "authoring.footer.help.openHelp.button.label": "هل تحتاج إلى المساعدة في برنامج استوديو؟",
@@ -47,5 +47,7 @@
   "footer.navlink.termsOfService": "شروط الخدمة",
   "footer.navlink.privacyPolicy": "سياسة الخصوصية",
   "footer.navlink.help": "المساعدة",
-  "footer.navlink.contactUs": "اتصل بنا"
+  "footer.navlink.contactUs": "اتصل بنا",
+  "footer.navlink.joinAsPartner": "انضم كشريك",
+  "footer.navlink.joinAsInstructor": "انضم كمحاضر"
 }

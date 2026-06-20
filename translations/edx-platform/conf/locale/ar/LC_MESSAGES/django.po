@@ -26767,3 +26767,15 @@ msgstr "اكتشف الدورات"
 #: tutorindigo/templates/indigo/lms/templates/footer.html
 msgid "About Us"
 msgstr "من نحن"
+
+#: tutorindigo/templates/indigo/lms/templates/header/navbar-authenticated.html
+msgid "Discover"
+msgstr "اكتشف"
+
+#: tutorindigo/templates/indigo/lms/templates/footer.html
+msgid "Join as Partner"
+msgstr "انضم كشريك"
+
+#: tutorindigo/templates/indigo/lms/templates/footer.html
+msgid "Join as Instructor"
+msgstr "انضم كمحاضر"

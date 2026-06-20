@@ -32,5 +32,6 @@
   "header.menu.aria-label": "User Options",
   "header.user.menu.studio": "Studio Home",
   "header.label.courseOutline": "Back to course outline in Studio",
-  "header.label.search.nav": "Search content"
+  "header.label.search.nav": "Search content",
+  "indigo.home.nav.link": "Home"
 }

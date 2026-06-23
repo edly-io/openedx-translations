@@ -6108,7 +6108,7 @@ msgstr "(من أصل {total})"
 #: lms/templates/navigation/bootstrap/navbar-authenticated.html:45
 #: lms/templates/navigation/navbar-authenticated.html:28
 msgid "Programs"
-msgstr "برامج"
+msgstr "البرامج"
 
 #: lms/djangoapps/learner_dashboard/programs.py:155
 #: lms/templates/learner_dashboard/program_details.html:11
@@ -10825,7 +10825,7 @@ msgstr ""
 
 #: openedx/features/enterprise_support/templates/enterprise_support/admin/enrollment_attributes_override.html:15
 msgid "Home"
-msgstr "الصفحة الرئيسية"
+msgstr "الرئيسية"
 
 #: openedx/features/enterprise_support/templates/enterprise_support/admin/enrollment_attributes_override.html:17
 msgid "Enterprise Course Enrollments"
@@ -25746,7 +25746,7 @@ msgstr ""
 
 #: lms/templates/learner_dashboard/_dashboard_navigation_courses.html:7
 msgid "My Courses"
-msgstr "مساقاتي"
+msgstr "المساقات"
 
 #: lms/templates/lti_provider/user-auth-error.html:11
 msgid "There was an error when loading this module!"
@@ -26770,7 +26770,7 @@ msgstr "من نحن"
 
 #: tutorindigo/templates/indigo/lms/templates/header/navbar-authenticated.html
 msgid "Discover"
-msgstr "اكتشف"
+msgstr "اكتشف ما هو جديد"
 
 #: tutorindigo/templates/indigo/lms/templates/footer.html
 msgid "Join as Partner"

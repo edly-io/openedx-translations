@@ -26779,3 +26779,7 @@ msgstr "انضم كشريك"
 #: tutorindigo/templates/indigo/lms/templates/footer.html
 msgid "Join as Instructor"
 msgstr "انضم كمحاضر"
+
+#: tutorindigo/templates/indigo/lms/templates/footer.html
+msgid "Rwaq"
+msgstr "رواق"

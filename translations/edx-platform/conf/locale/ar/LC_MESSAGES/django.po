@@ -7819,7 +7819,7 @@ msgstr "ACE Common"
 #: lms/templates/navigation/navbar-authenticated.html:22
 #: lms/templates/navigation/navbar-not-authenticated.html:20
 msgid "Courses"
-msgstr "مساقات"
+msgstr "المساقات"
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:108
 msgid "My Account"

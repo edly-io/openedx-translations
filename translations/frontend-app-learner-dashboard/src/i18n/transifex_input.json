@@ -100,6 +100,7 @@
   "learner-dash.courseCard.banners.certificateRestrictedNoEmail": "Your Certificate of Achievement is being held pending confirmation that the issuance of your Certificate is in compliance with strict U.S. embargoes on Iran, Cuba, Syria, and Sudan. If you think our system has mistakenly identified you as being connected with one of those countries, please let us know.",
   "learner-dash.courseCard.banners.certificateRefundContactBilling": "If you would like a refund on your Certificate of Achievement, please contact our billing address {billingEmail}",
   "learner-dash.courseCard.banners.certificateRefundContactBillingNoEmail": "If you would like a refund on your Certificate of Achievement, please contact us.",
+  "learner-dash.courseCard.banners.noCertificateOffered": "This course does not offer a certificate",
   "learner-dash.courseCard.banners.passingGrade": "Grade required to pass the course: {minPassingGrade}‏%",
   "learner-dash.courseCard.banners.notEligibleForCert": "You are not eligible for a certificate.",
   "learner-dash.courseCard.banners.viewGrades": "View grades.",

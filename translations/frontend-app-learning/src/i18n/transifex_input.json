@@ -225,6 +225,8 @@
   "progress.certificateStatus.unverifiedBody": "In order to generate a certificate, you must complete ID verification. {idVerificationSupportLink}.",
   "progress.certificateStatus.downloadableBody": "Showcase your accomplishment on LinkedIn or your resumé today. You can download your certificate now and access it any time from your {dashboardLink} and {profileLink}.",
   "progress.certificateStatus.notAvailable.endDate": "This course ends on {endDate}. Final grades and any earned certificates are scheduled to be available after {certAvailabilityDate}.",
+  "progress.certificateStatus.noCertificateHeader": "Certificate status",
+  "progress.certificateStatus.noCertificateBody": "This course does not offer a certificate.",
   "progress.certificateStatus.notPassingHeader": "Certificate status",
   "progress.certificateStatus.notPassingBody": "In order to qualify for a certificate, you must have a passing grade.",
   "progress.certificateStatus.inProgressHeader": "More content is coming soon!",

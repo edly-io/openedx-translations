@@ -10235,3 +10235,11 @@ msgstr "حوّل %(type)s الخاص بـ %(org)s إلى درجة الماجست
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:125
 msgid "Successful completion of %(org)s %(program)s credential can be applied towards flexible, rigorous, and affordable masters degrees from the world's leading universities."
 msgstr "يمكن تطبيق إتمام %(program)s من %(org)s بنجاح نحو درجات الماجستير المرنة والصارمة والميسورة من أبرز جامعات العالم."
+
+#: lms/templates/learner_dashboard/certificate_status.underscore:2
+msgid "Certificate Status:"
+msgstr "حالة الشهادة:"
+
+#: lms/templates/learner_dashboard/certificate_status.underscore:4
+msgid "Certificate Purchased"
+msgstr "تم شراء الشهادة"

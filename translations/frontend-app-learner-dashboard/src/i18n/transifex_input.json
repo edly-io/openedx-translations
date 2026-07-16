@@ -94,7 +94,7 @@
   "learner-dash.courseCard.actions.resume": "Resume",
   "learner-dash.courseCard.actions.viewCourse": "View Course",
   "learner-dash.courseCard.actions.selectSession": "Select Session",
-  "learner-dash.courseCard.banners.auditAccessExpired": "Your audit access to this course has expired.",
+  "learner-dash.courseCard.banners.auditAccessExpired": "Your access to this course has expired.",
   "learner-dash.courseCard.banners.findAnotherCourse": "Find another course",
   "learner-dash.courseCard.banners.certificateRestricted": "Your Certificate of Achievement is being held pending confirmation that the issuance of your Certificate is in compliance with strict U.S. embargoes on Iran, Cuba, Syria, and Sudan. If you think our system has mistakenly identified you as being connected with one of those countries, please let us know by contacting {supportEmail}.",
   "learner-dash.courseCard.banners.certificateRestrictedNoEmail": "Your Certificate of Achievement is being held pending confirmation that the issuance of your Certificate is in compliance with strict U.S. embargoes on Iran, Cuba, Syria, and Sudan. If you think our system has mistakenly identified you as being connected with one of those countries, please let us know.",

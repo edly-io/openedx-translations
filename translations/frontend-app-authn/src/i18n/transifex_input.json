@@ -178,5 +178,22 @@
   "complete.your.profile.2": "your profile",
   "register.page.terms.of.service.and.honor.code": "By creating an account, you agree to the {tosAndHonorCode} and you acknowledge that {platformName} and each Member process your personal data in accordance with the {privacyPolicy}.",
   "register.page.honor.code": "I agree to the {platformName}&nbsp;{tosAndHonorCode}",
-  "register.page.terms.of.service": "I agree to the {platformName}&nbsp;{termsOfService}"
+  "register.page.terms.of.service": "I agree to the {platformName}&nbsp;{termsOfService}",
+  "legacy.account.page.title": "Legacy account | {siteName}",
+  "legacy.account.page.heading": "Already have an account on legacy Rwaq?",
+  "legacy.account.page.instructions": "Had an account on the <link>old Rwaq platform</link>? Enter that email and we will send you a link to set your password — no need to register again.",
+  "legacy.account.forgot.hint.prefix": "Already set a password?",
+  "legacy.account.forgot.password.link": "Reset it here",
+  "legacy.account.email.field.label": "Email",
+  "legacy.account.email.help.text": "The email address you used to sign in to {platformName} on the legacy platform.",
+  "legacy.account.submit.button": "Send set-password link",
+  "legacy.account.sign.in.text": "Sign in",
+  "legacy.account.empty.email.error": "Enter your email address",
+  "legacy.account.invalid.email.error": "Enter a valid email address",
+  "legacy.account.success.heading": "Check your email",
+  "legacy.account.success.message": "If this email is registered on the <link>old Rwaq platform</link>, we will send you an email to set your password. If you have already set one, use Forgot password to sign in instead.",
+  "legacy.account.error.message": "Something went wrong. Please try again in a little while.",
+  "legacy.account.link.text": "Already have an account on legacy Rwaq?",
+  "set.password": "Set your password",
+  "set.password.page.instructions": "Welcome! Please set a password to activate your account."
 }

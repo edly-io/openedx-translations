@@ -178,5 +178,22 @@
   "complete.your.profile.2": "ملفك الشخصي",
   "register.page.terms.of.service.and.honor.code": "بإنشائك حساباً، فإنّك توافق على {tosAndHonorCode} وتُقِرّ بأنّ {platformName} وكل عضو يُعالج بياناتك الشخصية وفقاً لـ {privacyPolicy}.",
   "register.page.honor.code": "أُوافق على {tosAndHonorCode} لـ {platformName}",
-  "register.page.terms.of.service": "أُوافق {termsOfService} لـ {platformName}"
+  "register.page.terms.of.service": "أُوافق {termsOfService} لـ {platformName}",
+  "legacy.account.page.title": "الحساب القديم | {siteName}",
+  "legacy.account.page.heading": "هل لديك حساب على منصة رواق القديمة؟",
+  "legacy.account.page.instructions": "هل كان لديك حساب على <link>منصة رواق القديمة</link>؟ أدخل هذا البريد الإلكتروني وسنرسل إليك رابطًا لتعيين كلمة المرور — دون الحاجة إلى التسجيل من جديد.",
+  "legacy.account.forgot.hint.prefix": "هل قمت بتعيين كلمة المرور بالفعل؟",
+  "legacy.account.forgot.password.link": "أعد ضبطها من هنا",
+  "legacy.account.email.field.label": "البريد الإلكتروني",
+  "legacy.account.email.help.text": "عنوان البريد الإلكتروني الذي استخدمته لتسجيل الدخول إلى {platformName} على المنصة القديمة.",
+  "legacy.account.submit.button": "أرسل رابط تعيين كلمة المرور",
+  "legacy.account.sign.in.text": "تسجيل الدخول",
+  "legacy.account.empty.email.error": "أدخل عنوان بريدك الإلكتروني",
+  "legacy.account.invalid.email.error": "أدخل عنوان بريد إلكتروني صالح",
+  "legacy.account.success.heading": "تحقق من بريدك الإلكتروني",
+  "legacy.account.success.message": "إذا كان هذا البريد الإلكتروني مسجّلاً على <link>منصة رواق القديمة</link>، فسنرسل إليك رسالة لتعيين كلمة المرور. وإذا كنت قد عيّنتها من قبل، فاستخدم \"نسيت كلمة المرور\" لتسجيل الدخول بدلاً من ذلك.",
+  "legacy.account.error.message": "حدث خطأ ما. يرجى المحاولة مرة أخرى بعد قليل.",
+  "legacy.account.link.text": "هل لديك حساب على منصة رواق القديمة؟",
+  "set.password": "عيّن كلمة المرور",
+  "set.password.page.instructions": "مرحبًا! يرجى تعيين كلمة مرور لتفعيل حسابك."
 }

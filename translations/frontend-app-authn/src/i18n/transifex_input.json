@@ -193,7 +193,7 @@
   "legacy.account.success.heading": "Check your email",
   "legacy.account.success.message": "If this email is registered on the <link>old Rwaq platform</link>, we will send you an email to set your password. If you have already set one, use Forgot password to sign in instead.",
   "legacy.account.error.message": "Something went wrong. Please try again in a little while.",
-  "legacy.account.link.text": "Already have an account on legacy Rwaq?",
+  "legacy.account.link.text": "Already have an account on <old>Old Rwaq platform</old>? <here>Click here</here>.",
   "set.password": "Set your password",
   "set.password.page.instructions": "Welcome! Please set a password to activate your account."
 }

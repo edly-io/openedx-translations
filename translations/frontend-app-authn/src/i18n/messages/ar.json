@@ -193,7 +193,7 @@
   "legacy.account.success.heading": "تحقق من بريدك الإلكتروني",
   "legacy.account.success.message": "إذا كان هذا البريد الإلكتروني مسجّلاً على <link>منصة رواق القديمة</link>، فسنرسل إليك رسالة لتعيين كلمة المرور. وإذا كنت قد عيّنتها من قبل، فاستخدم \"نسيت كلمة المرور\" لتسجيل الدخول بدلاً من ذلك.",
   "legacy.account.error.message": "حدث خطأ ما. يرجى المحاولة مرة أخرى بعد قليل.",
-  "legacy.account.link.text": "هل لديك حساب على <old>منصة رواق القديمة</old>؟ <here>اضغط هنا</here>.",
+  "legacy.account.link.text": "هل لديك حساب على <old>منصة رواق القديمة</old>؟<nl></nl>اضغط <here>هنا</here> لتعيين كلمة المرور.",
   "set.password": "عيّن كلمة المرور",
   "set.password.page.instructions": "مرحبًا! يرجى تعيين كلمة مرور لتفعيل حسابك."
 }

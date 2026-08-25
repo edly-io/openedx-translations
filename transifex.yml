@@ -238,6 +238,14 @@ git:
     mode: onlyreviewed
     translation_files_expression: 'translations/frontend-app-profile/src/i18n/messages/<lang>.json'
 
+  # frontend-app-rwaq-admin
+  - filter_type: file
+    file_format: KEYVALUEJSON
+    source_language: en
+    source_file: translations/frontend-app-rwaq-admin/src/i18n/transifex_input.json
+    mode: onlyreviewed
+    translation_files_expression: 'translations/frontend-app-rwaq-admin/src/i18n/messages/<lang>.json'
+
   # frontend-app-support-tools
   - filter_type: file
     file_format: KEYVALUEJSON

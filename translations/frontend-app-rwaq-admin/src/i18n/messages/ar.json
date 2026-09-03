@@ -6,7 +6,7 @@
   "rwaq.admin.courseDetail.enrollments.active": "نشط",
   "rwaq.admin.courseDetail.enrollments.col.enrolledAt": "تاريخ التسجيل",
   "rwaq.admin.courseDetail.enrollments.col.mode": "الوضع",
-  "rwaq.admin.courseDetail.enrollments.col.status": "الحالة",
+  "rwaq.admin.courseDetail.enrollments.col.status": "حالة التسجيل",
   "rwaq.admin.courseDetail.enrollments.col.user": "المستخدم",
   "rwaq.admin.courseDetail.enrollments.count": "{count, plural, =0 {لا توجد تسجيلات نشطة} one {تسجيل نشط واحد} other {# تسجيل نشط}}",
   "rwaq.admin.courseDetail.enrollments.downloadCsv": "تنزيل CSV",

@@ -1020,7 +1020,7 @@
     "description": "rwaq.admin.dashboard.dateRange.end"
   },
   "rwaq.admin.dashboard.dateRange.error": {
-    "defaultMessage": "End date must be after start date.",
+    "defaultMessage": "End date must be on or after start date.",
     "description": "rwaq.admin.dashboard.dateRange.error"
   },
   "rwaq.admin.dashboard.dateRange.pickerLabel": {

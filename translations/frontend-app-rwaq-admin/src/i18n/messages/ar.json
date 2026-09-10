@@ -295,7 +295,7 @@
   "rwaq.admin.dashboard.certificatesUnreadable": "بيانات الشهادات غير قابلة للقراءة من هذه الخدمة، لذا تُترك هذه القيمة فارغة بدلاً من عرضها كصفر.",
   "rwaq.admin.dashboard.dateRange.apply": "تطبيق",
   "rwaq.admin.dashboard.dateRange.end": "إلى",
-  "rwaq.admin.dashboard.dateRange.error": "يجب أن يكون تاريخ الانتهاء بعد تاريخ البداية.",
+  "rwaq.admin.dashboard.dateRange.error": "يجب أن يكون تاريخ الانتهاء في نفس تاريخ البداية أو بعده.",
   "rwaq.admin.dashboard.dateRange.pickerLabel": "اختر الفترة الزمنية",
   "rwaq.admin.dashboard.dateRange.start": "من",
   "rwaq.admin.dashboard.emptySeries": "لا يوجد أي نشاط خلال آخر {months} أشهر.",

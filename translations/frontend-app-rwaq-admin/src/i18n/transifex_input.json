@@ -1011,9 +1011,17 @@
     "defaultMessage": "Certificate data is not readable from this service, so this is left blank rather than shown as zero.",
     "description": "rwaq.admin.dashboard.certificatesUnreadable"
   },
+  "rwaq.admin.dashboard.dateRange.apply": {
+    "defaultMessage": "Apply",
+    "description": "rwaq.admin.dashboard.dateRange.apply"
+  },
   "rwaq.admin.dashboard.dateRange.end": {
     "defaultMessage": "To",
     "description": "rwaq.admin.dashboard.dateRange.end"
+  },
+  "rwaq.admin.dashboard.dateRange.error": {
+    "defaultMessage": "End date must be on or after start date.",
+    "description": "rwaq.admin.dashboard.dateRange.error"
   },
   "rwaq.admin.dashboard.dateRange.pickerLabel": {
     "defaultMessage": "Select time period",

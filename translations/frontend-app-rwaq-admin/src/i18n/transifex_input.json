@@ -1667,6 +1667,10 @@
     "defaultMessage": "Short name",
     "description": "rwaq.admin.orgs.detail.shortName"
   },
+  "rwaq.admin.orgs.detail.showLogoOnProgramCertificate": {
+    "defaultMessage": "Logo on program certificates",
+    "description": "rwaq.admin.orgs.detail.showLogoOnProgramCertificate"
+  },
   "rwaq.admin.orgs.error.title": {
     "defaultMessage": "Could not load organizations",
     "description": "rwaq.admin.orgs.error.title"
@@ -1755,9 +1759,21 @@
     "defaultMessage": "Identity",
     "description": "rwaq.admin.orgs.form.sectionProfile"
   },
+  "rwaq.admin.orgs.form.sectionCertificates": {
+    "defaultMessage": "Certificates",
+    "description": "rwaq.admin.orgs.form.sectionCertificates"
+  },
   "rwaq.admin.orgs.form.sectionPublic": {
     "defaultMessage": "Public profile",
     "description": "rwaq.admin.orgs.form.sectionPublic"
+  },
+  "rwaq.admin.orgs.form.showLogoOnProgramCertificate": {
+    "defaultMessage": "Show org logo on program certificates",
+    "description": "rwaq.admin.orgs.form.showLogoOnProgramCertificate"
+  },
+  "rwaq.admin.orgs.form.showLogoOnProgramCertificateHelp": {
+    "defaultMessage": "When enabled, the organisation's logo replaces the default badge on program certificates. Requires a logo to be uploaded.",
+    "description": "rwaq.admin.orgs.form.showLogoOnProgramCertificateHelp"
   },
   "rwaq.admin.orgs.form.shortName": {
     "defaultMessage": "Short name",

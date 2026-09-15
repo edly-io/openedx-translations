@@ -79,6 +79,18 @@
     "defaultMessage": "Add category",
     "description": "rwaq.admin.categories.add"
   },
+  "rwaq.admin.categories.chip.filter": {
+    "defaultMessage": "Filter: {label}",
+    "description": "rwaq.admin.categories.chip.filter"
+  },
+  "rwaq.admin.categories.chip.search": {
+    "defaultMessage": "Search: {term}",
+    "description": "rwaq.admin.categories.chip.search"
+  },
+  "rwaq.admin.categories.chip.sort": {
+    "defaultMessage": "Sorted by: {label}",
+    "description": "rwaq.admin.categories.chip.sort"
+  },
   "rwaq.admin.categories.col.actions": {
     "defaultMessage": "Actions",
     "description": "rwaq.admin.categories.col.actions"
@@ -176,7 +188,7 @@
     "description": "rwaq.admin.categories.courses.unlink"
   },
   "rwaq.admin.categories.courses.unlinkBody": {
-    "defaultMessage": "Remove ",
+    "defaultMessage": "Remove \"{name}\" from this category? The course itself is not affected.",
     "description": "rwaq.admin.categories.courses.unlinkBody"
   },
   "rwaq.admin.categories.courses.unlinkConfirm": {
@@ -227,6 +239,22 @@
     "defaultMessage": "Could not load categories",
     "description": "rwaq.admin.categories.error.title"
   },
+  "rwaq.admin.categories.filter.active": {
+    "defaultMessage": "Active",
+    "description": "rwaq.admin.categories.filter.active"
+  },
+  "rwaq.admin.categories.filter.all": {
+    "defaultMessage": "All categories",
+    "description": "rwaq.admin.categories.filter.all"
+  },
+  "rwaq.admin.categories.filter.inactive": {
+    "defaultMessage": "Inactive",
+    "description": "rwaq.admin.categories.filter.inactive"
+  },
+  "rwaq.admin.categories.filter.label": {
+    "defaultMessage": "Filter by",
+    "description": "rwaq.admin.categories.filter.label"
+  },
   "rwaq.admin.categories.form.arabicName": {
     "defaultMessage": "Arabic name",
     "description": "rwaq.admin.categories.form.arabicName"
@@ -252,7 +280,7 @@
     "description": "rwaq.admin.categories.form.isActive"
   },
   "rwaq.admin.categories.form.isActiveHelp": {
-    "defaultMessage": "Inactive categories are hidden from the public site.",
+    "defaultMessage": "Inactive categories will be hidden from the course catalog page's filters.",
     "description": "rwaq.admin.categories.form.isActiveHelp"
   },
   "rwaq.admin.categories.form.name": {
@@ -294,6 +322,22 @@
   "rwaq.admin.categories.search.placeholder": {
     "defaultMessage": "Search by name…",
     "description": "rwaq.admin.categories.search.placeholder"
+  },
+  "rwaq.admin.categories.sort.label": {
+    "defaultMessage": "Sort by",
+    "description": "rwaq.admin.categories.sort.label"
+  },
+  "rwaq.admin.categories.sort.nameAsc": {
+    "defaultMessage": "Name (A–Z)",
+    "description": "rwaq.admin.categories.sort.nameAsc"
+  },
+  "rwaq.admin.categories.sort.nameDesc": {
+    "defaultMessage": "Name (Z–A)",
+    "description": "rwaq.admin.categories.sort.nameDesc"
+  },
+  "rwaq.admin.categories.sort.newest": {
+    "defaultMessage": "Newest first",
+    "description": "rwaq.admin.categories.sort.newest"
   },
   "rwaq.admin.categories.status.active": {
     "defaultMessage": "Active",
@@ -596,7 +640,7 @@
     "description": "rwaq.admin.courseReports.pageTitle"
   },
   "rwaq.admin.courseReports.report.anonIds.desc": {
-    "defaultMessage": "Generates a CSV mapping each enrolled learner",
+    "defaultMessage": "Generates a CSV mapping each enrolled learner's real user ID to their anonymized user ID. Used for research and analytics that require de-identified data.",
     "description": "rwaq.admin.courseReports.report.anonIds.desc"
   },
   "rwaq.admin.courseReports.report.anonIds.label": {
@@ -620,7 +664,7 @@
     "description": "rwaq.admin.courseReports.report.inactiveLearner.label"
   },
   "rwaq.admin.courseReports.report.mayEnroll.desc": {
-    "defaultMessage": "Generates a CSV of users who are in the course",
+    "defaultMessage": "Generates a CSV of users who are in the course's invitation list but have not yet enrolled, useful for targeted outreach.",
     "description": "rwaq.admin.courseReports.report.mayEnroll.desc"
   },
   "rwaq.admin.courseReports.report.mayEnroll.label": {
@@ -984,7 +1028,7 @@
     "description": "rwaq.admin.courses.userPicker.clear"
   },
   "rwaq.admin.courses.userPicker.noResults": {
-    "defaultMessage": "No users found for ",
+    "defaultMessage": "No users found for \"{query}\"",
     "description": "rwaq.admin.courses.userPicker.noResults"
   },
   "rwaq.admin.courses.userPicker.placeholder": {
@@ -1002,10 +1046,6 @@
   "rwaq.admin.dashboard.allTimeBadge": {
     "defaultMessage": "All time",
     "description": "rwaq.admin.dashboard.allTimeBadge"
-  },
-  "rwaq.admin.dashboard.asOf": {
-    "defaultMessage": "Figures as of {time}",
-    "description": "rwaq.admin.dashboard.asOf"
   },
   "rwaq.admin.dashboard.cert.coverage": {
     "defaultMessage": "Certificate coverage",
@@ -1112,7 +1152,7 @@
     "description": "rwaq.admin.dashboard.info.learners"
   },
   "rwaq.admin.dashboard.info.legacyMigration": {
-    "defaultMessage": "Legacy accounts imported from the old platform that have signed in at least once. Always all-time.",
+    "defaultMessage": "Share of legacy accounts (imported from the old platform) that have set their password and signed in at least once. Always all-time — not affected by the date range filter.",
     "description": "rwaq.admin.dashboard.info.legacyMigration"
   },
   "rwaq.admin.dashboard.info.orgsLeaderboard": {
@@ -1176,16 +1216,12 @@
     "description": "rwaq.admin.dashboard.legacy.hint"
   },
   "rwaq.admin.dashboard.legacy.none": {
-    "defaultMessage": "No imported accounts on this platform.",
+    "defaultMessage": "No imported accounts registered in this period.",
     "description": "rwaq.admin.dashboard.legacy.none"
   },
   "rwaq.admin.dashboard.legacy.title": {
     "defaultMessage": "Legacy Registration",
     "description": "rwaq.admin.dashboard.legacy.title"
-  },
-  "rwaq.admin.dashboard.legacyRegistrationTrend": {
-    "defaultMessage": "Legacy Registration",
-    "description": "rwaq.admin.dashboard.legacyRegistrationTrend"
   },
   "rwaq.admin.dashboard.lifecycle.ended": {
     "defaultMessage": "Ended",
@@ -1311,26 +1347,6 @@
     "defaultMessage": "{count} min ago",
     "description": "rwaq.admin.dashboard.relative.minutes"
   },
-  "rwaq.admin.dashboard.retry": {
-    "defaultMessage": "Try again",
-    "description": "rwaq.admin.dashboard.retry"
-  },
-  "rwaq.admin.dashboard.section.catalog": {
-    "defaultMessage": "Catalog",
-    "description": "rwaq.admin.dashboard.section.catalog"
-  },
-  "rwaq.admin.dashboard.section.growth": {
-    "defaultMessage": "Growth",
-    "description": "rwaq.admin.dashboard.section.growth"
-  },
-  "rwaq.admin.dashboard.section.outcomes": {
-    "defaultMessage": "Outcomes",
-    "description": "rwaq.admin.dashboard.section.outcomes"
-  },
-  "rwaq.admin.dashboard.section.platform": {
-    "defaultMessage": "Platform health",
-    "description": "rwaq.admin.dashboard.section.platform"
-  },
   "rwaq.admin.dashboard.series.certificates": {
     "defaultMessage": "Certificates",
     "description": "rwaq.admin.dashboard.series.certificates"
@@ -1338,10 +1354,6 @@
   "rwaq.admin.dashboard.series.enrollments": {
     "defaultMessage": "Enrollments",
     "description": "rwaq.admin.dashboard.series.enrollments"
-  },
-  "rwaq.admin.dashboard.series.legacyRegistrations": {
-    "defaultMessage": "Legacy registrations",
-    "description": "rwaq.admin.dashboard.series.legacyRegistrations"
   },
   "rwaq.admin.dashboard.series.registrations": {
     "defaultMessage": "Registrations",
@@ -1552,7 +1564,7 @@
     "description": "rwaq.admin.orgs.admins.remove"
   },
   "rwaq.admin.orgs.admins.removeBody": {
-    "defaultMessage": "This revokes {email}\\",
+    "defaultMessage": "This revokes {email}'s admin access to {org} only. Any other organizations they administer are unaffected, and their account is not deleted.",
     "description": "rwaq.admin.orgs.admins.removeBody"
   },
   "rwaq.admin.orgs.admins.removeConfirm": {
@@ -1663,6 +1675,10 @@
     "defaultMessage": "Courses",
     "description": "rwaq.admin.orgs.detail.courses"
   },
+  "rwaq.admin.orgs.detail.description": {
+    "defaultMessage": "Description",
+    "description": "rwaq.admin.orgs.detail.description"
+  },
   "rwaq.admin.orgs.detail.editOrg": {
     "defaultMessage": "Edit organization",
     "description": "rwaq.admin.orgs.detail.editOrg"
@@ -1735,6 +1751,10 @@
     "defaultMessage": "Add organization",
     "description": "rwaq.admin.orgs.form.createTitle"
   },
+  "rwaq.admin.orgs.form.description": {
+    "defaultMessage": "Description",
+    "description": "rwaq.admin.orgs.form.description"
+  },
   "rwaq.admin.orgs.form.editTitle": {
     "defaultMessage": "Edit organization",
     "description": "rwaq.admin.orgs.form.editTitle"
@@ -1775,25 +1795,17 @@
     "defaultMessage": "Save changes",
     "description": "rwaq.admin.orgs.form.save"
   },
-  "rwaq.admin.orgs.form.sectionProfile": {
-    "defaultMessage": "Identity",
-    "description": "rwaq.admin.orgs.form.sectionProfile"
-  },
   "rwaq.admin.orgs.form.sectionCertificates": {
     "defaultMessage": "Certificates",
     "description": "rwaq.admin.orgs.form.sectionCertificates"
   },
+  "rwaq.admin.orgs.form.sectionProfile": {
+    "defaultMessage": "Identity",
+    "description": "rwaq.admin.orgs.form.sectionProfile"
+  },
   "rwaq.admin.orgs.form.sectionPublic": {
     "defaultMessage": "Public profile",
     "description": "rwaq.admin.orgs.form.sectionPublic"
-  },
-  "rwaq.admin.orgs.form.showLogoOnProgramCertificate": {
-    "defaultMessage": "Show org logo on program certificates",
-    "description": "rwaq.admin.orgs.form.showLogoOnProgramCertificate"
-  },
-  "rwaq.admin.orgs.form.showLogoOnProgramCertificateHelp": {
-    "defaultMessage": "When enabled, the organisation's logo replaces the default badge on program certificates. Requires a logo to be uploaded.",
-    "description": "rwaq.admin.orgs.form.showLogoOnProgramCertificateHelp"
   },
   "rwaq.admin.orgs.form.shortName": {
     "defaultMessage": "Short name",
@@ -1806,6 +1818,14 @@
   "rwaq.admin.orgs.form.shortNameInvalid": {
     "defaultMessage": "Use only letters, numbers, hyphens and underscores.",
     "description": "rwaq.admin.orgs.form.shortNameInvalid"
+  },
+  "rwaq.admin.orgs.form.showLogoOnProgramCertificate": {
+    "defaultMessage": "Show org logo on program certificates",
+    "description": "rwaq.admin.orgs.form.showLogoOnProgramCertificate"
+  },
+  "rwaq.admin.orgs.form.showLogoOnProgramCertificateHelp": {
+    "defaultMessage": "When enabled, the organisation's logo replaces the default badge on program certificates. Requires a logo to be uploaded.",
+    "description": "rwaq.admin.orgs.form.showLogoOnProgramCertificateHelp"
   },
   "rwaq.admin.orgs.form.tooLong": {
     "defaultMessage": "This value is too long.",
@@ -2112,7 +2132,7 @@
     "description": "rwaq.admin.programs.filter.visible"
   },
   "rwaq.admin.programs.learners.col.active": {
-    "defaultMessage": "Active",
+    "defaultMessage": "Enrollment",
     "description": "rwaq.admin.programs.learners.col.active"
   },
   "rwaq.admin.programs.learners.col.completed": {
@@ -2804,7 +2824,7 @@
     "description": "rwaq.admin.users.form.countryNone"
   },
   "rwaq.admin.users.form.courseRolesNote": {
-    "defaultMessage": "Course Instructor, Course Staff, per-course roles, assigned in Studio on the course\\",
+    "defaultMessage": "Course Instructor, Course Staff, per-course roles, assigned in Studio on the course's Course Team page.",
     "description": "rwaq.admin.users.form.courseRolesNote"
   },
   "rwaq.admin.users.form.create": {

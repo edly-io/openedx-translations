@@ -99,6 +99,30 @@
     "defaultMessage": "Status",
     "description": "rwaq.admin.categories.col.status"
   },
+  "rwaq.admin.categories.coursePicker.clear": {
+    "defaultMessage": "Change",
+    "description": "rwaq.admin.categories.coursePicker.clear"
+  },
+  "rwaq.admin.categories.coursePicker.error": {
+    "defaultMessage": "Could not load courses. Please try again.",
+    "description": "rwaq.admin.categories.coursePicker.error"
+  },
+  "rwaq.admin.categories.coursePicker.noResults": {
+    "defaultMessage": "No courses match \"{query}\".",
+    "description": "rwaq.admin.categories.coursePicker.noResults"
+  },
+  "rwaq.admin.categories.coursePicker.noneAvailable": {
+    "defaultMessage": "No unlinked courses available.",
+    "description": "rwaq.admin.categories.coursePicker.noneAvailable"
+  },
+  "rwaq.admin.categories.coursePicker.searchPlaceholder": {
+    "defaultMessage": "Search courses…",
+    "description": "rwaq.admin.categories.coursePicker.searchPlaceholder"
+  },
+  "rwaq.admin.categories.coursePicker.searching": {
+    "defaultMessage": "Searching",
+    "description": "rwaq.admin.categories.coursePicker.searching"
+  },
   "rwaq.admin.categories.courses.col.actions": {
     "defaultMessage": "Actions",
     "description": "rwaq.admin.categories.courses.col.actions"
@@ -251,16 +275,12 @@
     "defaultMessage": "Cancel",
     "description": "rwaq.admin.categories.linkCourse.cancel"
   },
-  "rwaq.admin.categories.linkCourse.courseKey": {
-    "defaultMessage": "Course key",
-    "description": "rwaq.admin.categories.linkCourse.courseKey"
-  },
-  "rwaq.admin.categories.linkCourse.courseKeyHelp": {
-    "defaultMessage": "e.g. course-v1:Org+CourseName+Run",
-    "description": "rwaq.admin.categories.linkCourse.courseKeyHelp"
+  "rwaq.admin.categories.linkCourse.course": {
+    "defaultMessage": "Course",
+    "description": "rwaq.admin.categories.linkCourse.course"
   },
   "rwaq.admin.categories.linkCourse.required": {
-    "defaultMessage": "Course key is required.",
+    "defaultMessage": "Please select a course.",
     "description": "rwaq.admin.categories.linkCourse.required"
   },
   "rwaq.admin.categories.linkCourse.submit": {

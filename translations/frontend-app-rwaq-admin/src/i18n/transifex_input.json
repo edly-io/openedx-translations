@@ -1919,10 +1919,6 @@
     "defaultMessage": "Generated",
     "description": "rwaq.admin.programReports.col.generated"
   },
-  "rwaq.admin.programReports.col.progress": {
-    "defaultMessage": "Progress",
-    "description": "rwaq.admin.programReports.col.progress"
-  },
   "rwaq.admin.programReports.col.reportType": {
     "defaultMessage": "Report Type",
     "description": "rwaq.admin.programReports.col.reportType"
@@ -3346,5 +3342,6 @@
   "rwaq.admin.users.validation.userId": {
     "defaultMessage": "User ID must be a number.",
     "description": "rwaq.admin.users.validation.userId"
-  }
+  },
+  "rwaq.admin.programReports.status.running": "Your report is being generated…"
 }

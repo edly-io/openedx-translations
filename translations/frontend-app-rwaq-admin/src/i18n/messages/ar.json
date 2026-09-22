@@ -479,7 +479,6 @@
   "rwaq.admin.programReports.col.download": "تحميل",
   "rwaq.admin.programReports.col.elapsed": "الوقت المستغرق",
   "rwaq.admin.programReports.col.generated": "تاريخ الإنشاء",
-  "rwaq.admin.programReports.col.progress": "التقدم",
   "rwaq.admin.programReports.col.reportType": "نوع التقرير",
   "rwaq.admin.programReports.col.status": "الحالة",
   "rwaq.admin.programReports.completionRate.ariaLabel": "معدل الإتمام {rate}%",
@@ -835,5 +834,6 @@
   "rwaq.admin.users.unenroll.success": "تم إلغاء التسجيل من {course}.",
   "rwaq.admin.users.unenroll.title": "إلغاء التسجيل من المساق",
   "rwaq.admin.users.validation.email": "أدخل بريدًا إلكترونيًا صحيحًا.",
-  "rwaq.admin.users.validation.userId": "يجب أن يكون رقم المستخدم رقمًا."
+  "rwaq.admin.users.validation.userId": "يجب أن يكون رقم المستخدم رقمًا.",
+  "rwaq.admin.programReports.status.running": "يتم إنشاء تقريرك…"
 }

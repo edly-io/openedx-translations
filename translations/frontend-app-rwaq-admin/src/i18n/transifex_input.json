@@ -2079,6 +2079,86 @@
     "defaultMessage": "View",
     "description": "rwaq.admin.programs.action.view"
   },
+  "rwaq.admin.programs.bulkEnroll.already": {
+    "defaultMessage": "{count, plural, one {# learner was already enrolled} other {# learners were already enrolled}}.",
+    "description": "rwaq.admin.programs.bulkEnroll.already"
+  },
+  "rwaq.admin.programs.bulkEnroll.button": {
+    "defaultMessage": "Bulk enroll",
+    "description": "rwaq.admin.programs.bulkEnroll.button"
+  },
+  "rwaq.admin.programs.bulkEnroll.cancel": {
+    "defaultMessage": "Cancel",
+    "description": "rwaq.admin.programs.bulkEnroll.cancel"
+  },
+  "rwaq.admin.programs.bulkEnroll.close": {
+    "defaultMessage": "Close",
+    "description": "rwaq.admin.programs.bulkEnroll.close"
+  },
+  "rwaq.admin.programs.bulkEnroll.count": {
+    "defaultMessage": "{count} of {max}",
+    "description": "rwaq.admin.programs.bulkEnroll.count"
+  },
+  "rwaq.admin.programs.bulkEnroll.courseFailed.title": {
+    "defaultMessage": "Enrolled in the program, but not in every course",
+    "description": "rwaq.admin.programs.bulkEnroll.courseFailed.title"
+  },
+  "rwaq.admin.programs.bulkEnroll.error": {
+    "defaultMessage": "Could not enroll these learners. Please try again.",
+    "description": "rwaq.admin.programs.bulkEnroll.error"
+  },
+  "rwaq.admin.programs.bulkEnroll.failed.title": {
+    "defaultMessage": "{count, plural, one {# address could not be enrolled} other {# addresses could not be enrolled}}",
+    "description": "rwaq.admin.programs.bulkEnroll.failed.title"
+  },
+  "rwaq.admin.programs.bulkEnroll.help": {
+    "defaultMessage": "Paste email addresses, separated by commas or new lines. Learners are enrolled in the program and all of its courses.",
+    "description": "rwaq.admin.programs.bulkEnroll.help"
+  },
+  "rwaq.admin.programs.bulkEnroll.invalid": {
+    "defaultMessage": "{count, plural, one {# entry is not an email address} other {# entries are not email addresses}} — remove them to continue:",
+    "description": "rwaq.admin.programs.bulkEnroll.invalid"
+  },
+  "rwaq.admin.programs.bulkEnroll.label": {
+    "defaultMessage": "Email addresses",
+    "description": "rwaq.admin.programs.bulkEnroll.label"
+  },
+  "rwaq.admin.programs.bulkEnroll.max": {
+    "defaultMessage": "Up to {max} at a time",
+    "description": "rwaq.admin.programs.bulkEnroll.max"
+  },
+  "rwaq.admin.programs.bulkEnroll.noneEnrolled": {
+    "defaultMessage": "No learners were enrolled.",
+    "description": "rwaq.admin.programs.bulkEnroll.noneEnrolled"
+  },
+  "rwaq.admin.programs.bulkEnroll.overMax": {
+    "defaultMessage": "That is {count} addresses. Enroll at most {max} at a time — remove some and run the rest as a second batch.",
+    "description": "rwaq.admin.programs.bulkEnroll.overMax"
+  },
+  "rwaq.admin.programs.bulkEnroll.placeholder": {
+    "defaultMessage": "sara@example.com, omar@example.com",
+    "description": "rwaq.admin.programs.bulkEnroll.placeholder"
+  },
+  "rwaq.admin.programs.bulkEnroll.progress": {
+    "defaultMessage": "Enrolling {done} of {total}…",
+    "description": "rwaq.admin.programs.bulkEnroll.progress"
+  },
+  "rwaq.admin.programs.bulkEnroll.submit": {
+    "defaultMessage": "Enroll learners",
+    "description": "rwaq.admin.programs.bulkEnroll.submit"
+  },
+  "rwaq.admin.programs.bulkEnroll.submitting": {
+    "defaultMessage": "Enrolling…",
+    "description": "rwaq.admin.programs.bulkEnroll.submitting"
+  },
+  "rwaq.admin.programs.bulkEnroll.success": {
+    "defaultMessage": "{count, plural, one {# learner enrolled} other {# learners enrolled}}.",
+    "description": "rwaq.admin.programs.bulkEnroll.success"
+  },
+  "rwaq.admin.programs.bulkEnroll.title": {
+    "defaultMessage": "Enroll learners",
+    "description": "rwaq.admin.programs.bulkEnroll.title"
+  },
   "rwaq.admin.programs.chip.filter": {
     "defaultMessage": "Filter: {label}",
     "description": "rwaq.admin.programs.chip.filter"

@@ -811,10 +811,6 @@
     "defaultMessage": "Organization",
     "description": "rwaq.admin.courses.col.org"
   },
-  "rwaq.admin.courses.col.passing": {
-    "defaultMessage": "Passing",
-    "description": "rwaq.admin.courses.col.passing"
-  },
   "rwaq.admin.courses.col.start": {
     "defaultMessage": "Start",
     "description": "rwaq.admin.courses.col.start"
@@ -1140,15 +1136,15 @@
     "description": "rwaq.admin.dashboard.info.enrollmentModes"
   },
   "rwaq.admin.dashboard.info.enrollmentTrend": {
-    "defaultMessage": "Monthly course enrollment counts over the selected period or last 12 months.",
+    "defaultMessage": "Distinct learner–course pairs with courseware activity, grouped by calendar month. A learner active in two different months appears in both bars — so the bar sum may exceed the stat card for multi-month ranges where the same pair was active in multiple months.",
     "description": "rwaq.admin.dashboard.info.enrollmentTrend"
   },
   "rwaq.admin.dashboard.info.enrollments": {
-    "defaultMessage": "Active course enrollments, including later-cancelled ones.",
+    "defaultMessage": "Distinct learner–course pairs where the learner has opened courseware and holds an active enrollment. When a date range is selected, only pairs with activity in that period are counted.",
     "description": "rwaq.admin.dashboard.info.enrollments"
   },
   "rwaq.admin.dashboard.info.learners": {
-    "defaultMessage": "Registered learner accounts - excludes staff and service accounts.",
+    "defaultMessage": "Distinct learners who opened courseware and hold at least one active enrollment — excludes staff and service accounts. When a date range is selected, only learners with courseware activity in that period are counted.",
     "description": "rwaq.admin.dashboard.info.learners"
   },
   "rwaq.admin.dashboard.info.legacyMigration": {
@@ -1160,7 +1156,7 @@
     "description": "rwaq.admin.dashboard.info.orgsLeaderboard"
   },
   "rwaq.admin.dashboard.info.programCompletion": {
-    "defaultMessage": "Share of program enrollments that reached a completion date. When a date range is selected, only enrollments whose enrollment date falls in that period are counted.",
+    "defaultMessage": "Share of all-time program enrollments that resulted in a completion. When a date range is selected, only completions in that period are counted.",
     "description": "rwaq.admin.dashboard.info.programCompletion"
   },
   "rwaq.admin.dashboard.info.programsActive": {
@@ -1891,6 +1887,46 @@
     "defaultMessage": "/ Reports",
     "description": "rwaq.admin.programReports.breadcrumb.reports"
   },
+  "rwaq.admin.programReports.btn.completion": {
+    "defaultMessage": "Generate Completion Summary",
+    "description": "rwaq.admin.programReports.btn.completion"
+  },
+  "rwaq.admin.programReports.btn.download": {
+    "defaultMessage": "Download",
+    "description": "rwaq.admin.programReports.btn.download"
+  },
+  "rwaq.admin.programReports.btn.enrollment": {
+    "defaultMessage": "Generate Enrollment & Progress Report",
+    "description": "rwaq.admin.programReports.btn.enrollment"
+  },
+  "rwaq.admin.programReports.btn.generate": {
+    "defaultMessage": "Generate",
+    "description": "rwaq.admin.programReports.btn.generate"
+  },
+  "rwaq.admin.programReports.btnReports": {
+    "defaultMessage": "View Reports",
+    "description": "rwaq.admin.programReports.btnReports"
+  },
+  "rwaq.admin.programReports.col.download": {
+    "defaultMessage": "Download",
+    "description": "rwaq.admin.programReports.col.download"
+  },
+  "rwaq.admin.programReports.col.elapsed": {
+    "defaultMessage": "Elapsed",
+    "description": "rwaq.admin.programReports.col.elapsed"
+  },
+  "rwaq.admin.programReports.col.generated": {
+    "defaultMessage": "Generated",
+    "description": "rwaq.admin.programReports.col.generated"
+  },
+  "rwaq.admin.programReports.col.reportType": {
+    "defaultMessage": "Report Type",
+    "description": "rwaq.admin.programReports.col.reportType"
+  },
+  "rwaq.admin.programReports.col.status": {
+    "defaultMessage": "Status",
+    "description": "rwaq.admin.programReports.col.status"
+  },
   "rwaq.admin.programReports.completionRate.ariaLabel": {
     "defaultMessage": "{rate}% completion rate",
     "description": "rwaq.admin.programReports.completionRate.ariaLabel"
@@ -1903,9 +1939,37 @@
     "defaultMessage": "{count, plural, one {course} other {courses}}",
     "description": "rwaq.admin.programReports.courseWord"
   },
+  "rwaq.admin.programReports.downloads.body": {
+    "defaultMessage": "Auto-refreshes every 10s while a report is processing. Download links expire after 1 hour.",
+    "description": "rwaq.admin.programReports.downloads.body"
+  },
+  "rwaq.admin.programReports.downloads.title": {
+    "defaultMessage": "Reports Available for Download",
+    "description": "rwaq.admin.programReports.downloads.title"
+  },
+  "rwaq.admin.programReports.empty": {
+    "defaultMessage": "No reports have been generated yet.",
+    "description": "rwaq.admin.programReports.empty"
+  },
   "rwaq.admin.programReports.error.load": {
     "defaultMessage": "Could not load program completion report. Please refresh the page.",
     "description": "rwaq.admin.programReports.error.load"
+  },
+  "rwaq.admin.programReports.error.loadReports": {
+    "defaultMessage": "Could not load report history. Please refresh.",
+    "description": "rwaq.admin.programReports.error.loadReports"
+  },
+  "rwaq.admin.programReports.error.triggerGeneric": {
+    "defaultMessage": "Failed to queue report. Please try again.",
+    "description": "rwaq.admin.programReports.error.triggerGeneric"
+  },
+  "rwaq.admin.programReports.generate.body": {
+    "defaultMessage": "Click Generate next to a report type to queue an async task. Completed files appear in the Reports Available for Download section below.",
+    "description": "rwaq.admin.programReports.generate.body"
+  },
+  "rwaq.admin.programReports.generate.title": {
+    "defaultMessage": "Generate Reports",
+    "description": "rwaq.admin.programReports.generate.title"
   },
   "rwaq.admin.programReports.loading": {
     "defaultMessage": "Loading report",
@@ -1915,6 +1979,38 @@
     "defaultMessage": "Reports",
     "description": "rwaq.admin.programReports.pageTitle"
   },
+  "rwaq.admin.programReports.report.completion.desc": {
+    "defaultMessage": "Generates a CSV summary of program completion status per learner — enrolled count, completed count, and completion date where applicable.",
+    "description": "rwaq.admin.programReports.report.completion.desc"
+  },
+  "rwaq.admin.programReports.report.completion.label": {
+    "defaultMessage": "Completion Summary",
+    "description": "rwaq.admin.programReports.report.completion.label"
+  },
+  "rwaq.admin.programReports.report.courseStatistics.desc": {
+    "defaultMessage": "One row per course with totals across all program learners: enrollments, passes, pass rate, average grade, and certificates issued.",
+    "description": "rwaq.admin.programReports.report.courseStatistics.desc"
+  },
+  "rwaq.admin.programReports.report.courseStatistics.label": {
+    "defaultMessage": "Course Statistics",
+    "description": "rwaq.admin.programReports.report.courseStatistics.label"
+  },
+  "rwaq.admin.programReports.report.enrollment.desc": {
+    "defaultMessage": "Generates a CSV of all program enrollments including learner identity, enrollment dates, per-course enrollment status, grades, and certificate status.",
+    "description": "rwaq.admin.programReports.report.enrollment.desc"
+  },
+  "rwaq.admin.programReports.report.enrollment.label": {
+    "defaultMessage": "Enrollment & Progress Report",
+    "description": "rwaq.admin.programReports.report.enrollment.label"
+  },
+  "rwaq.admin.programReports.report.learnerSummary.desc": {
+    "defaultMessage": "One row per learner with aggregated stats: courses enrolled, courses passed, average grade, and certificates earned across all program courses.",
+    "description": "rwaq.admin.programReports.report.learnerSummary.desc"
+  },
+  "rwaq.admin.programReports.report.learnerSummary.label": {
+    "defaultMessage": "Learner Summary",
+    "description": "rwaq.admin.programReports.report.learnerSummary.label"
+  },
   "rwaq.admin.programReports.section.body": {
     "defaultMessage": "Based on {numCourses} {courseWord} linked to this program. Learners enrolled in all courses are counted as completed.",
     "description": "rwaq.admin.programReports.section.body"
@@ -1922,6 +2018,14 @@
   "rwaq.admin.programReports.section.title": {
     "defaultMessage": "Program Completion",
     "description": "rwaq.admin.programReports.section.title"
+  },
+  "rwaq.admin.programReports.sr.generatingReport": {
+    "defaultMessage": "Generating report…",
+    "description": "rwaq.admin.programReports.sr.generatingReport"
+  },
+  "rwaq.admin.programReports.sr.loading": {
+    "defaultMessage": "Loading program…",
+    "description": "rwaq.admin.programReports.sr.loading"
   },
   "rwaq.admin.programReports.stat.completed": {
     "defaultMessage": "Completed",
@@ -1943,9 +2047,117 @@
     "defaultMessage": "Total Learners",
     "description": "rwaq.admin.programReports.stat.totalLearners"
   },
+  "rwaq.admin.programReports.status.complete": {
+    "defaultMessage": "Complete",
+    "description": "rwaq.admin.programReports.status.complete"
+  },
+  "rwaq.admin.programReports.status.failed": {
+    "defaultMessage": "Failed",
+    "description": "rwaq.admin.programReports.status.failed"
+  },
+  "rwaq.admin.programReports.status.pending": {
+    "defaultMessage": "Pending",
+    "description": "rwaq.admin.programReports.status.pending"
+  },
+  "rwaq.admin.programReports.status.processing": {
+    "defaultMessage": "Processing",
+    "description": "rwaq.admin.programReports.status.processing"
+  },
+  "rwaq.admin.programReports.taskPage.breadcrumb.reports": {
+    "defaultMessage": "Reports",
+    "description": "rwaq.admin.programReports.taskPage.breadcrumb.reports"
+  },
+  "rwaq.admin.programReports.taskPage.title": {
+    "defaultMessage": "Reports",
+    "description": "rwaq.admin.programReports.taskPage.title"
+  },
+  "rwaq.admin.programReports.warning.duplicate": {
+    "defaultMessage": "A report of this type is already being generated.",
+    "description": "rwaq.admin.programReports.warning.duplicate"
+  },
   "rwaq.admin.programs.action.view": {
     "defaultMessage": "View",
     "description": "rwaq.admin.programs.action.view"
+  },
+  "rwaq.admin.programs.bulkEnroll.already": {
+    "defaultMessage": "{count, plural, one {# learner was already enrolled} other {# learners were already enrolled}}.",
+    "description": "rwaq.admin.programs.bulkEnroll.already"
+  },
+  "rwaq.admin.programs.bulkEnroll.button": {
+    "defaultMessage": "Bulk enroll",
+    "description": "rwaq.admin.programs.bulkEnroll.button"
+  },
+  "rwaq.admin.programs.bulkEnroll.cancel": {
+    "defaultMessage": "Cancel",
+    "description": "rwaq.admin.programs.bulkEnroll.cancel"
+  },
+  "rwaq.admin.programs.bulkEnroll.close": {
+    "defaultMessage": "Close",
+    "description": "rwaq.admin.programs.bulkEnroll.close"
+  },
+  "rwaq.admin.programs.bulkEnroll.count": {
+    "defaultMessage": "{count} of {max}",
+    "description": "rwaq.admin.programs.bulkEnroll.count"
+  },
+  "rwaq.admin.programs.bulkEnroll.courseFailed.title": {
+    "defaultMessage": "Enrolled in the program, but not in every course",
+    "description": "rwaq.admin.programs.bulkEnroll.courseFailed.title"
+  },
+  "rwaq.admin.programs.bulkEnroll.error": {
+    "defaultMessage": "Could not enroll these learners. Please try again.",
+    "description": "rwaq.admin.programs.bulkEnroll.error"
+  },
+  "rwaq.admin.programs.bulkEnroll.failed.title": {
+    "defaultMessage": "{count, plural, one {# address could not be enrolled} other {# addresses could not be enrolled}}",
+    "description": "rwaq.admin.programs.bulkEnroll.failed.title"
+  },
+  "rwaq.admin.programs.bulkEnroll.help": {
+    "defaultMessage": "Paste email addresses, separated by commas or new lines. Learners are enrolled in the program and all of its courses.",
+    "description": "rwaq.admin.programs.bulkEnroll.help"
+  },
+  "rwaq.admin.programs.bulkEnroll.invalid": {
+    "defaultMessage": "{count, plural, one {# entry is not an email address} other {# entries are not email addresses}} — remove them to continue:",
+    "description": "rwaq.admin.programs.bulkEnroll.invalid"
+  },
+  "rwaq.admin.programs.bulkEnroll.label": {
+    "defaultMessage": "Email addresses",
+    "description": "rwaq.admin.programs.bulkEnroll.label"
+  },
+  "rwaq.admin.programs.bulkEnroll.max": {
+    "defaultMessage": "Up to {max} at a time",
+    "description": "rwaq.admin.programs.bulkEnroll.max"
+  },
+  "rwaq.admin.programs.bulkEnroll.noneEnrolled": {
+    "defaultMessage": "No learners were enrolled.",
+    "description": "rwaq.admin.programs.bulkEnroll.noneEnrolled"
+  },
+  "rwaq.admin.programs.bulkEnroll.overMax": {
+    "defaultMessage": "That is {count} addresses. Enroll at most {max} at a time — remove some and run the rest as a second batch.",
+    "description": "rwaq.admin.programs.bulkEnroll.overMax"
+  },
+  "rwaq.admin.programs.bulkEnroll.placeholder": {
+    "defaultMessage": "sara@example.com, omar@example.com",
+    "description": "rwaq.admin.programs.bulkEnroll.placeholder"
+  },
+  "rwaq.admin.programs.bulkEnroll.progress": {
+    "defaultMessage": "Enrolling {done} of {total}…",
+    "description": "rwaq.admin.programs.bulkEnroll.progress"
+  },
+  "rwaq.admin.programs.bulkEnroll.submit": {
+    "defaultMessage": "Enroll learners",
+    "description": "rwaq.admin.programs.bulkEnroll.submit"
+  },
+  "rwaq.admin.programs.bulkEnroll.submitting": {
+    "defaultMessage": "Enrolling…",
+    "description": "rwaq.admin.programs.bulkEnroll.submitting"
+  },
+  "rwaq.admin.programs.bulkEnroll.success": {
+    "defaultMessage": "{count, plural, one {# learner enrolled} other {# learners enrolled}}.",
+    "description": "rwaq.admin.programs.bulkEnroll.success"
+  },
+  "rwaq.admin.programs.bulkEnroll.title": {
+    "defaultMessage": "Enroll learners",
+    "description": "rwaq.admin.programs.bulkEnroll.title"
   },
   "rwaq.admin.programs.chip.filter": {
     "defaultMessage": "Filter: {label}",
@@ -3210,5 +3422,6 @@
   "rwaq.admin.users.validation.userId": {
     "defaultMessage": "User ID must be a number.",
     "description": "rwaq.admin.users.validation.userId"
-  }
+  },
+  "rwaq.admin.programReports.status.running": "Your report is being generated…"
 }

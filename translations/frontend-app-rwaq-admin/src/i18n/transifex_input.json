@@ -3423,5 +3423,825 @@
     "defaultMessage": "User ID must be a number.",
     "description": "rwaq.admin.users.validation.userId"
   },
-  "rwaq.admin.programReports.status.running": "Your report is being generated…"
+  "rwaq.admin.programReports.status.running": "Your report is being generated…",
+  "rwaq.admin.payments.title": {
+    "defaultMessage": "Orders & Payments",
+    "description": "rwaq.admin.payments.title"
+  },
+  "rwaq.admin.payments.error": {
+    "defaultMessage": "Could not load payments.",
+    "description": "rwaq.admin.payments.error"
+  },
+  "rwaq.admin.payments.forbidden": {
+    "defaultMessage": "Orders & Payments are visible to Rwaq superadmins only.",
+    "description": "rwaq.admin.payments.forbidden"
+  },
+  "rwaq.admin.payments.notSet": {
+    "defaultMessage": "Not set",
+    "description": "rwaq.admin.payments.notSet"
+  },
+  "rwaq.admin.payments.partner": {
+    "defaultMessage": "Partner",
+    "description": "rwaq.admin.payments.partner"
+  },
+  "rwaq.admin.payments.partner.all": {
+    "defaultMessage": "All partners",
+    "description": "rwaq.admin.payments.partner.all"
+  },
+  "rwaq.admin.payments.chip.partner": {
+    "defaultMessage": "Partner: {org}",
+    "description": "rwaq.admin.payments.chip.partner"
+  },
+  "rwaq.admin.payments.loadingTab": {
+    "defaultMessage": "Loading",
+    "description": "rwaq.admin.payments.loadingTab"
+  },
+  "rwaq.admin.payments.reload": {
+    "defaultMessage": "Reload",
+    "description": "rwaq.admin.payments.reload"
+  },
+  "rwaq.admin.payments.tab.overview": {
+    "defaultMessage": "Overview",
+    "description": "rwaq.admin.payments.tab.overview"
+  },
+  "rwaq.admin.payments.tab.orders": {
+    "defaultMessage": "Payment history",
+    "description": "rwaq.admin.payments.tab.orders"
+  },
+  "rwaq.admin.payments.tab.partners": {
+    "defaultMessage": "By partner",
+    "description": "rwaq.admin.payments.tab.partners"
+  },
+  "rwaq.admin.payments.tab.content": {
+    "defaultMessage": "By content",
+    "description": "rwaq.admin.payments.tab.content"
+  },
+  "rwaq.admin.payments.tab.learners": {
+    "defaultMessage": "By learner",
+    "description": "rwaq.admin.payments.tab.learners"
+  },
+  "rwaq.admin.payments.tab.coupons": {
+    "defaultMessage": "By coupon",
+    "description": "rwaq.admin.payments.tab.coupons"
+  },
+  "rwaq.admin.payments.kpi.orders": {
+    "defaultMessage": "Orders",
+    "description": "rwaq.admin.payments.kpi.orders"
+  },
+  "rwaq.admin.payments.kpi.orderValue": {
+    "defaultMessage": "Order value",
+    "description": "rwaq.admin.payments.kpi.orderValue"
+  },
+  "rwaq.admin.payments.kpi.discounts": {
+    "defaultMessage": "Discounts",
+    "description": "rwaq.admin.payments.kpi.discounts"
+  },
+  "rwaq.admin.payments.kpi.collected": {
+    "defaultMessage": "Amount collected",
+    "description": "rwaq.admin.payments.kpi.collected"
+  },
+  "rwaq.admin.payments.kpi.partner": {
+    "defaultMessage": "Payable to partners",
+    "description": "rwaq.admin.payments.kpi.partner"
+  },
+  "rwaq.admin.payments.kpi.partnerOne": {
+    "defaultMessage": "Payable to partner",
+    "description": "rwaq.admin.payments.kpi.partnerOne"
+  },
+  "rwaq.admin.payments.kpi.rwaq": {
+    "defaultMessage": "Rwaq revenue",
+    "description": "rwaq.admin.payments.kpi.rwaq"
+  },
+  "rwaq.admin.payments.info.orders": {
+    "defaultMessage": "Completed WordPress orders with at least one paid item.",
+    "description": "rwaq.admin.payments.info.orders"
+  },
+  "rwaq.admin.payments.info.orderValue": {
+    "defaultMessage": "The list price of every paid item, before coupons.",
+    "description": "rwaq.admin.payments.info.orderValue"
+  },
+  "rwaq.admin.payments.info.discounts": {
+    "defaultMessage": "What product and cart coupons took off the paid items. A cart coupon is spread over the items in its cart.",
+    "description": "rwaq.admin.payments.info.discounts"
+  },
+  "rwaq.admin.payments.info.collected": {
+    "defaultMessage": "What learners paid after coupons, on completed WordPress orders. This is money received from learners, not money paid out. Items an admin later revoked still count. Admin enrollments are free and never count.",
+    "description": "rwaq.admin.payments.info.collected"
+  },
+  "rwaq.admin.payments.info.partner": {
+    "defaultMessage": "What Rwaq owes partners: each item's amount collected times its partner's current revenue share. Changing a share changes this for past orders too. A partner without a share gets 0.",
+    "description": "rwaq.admin.payments.info.partner"
+  },
+  "rwaq.admin.payments.info.rwaq": {
+    "defaultMessage": "Amount collected minus the partner payout. A partner with no revenue share keeps nothing, so all of its revenue, and all of Rwaq's own content, counts as Rwaq revenue.",
+    "description": "rwaq.admin.payments.info.rwaq"
+  },
+  "rwaq.admin.payments.trends.title": {
+    "defaultMessage": "Trends",
+    "description": "rwaq.admin.payments.trends.title"
+  },
+  "rwaq.admin.payments.trends.viewBy": {
+    "defaultMessage": "View by",
+    "description": "rwaq.admin.payments.trends.viewBy"
+  },
+  "rwaq.admin.payments.trends.day": {
+    "defaultMessage": "Daily",
+    "description": "rwaq.admin.payments.trends.day"
+  },
+  "rwaq.admin.payments.trends.week": {
+    "defaultMessage": "Weekly",
+    "description": "rwaq.admin.payments.trends.week"
+  },
+  "rwaq.admin.payments.trends.month": {
+    "defaultMessage": "Monthly",
+    "description": "rwaq.admin.payments.trends.month"
+  },
+  "rwaq.admin.payments.trends.weekOf": {
+    "defaultMessage": "Week of {date}",
+    "description": "rwaq.admin.payments.trends.weekOf"
+  },
+  "rwaq.admin.payments.chart.collected": {
+    "defaultMessage": "Amount collected over time",
+    "description": "rwaq.admin.payments.chart.collected"
+  },
+  "rwaq.admin.payments.chart.orders": {
+    "defaultMessage": "Orders over time",
+    "description": "rwaq.admin.payments.chart.orders"
+  },
+  "rwaq.admin.payments.chart.split": {
+    "defaultMessage": "Partner payout and Rwaq revenue over time",
+    "description": "rwaq.admin.payments.chart.split"
+  },
+  "rwaq.admin.payments.series.collected": {
+    "defaultMessage": "Amount collected (SAR)",
+    "description": "rwaq.admin.payments.series.collected"
+  },
+  "rwaq.admin.payments.series.orders": {
+    "defaultMessage": "Orders",
+    "description": "rwaq.admin.payments.series.orders"
+  },
+  "rwaq.admin.payments.series.payout": {
+    "defaultMessage": "Partner payout (SAR)",
+    "description": "rwaq.admin.payments.series.payout"
+  },
+  "rwaq.admin.payments.series.rwaq": {
+    "defaultMessage": "Rwaq revenue (SAR)",
+    "description": "rwaq.admin.payments.series.rwaq"
+  },
+  "rwaq.admin.payments.chart.allTime": {
+    "defaultMessage": "All time",
+    "description": "rwaq.admin.payments.chart.allTime"
+  },
+  "rwaq.admin.payments.chart.range": {
+    "defaultMessage": "Selected range",
+    "description": "rwaq.admin.payments.chart.range"
+  },
+  "rwaq.admin.payments.chart.empty": {
+    "defaultMessage": "No payments in this period.",
+    "description": "rwaq.admin.payments.chart.empty"
+  },
+  "rwaq.admin.payments.chart.unavailable": {
+    "defaultMessage": "The chart could not be loaded.",
+    "description": "rwaq.admin.payments.chart.unavailable"
+  },
+  "rwaq.admin.payments.info.chartCollected": {
+    "defaultMessage": "Amount collected per day, week or month of the order date, in SAR.",
+    "description": "rwaq.admin.payments.info.chartCollected"
+  },
+  "rwaq.admin.payments.info.chartOrders": {
+    "defaultMessage": "Completed paid orders per day, week or month of the order date.",
+    "description": "rwaq.admin.payments.info.chartOrders"
+  },
+  "rwaq.admin.payments.info.chartSplit": {
+    "defaultMessage": "How the amount collected in each period divides between partners and Rwaq. A partner without a share gets 0 and all of its money is Rwaq's. Partner amounts are rounded per row, so figures can differ by a few cents from By partner, which is the payout figure.",
+    "description": "rwaq.admin.payments.info.chartSplit"
+  },
+  "rwaq.admin.payments.info.ordersTab": {
+    "defaultMessage": "Every order, one row each. Open a row to see its courses, programs and coupons. The CSV has one row per item.",
+    "description": "rwaq.admin.payments.info.ordersTab"
+  },
+  "rwaq.admin.payments.how.orders": {
+    "defaultMessage": "Amount collected is what the learner paid after coupons. Purchases are WordPress payments. Admin grants are free enrollments and are not revenue.",
+    "description": "rwaq.admin.payments.how.orders"
+  },
+  "rwaq.admin.payments.info.partnersTab": {
+    "defaultMessage": "Revenue per partner organization and the amount to transfer to it. Use this tab for payouts: the partner payout is rounded once on each partner's total.",
+    "description": "rwaq.admin.payments.info.partnersTab"
+  },
+  "rwaq.admin.payments.how.partners": {
+    "defaultMessage": "Partner payout = amount collected x the partner's share %. Example: 1,000 collected at a 30% share is 300 for the partner and 700 for Rwaq.",
+    "description": "rwaq.admin.payments.how.partners"
+  },
+  "rwaq.admin.payments.info.contentTab": {
+    "defaultMessage": "Revenue per course and program, split by its partner's share. Rows are rounded on their own, so they can differ by 0.01 from the partner total.",
+    "description": "rwaq.admin.payments.info.contentTab"
+  },
+  "rwaq.admin.payments.how.content": {
+    "defaultMessage": "Each purchase is split at its partner's share %, then added up per course or program. Example: a 500 course at a 30% share gives the partner 150 and Rwaq 350. Partner amounts are rounded per row, so figures can differ by a few cents from By partner, which is the payout figure.",
+    "description": "rwaq.admin.payments.how.content"
+  },
+  "rwaq.admin.payments.info.learnersTab": {
+    "defaultMessage": "What each learner paid. A learner can buy from several partners, so each purchase is split by its own partner's share.",
+    "description": "rwaq.admin.payments.info.learnersTab"
+  },
+  "rwaq.admin.payments.how.learners": {
+    "defaultMessage": "Each purchase is split at its own partner's share %, then added up per learner. A learner who bought from partners with different shares gets a blended split. Partner amounts are rounded per row, so figures can differ by a few cents from By partner, which is the payout figure.",
+    "description": "rwaq.admin.payments.how.learners"
+  },
+  "rwaq.admin.payments.info.couponsTab": {
+    "defaultMessage": "Coupons used on completed WordPress orders. With a partner selected, a cart coupon counts only the part that fell on that partner's items.",
+    "description": "rwaq.admin.payments.info.couponsTab"
+  },
+  "rwaq.admin.payments.how.coupons": {
+    "defaultMessage": "Discount given is what the coupon took off. Payouts are worked out after discounts, so a discount lowers the partner and Rwaq amounts in proportion to each share.",
+    "description": "rwaq.admin.payments.how.coupons"
+  },
+  "rwaq.admin.payments.sort": {
+    "defaultMessage": "Sort by",
+    "description": "rwaq.admin.payments.sort"
+  },
+  "rwaq.admin.payments.chip.search": {
+    "defaultMessage": "Search: {term}",
+    "description": "rwaq.admin.payments.chip.search"
+  },
+  "rwaq.admin.payments.chip.sort": {
+    "defaultMessage": "Sort: {label}",
+    "description": "rwaq.admin.payments.chip.sort"
+  },
+  "rwaq.admin.payments.filter.all": {
+    "defaultMessage": "All",
+    "description": "rwaq.admin.payments.filter.all"
+  },
+  "rwaq.admin.payments.csv": {
+    "defaultMessage": "Download CSV",
+    "description": "rwaq.admin.payments.csv"
+  },
+  "rwaq.admin.payments.csv.failed": {
+    "defaultMessage": "Could not download the CSV.",
+    "description": "rwaq.admin.payments.csv.failed"
+  },
+  "rwaq.admin.payments.expand.loading": {
+    "defaultMessage": "Loading…",
+    "description": "rwaq.admin.payments.expand.loading"
+  },
+  "rwaq.admin.payments.expand.empty": {
+    "defaultMessage": "Nothing to show for this period.",
+    "description": "rwaq.admin.payments.expand.empty"
+  },
+  "rwaq.admin.payments.sort.collectedDesc": {
+    "defaultMessage": "Amount collected, highest first",
+    "description": "rwaq.admin.payments.sort.collectedDesc"
+  },
+  "rwaq.admin.payments.sort.collectedAsc": {
+    "defaultMessage": "Amount collected, lowest first",
+    "description": "rwaq.admin.payments.sort.collectedAsc"
+  },
+  "rwaq.admin.payments.sort.payoutDesc": {
+    "defaultMessage": "Partner payout, highest first",
+    "description": "rwaq.admin.payments.sort.payoutDesc"
+  },
+  "rwaq.admin.payments.sort.purchasesDesc": {
+    "defaultMessage": "Purchases, most first",
+    "description": "rwaq.admin.payments.sort.purchasesDesc"
+  },
+  "rwaq.admin.payments.sort.nameAsc": {
+    "defaultMessage": "Name, A to Z",
+    "description": "rwaq.admin.payments.sort.nameAsc"
+  },
+  "rwaq.admin.payments.sort.dateDesc": {
+    "defaultMessage": "Newest first",
+    "description": "rwaq.admin.payments.sort.dateDesc"
+  },
+  "rwaq.admin.payments.sort.dateAsc": {
+    "defaultMessage": "Oldest first",
+    "description": "rwaq.admin.payments.sort.dateAsc"
+  },
+  "rwaq.admin.payments.sort.paidDesc": {
+    "defaultMessage": "Amount collected, highest first",
+    "description": "rwaq.admin.payments.sort.paidDesc"
+  },
+  "rwaq.admin.payments.sort.ordersDesc": {
+    "defaultMessage": "Orders, most first",
+    "description": "rwaq.admin.payments.sort.ordersDesc"
+  },
+  "rwaq.admin.payments.sort.discountDesc": {
+    "defaultMessage": "Discount given, highest first",
+    "description": "rwaq.admin.payments.sort.discountDesc"
+  },
+  "rwaq.admin.payments.col.share": {
+    "defaultMessage": "Share",
+    "description": "rwaq.admin.payments.col.share"
+  },
+  "rwaq.admin.payments.col.actions": {
+    "defaultMessage": "Actions",
+    "description": "rwaq.admin.payments.col.actions"
+  },
+  "rwaq.admin.payments.col.orders": {
+    "defaultMessage": "Orders",
+    "description": "rwaq.admin.payments.col.orders"
+  },
+  "rwaq.admin.payments.col.ordersPlaced": {
+    "defaultMessage": "Orders placed",
+    "description": "rwaq.admin.payments.col.ordersPlaced"
+  },
+  "rwaq.admin.payments.col.purchases": {
+    "defaultMessage": "Purchases",
+    "description": "rwaq.admin.payments.col.purchases"
+  },
+  "rwaq.admin.payments.col.sold": {
+    "defaultMessage": "Items sold",
+    "description": "rwaq.admin.payments.col.sold"
+  },
+  "rwaq.admin.payments.col.bought": {
+    "defaultMessage": "Items bought",
+    "description": "rwaq.admin.payments.col.bought"
+  },
+  "rwaq.admin.payments.col.orderValue": {
+    "defaultMessage": "Order value (SAR)",
+    "description": "rwaq.admin.payments.col.orderValue"
+  },
+  "rwaq.admin.payments.col.orderValuePartner": {
+    "defaultMessage": "Order value (SAR, this partner)",
+    "description": "rwaq.admin.payments.col.orderValuePartner"
+  },
+  "rwaq.admin.payments.col.discounts": {
+    "defaultMessage": "Discounts (SAR)",
+    "description": "rwaq.admin.payments.col.discounts"
+  },
+  "rwaq.admin.payments.col.collected": {
+    "defaultMessage": "Amount collected (SAR)",
+    "description": "rwaq.admin.payments.col.collected"
+  },
+  "rwaq.admin.payments.col.collectedPartner": {
+    "defaultMessage": "Amount collected (SAR, this partner)",
+    "description": "rwaq.admin.payments.col.collectedPartner"
+  },
+  "rwaq.admin.payments.col.payout": {
+    "defaultMessage": "Partner payout (SAR)",
+    "description": "rwaq.admin.payments.col.payout"
+  },
+  "rwaq.admin.payments.col.rwaq": {
+    "defaultMessage": "Rwaq revenue (SAR)",
+    "description": "rwaq.admin.payments.col.rwaq"
+  },
+  "rwaq.admin.payments.info.col.share": {
+    "defaultMessage": "This partner's cut of what learners pay for its courses and programs, set on the organization. Not set means no share: Rwaq retains the full amount.",
+    "description": "rwaq.admin.payments.info.col.share"
+  },
+  "rwaq.admin.payments.noShare": {
+    "defaultMessage": "No revenue share is set for this partner, so Rwaq retains the full amount. Set a share on the organization to allocate a payout to this partner.",
+    "description": "rwaq.admin.payments.noShare"
+  },
+  "rwaq.admin.payments.info.partner.orders": {
+    "defaultMessage": "Orders that contain at least one of this partner's courses or programs.",
+    "description": "rwaq.admin.payments.info.partner.orders"
+  },
+  "rwaq.admin.payments.info.partner.sold": {
+    "defaultMessage": "Items are the courses and programs in an order. This is how many of this partner's items were bought. The same course bought twice counts as 2.",
+    "description": "rwaq.admin.payments.info.partner.sold"
+  },
+  "rwaq.admin.payments.info.partner.orderValue": {
+    "defaultMessage": "List price of this partner's courses and programs sold, before discounts.",
+    "description": "rwaq.admin.payments.info.partner.orderValue"
+  },
+  "rwaq.admin.payments.info.partner.discounts": {
+    "defaultMessage": "Coupon money taken off this partner's sales.",
+    "description": "rwaq.admin.payments.info.partner.discounts"
+  },
+  "rwaq.admin.payments.info.partner.collected": {
+    "defaultMessage": "What learners paid for this partner's courses and programs after discounts. Order value minus Discounts.",
+    "description": "rwaq.admin.payments.info.partner.collected"
+  },
+  "rwaq.admin.payments.info.partner.payout": {
+    "defaultMessage": "What to transfer to this partner: Amount collected x the partner's share %. Example: 400 x 30% = 120. With no share set, the payout is 0.",
+    "description": "rwaq.admin.payments.info.partner.payout"
+  },
+  "rwaq.admin.payments.info.partner.rwaq": {
+    "defaultMessage": "What Rwaq keeps from this partner's sales: Amount collected minus Partner payout. Example: 400 - 120 = 280.",
+    "description": "rwaq.admin.payments.info.partner.rwaq"
+  },
+  "rwaq.admin.payments.info.content.purchases": {
+    "defaultMessage": "How many times this course or program was bought. A learner who bought it twice counts as 2.",
+    "description": "rwaq.admin.payments.info.content.purchases"
+  },
+  "rwaq.admin.payments.info.content.orderValue": {
+    "defaultMessage": "List price of every purchase of this course or program, before discounts.",
+    "description": "rwaq.admin.payments.info.content.orderValue"
+  },
+  "rwaq.admin.payments.info.content.discounts": {
+    "defaultMessage": "Coupon money taken off purchases of this course or program.",
+    "description": "rwaq.admin.payments.info.content.discounts"
+  },
+  "rwaq.admin.payments.info.content.collected": {
+    "defaultMessage": "What learners paid for this course or program in total. Order value minus Discounts.",
+    "description": "rwaq.admin.payments.info.content.collected"
+  },
+  "rwaq.admin.payments.info.content.payout": {
+    "defaultMessage": "The partner's part of what this earned: Amount collected x the owning partner's share %. Example: 400 x 30% = 120.",
+    "description": "rwaq.admin.payments.info.content.payout"
+  },
+  "rwaq.admin.payments.info.content.rwaq": {
+    "defaultMessage": "Rwaq's part of what this earned: Amount collected minus Partner payout. Example: 400 - 120 = 280.",
+    "description": "rwaq.admin.payments.info.content.rwaq"
+  },
+  "rwaq.admin.payments.info.learner.orders": {
+    "defaultMessage": "How many paid orders this learner placed.",
+    "description": "rwaq.admin.payments.info.learner.orders"
+  },
+  "rwaq.admin.payments.info.learner.bought": {
+    "defaultMessage": "Items are the courses and programs in an order. This is how many items this learner bought across all their orders. One order with 3 courses counts as 3.",
+    "description": "rwaq.admin.payments.info.learner.bought"
+  },
+  "rwaq.admin.payments.info.learner.orderValue": {
+    "defaultMessage": "List price of everything this learner bought, before discounts.",
+    "description": "rwaq.admin.payments.info.learner.orderValue"
+  },
+  "rwaq.admin.payments.info.learner.discounts": {
+    "defaultMessage": "Coupon money this learner saved.",
+    "description": "rwaq.admin.payments.info.learner.discounts"
+  },
+  "rwaq.admin.payments.info.learner.collected": {
+    "defaultMessage": "What this learner paid in total. Order value minus Discounts.",
+    "description": "rwaq.admin.payments.info.learner.collected"
+  },
+  "rwaq.admin.payments.info.learner.payout": {
+    "defaultMessage": "The partner share earned from this learner's purchases. Each purchase is split at its own partner's share %, then added up.",
+    "description": "rwaq.admin.payments.info.learner.payout"
+  },
+  "rwaq.admin.payments.info.learner.rwaq": {
+    "defaultMessage": "Rwaq's part of this learner's purchases: Amount collected minus Partner payout.",
+    "description": "rwaq.admin.payments.info.learner.rwaq"
+  },
+  "rwaq.admin.payments.partners.search": {
+    "defaultMessage": "Search partners",
+    "description": "rwaq.admin.payments.partners.search"
+  },
+  "rwaq.admin.payments.col.partnerOrg": {
+    "defaultMessage": "Partner",
+    "description": "rwaq.admin.payments.col.partnerOrg"
+  },
+  "rwaq.admin.payments.info.col.partnerOrg": {
+    "defaultMessage": "The partner organization that owns the courses and programs sold.",
+    "description": "rwaq.admin.payments.info.col.partnerOrg"
+  },
+  "rwaq.admin.payments.partners.overview": {
+    "defaultMessage": "View overview",
+    "description": "rwaq.admin.payments.partners.overview"
+  },
+  "rwaq.admin.payments.partners.overview.aria": {
+    "defaultMessage": "Open the overview for {org}",
+    "description": "rwaq.admin.payments.partners.overview.aria"
+  },
+  "rwaq.admin.payments.partners.orders": {
+    "defaultMessage": "Orders with {org}'s courses and programs",
+    "description": "rwaq.admin.payments.partners.orders"
+  },
+  "rwaq.admin.payments.col.paidForPartner": {
+    "defaultMessage": "Amount for this partner (SAR)",
+    "description": "rwaq.admin.payments.col.paidForPartner"
+  },
+  "rwaq.admin.payments.learners.orders": {
+    "defaultMessage": "Orders placed by this learner",
+    "description": "rwaq.admin.payments.learners.orders"
+  },
+  "rwaq.admin.payments.coupons.orders": {
+    "defaultMessage": "Orders that used this coupon",
+    "description": "rwaq.admin.payments.coupons.orders"
+  },
+  "rwaq.admin.payments.col.couponDiscount": {
+    "defaultMessage": "Discount from this coupon (SAR)",
+    "description": "rwaq.admin.payments.col.couponDiscount"
+  },
+  "rwaq.admin.payments.chip.buyer": {
+    "defaultMessage": "Buyer: {name}",
+    "description": "rwaq.admin.payments.chip.buyer"
+  },
+  "rwaq.admin.payments.chip.couponCode": {
+    "defaultMessage": "Coupon code: {code}",
+    "description": "rwaq.admin.payments.chip.couponCode"
+  },
+  "rwaq.admin.payments.content.search": {
+    "defaultMessage": "Search by title or key",
+    "description": "rwaq.admin.payments.content.search"
+  },
+  "rwaq.admin.payments.col.content": {
+    "defaultMessage": "Course or program",
+    "description": "rwaq.admin.payments.col.content"
+  },
+  "rwaq.admin.payments.col.type": {
+    "defaultMessage": "Type",
+    "description": "rwaq.admin.payments.col.type"
+  },
+  "rwaq.admin.payments.col.org": {
+    "defaultMessage": "Organization",
+    "description": "rwaq.admin.payments.col.org"
+  },
+  "rwaq.admin.payments.info.col.content": {
+    "defaultMessage": "The course or program that was sold. Click the title to open it.",
+    "description": "rwaq.admin.payments.info.col.content"
+  },
+  "rwaq.admin.payments.info.col.type": {
+    "defaultMessage": "Course or program.",
+    "description": "rwaq.admin.payments.info.col.type"
+  },
+  "rwaq.admin.payments.info.col.org": {
+    "defaultMessage": "The partner that owns it. All its revenue is split at this partner's share.",
+    "description": "rwaq.admin.payments.info.col.org"
+  },
+  "rwaq.admin.payments.type": {
+    "defaultMessage": "Type",
+    "description": "rwaq.admin.payments.type"
+  },
+  "rwaq.admin.payments.type.course": {
+    "defaultMessage": "Course",
+    "description": "rwaq.admin.payments.type.course"
+  },
+  "rwaq.admin.payments.type.program": {
+    "defaultMessage": "Program",
+    "description": "rwaq.admin.payments.type.program"
+  },
+  "rwaq.admin.payments.chip.type": {
+    "defaultMessage": "Type: {label}",
+    "description": "rwaq.admin.payments.chip.type"
+  },
+  "rwaq.admin.payments.showingOf": {
+    "defaultMessage": "Showing {shown} of {total}.",
+    "description": "rwaq.admin.payments.showingOf"
+  },
+  "rwaq.admin.payments.viewAll": {
+    "defaultMessage": "View all",
+    "description": "rwaq.admin.payments.viewAll"
+  },
+  "rwaq.admin.payments.chip.content": {
+    "defaultMessage": "Course or program: {title}",
+    "description": "rwaq.admin.payments.chip.content"
+  },
+  "rwaq.admin.payments.content.orders": {
+    "defaultMessage": "Orders that bought this",
+    "description": "rwaq.admin.payments.content.orders"
+  },
+  "rwaq.admin.payments.col.paidForItem": {
+    "defaultMessage": "Paid for this item (SAR)",
+    "description": "rwaq.admin.payments.col.paidForItem"
+  },
+  "rwaq.admin.payments.learners.search": {
+    "defaultMessage": "Search by username or email",
+    "description": "rwaq.admin.payments.learners.search"
+  },
+  "rwaq.admin.payments.col.learner": {
+    "defaultMessage": "Learner",
+    "description": "rwaq.admin.payments.col.learner"
+  },
+  "rwaq.admin.payments.info.col.learner": {
+    "defaultMessage": "The buyer. Each of their purchases is split at its own partner's share, so a buyer of several partners gets a blended split.",
+    "description": "rwaq.admin.payments.info.col.learner"
+  },
+  "rwaq.admin.payments.coupons.search": {
+    "defaultMessage": "Search by coupon code",
+    "description": "rwaq.admin.payments.coupons.search"
+  },
+  "rwaq.admin.payments.col.coupon": {
+    "defaultMessage": "Coupon",
+    "description": "rwaq.admin.payments.col.coupon"
+  },
+  "rwaq.admin.payments.col.scope": {
+    "defaultMessage": "Applies to",
+    "description": "rwaq.admin.payments.col.scope"
+  },
+  "rwaq.admin.payments.col.discountType": {
+    "defaultMessage": "Discount",
+    "description": "rwaq.admin.payments.col.discountType"
+  },
+  "rwaq.admin.payments.col.discountGiven": {
+    "defaultMessage": "Discount given (SAR)",
+    "description": "rwaq.admin.payments.col.discountGiven"
+  },
+  "rwaq.admin.payments.info.col.coupon": {
+    "defaultMessage": "The coupon code.",
+    "description": "rwaq.admin.payments.info.col.coupon"
+  },
+  "rwaq.admin.payments.info.col.scope": {
+    "defaultMessage": "One item is a product coupon on a single course or program. Whole cart is a cart coupon on the whole order.",
+    "description": "rwaq.admin.payments.info.col.scope"
+  },
+  "rwaq.admin.payments.info.col.discountType": {
+    "defaultMessage": "Fixed amount or a percentage off.",
+    "description": "rwaq.admin.payments.info.col.discountType"
+  },
+  "rwaq.admin.payments.info.col.couponOrders": {
+    "defaultMessage": "Orders that used this coupon. Each order counts once, even if a product coupon discounted several items in it.",
+    "description": "rwaq.admin.payments.info.col.couponOrders"
+  },
+  "rwaq.admin.payments.info.col.discountGiven": {
+    "defaultMessage": "The money this coupon took off.",
+    "description": "rwaq.admin.payments.info.col.discountGiven"
+  },
+  "rwaq.admin.payments.scope": {
+    "defaultMessage": "Applies to",
+    "description": "rwaq.admin.payments.scope"
+  },
+  "rwaq.admin.payments.scope.product": {
+    "defaultMessage": "One item",
+    "description": "rwaq.admin.payments.scope.product"
+  },
+  "rwaq.admin.payments.scope.cart": {
+    "defaultMessage": "Whole cart",
+    "description": "rwaq.admin.payments.scope.cart"
+  },
+  "rwaq.admin.payments.scope.mixed": {
+    "defaultMessage": "Both",
+    "description": "rwaq.admin.payments.scope.mixed"
+  },
+  "rwaq.admin.payments.chip.scope": {
+    "defaultMessage": "Applies to: {label}",
+    "description": "rwaq.admin.payments.chip.scope"
+  },
+  "rwaq.admin.payments.discount.amount": {
+    "defaultMessage": "Fixed amount",
+    "description": "rwaq.admin.payments.discount.amount"
+  },
+  "rwaq.admin.payments.discount.percentage": {
+    "defaultMessage": "Percentage",
+    "description": "rwaq.admin.payments.discount.percentage"
+  },
+  "rwaq.admin.payments.discount.mixed": {
+    "defaultMessage": "Both",
+    "description": "rwaq.admin.payments.discount.mixed"
+  },
+  "rwaq.admin.payments.orders.search": {
+    "defaultMessage": "Search by username, email, order ID or coupon code",
+    "description": "rwaq.admin.payments.orders.search"
+  },
+  "rwaq.admin.payments.col.order": {
+    "defaultMessage": "Order",
+    "description": "rwaq.admin.payments.col.order"
+  },
+  "rwaq.admin.payments.col.date": {
+    "defaultMessage": "Date and time (UTC)",
+    "description": "rwaq.admin.payments.col.date"
+  },
+  "rwaq.admin.payments.col.buyer": {
+    "defaultMessage": "Buyer",
+    "description": "rwaq.admin.payments.col.buyer"
+  },
+  "rwaq.admin.payments.col.courses": {
+    "defaultMessage": "Items",
+    "description": "rwaq.admin.payments.col.courses"
+  },
+  "rwaq.admin.payments.col.price": {
+    "defaultMessage": "Price (SAR)",
+    "description": "rwaq.admin.payments.col.price"
+  },
+  "rwaq.admin.payments.col.discount": {
+    "defaultMessage": "Discount (SAR)",
+    "description": "rwaq.admin.payments.col.discount"
+  },
+  "rwaq.admin.payments.col.discountPartner": {
+    "defaultMessage": "Discount (SAR, this partner)",
+    "description": "rwaq.admin.payments.col.discountPartner"
+  },
+  "rwaq.admin.payments.col.paid": {
+    "defaultMessage": "Paid (SAR)",
+    "description": "rwaq.admin.payments.col.paid"
+  },
+  "rwaq.admin.payments.col.source": {
+    "defaultMessage": "Source",
+    "description": "rwaq.admin.payments.col.source"
+  },
+  "rwaq.admin.payments.info.col.order": {
+    "defaultMessage": "The WordPress order ID. Admin grants have no WordPress order and show as Admin enrollment.",
+    "description": "rwaq.admin.payments.info.col.order"
+  },
+  "rwaq.admin.payments.info.col.date": {
+    "defaultMessage": "When the order was paid, in UTC. The date range filters use UTC days.",
+    "description": "rwaq.admin.payments.info.col.date"
+  },
+  "rwaq.admin.payments.info.col.buyer": {
+    "defaultMessage": "The learner who placed the order. Click to open their profile.",
+    "description": "rwaq.admin.payments.info.col.buyer"
+  },
+  "rwaq.admin.payments.info.col.courses": {
+    "defaultMessage": "Items are the courses and programs in the order. An order with 3 courses counts 3 items.",
+    "description": "rwaq.admin.payments.info.col.courses"
+  },
+  "rwaq.admin.payments.info.col.orderPrice": {
+    "defaultMessage": "List price of everything in the order, before coupons.",
+    "description": "rwaq.admin.payments.info.col.orderPrice"
+  },
+  "rwaq.admin.payments.info.col.orderPricePartner": {
+    "defaultMessage": "List price of this partner's items in the order, before coupons. Other partners' items are left out.",
+    "description": "rwaq.admin.payments.info.col.orderPricePartner"
+  },
+  "rwaq.admin.payments.info.col.orderDiscount": {
+    "defaultMessage": "Coupon money taken off this order.",
+    "description": "rwaq.admin.payments.info.col.orderDiscount"
+  },
+  "rwaq.admin.payments.info.col.orderDiscountPartner": {
+    "defaultMessage": "Coupon money taken off this partner's items. A cart coupon counts only the part that fell on them.",
+    "description": "rwaq.admin.payments.info.col.orderDiscountPartner"
+  },
+  "rwaq.admin.payments.info.col.orderPaid": {
+    "defaultMessage": "What the learner paid for the order after coupons.",
+    "description": "rwaq.admin.payments.info.col.orderPaid"
+  },
+  "rwaq.admin.payments.info.col.orderPaidPartner": {
+    "defaultMessage": "What the learner paid for this partner's items after coupons. Other partners' items in the same order are left out.",
+    "description": "rwaq.admin.payments.info.col.orderPaidPartner"
+  },
+  "rwaq.admin.payments.info.col.source": {
+    "defaultMessage": "Purchase is a WordPress payment. Admin grant is a free enrollment by an admin and never counts as revenue.",
+    "description": "rwaq.admin.payments.info.col.source"
+  },
+  "rwaq.admin.payments.orders.admin": {
+    "defaultMessage": "Admin enrollment #{id}",
+    "description": "rwaq.admin.payments.orders.admin"
+  },
+  "rwaq.admin.payments.source": {
+    "defaultMessage": "Source",
+    "description": "rwaq.admin.payments.source"
+  },
+  "rwaq.admin.payments.source.wordpress": {
+    "defaultMessage": "Purchase",
+    "description": "rwaq.admin.payments.source.wordpress"
+  },
+  "rwaq.admin.payments.source.admin": {
+    "defaultMessage": "Admin grant",
+    "description": "rwaq.admin.payments.source.admin"
+  },
+  "rwaq.admin.payments.chip.source": {
+    "defaultMessage": "Source: {label}",
+    "description": "rwaq.admin.payments.chip.source"
+  },
+  "rwaq.admin.payments.coupon": {
+    "defaultMessage": "Coupon",
+    "description": "rwaq.admin.payments.coupon"
+  },
+  "rwaq.admin.payments.coupon.any": {
+    "defaultMessage": "Any",
+    "description": "rwaq.admin.payments.coupon.any"
+  },
+  "rwaq.admin.payments.coupon.with": {
+    "defaultMessage": "With a coupon",
+    "description": "rwaq.admin.payments.coupon.with"
+  },
+  "rwaq.admin.payments.coupon.without": {
+    "defaultMessage": "No coupon",
+    "description": "rwaq.admin.payments.coupon.without"
+  },
+  "rwaq.admin.payments.chip.coupon": {
+    "defaultMessage": "Coupon: {label}",
+    "description": "rwaq.admin.payments.chip.coupon"
+  },
+  "rwaq.admin.payments.orders.items": {
+    "defaultMessage": "Items",
+    "description": "rwaq.admin.payments.orders.items"
+  },
+  "rwaq.admin.payments.orders.coupons": {
+    "defaultMessage": "Coupons",
+    "description": "rwaq.admin.payments.orders.coupons"
+  },
+  "rwaq.admin.payments.orders.noCoupons": {
+    "defaultMessage": "No coupons.",
+    "description": "rwaq.admin.payments.orders.noCoupons"
+  },
+  "rwaq.admin.payments.orders.couponLine": {
+    "defaultMessage": "{code}: {value} off {target}, {amount}",
+    "description": "rwaq.admin.payments.orders.couponLine"
+  },
+  "rwaq.admin.payments.orders.couponCart": {
+    "defaultMessage": "the cart",
+    "description": "rwaq.admin.payments.orders.couponCart"
+  },
+  "rwaq.admin.payments.orders.revoked": {
+    "defaultMessage": "Revoked",
+    "description": "rwaq.admin.payments.orders.revoked"
+  },
+  "rwaq.admin.payments.info.revoked": {
+    "defaultMessage": "An admin unenrolled the learner on {date}. Reason: {reason}. The payment still counts as revenue.",
+    "description": "rwaq.admin.payments.info.revoked"
+  },
+  "rwaq.admin.payments.orders.reason": {
+    "defaultMessage": "Reason: {reason}",
+    "description": "rwaq.admin.payments.orders.reason"
+  },
+  "rwaq.admin.payments.orders.enrolledBy": {
+    "defaultMessage": "Enrolled by: {admin}",
+    "description": "rwaq.admin.payments.orders.enrolledBy"
+  },
+  "rwaq.admin.payments.col.reason": {
+    "defaultMessage": "Reason",
+    "description": "rwaq.admin.payments.col.reason"
+  },
+  "rwaq.admin.payments.col.enrolledBy": {
+    "defaultMessage": "Enrolled by",
+    "description": "rwaq.admin.payments.col.enrolledBy"
+  },
+  "rwaq.admin.payments.info.col.reason": {
+    "defaultMessage": "The reason the admin gave when enrolling the learner. Empty for WordPress purchases.",
+    "description": "rwaq.admin.payments.info.col.reason"
+  },
+  "rwaq.admin.payments.info.col.enrolledBy": {
+    "defaultMessage": "The admin who enrolled the learner. Empty for WordPress purchases.",
+    "description": "rwaq.admin.payments.info.col.enrolledBy"
+  }
 }

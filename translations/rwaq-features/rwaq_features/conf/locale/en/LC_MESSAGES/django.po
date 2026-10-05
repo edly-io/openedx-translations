@@ -25,9 +25,6 @@ msgstr ""
 msgid "Admin enrollment"
 msgstr ""
 
-msgid "Admin order"
-msgstr ""
-
 msgid "Admin user who triggered this report. Null if user was later deleted."
 msgstr ""
 

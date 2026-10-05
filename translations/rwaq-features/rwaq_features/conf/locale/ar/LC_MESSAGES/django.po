@@ -25,9 +25,6 @@ msgstr ""
 msgid "Admin enrollment"
 msgstr "تسجيل بواسطة مشرف"
 
-msgid "Admin order"
-msgstr "طلب من مشرف"
-
 msgid "Admin user who triggered this report. Null if user was later deleted."
 msgstr ""
 
@@ -152,7 +149,7 @@ msgid "English display name for this category (e.g. 'Programming')"
 msgstr ""
 
 msgid "Enrolled by"
-msgstr "سجّله"
+msgstr "تم التسجيل بواسطة"
 
 msgid "Enrollment"
 msgstr ""

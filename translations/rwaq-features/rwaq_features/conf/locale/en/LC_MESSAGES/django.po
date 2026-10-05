@@ -31,9 +31,6 @@ msgstr ""
 msgid "Amount"
 msgstr ""
 
-msgid "Amount collected (SAR)"
-msgstr ""
-
 msgid "Arabic display name for the organisation"
 msgstr ""
 
@@ -122,15 +119,6 @@ msgid "Detailed program description"
 msgstr ""
 
 msgid "Discount (SAR)"
-msgstr ""
-
-msgid "Discount given (SAR)"
-msgstr ""
-
-msgid "Discount type"
-msgstr ""
-
-msgid "Discounts (SAR)"
 msgstr ""
 
 msgid "Display name, e.g. 'Specialized Training'"
@@ -245,9 +233,6 @@ msgstr ""
 msgid "Learner enrolled in the program"
 msgstr ""
 
-msgid "Note"
-msgstr ""
-
 msgid "Only active categories appear as filters on the course catalog page."
 msgstr ""
 
@@ -269,9 +254,6 @@ msgstr ""
 msgid "Organization Membership Audit Logs"
 msgstr ""
 
-msgid "Organization name"
-msgstr ""
-
 msgid "Organization that owns this program"
 msgstr ""
 
@@ -281,14 +263,6 @@ msgstr ""
 msgid "Paid via"
 msgstr ""
 
-msgid ""
-"Partner amounts are rounded per row, so rows can differ by a few cents from "
-"the partners report, which is the payout figure."
-msgstr ""
-
-msgid "Partner payout (SAR)"
-msgstr ""
-
 msgid "Payment failed"
 msgstr ""
 
@@ -296,11 +270,6 @@ msgid "Pending"
 msgstr ""
 
 msgid "Percentage"
-msgstr ""
-
-msgid ""
-"Percentage of paid course and program revenue that goes to this "
-"organisation. Visible to Rwaq admins only."
 msgstr ""
 
 msgid "Price (SAR)"
@@ -345,9 +314,6 @@ msgstr ""
 msgid "Publication / availability status of this program"
 msgstr ""
 
-msgid "Purchases"
-msgstr ""
-
 msgid "Reason"
 msgstr ""
 
@@ -389,22 +355,7 @@ msgstr ""
 msgid "Rwaq Organization Profiles"
 msgstr ""
 
-msgid "Rwaq payments: coupons"
-msgstr ""
-
 msgid "Rwaq payments: order history"
-msgstr ""
-
-msgid "Rwaq payments: revenue by course and program"
-msgstr ""
-
-msgid "Rwaq payments: revenue by learner"
-msgstr ""
-
-msgid "Rwaq payments: revenue by partner"
-msgstr ""
-
-msgid "Rwaq revenue (SAR)"
 msgstr ""
 
 msgid ""
@@ -423,9 +374,6 @@ msgid ""
 msgstr ""
 
 msgid "Scope"
-msgstr ""
-
-msgid "Share (%)"
 msgstr ""
 
 msgid "Short code used in program keys, e.g. 'STP'"

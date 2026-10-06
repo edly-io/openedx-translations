@@ -4063,5 +4063,233 @@
   "rwaq.admin.payments.subscriptions.kpi.cancelled-info": {
     "defaultMessage": "Subscriptions the learner cancelled that still have access until their end date. A count as of today, not affected by the period.",
     "description": "rwaq.admin.payments.subscriptions.kpi.cancelled-info"
+  },
+  "rwaq.admin.dataTable.expandColumn": {
+    "defaultMessage": "Show details",
+    "description": "rwaq.admin.dataTable.expandColumn"
+  },
+  "rwaq.admin.subscription-plan.placeholder": {
+    "defaultMessage": "Select a plan",
+    "description": "rwaq.admin.subscription-plan.placeholder"
+  },
+  "rwaq.admin.subscription-plan.helpLive": {
+    "defaultMessage": "This learner already has a subscription (ends {date}). No plan is needed.",
+    "description": "rwaq.admin.subscription-plan.helpLive"
+  },
+  "rwaq.admin.subscription-plan.helpBulk": {
+    "defaultMessage": "The plan gives each learner access to all subscription content from today. Learners who already have a live subscription keep theirs and the plan is not applied to them.",
+    "description": "rwaq.admin.subscription-plan.helpBulk"
+  },
+  "rwaq.admin.subscription-plan.required": {
+    "defaultMessage": "Please select a plan.",
+    "description": "rwaq.admin.subscription-plan.required"
+  },
+  "rwaq.admin.sidenav.payments": {
+    "defaultMessage": "Orders & Payments",
+    "description": "rwaq.admin.sidenav.payments"
+  },
+  "rwaq.admin.programs.pricing.title": {
+    "defaultMessage": "Pricing",
+    "description": "rwaq.admin.programs.pricing.title"
+  },
+  "rwaq.admin.programs.pricing.description": {
+    "defaultMessage": "Set how this program is sold. Prices are published to the marketing site.",
+    "description": "rwaq.admin.programs.pricing.description"
+  },
+  "rwaq.admin.programs.pricing.category-label": {
+    "defaultMessage": "Pricing type",
+    "description": "rwaq.admin.programs.pricing.category-label"
+  },
+  "rwaq.admin.programs.pricing.free": {
+    "defaultMessage": "Free",
+    "description": "rwaq.admin.programs.pricing.free"
+  },
+  "rwaq.admin.programs.pricing.paid": {
+    "defaultMessage": "Paid",
+    "description": "rwaq.admin.programs.pricing.paid"
+  },
+  "rwaq.admin.programs.pricing.price-label": {
+    "defaultMessage": "Price ({currency})",
+    "description": "rwaq.admin.programs.pricing.price-label"
+  },
+  "rwaq.admin.programs.pricing.sale-price-label": {
+    "defaultMessage": "Discounted Price / Sale Price ({currency})",
+    "description": "rwaq.admin.programs.pricing.sale-price-label"
+  },
+  "rwaq.admin.programs.pricing.sale-price-hint": {
+    "defaultMessage": "Optional. Leave empty when the program is not on sale.",
+    "description": "rwaq.admin.programs.pricing.sale-price-hint"
+  },
+  "rwaq.admin.programs.pricing.discount-percentage": {
+    "defaultMessage": "{percentage}% off",
+    "description": "rwaq.admin.programs.pricing.discount-percentage"
+  },
+  "rwaq.admin.programs.pricing.courses-note": {
+    "defaultMessage": "Courses in a paid program are not sold separately. The program is what learners buy.",
+    "description": "rwaq.admin.programs.pricing.courses-note"
+  },
+  "rwaq.admin.programs.pricing.save": {
+    "defaultMessage": "Save pricing",
+    "description": "rwaq.admin.programs.pricing.save"
+  },
+  "rwaq.admin.programs.pricing.saving": {
+    "defaultMessage": "Saving…",
+    "description": "rwaq.admin.programs.pricing.saving"
+  },
+  "rwaq.admin.programs.pricing.saved": {
+    "defaultMessage": "Pricing saved.",
+    "description": "rwaq.admin.programs.pricing.saved"
+  },
+  "rwaq.admin.programs.pricing.error-price-required": {
+    "defaultMessage": "Enter a price for a paid program.",
+    "description": "rwaq.admin.programs.pricing.error-price-required"
+  },
+  "rwaq.admin.programs.pricing.error-price-not-positive": {
+    "defaultMessage": "Price must be greater than 0.",
+    "description": "rwaq.admin.programs.pricing.error-price-not-positive"
+  },
+  "rwaq.admin.programs.pricing.error-negative": {
+    "defaultMessage": "Prices cannot be negative.",
+    "description": "rwaq.admin.programs.pricing.error-negative"
+  },
+  "rwaq.admin.programs.pricing.error-sale-price-not-lower": {
+    "defaultMessage": "Sale price must be lower than the price.",
+    "description": "rwaq.admin.programs.pricing.error-sale-price-not-lower"
+  },
+  "rwaq.admin.programs.pricing.error-save-failed": {
+    "defaultMessage": "Could not save pricing. Please try again.",
+    "description": "rwaq.admin.programs.pricing.error-save-failed"
+  },
+  "rwaq.admin.programs.learners.col.actions": {
+    "defaultMessage": "Actions",
+    "description": "rwaq.admin.programs.learners.col.actions"
+  },
+  "rwaq.admin.programs.learners.unenroll.action": {
+    "defaultMessage": "Unenroll",
+    "description": "rwaq.admin.programs.learners.unenroll.action"
+  },
+  "rwaq.admin.programs.learners.unenroll.title": {
+    "defaultMessage": "Unenroll from program",
+    "description": "rwaq.admin.programs.learners.unenroll.title"
+  },
+  "rwaq.admin.programs.learners.unenroll.body": {
+    "defaultMessage": "Unenroll {name} from this program and all its courses? Their grades and any certificate stay on record. A free program can be rejoined at any time. A paid program can only be rejoined by a learner who bought it on the Rwaq website. Otherwise an admin can enroll them again.",
+    "description": "rwaq.admin.programs.learners.unenroll.body"
+  },
+  "rwaq.admin.programs.learners.unenroll.submit": {
+    "defaultMessage": "Unenroll",
+    "description": "rwaq.admin.programs.learners.unenroll.submit"
+  },
+  "rwaq.admin.programs.learners.unenroll.success": {
+    "defaultMessage": "Unenrolled {name} from the program.",
+    "description": "rwaq.admin.programs.learners.unenroll.success"
+  },
+  "rwaq.admin.programs.learners.unenroll.error": {
+    "defaultMessage": "Could not unenroll the learner. Try again.",
+    "description": "rwaq.admin.programs.learners.unenroll.error"
+  },
+  "rwaq.admin.programs.bulkEnroll.reason.label": {
+    "defaultMessage": "Reason (optional)",
+    "description": "rwaq.admin.programs.bulkEnroll.reason.label"
+  },
+  "rwaq.admin.programs.bulkEnroll.reason.help": {
+    "defaultMessage": "For a paid program, kept with each learner's enrollment record.",
+    "description": "rwaq.admin.programs.bulkEnroll.reason.help"
+  },
+  "rwaq.admin.courses.pricing.title": {
+    "defaultMessage": "Type of course",
+    "description": "rwaq.admin.courses.pricing.title"
+  },
+  "rwaq.admin.courses.pricing.description": {
+    "defaultMessage": "Set how this course is sold. Prices are published to the marketing site.",
+    "description": "rwaq.admin.courses.pricing.description"
+  },
+  "rwaq.admin.courses.pricing.managed-label": {
+    "defaultMessage": "Manage pricing from the admin panel",
+    "description": "rwaq.admin.courses.pricing.managed-label"
+  },
+  "rwaq.admin.courses.pricing.managed-hint": {
+    "defaultMessage": "When enabled, course authors see the pricing fields in Studio but cannot change them. Org admin can still change them.",
+    "description": "rwaq.admin.courses.pricing.managed-hint"
+  },
+  "rwaq.admin.courses.pricing.free": {
+    "defaultMessage": "Free",
+    "description": "rwaq.admin.courses.pricing.free"
+  },
+  "rwaq.admin.courses.pricing.free-description": {
+    "defaultMessage": "Learners enroll at no cost.",
+    "description": "rwaq.admin.courses.pricing.free-description"
+  },
+  "rwaq.admin.courses.pricing.paid": {
+    "defaultMessage": "Paid",
+    "description": "rwaq.admin.courses.pricing.paid"
+  },
+  "rwaq.admin.courses.pricing.paid-description": {
+    "defaultMessage": "Sold on its own at the price set below.",
+    "description": "rwaq.admin.courses.pricing.paid-description"
+  },
+  "rwaq.admin.courses.pricing.program-only": {
+    "defaultMessage": "Program-only course",
+    "description": "rwaq.admin.courses.pricing.program-only"
+  },
+  "rwaq.admin.courses.pricing.program-only-description": {
+    "defaultMessage": "Offered only through the one program it is added to.",
+    "description": "rwaq.admin.courses.pricing.program-only-description"
+  },
+  "rwaq.admin.courses.pricing.part-of-program-notice": {
+    "defaultMessage": "This course is in the program {program}. Its type cannot change while it is in the program.",
+    "description": "rwaq.admin.courses.pricing.part-of-program-notice"
+  },
+  "rwaq.admin.courses.pricing.price-label": {
+    "defaultMessage": "Price ({currency})",
+    "description": "rwaq.admin.courses.pricing.price-label"
+  },
+  "rwaq.admin.courses.pricing.sale-price-label": {
+    "defaultMessage": "Discounted Price / Sale Price ({currency})",
+    "description": "rwaq.admin.courses.pricing.sale-price-label"
+  },
+  "rwaq.admin.courses.pricing.sale-price-hint": {
+    "defaultMessage": "Optional. Leave empty when the course is not on sale.",
+    "description": "rwaq.admin.courses.pricing.sale-price-hint"
+  },
+  "rwaq.admin.courses.pricing.discount-percentage": {
+    "defaultMessage": "{percentage}% off",
+    "description": "rwaq.admin.courses.pricing.discount-percentage"
+  },
+  "rwaq.admin.courses.pricing.save": {
+    "defaultMessage": "Save pricing",
+    "description": "rwaq.admin.courses.pricing.save"
+  },
+  "rwaq.admin.courses.pricing.saving": {
+    "defaultMessage": "Saving…",
+    "description": "rwaq.admin.courses.pricing.saving"
+  },
+  "rwaq.admin.courses.pricing.saved": {
+    "defaultMessage": "Pricing saved.",
+    "description": "rwaq.admin.courses.pricing.saved"
+  },
+  "rwaq.admin.courses.pricing.error-price-required": {
+    "defaultMessage": "Enter a price for a paid course.",
+    "description": "rwaq.admin.courses.pricing.error-price-required"
+  },
+  "rwaq.admin.courses.pricing.error-price-not-positive": {
+    "defaultMessage": "Price must be greater than 0.",
+    "description": "rwaq.admin.courses.pricing.error-price-not-positive"
+  },
+  "rwaq.admin.courses.pricing.error-sale-price-not-lower": {
+    "defaultMessage": "Sale price must be lower than the price.",
+    "description": "rwaq.admin.courses.pricing.error-sale-price-not-lower"
+  },
+  "rwaq.admin.courses.pricing.error-negative": {
+    "defaultMessage": "Prices cannot be negative.",
+    "description": "rwaq.admin.courses.pricing.error-negative"
+  },
+  "rwaq.admin.courses.pricing.error-load-failed": {
+    "defaultMessage": "Could not load pricing. Please refresh the page.",
+    "description": "rwaq.admin.courses.pricing.error-load-failed"
+  },
+  "rwaq.admin.courses.pricing.error-save-failed": {
+    "defaultMessage": "Could not save pricing. Please try again.",
+    "description": "rwaq.admin.courses.pricing.error-save-failed"
   }
 }

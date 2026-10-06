@@ -3976,33 +3976,9 @@
     "defaultMessage": "Subscription revenue",
     "description": "rwaq.admin.payments.subscriptions.kpi.revenue"
   },
-  "rwaq.admin.payments.subscriptions.kpi.new": {
-    "defaultMessage": "New subscriptions",
-    "description": "rwaq.admin.payments.subscriptions.kpi.new"
-  },
-  "rwaq.admin.payments.subscriptions.kpi.renewals": {
-    "defaultMessage": "Renewals",
-    "description": "rwaq.admin.payments.subscriptions.kpi.renewals"
-  },
-  "rwaq.admin.payments.subscriptions.kpi.cancellations": {
-    "defaultMessage": "Cancellations",
-    "description": "rwaq.admin.payments.subscriptions.kpi.cancellations"
-  },
   "rwaq.admin.payments.subscriptions.kpi.revenue-info": {
     "defaultMessage": "Amount collected from WordPress subscription payments in the period.",
     "description": "rwaq.admin.payments.subscriptions.kpi.revenue-info"
-  },
-  "rwaq.admin.payments.subscriptions.kpi.new-info": {
-    "defaultMessage": "Subscriptions whose first payment is in the range.",
-    "description": "rwaq.admin.payments.subscriptions.kpi.new-info"
-  },
-  "rwaq.admin.payments.subscriptions.kpi.renewals-info": {
-    "defaultMessage": "Payments in the range after a subscription's first.",
-    "description": "rwaq.admin.payments.subscriptions.kpi.renewals-info"
-  },
-  "rwaq.admin.payments.subscriptions.kpi.cancellations-info": {
-    "defaultMessage": "Subscriptions cancelled in the range, also those reactivated later. Access continues until their end date.",
-    "description": "rwaq.admin.payments.subscriptions.kpi.cancellations-info"
   },
   "rwaq.admin.payments.subscriptions.sort.ends-desc": {
     "defaultMessage": "Ends, latest first",
@@ -4063,5 +4039,29 @@
   "rwaq.admin.payments.subscriptions.sort.starts-asc": {
     "defaultMessage": "Starts, earliest first",
     "description": "rwaq.admin.payments.subscriptions.sort.starts-asc"
+  },
+  "rwaq.admin.payments.subscriptions.kpi.active": {
+    "defaultMessage": "Active subscriptions",
+    "description": "rwaq.admin.payments.subscriptions.kpi.active"
+  },
+  "rwaq.admin.payments.subscriptions.kpi.active-info": {
+    "defaultMessage": "Subscriptions with access today that the learner has not cancelled. A count as of today, not affected by the period.",
+    "description": "rwaq.admin.payments.subscriptions.kpi.active-info"
+  },
+  "rwaq.admin.payments.subscriptions.kpi.expired": {
+    "defaultMessage": "Expired subscriptions",
+    "description": "rwaq.admin.payments.subscriptions.kpi.expired"
+  },
+  "rwaq.admin.payments.subscriptions.kpi.expired-info": {
+    "defaultMessage": "Subscriptions whose end date has passed. A count as of today, not affected by the period.",
+    "description": "rwaq.admin.payments.subscriptions.kpi.expired-info"
+  },
+  "rwaq.admin.payments.subscriptions.kpi.cancelled": {
+    "defaultMessage": "Cancelled subscriptions",
+    "description": "rwaq.admin.payments.subscriptions.kpi.cancelled"
+  },
+  "rwaq.admin.payments.subscriptions.kpi.cancelled-info": {
+    "defaultMessage": "Subscriptions the learner cancelled that still have access until their end date. A count as of today, not affected by the period.",
+    "description": "rwaq.admin.payments.subscriptions.kpi.cancelled-info"
   }
 }

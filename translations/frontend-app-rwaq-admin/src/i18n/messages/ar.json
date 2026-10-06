@@ -994,13 +994,7 @@
   "rwaq.admin.payments.subscriptions.source.wordpress": "ووردبريس",
   "rwaq.admin.payments.subscriptions.source.admin": "مشرف",
   "rwaq.admin.payments.subscriptions.kpi.revenue": "إيرادات الاشتراكات",
-  "rwaq.admin.payments.subscriptions.kpi.new": "اشتراكات جديدة",
-  "rwaq.admin.payments.subscriptions.kpi.renewals": "التجديدات",
-  "rwaq.admin.payments.subscriptions.kpi.cancellations": "الإلغاءات",
   "rwaq.admin.payments.subscriptions.kpi.revenue-info": "المبلغ المحصَّل من دفعات اشتراكات ووردبريس في الفترة.",
-  "rwaq.admin.payments.subscriptions.kpi.new-info": "الاشتراكات التي تقع دفعتها الأولى في النطاق.",
-  "rwaq.admin.payments.subscriptions.kpi.renewals-info": "الدفعات في النطاق بعد الدفعة الأولى للاشتراك.",
-  "rwaq.admin.payments.subscriptions.kpi.cancellations-info": "الاشتراكات الملغاة في النطاق، بما فيها ما أُعيد تفعيله لاحقًا. يستمر الوصول حتى تاريخ انتهائها.",
   "rwaq.admin.payments.subscriptions.sort.ends-desc": "الانتهاء، الأحدث أولًا",
   "rwaq.admin.payments.subscriptions.sort.ends-asc": "الانتهاء، الأقدم أولًا",
   "rwaq.admin.payments.subscriptions.sort.collected": "الإيرادات، الأعلى أولًا",
@@ -1015,5 +1009,11 @@
   "rwaq.admin.payments.subscriptions.payments-error": "تعذّر تحميل الدفعات.",
   "rwaq.admin.payments.subscriptions.error": "تعذّر تحميل الاشتراكات.",
   "rwaq.admin.payments.subscriptions.sort.starts-desc": "البدء، الأحدث أولًا",
-  "rwaq.admin.payments.subscriptions.sort.starts-asc": "البدء، الأقدم أولًا"
+  "rwaq.admin.payments.subscriptions.sort.starts-asc": "البدء، الأقدم أولًا",
+  "rwaq.admin.payments.subscriptions.kpi.active": "الاشتراكات النشطة",
+  "rwaq.admin.payments.subscriptions.kpi.active-info": "الاشتراكات التي لها وصول اليوم ولم يلغِها المتعلم. العدد حتى اليوم ولا يتأثر بالفترة المحددة.",
+  "rwaq.admin.payments.subscriptions.kpi.expired": "الاشتراكات المنتهية",
+  "rwaq.admin.payments.subscriptions.kpi.expired-info": "الاشتراكات التي انقضى تاريخ انتهائها. العدد حتى اليوم ولا يتأثر بالفترة المحددة.",
+  "rwaq.admin.payments.subscriptions.kpi.cancelled": "الاشتراكات الملغاة",
+  "rwaq.admin.payments.subscriptions.kpi.cancelled-info": "الاشتراكات التي ألغاها المتعلم وما زال الوصول فيها متاحًا حتى تاريخ انتهائها. العدد حتى اليوم ولا يتأثر بالفترة المحددة."
 }

@@ -3477,7 +3477,7 @@
     "description": "rwaq.admin.payments.kpi.discounts"
   },
   "rwaq.admin.payments.kpi.collected": {
-    "defaultMessage": "Amount collected",
+    "defaultMessage": "Revenue",
     "description": "rwaq.admin.payments.kpi.collected"
   },
   "rwaq.admin.payments.info.orders": {
@@ -3521,7 +3521,7 @@
     "description": "rwaq.admin.payments.trends.weekOf"
   },
   "rwaq.admin.payments.chart.collected": {
-    "defaultMessage": "Amount collected over time",
+    "defaultMessage": "Revenue over time",
     "description": "rwaq.admin.payments.chart.collected"
   },
   "rwaq.admin.payments.chart.orders": {
@@ -3529,7 +3529,7 @@
     "description": "rwaq.admin.payments.chart.orders"
   },
   "rwaq.admin.payments.series.collected": {
-    "defaultMessage": "Amount collected (SAR)",
+    "defaultMessage": "Revenue (SAR)",
     "description": "rwaq.admin.payments.series.collected"
   },
   "rwaq.admin.payments.series.orders": {
@@ -3553,7 +3553,7 @@
     "description": "rwaq.admin.payments.chart.unavailable"
   },
   "rwaq.admin.payments.info.chartCollected": {
-    "defaultMessage": "Amount collected per day, week or month of the order date, in SAR.",
+    "defaultMessage": "Revenue per day, week or month of the order date, in SAR.",
     "description": "rwaq.admin.payments.info.chartCollected"
   },
   "rwaq.admin.payments.info.chartOrders": {
@@ -3565,7 +3565,7 @@
     "description": "rwaq.admin.payments.info.ordersTab"
   },
   "rwaq.admin.payments.how.orders": {
-    "defaultMessage": "Amount collected is what the learner paid after coupons. Purchases are WordPress payments. Admin grants are free enrollments and are not revenue.",
+    "defaultMessage": "Revenue is what the learner paid after coupons. Purchases are WordPress payments. Admin grants are free enrollments and are not revenue.",
     "description": "rwaq.admin.payments.how.orders"
   },
   "rwaq.admin.payments.sort": {
@@ -3601,24 +3601,16 @@
     "description": "rwaq.admin.payments.sort.dateAsc"
   },
   "rwaq.admin.payments.sort.paidDesc": {
-    "defaultMessage": "Amount collected, highest first",
+    "defaultMessage": "Revenue, highest first",
     "description": "rwaq.admin.payments.sort.paidDesc"
   },
   "rwaq.admin.payments.col.orderValue": {
     "defaultMessage": "Order value (SAR)",
     "description": "rwaq.admin.payments.col.orderValue"
   },
-  "rwaq.admin.payments.col.orderValuePartner": {
-    "defaultMessage": "Order value (SAR, this partner)",
-    "description": "rwaq.admin.payments.col.orderValuePartner"
-  },
   "rwaq.admin.payments.col.collected": {
-    "defaultMessage": "Amount collected (SAR)",
+    "defaultMessage": "Revenue (SAR)",
     "description": "rwaq.admin.payments.col.collected"
-  },
-  "rwaq.admin.payments.col.collectedPartner": {
-    "defaultMessage": "Amount collected (SAR, this partner)",
-    "description": "rwaq.admin.payments.col.collectedPartner"
   },
   "rwaq.admin.payments.col.content": {
     "defaultMessage": "Course or program",
@@ -3667,10 +3659,6 @@
   "rwaq.admin.payments.col.discount": {
     "defaultMessage": "Discount (SAR)",
     "description": "rwaq.admin.payments.col.discount"
-  },
-  "rwaq.admin.payments.col.discountPartner": {
-    "defaultMessage": "Discount (SAR, this partner)",
-    "description": "rwaq.admin.payments.col.discountPartner"
   },
   "rwaq.admin.payments.col.paid": {
     "defaultMessage": "Paid (SAR)",
@@ -3793,27 +3781,11 @@
     "description": "rwaq.admin.payments.info.revoked"
   },
   "rwaq.admin.payments.orders.reason": {
-    "defaultMessage": "Reason: {reason}",
+    "defaultMessage": "<b>Reason:</b> {reason}",
     "description": "rwaq.admin.payments.orders.reason"
   },
   "rwaq.admin.payments.orders.enrolledBy": {
-    "defaultMessage": "Enrolled by: {admin}",
+    "defaultMessage": "<b>Enrolled by:</b> {admin}",
     "description": "rwaq.admin.payments.orders.enrolledBy"
-  },
-  "rwaq.admin.payments.col.reason": {
-    "defaultMessage": "Reason",
-    "description": "rwaq.admin.payments.col.reason"
-  },
-  "rwaq.admin.payments.col.enrolledBy": {
-    "defaultMessage": "Enrolled by",
-    "description": "rwaq.admin.payments.col.enrolledBy"
-  },
-  "rwaq.admin.payments.info.col.reason": {
-    "defaultMessage": "The reason the admin gave when enrolling the learner. Empty for WordPress purchases.",
-    "description": "rwaq.admin.payments.info.col.reason"
-  },
-  "rwaq.admin.payments.info.col.enrolledBy": {
-    "defaultMessage": "The admin who enrolled the learner. Empty for WordPress purchases.",
-    "description": "rwaq.admin.payments.info.col.enrolledBy"
   }
 }

@@ -4055,5 +4055,13 @@
   "rwaq.admin.payments.subscriptions.error": {
     "defaultMessage": "Could not load subscriptions",
     "description": "rwaq.admin.payments.subscriptions.error"
+  },
+  "rwaq.admin.payments.subscriptions.sort.starts-desc": {
+    "defaultMessage": "Starts, latest first",
+    "description": "rwaq.admin.payments.subscriptions.sort.starts-desc"
+  },
+  "rwaq.admin.payments.subscriptions.sort.starts-asc": {
+    "defaultMessage": "Starts, earliest first",
+    "description": "rwaq.admin.payments.subscriptions.sort.starts-asc"
   }
 }

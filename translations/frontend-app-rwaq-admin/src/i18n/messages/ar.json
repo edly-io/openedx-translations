@@ -1013,5 +1013,7 @@
   "rwaq.admin.payments.subscriptions.no-payments": "لا توجد دفعات.",
   "rwaq.admin.payments.subscriptions.view-all": "عرض كل الدفعات",
   "rwaq.admin.payments.subscriptions.payments-error": "تعذّر تحميل الدفعات.",
-  "rwaq.admin.payments.subscriptions.error": "تعذّر تحميل الاشتراكات."
+  "rwaq.admin.payments.subscriptions.error": "تعذّر تحميل الاشتراكات.",
+  "rwaq.admin.payments.subscriptions.sort.starts-desc": "البدء، الأحدث أولًا",
+  "rwaq.admin.payments.subscriptions.sort.starts-asc": "البدء، الأقدم أولًا"
 }

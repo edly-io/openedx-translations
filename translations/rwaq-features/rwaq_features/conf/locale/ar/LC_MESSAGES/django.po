@@ -31,6 +31,9 @@ msgstr ""
 msgid "Amount"
 msgstr ""
 
+msgid "Amount collected (SAR)"
+msgstr "المبلغ المحصّل (ر.س)"
+
 msgid "Arabic display name for the organisation"
 msgstr ""
 
@@ -120,6 +123,15 @@ msgstr ""
 
 msgid "Discount (SAR)"
 msgstr "الخصم (ر.س)"
+
+msgid "Discount given (SAR)"
+msgstr "الخصم الممنوح (ر.س)"
+
+msgid "Discount type"
+msgstr "نوع الخصم"
+
+msgid "Discounts (SAR)"
+msgstr "الخصومات (ر.س)"
 
 msgid "Display name, e.g. 'Specialized Training'"
 msgstr ""
@@ -233,6 +245,9 @@ msgstr ""
 msgid "Learner enrolled in the program"
 msgstr ""
 
+msgid "Note"
+msgstr "ملاحظة"
+
 msgid "Only active categories appear as filters on the course catalog page."
 msgstr ""
 
@@ -254,6 +269,9 @@ msgstr ""
 msgid "Organization Membership Audit Logs"
 msgstr ""
 
+msgid "Organization name"
+msgstr "اسم المؤسسة"
+
 msgid "Organization that owns this program"
 msgstr ""
 
@@ -263,6 +281,16 @@ msgstr "مدفوع"
 msgid "Paid via"
 msgstr "طريقة الدفع"
 
+msgid ""
+"Partner amounts are rounded per row, so rows can differ by a few cents from "
+"the partners report, which is the payout figure."
+msgstr ""
+"تُقرَّب مبالغ الشركاء لكل صف، لذا قد تختلف الصفوف ببضعة هللات عن تقرير "
+"الشركاء الذي يمثل رقم المستحقات المعتمد."
+
+msgid "Partner payout (SAR)"
+msgstr "مستحقات الشريك (ر.س)"
+
 msgid "Payment failed"
 msgstr "فشل الدفع"
 
@@ -271,6 +299,11 @@ msgstr "قيد الانتظار"
 
 msgid "Percentage"
 msgstr "نسبة مئوية"
+
+msgid ""
+"Percentage of paid course and program revenue that goes to this "
+"organisation. Visible to Rwaq admins only."
+msgstr ""
 
 msgid "Price (SAR)"
 msgstr "السعر (ر.س)"
@@ -314,6 +347,9 @@ msgstr ""
 msgid "Publication / availability status of this program"
 msgstr ""
 
+msgid "Purchases"
+msgstr "المشتريات"
+
 msgid "Reason"
 msgstr "السبب"
 
@@ -355,8 +391,23 @@ msgstr ""
 msgid "Rwaq Organization Profiles"
 msgstr ""
 
+msgid "Rwaq payments: coupons"
+msgstr "مدفوعات رواق: القسائم"
+
 msgid "Rwaq payments: order history"
 msgstr "مدفوعات رواق: سجل الطلبات"
+
+msgid "Rwaq payments: revenue by course and program"
+msgstr "مدفوعات رواق: الإيرادات حسب المساق والبرنامج"
+
+msgid "Rwaq payments: revenue by learner"
+msgstr "مدفوعات رواق: الإيرادات حسب المتعلم"
+
+msgid "Rwaq payments: revenue by partner"
+msgstr "مدفوعات رواق: الإيرادات حسب الشريك"
+
+msgid "Rwaq revenue (SAR)"
+msgstr "إيرادات رواق (ر.س)"
 
 msgid ""
 "S3 object key for the generated CSV. Null until the task completes. Pre-"
@@ -375,6 +426,9 @@ msgstr ""
 
 msgid "Scope"
 msgstr "تنطبق على"
+
+msgid "Share (%)"
+msgstr "النسبة (%)"
 
 msgid "Short code used in program keys, e.g. 'STP'"
 msgstr ""

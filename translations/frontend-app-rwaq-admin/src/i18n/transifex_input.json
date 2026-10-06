@@ -3423,5 +3423,369 @@
     "defaultMessage": "User ID must be a number.",
     "description": "rwaq.admin.users.validation.userId"
   },
-  "rwaq.admin.programReports.status.running": "Your report is being generated…"
+  "rwaq.admin.programReports.status.running": "Your report is being generated…",
+  "rwaq.admin.payments.title": {
+    "defaultMessage": "Orders & Payments",
+    "description": "rwaq.admin.payments.title"
+  },
+  "rwaq.admin.payments.error": {
+    "defaultMessage": "Could not load payments.",
+    "description": "rwaq.admin.payments.error"
+  },
+  "rwaq.admin.payments.forbidden": {
+    "defaultMessage": "Orders & Payments are visible to Rwaq superadmins only.",
+    "description": "rwaq.admin.payments.forbidden"
+  },
+  "rwaq.admin.payments.partner": {
+    "defaultMessage": "Partner",
+    "description": "rwaq.admin.payments.partner"
+  },
+  "rwaq.admin.payments.partner.all": {
+    "defaultMessage": "All partners",
+    "description": "rwaq.admin.payments.partner.all"
+  },
+  "rwaq.admin.payments.chip.partner": {
+    "defaultMessage": "Partner: {org}",
+    "description": "rwaq.admin.payments.chip.partner"
+  },
+  "rwaq.admin.payments.loadingTab": {
+    "defaultMessage": "Loading",
+    "description": "rwaq.admin.payments.loadingTab"
+  },
+  "rwaq.admin.payments.reload": {
+    "defaultMessage": "Reload",
+    "description": "rwaq.admin.payments.reload"
+  },
+  "rwaq.admin.payments.tab.overview": {
+    "defaultMessage": "Overview",
+    "description": "rwaq.admin.payments.tab.overview"
+  },
+  "rwaq.admin.payments.tab.orders": {
+    "defaultMessage": "Payment history",
+    "description": "rwaq.admin.payments.tab.orders"
+  },
+  "rwaq.admin.payments.kpi.orders": {
+    "defaultMessage": "Orders",
+    "description": "rwaq.admin.payments.kpi.orders"
+  },
+  "rwaq.admin.payments.kpi.orderValue": {
+    "defaultMessage": "Order value",
+    "description": "rwaq.admin.payments.kpi.orderValue"
+  },
+  "rwaq.admin.payments.kpi.discounts": {
+    "defaultMessage": "Discounts",
+    "description": "rwaq.admin.payments.kpi.discounts"
+  },
+  "rwaq.admin.payments.kpi.collected": {
+    "defaultMessage": "Revenue",
+    "description": "rwaq.admin.payments.kpi.collected"
+  },
+  "rwaq.admin.payments.info.orders": {
+    "defaultMessage": "Completed WordPress orders with at least one paid item.",
+    "description": "rwaq.admin.payments.info.orders"
+  },
+  "rwaq.admin.payments.info.orderValue": {
+    "defaultMessage": "The list price of every paid item, before coupons.",
+    "description": "rwaq.admin.payments.info.orderValue"
+  },
+  "rwaq.admin.payments.info.discounts": {
+    "defaultMessage": "What product and cart coupons took off the paid items. A cart coupon is spread over the items in its cart.",
+    "description": "rwaq.admin.payments.info.discounts"
+  },
+  "rwaq.admin.payments.info.collected": {
+    "defaultMessage": "What learners paid after coupons, on completed WordPress orders. This is money received from learners, not money paid out. Items an admin later revoked still count. Admin enrollments are free and never count.",
+    "description": "rwaq.admin.payments.info.collected"
+  },
+  "rwaq.admin.payments.trends.title": {
+    "defaultMessage": "Trends",
+    "description": "rwaq.admin.payments.trends.title"
+  },
+  "rwaq.admin.payments.trends.viewBy": {
+    "defaultMessage": "View by",
+    "description": "rwaq.admin.payments.trends.viewBy"
+  },
+  "rwaq.admin.payments.trends.day": {
+    "defaultMessage": "Daily",
+    "description": "rwaq.admin.payments.trends.day"
+  },
+  "rwaq.admin.payments.trends.week": {
+    "defaultMessage": "Weekly",
+    "description": "rwaq.admin.payments.trends.week"
+  },
+  "rwaq.admin.payments.trends.month": {
+    "defaultMessage": "Monthly",
+    "description": "rwaq.admin.payments.trends.month"
+  },
+  "rwaq.admin.payments.trends.weekOf": {
+    "defaultMessage": "Week of {date}",
+    "description": "rwaq.admin.payments.trends.weekOf"
+  },
+  "rwaq.admin.payments.chart.collected": {
+    "defaultMessage": "Revenue over time",
+    "description": "rwaq.admin.payments.chart.collected"
+  },
+  "rwaq.admin.payments.chart.orders": {
+    "defaultMessage": "Orders over time",
+    "description": "rwaq.admin.payments.chart.orders"
+  },
+  "rwaq.admin.payments.series.collected": {
+    "defaultMessage": "Revenue (SAR)",
+    "description": "rwaq.admin.payments.series.collected"
+  },
+  "rwaq.admin.payments.series.orders": {
+    "defaultMessage": "Orders",
+    "description": "rwaq.admin.payments.series.orders"
+  },
+  "rwaq.admin.payments.chart.allTime": {
+    "defaultMessage": "All time",
+    "description": "rwaq.admin.payments.chart.allTime"
+  },
+  "rwaq.admin.payments.chart.range": {
+    "defaultMessage": "Selected range",
+    "description": "rwaq.admin.payments.chart.range"
+  },
+  "rwaq.admin.payments.chart.empty": {
+    "defaultMessage": "No payments in this period.",
+    "description": "rwaq.admin.payments.chart.empty"
+  },
+  "rwaq.admin.payments.chart.unavailable": {
+    "defaultMessage": "The chart could not be loaded.",
+    "description": "rwaq.admin.payments.chart.unavailable"
+  },
+  "rwaq.admin.payments.info.chartCollected": {
+    "defaultMessage": "Revenue per day, week or month of the order date, in SAR.",
+    "description": "rwaq.admin.payments.info.chartCollected"
+  },
+  "rwaq.admin.payments.info.chartOrders": {
+    "defaultMessage": "Completed paid orders per day, week or month of the order date.",
+    "description": "rwaq.admin.payments.info.chartOrders"
+  },
+  "rwaq.admin.payments.info.ordersTab": {
+    "defaultMessage": "Every order, one row each. Open a row to see its courses, programs and coupons. The CSV has one row per item.",
+    "description": "rwaq.admin.payments.info.ordersTab"
+  },
+  "rwaq.admin.payments.how.orders": {
+    "defaultMessage": "Revenue is what the learner paid after coupons. Purchases are WordPress payments. Admin grants are free enrollments and are not revenue.",
+    "description": "rwaq.admin.payments.how.orders"
+  },
+  "rwaq.admin.payments.sort": {
+    "defaultMessage": "Sort by",
+    "description": "rwaq.admin.payments.sort"
+  },
+  "rwaq.admin.payments.chip.search": {
+    "defaultMessage": "Search: {term}",
+    "description": "rwaq.admin.payments.chip.search"
+  },
+  "rwaq.admin.payments.chip.sort": {
+    "defaultMessage": "Sort: {label}",
+    "description": "rwaq.admin.payments.chip.sort"
+  },
+  "rwaq.admin.payments.filter.all": {
+    "defaultMessage": "All",
+    "description": "rwaq.admin.payments.filter.all"
+  },
+  "rwaq.admin.payments.csv": {
+    "defaultMessage": "Download CSV",
+    "description": "rwaq.admin.payments.csv"
+  },
+  "rwaq.admin.payments.csv.failed": {
+    "defaultMessage": "Could not download the CSV.",
+    "description": "rwaq.admin.payments.csv.failed"
+  },
+  "rwaq.admin.payments.sort.dateDesc": {
+    "defaultMessage": "Newest first",
+    "description": "rwaq.admin.payments.sort.dateDesc"
+  },
+  "rwaq.admin.payments.sort.dateAsc": {
+    "defaultMessage": "Oldest first",
+    "description": "rwaq.admin.payments.sort.dateAsc"
+  },
+  "rwaq.admin.payments.sort.paidDesc": {
+    "defaultMessage": "Revenue, highest first",
+    "description": "rwaq.admin.payments.sort.paidDesc"
+  },
+  "rwaq.admin.payments.col.orderValue": {
+    "defaultMessage": "Order value (SAR)",
+    "description": "rwaq.admin.payments.col.orderValue"
+  },
+  "rwaq.admin.payments.col.collected": {
+    "defaultMessage": "Revenue (SAR)",
+    "description": "rwaq.admin.payments.col.collected"
+  },
+  "rwaq.admin.payments.col.content": {
+    "defaultMessage": "Course or program",
+    "description": "rwaq.admin.payments.col.content"
+  },
+  "rwaq.admin.payments.col.type": {
+    "defaultMessage": "Type",
+    "description": "rwaq.admin.payments.col.type"
+  },
+  "rwaq.admin.payments.col.org": {
+    "defaultMessage": "Organization",
+    "description": "rwaq.admin.payments.col.org"
+  },
+  "rwaq.admin.payments.type.course": {
+    "defaultMessage": "Course",
+    "description": "rwaq.admin.payments.type.course"
+  },
+  "rwaq.admin.payments.type.program": {
+    "defaultMessage": "Program",
+    "description": "rwaq.admin.payments.type.program"
+  },
+  "rwaq.admin.payments.orders.search": {
+    "defaultMessage": "Search by username, email, order ID or coupon code",
+    "description": "rwaq.admin.payments.orders.search"
+  },
+  "rwaq.admin.payments.col.order": {
+    "defaultMessage": "Order",
+    "description": "rwaq.admin.payments.col.order"
+  },
+  "rwaq.admin.payments.col.date": {
+    "defaultMessage": "Date and time (UTC)",
+    "description": "rwaq.admin.payments.col.date"
+  },
+  "rwaq.admin.payments.col.buyer": {
+    "defaultMessage": "Buyer",
+    "description": "rwaq.admin.payments.col.buyer"
+  },
+  "rwaq.admin.payments.col.courses": {
+    "defaultMessage": "Items",
+    "description": "rwaq.admin.payments.col.courses"
+  },
+  "rwaq.admin.payments.col.price": {
+    "defaultMessage": "Price (SAR)",
+    "description": "rwaq.admin.payments.col.price"
+  },
+  "rwaq.admin.payments.col.discount": {
+    "defaultMessage": "Discount (SAR)",
+    "description": "rwaq.admin.payments.col.discount"
+  },
+  "rwaq.admin.payments.col.paid": {
+    "defaultMessage": "Paid (SAR)",
+    "description": "rwaq.admin.payments.col.paid"
+  },
+  "rwaq.admin.payments.col.source": {
+    "defaultMessage": "Source",
+    "description": "rwaq.admin.payments.col.source"
+  },
+  "rwaq.admin.payments.info.col.order": {
+    "defaultMessage": "The WordPress order ID. Admin grants have no WordPress order and show as Admin enrollment.",
+    "description": "rwaq.admin.payments.info.col.order"
+  },
+  "rwaq.admin.payments.info.col.date": {
+    "defaultMessage": "When the order was paid, in UTC. The date range filters use UTC days.",
+    "description": "rwaq.admin.payments.info.col.date"
+  },
+  "rwaq.admin.payments.info.col.buyer": {
+    "defaultMessage": "The learner who placed the order. Click to open their profile.",
+    "description": "rwaq.admin.payments.info.col.buyer"
+  },
+  "rwaq.admin.payments.info.col.courses": {
+    "defaultMessage": "Items are the courses and programs in the order. An order with 3 courses counts 3 items.",
+    "description": "rwaq.admin.payments.info.col.courses"
+  },
+  "rwaq.admin.payments.info.col.orderPrice": {
+    "defaultMessage": "List price of everything in the order, before coupons.",
+    "description": "rwaq.admin.payments.info.col.orderPrice"
+  },
+  "rwaq.admin.payments.info.col.orderPricePartner": {
+    "defaultMessage": "List price of this partner's items in the order, before coupons. Other partners' items are left out.",
+    "description": "rwaq.admin.payments.info.col.orderPricePartner"
+  },
+  "rwaq.admin.payments.info.col.orderDiscount": {
+    "defaultMessage": "Coupon money taken off this order.",
+    "description": "rwaq.admin.payments.info.col.orderDiscount"
+  },
+  "rwaq.admin.payments.info.col.orderDiscountPartner": {
+    "defaultMessage": "Coupon money taken off this partner's items. A cart coupon counts only the part that fell on them.",
+    "description": "rwaq.admin.payments.info.col.orderDiscountPartner"
+  },
+  "rwaq.admin.payments.info.col.orderPaid": {
+    "defaultMessage": "What the learner paid for the order after coupons.",
+    "description": "rwaq.admin.payments.info.col.orderPaid"
+  },
+  "rwaq.admin.payments.info.col.orderPaidPartner": {
+    "defaultMessage": "What the learner paid for this partner's items after coupons. Other partners' items in the same order are left out.",
+    "description": "rwaq.admin.payments.info.col.orderPaidPartner"
+  },
+  "rwaq.admin.payments.info.col.source": {
+    "defaultMessage": "Purchase is a WordPress payment. Admin grant is a free enrollment by an admin and never counts as revenue.",
+    "description": "rwaq.admin.payments.info.col.source"
+  },
+  "rwaq.admin.payments.orders.admin": {
+    "defaultMessage": "Admin enrollment #{id}",
+    "description": "rwaq.admin.payments.orders.admin"
+  },
+  "rwaq.admin.payments.source": {
+    "defaultMessage": "Source",
+    "description": "rwaq.admin.payments.source"
+  },
+  "rwaq.admin.payments.source.wordpress": {
+    "defaultMessage": "Purchase",
+    "description": "rwaq.admin.payments.source.wordpress"
+  },
+  "rwaq.admin.payments.source.admin": {
+    "defaultMessage": "Admin grant",
+    "description": "rwaq.admin.payments.source.admin"
+  },
+  "rwaq.admin.payments.chip.source": {
+    "defaultMessage": "Source: {label}",
+    "description": "rwaq.admin.payments.chip.source"
+  },
+  "rwaq.admin.payments.coupon": {
+    "defaultMessage": "Coupon",
+    "description": "rwaq.admin.payments.coupon"
+  },
+  "rwaq.admin.payments.coupon.any": {
+    "defaultMessage": "Any",
+    "description": "rwaq.admin.payments.coupon.any"
+  },
+  "rwaq.admin.payments.coupon.with": {
+    "defaultMessage": "With a coupon",
+    "description": "rwaq.admin.payments.coupon.with"
+  },
+  "rwaq.admin.payments.coupon.without": {
+    "defaultMessage": "No coupon",
+    "description": "rwaq.admin.payments.coupon.without"
+  },
+  "rwaq.admin.payments.chip.coupon": {
+    "defaultMessage": "Coupon: {label}",
+    "description": "rwaq.admin.payments.chip.coupon"
+  },
+  "rwaq.admin.payments.orders.items": {
+    "defaultMessage": "Items",
+    "description": "rwaq.admin.payments.orders.items"
+  },
+  "rwaq.admin.payments.orders.coupons": {
+    "defaultMessage": "Coupons",
+    "description": "rwaq.admin.payments.orders.coupons"
+  },
+  "rwaq.admin.payments.orders.noCoupons": {
+    "defaultMessage": "No coupons.",
+    "description": "rwaq.admin.payments.orders.noCoupons"
+  },
+  "rwaq.admin.payments.orders.couponLine": {
+    "defaultMessage": "{code}: {value} off {target}, {amount}",
+    "description": "rwaq.admin.payments.orders.couponLine"
+  },
+  "rwaq.admin.payments.orders.couponCart": {
+    "defaultMessage": "the cart",
+    "description": "rwaq.admin.payments.orders.couponCart"
+  },
+  "rwaq.admin.payments.orders.revoked": {
+    "defaultMessage": "Revoked",
+    "description": "rwaq.admin.payments.orders.revoked"
+  },
+  "rwaq.admin.payments.info.revoked": {
+    "defaultMessage": "An admin unenrolled the learner on {date}. Reason: {reason}. The payment still counts as revenue.",
+    "description": "rwaq.admin.payments.info.revoked"
+  },
+  "rwaq.admin.payments.orders.reason": {
+    "defaultMessage": "<b>Reason:</b> {reason}",
+    "description": "rwaq.admin.payments.orders.reason"
+  },
+  "rwaq.admin.payments.orders.enrolledBy": {
+    "defaultMessage": "<b>Enrolled by:</b> {admin}",
+    "description": "rwaq.admin.payments.orders.enrolledBy"
+  }
 }

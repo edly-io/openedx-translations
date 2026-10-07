@@ -4000,33 +4000,9 @@
     "defaultMessage": "Professional, no ID verification",
     "description": "rwaq.admin.users.mode.noIdProfessional"
   },
-  "rwaq.admin.subscription-plan.label": {
-    "defaultMessage": "Subscription plan",
-    "description": "rwaq.admin.subscription-plan.label"
-  },
-  "rwaq.admin.subscription-plan.none": {
-    "defaultMessage": "No plan (the learner already has a subscription)",
-    "description": "rwaq.admin.subscription-plan.none"
-  },
-  "rwaq.admin.subscription-plan.help": {
-    "defaultMessage": "Pick a plan for a learner who has no live subscription. It gives them access to all subscription content from today.",
-    "description": "rwaq.admin.subscription-plan.help"
-  },
-  "rwaq.admin.subscription-plan.monthly": {
-    "defaultMessage": "Monthly",
-    "description": "rwaq.admin.subscription-plan.monthly"
-  },
-  "rwaq.admin.subscription-plan.yearly": {
-    "defaultMessage": "Yearly",
-    "description": "rwaq.admin.subscription-plan.yearly"
-  },
   "rwaq.admin.programs.pricing.subscription": {
     "defaultMessage": "Is part of Subscription",
     "description": "rwaq.admin.programs.pricing.subscription"
-  },
-  "rwaq.admin.courses.modal.enroll.successSubscription": {
-    "defaultMessage": "User enrolled. Their subscription runs until {date}.",
-    "description": "rwaq.admin.courses.modal.enroll.successSubscription"
   },
   "rwaq.admin.courses.pricing.subscription": {
     "defaultMessage": "Is part of Subscription",
@@ -4035,14 +4011,6 @@
   "rwaq.admin.courses.pricing.subscription-description": {
     "defaultMessage": "Learners reach this course through the Rwaq subscription. It has no price of its own.",
     "description": "rwaq.admin.courses.pricing.subscription-description"
-  },
-  "rwaq.admin.users.enroll.alreadySubscription": {
-    "defaultMessage": "Already enrolled. Pick it to grant a subscription if theirs has ended.",
-    "description": "rwaq.admin.users.enroll.alreadySubscription"
-  },
-  "rwaq.admin.users.enroll.successSubscription": {
-    "defaultMessage": "Enrolled in {course}. Their subscription runs until {date}.",
-    "description": "rwaq.admin.users.enroll.successSubscription"
   },
   "rwaq.admin.payments.tab.subscriptions": {
     "defaultMessage": "Subscriptions",
@@ -4276,20 +4244,20 @@
     "defaultMessage": "Show details",
     "description": "rwaq.admin.dataTable.expandColumn"
   },
-  "rwaq.admin.subscription-plan.placeholder": {
-    "defaultMessage": "Select a plan",
-    "description": "rwaq.admin.subscription-plan.placeholder"
+  "rwaq.admin.courseDetail.enrollments.subscriptionNote": {
+    "defaultMessage": "Learners join this course through their Rwaq subscription.",
+    "description": "rwaq.admin.courseDetail.enrollments.subscriptionNote"
   },
-  "rwaq.admin.subscription-plan.helpLive": {
-    "defaultMessage": "This learner already has a subscription (ends {date}). No plan is needed.",
-    "description": "rwaq.admin.subscription-plan.helpLive"
+  "rwaq.admin.users.enrollments.subscriptionNote": {
+    "defaultMessage": "Managed by the learner's subscription",
+    "description": "rwaq.admin.users.enrollments.subscriptionNote"
   },
-  "rwaq.admin.subscription-plan.helpBulk": {
-    "defaultMessage": "The plan gives each learner access to all subscription content from today. Learners who already have a live subscription keep theirs and the plan is not applied to them.",
-    "description": "rwaq.admin.subscription-plan.helpBulk"
+  "rwaq.admin.users.enroll.subscriptionCourse": {
+    "defaultMessage": "Part of the Rwaq subscription. Learners join it through their subscription.",
+    "description": "rwaq.admin.users.enroll.subscriptionCourse"
   },
-  "rwaq.admin.subscription-plan.required": {
-    "defaultMessage": "Please select a plan.",
-    "description": "rwaq.admin.subscription-plan.required"
+  "rwaq.admin.programs.learners.subscriptionNote": {
+    "defaultMessage": "Learners join and leave this program through their Rwaq subscription.",
+    "description": "rwaq.admin.programs.learners.subscriptionNote"
   }
 }

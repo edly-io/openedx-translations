@@ -3021,5 +3021,10 @@
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.free": "Free",
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.paid": "Paid",
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.program-only": "Program-only",
-  "course-authoring.studio-home.courses.tab.pricing-filter-menu.no-type": "No type"
+  "course-authoring.studio-home.courses.tab.pricing-filter-menu.no-type": "No type",
+  "course-authoring.schedule-section.pricing.category-subscription": "Is part of Subscription",
+  "course-authoring.schedule-section.pricing.category-subscription.description": "Learners reach this course through the Rwaq subscription. It has no price of its own.",
+  "course-authoring.studio-home.courses.tab.pricing-filter-menu.subscription": "Is part of Subscription",
+  "programs.detail.field.pricing.subscription": "Is part of Subscription",
+  "programs.enrollment.subscription-note": "Learners join this program through their Rwaq subscription."
 }

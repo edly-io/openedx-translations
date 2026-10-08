@@ -3021,5 +3021,10 @@
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.free": "مجاني",
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.paid": "مدفوع",
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.program-only": "ضمن برنامج فقط",
-  "course-authoring.studio-home.courses.tab.pricing-filter-menu.no-type": "بدون نوع"
+  "course-authoring.studio-home.courses.tab.pricing-filter-menu.no-type": "بدون نوع",
+  "course-authoring.schedule-section.pricing.category-subscription": "ضمن الاشتراك",
+  "course-authoring.schedule-section.pricing.category-subscription.description": "يصل المتعلمون إلى هذا المساق عبر اشتراك رواق، وليس له سعر خاص.",
+  "course-authoring.studio-home.courses.tab.pricing-filter-menu.subscription": "ضمن الاشتراك",
+  "programs.detail.field.pricing.subscription": "ضمن الاشتراك",
+  "programs.enrollment.subscription-note": "ينضم المتعلمون إلى هذا البرنامج عبر اشتراكهم في رواق."
 }

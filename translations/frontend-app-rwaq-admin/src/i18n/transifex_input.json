@@ -4001,11 +4001,11 @@
     "description": "rwaq.admin.users.mode.noIdProfessional"
   },
   "rwaq.admin.programs.pricing.subscription": {
-    "defaultMessage": "Is part of Subscription",
+    "defaultMessage": "Part of Subscription",
     "description": "rwaq.admin.programs.pricing.subscription"
   },
   "rwaq.admin.courses.pricing.subscription": {
-    "defaultMessage": "Is part of Subscription",
+    "defaultMessage": "Part of Subscription",
     "description": "rwaq.admin.courses.pricing.subscription"
   },
   "rwaq.admin.courses.pricing.subscription-description": {

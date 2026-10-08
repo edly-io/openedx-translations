@@ -218,7 +218,7 @@ msgstr ""
 msgid "Instructors"
 msgstr ""
 
-msgid "Is part of Subscription"
+msgid "Part of Subscription"
 msgstr ""
 
 msgid "Item"

@@ -46,6 +46,9 @@ msgstr ""
 msgid "Batch identifier, e.g. '2026' or 'Batch-1'"
 msgstr ""
 
+msgid "Cancelled"
+msgstr ""
+
 msgid "Card thumbnail image for the program"
 msgstr ""
 
@@ -215,6 +218,9 @@ msgstr ""
 msgid "Instructors"
 msgstr ""
 
+msgid "Is part of Subscription"
+msgstr ""
+
 msgid "Item"
 msgstr ""
 
@@ -231,6 +237,9 @@ msgid "Learner Summary"
 msgstr ""
 
 msgid "Learner enrolled in the program"
+msgstr ""
+
+msgid "Monthly"
 msgstr ""
 
 msgid "Only active categories appear as filters on the course catalog page."
@@ -491,6 +500,9 @@ msgstr ""
 msgid "WordPress purchase"
 msgstr ""
 
+msgid "Yearly"
+msgstr ""
+
 msgid ""
 "YouTube video ID for the instructor's featured video (e.g. dQw4w9WgXcQ)"
 msgstr ""
@@ -500,6 +512,9 @@ msgid ""
 msgstr ""
 
 msgid "YouTube video ID for the program intro video (e.g. dQw4w9WgXcQ)"
+msgstr ""
+
+msgid "Your Rwaq subscription ended on {expiration_date}. Renew it to continue {course_name}."
 msgstr ""
 
 msgid ""
@@ -517,5 +532,11 @@ msgstr ""
 msgid "none"
 msgstr ""
 
+msgid "this course"
+msgstr ""
+
 msgid "yes"
+msgstr ""
+
+msgid "{course_name} is part of the Rwaq subscription. Subscribe to continue."
 msgstr ""

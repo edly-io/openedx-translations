@@ -1069,6 +1069,8 @@
   "rwaq.admin.payments.subscriptions.kpi.cancelled": "الاشتراكات الملغاة",
   "rwaq.admin.payments.subscriptions.kpi.cancelled-info": "الاشتراكات التي ألغاها المتعلم وما زال الوصول فيها متاحًا حتى تاريخ انتهائها. العدد حتى اليوم ولا يتأثر بالفترة المحددة.",
   "rwaq.admin.dataTable.expandColumn": "عرض التفاصيل",
+  "rwaq.admin.courseDetail.enrollments.programOnlyNote": "هذا المساق متاح فقط عبر برنامجه. سجّل المتعلم في البرنامج بدلاً من ذلك.",
+  "rwaq.admin.users.enroll.programOnlyCourse": "مساق ضمن برنامج فقط. سجّل المتعلم في برنامجه بدلاً من ذلك.",
   "rwaq.admin.subscription-plan.placeholder": "اختر خطة",
   "rwaq.admin.subscription-plan.helpLive": "لدى هذا المتعلم اشتراك قائم (ينتهي {date}). لا حاجة إلى خطة.",
   "rwaq.admin.subscription-plan.helpBulk": "تمنح الخطة كل متعلم الوصول إلى كل محتوى الاشتراك ابتداءً من اليوم. المتعلمون الذين لديهم اشتراك ساري يحتفظون باشتراكهم ولا تُطبَّق عليهم الخطة.",

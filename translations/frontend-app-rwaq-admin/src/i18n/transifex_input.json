@@ -4280,6 +4280,14 @@
     "defaultMessage": "Select a plan",
     "description": "rwaq.admin.subscription-plan.placeholder"
   },
+  "rwaq.admin.courseDetail.enrollments.programOnlyNote": {
+    "defaultMessage": "This course is offered only through its program. Enroll the learner in the program instead.",
+    "description": "rwaq.admin.courseDetail.enrollments.programOnlyNote"
+  },
+  "rwaq.admin.users.enroll.programOnlyCourse": {
+    "defaultMessage": "Program-only course. Enroll the learner in its program instead.",
+    "description": "rwaq.admin.users.enroll.programOnlyCourse"
+  },
   "rwaq.admin.subscription-plan.helpLive": {
     "defaultMessage": "This learner already has a subscription (ends {date}). No plan is needed.",
     "description": "rwaq.admin.subscription-plan.helpLive"

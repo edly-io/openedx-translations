@@ -4248,6 +4248,10 @@
     "defaultMessage": "Learners join this course through their Rwaq subscription.",
     "description": "rwaq.admin.courseDetail.enrollments.subscriptionNote"
   },
+  "rwaq.admin.courseDetail.enrollments.programOnlyNote": {
+    "defaultMessage": "This course is offered only through its program. Enroll the learner in the program instead.",
+    "description": "rwaq.admin.courseDetail.enrollments.programOnlyNote"
+  },
   "rwaq.admin.users.enrollments.subscriptionNote": {
     "defaultMessage": "Managed by the learner's subscription",
     "description": "rwaq.admin.users.enrollments.subscriptionNote"
@@ -4255,6 +4259,10 @@
   "rwaq.admin.users.enroll.subscriptionCourse": {
     "defaultMessage": "Part of the Rwaq subscription. Learners join it through their subscription.",
     "description": "rwaq.admin.users.enroll.subscriptionCourse"
+  },
+  "rwaq.admin.users.enroll.programOnlyCourse": {
+    "defaultMessage": "Program-only course. Enroll the learner in its program instead.",
+    "description": "rwaq.admin.users.enroll.programOnlyCourse"
   },
   "rwaq.admin.programs.learners.subscriptionNote": {
     "defaultMessage": "Learners join and leave this program through their Rwaq subscription.",

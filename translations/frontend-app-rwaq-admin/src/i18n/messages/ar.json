@@ -1062,7 +1062,9 @@
   "rwaq.admin.payments.subscriptions.kpi.cancelled-info": "الاشتراكات التي ألغاها المتعلم وما زال الوصول فيها متاحًا حتى تاريخ انتهائها. العدد حتى اليوم ولا يتأثر بالفترة المحددة.",
   "rwaq.admin.dataTable.expandColumn": "عرض التفاصيل",
   "rwaq.admin.courseDetail.enrollments.subscriptionNote": "ينضم المتعلمون إلى هذا المساق عبر اشتراكهم في رواق.",
+  "rwaq.admin.courseDetail.enrollments.programOnlyNote": "هذا المساق متاح فقط عبر برنامجه. سجّل المتعلم في البرنامج بدلاً من ذلك.",
   "rwaq.admin.users.enrollments.subscriptionNote": "يُدار عبر اشتراك المتعلم",
   "rwaq.admin.users.enroll.subscriptionCourse": "ضمن اشتراك رواق. ينضم إليه المتعلمون عبر اشتراكهم.",
+  "rwaq.admin.users.enroll.programOnlyCourse": "مساق ضمن برنامج فقط. سجّل المتعلم في برنامجه بدلاً من ذلك.",
   "rwaq.admin.programs.learners.subscriptionNote": "ينضم المتعلمون إلى هذا البرنامج ويغادرونه عبر اشتراكهم في رواق."
 }

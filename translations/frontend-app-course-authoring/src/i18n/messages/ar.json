@@ -2967,6 +2967,7 @@
   "course-authoring.studio-home.instructors.tab.empty": "لا يوجد مدرّسون حتى الآن. اضغط على \"إضافة مدرّس جديد\" لإنشاء واحد.",
   "course-authoring.studio-home.instructors.tab.empty-search": "لا يوجد مدرّسون مطابقون لبحثك.",
   "course-authoring.studio-home.instructors.tab.pagination-info": "عرض {length} من {total}",
+  "course-authoring.studio-home.instructors.tab.card.other-organizations": "ينتمي إلى: {organizations}",
   "course-authoring.studio-home.new-instructor.title": "إضافة مدرّس جديد",
   "course-authoring.studio-home.new-instructor.name.label": "اسم المدرّس",
   "course-authoring.studio-home.new-instructor.name.placeholder": "مثال: أحمد محمد",

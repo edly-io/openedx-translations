@@ -2967,6 +2967,7 @@
   "course-authoring.studio-home.instructors.tab.empty": "No instructors yet. Click \"Add new instructor\" to create one.",
   "course-authoring.studio-home.instructors.tab.empty-search": "No instructors match your search.",
   "course-authoring.studio-home.instructors.tab.pagination-info": "Showing {length} of {total}",
+  "course-authoring.studio-home.instructors.tab.card.other-organizations": "Part of: {organizations}",
   "course-authoring.studio-home.new-instructor.title": "Add a new instructor",
   "course-authoring.studio-home.new-instructor.name.label": "Instructor name",
   "course-authoring.studio-home.new-instructor.name.placeholder": "e.g. Jane Doe",

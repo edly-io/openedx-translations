@@ -2992,7 +2992,7 @@
   "course-authoring.schedule-section.instructor-access.modal.cancel": "Cancel",
   "course-authoring.schedule-section.instructor-access.modal.no-results": "No instructors match your search.",
   "course-authoring.schedule-section.instructor-access.modal.add-error": "Failed to link instructor. Please try again.",
-  "course-authoring.schedule-section.instructor-access.modal.empty": "No instructor profiles exist yet. Create one from the Instructors screen on Studio Home first.",
+  "course-authoring.schedule-section.instructor-access.modal.empty": "No instructor profiles to show. Search by name to find profiles that are not linked to any course, or create one from the Instructors screen on Studio Home.",
   "instructors.detail.field.featured.requires-course": "Also link this instructor to at least one course — otherwise no courses will be shown for this featured instructor on their detail page.",
   "course-authoring.schedule-section.pricing.title": "Type of course",
   "course-authoring.schedule-section.pricing.description": "Set how learners get this course. Prices are published to the marketing site.",

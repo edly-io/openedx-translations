@@ -4129,11 +4129,11 @@
     "description": "rwaq.admin.payments.subscriptions.col.status"
   },
   "rwaq.admin.payments.subscriptions.col.starts": {
-    "defaultMessage": "Starts",
+    "defaultMessage": "Starts (UTC)",
     "description": "rwaq.admin.payments.subscriptions.col.starts"
   },
   "rwaq.admin.payments.subscriptions.col.ends": {
-    "defaultMessage": "Ends",
+    "defaultMessage": "Ends (UTC)",
     "description": "rwaq.admin.payments.subscriptions.col.ends"
   },
   "rwaq.admin.payments.subscriptions.col.payments": {
@@ -4203,6 +4203,10 @@
   "rwaq.admin.payments.subscriptions.col.period": {
     "defaultMessage": "Period",
     "description": "rwaq.admin.payments.subscriptions.col.period"
+  },
+  "rwaq.admin.payments.subscriptions.reason-title": {
+    "defaultMessage": "Reason",
+    "description": "rwaq.admin.payments.subscriptions.reason-title"
   },
   "rwaq.admin.payments.subscriptions.payments-title": {
     "defaultMessage": "Latest payments",

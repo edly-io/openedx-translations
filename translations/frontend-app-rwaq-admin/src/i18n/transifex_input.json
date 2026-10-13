@@ -787,6 +787,10 @@
     "defaultMessage": "Sort: {label}",
     "description": "rwaq.admin.courses.chip.sort"
   },
+  "rwaq.admin.courses.chip.startedAt": {
+    "defaultMessage": "Course Started at: {from} – {to}",
+    "description": "rwaq.admin.courses.chip.startedAt"
+  },
   "rwaq.admin.courses.col.actions": {
     "defaultMessage": "Actions",
     "description": "rwaq.admin.courses.col.actions"
@@ -1015,6 +1019,10 @@
     "defaultMessage": "Start (newest first)",
     "description": "rwaq.admin.courses.sort.startDesc"
   },
+  "rwaq.admin.courses.startedAt.label": {
+    "defaultMessage": "Started at",
+    "description": "rwaq.admin.courses.startedAt.label"
+  },
   "rwaq.admin.courses.title": {
     "defaultMessage": "Courses",
     "description": "rwaq.admin.courses.title"
@@ -1038,6 +1046,14 @@
   "rwaq.admin.courses.viewAriaLabel": {
     "defaultMessage": "View {courseName}",
     "description": "rwaq.admin.courses.viewAriaLabel"
+  },
+  "rwaq.admin.csvDownload.download": {
+    "defaultMessage": "Download CSV",
+    "description": "rwaq.admin.csvDownload.download"
+  },
+  "rwaq.admin.csvDownload.failed": {
+    "defaultMessage": "Could not download the CSV.",
+    "description": "rwaq.admin.csvDownload.failed"
   },
   "rwaq.admin.dashboard.allTimeBadge": {
     "defaultMessage": "All time",
@@ -4145,11 +4161,11 @@
     "description": "rwaq.admin.payments.subscriptions.col.status"
   },
   "rwaq.admin.payments.subscriptions.col.starts": {
-    "defaultMessage": "Starts",
+    "defaultMessage": "Starts (UTC)",
     "description": "rwaq.admin.payments.subscriptions.col.starts"
   },
   "rwaq.admin.payments.subscriptions.col.ends": {
-    "defaultMessage": "Ends",
+    "defaultMessage": "Ends (UTC)",
     "description": "rwaq.admin.payments.subscriptions.col.ends"
   },
   "rwaq.admin.payments.subscriptions.col.payments": {
@@ -4219,6 +4235,10 @@
   "rwaq.admin.payments.subscriptions.col.period": {
     "defaultMessage": "Period",
     "description": "rwaq.admin.payments.subscriptions.col.period"
+  },
+  "rwaq.admin.payments.subscriptions.reason-title": {
+    "defaultMessage": "Reason",
+    "description": "rwaq.admin.payments.subscriptions.reason-title"
   },
   "rwaq.admin.payments.subscriptions.payments-title": {
     "defaultMessage": "Latest payments",

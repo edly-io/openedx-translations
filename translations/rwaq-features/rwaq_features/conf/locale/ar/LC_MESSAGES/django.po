@@ -19,6 +19,12 @@ msgstr ""
 msgid "Active"
 msgstr "نشط"
 
+msgid "Active enrollments"
+msgstr "التسجيلات النشطة"
+
+msgid "Active enrollments in period"
+msgstr "التسجيلات النشطة في الفترة"
+
 msgid "Add"
 msgstr ""
 
@@ -27,6 +33,9 @@ msgstr "تسجيل بواسطة مشرف"
 
 msgid "Admin user who triggered this report. Null if user was later deleted."
 msgstr ""
+
+msgid "Admins"
+msgstr "المسؤولون"
 
 msgid "Amount"
 msgstr ""
@@ -37,11 +46,20 @@ msgstr ""
 msgid "Arabic display name for this category"
 msgstr ""
 
+msgid "Arabic name"
+msgstr "الاسم بالعربية"
+
 msgid "Archived"
 msgstr ""
 
+msgid "Authentication method"
+msgstr "طريقة المصادقة"
+
 msgid "Auto-generated on creation: program-v1:<org>+<program_type>+<batch>"
 msgstr ""
+
+msgid "Batch"
+msgstr "الدفعة"
 
 msgid "Batch identifier, e.g. '2026' or 'Batch-1'"
 msgstr ""
@@ -51,6 +69,15 @@ msgstr ""
 
 msgid "Cart"
 msgstr ""
+
+msgid "Categories"
+msgstr "التصنيفات"
+
+msgid "Category ID"
+msgstr "معرّف التصنيف"
+
+msgid "Category name"
+msgstr "اسم التصنيف"
 
 msgid "Category of this program"
 msgstr ""
@@ -85,6 +112,9 @@ msgstr ""
 msgid "Course Category Assignments"
 msgstr ""
 
+msgid "Course ID"
+msgstr "معرّف المساق"
+
 msgid "Course Pricing"
 msgstr ""
 
@@ -99,6 +129,15 @@ msgstr ""
 
 msgid "Course key, e.g. 'course-v1:org+course+run'"
 msgstr ""
+
+msgid "Course name"
+msgstr "اسم المساق"
+
+msgid "Courses"
+msgstr "المساقات"
+
+msgid "Created"
+msgstr "تاريخ الإنشاء"
 
 msgid "Date and time (UTC)"
 msgstr "التاريخ والوقت (UTC)"
@@ -130,8 +169,14 @@ msgstr ""
 msgid "Email"
 msgstr "البريد الإلكتروني"
 
+msgid "Email confirmed"
+msgstr "تأكيد البريد الإلكتروني"
+
 msgid "Email is required."
 msgstr ""
+
+msgid "End date"
+msgstr "تاريخ الانتهاء"
 
 msgid "English display name for this category (e.g. 'Programming')"
 msgstr ""
@@ -153,11 +198,17 @@ msgid ""
 "courses."
 msgstr ""
 
+msgid "Enrollments in period"
+msgstr "التسجيلات في الفترة"
+
 msgid "Extended program description"
 msgstr ""
 
 msgid "Failed"
 msgstr "فشل"
+
+msgid "Featured"
+msgstr "مميز"
 
 msgid "Filters"
 msgstr "عوامل التصفية"
@@ -173,6 +224,9 @@ msgid ""
 "public WordPress program listing. For test/scratch programs — toggle from "
 "the admin panel, not meant to be user-facing."
 msgstr ""
+
+msgid "Hidden"
+msgstr "مخفي"
 
 msgid "Human-assigned program number, e.g. 'PROGRAM101'"
 msgstr ""
@@ -214,6 +268,21 @@ msgstr ""
 
 msgid "Instructors"
 msgstr ""
+
+msgid "Joined"
+msgstr "تاريخ الانضمام"
+
+msgid "Last login"
+msgstr "آخر تسجيل دخول"
+
+msgid "Name"
+msgstr "الاسم"
+
+msgid "Organization name"
+msgstr "اسم المؤسسة"
+
+msgid "Organizations"
+msgstr "المؤسسات"
 
 msgid "Item"
 msgstr "العنصر"
@@ -299,11 +368,20 @@ msgstr ""
 msgid "Program Types"
 msgstr ""
 
+msgid "Program key"
+msgstr "مفتاح البرنامج"
+
+msgid "Program name"
+msgstr "اسم البرنامج"
+
 msgid "Program the learner is enrolled in"
 msgstr ""
 
 msgid "Program this course belongs to"
 msgstr ""
+
+msgid "Program type"
+msgstr "نوع البرنامج"
 
 msgid "Program-only course"
 msgstr ""
@@ -339,6 +417,9 @@ msgstr "تاريخ الإلغاء"
 
 msgid "Role"
 msgstr ""
+
+msgid "Roles"
+msgstr "الأدوار"
 
 msgid "Rwaq Admin"
 msgstr ""
@@ -376,8 +457,14 @@ msgstr ""
 msgid "Scope"
 msgstr "تنطبق على"
 
+msgid "Self-paced"
+msgstr "ذاتي الوتيرة"
+
 msgid "Short code used in program keys, e.g. 'STP'"
 msgstr ""
+
+msgid "Short name"
+msgstr "الاسم المختصر"
 
 msgid "Source"
 msgstr "المصدر"
@@ -386,6 +473,9 @@ msgid ""
 "Staff member who created this enrollment on behalf of the learner. Null when"
 " the learner self-enrolled."
 msgstr ""
+
+msgid "Start date"
+msgstr "تاريخ البدء"
 
 msgid "Status"
 msgstr "الحالة"
@@ -439,14 +529,23 @@ msgid ""
 "changes after creation so WordPress URLs stay stable."
 msgstr ""
 
+msgid "Unenrolled"
+msgstr "ملغى تسجيلهم"
+
 msgid "Unique identifier compatible with OpenedX catalog conventions"
 msgstr ""
 
 msgid "User"
 msgstr ""
 
+msgid "User ID"
+msgstr "معرّف المستخدم"
+
 msgid "Username"
 msgstr "اسم المستخدم"
+
+msgid "Users"
+msgstr "المستخدمون"
 
 msgid "When an admin unenrolled the learner and revoked this item."
 msgstr ""
@@ -519,3 +618,4 @@ msgstr "لا شيء"
 
 msgid "yes"
 msgstr "نعم"
+

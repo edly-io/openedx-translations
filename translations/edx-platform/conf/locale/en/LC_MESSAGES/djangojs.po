@@ -9771,6 +9771,14 @@ msgstr ""
 msgid "Your {program} Certificate"
 msgstr ""
 
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:3
+msgid "Your Certificate"
+msgstr ""
+
+#: lms/templates/learner_dashboard/progress_circle_view.underscore:2
+msgid "Progress"
+msgstr ""
+
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:6
 #, python-format
 msgid "Open the certificate you earned for the %(title)s program."
@@ -9817,9 +9825,7 @@ msgstr ""
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:35
 #: lms/templates/learner_dashboard/program_details_view.underscore:10
 #, python-format
-msgid ""
-"You have successfully completed all the requirements for the %(title)s "
-"%(type)s."
+msgid "You have successfully completed all the requirements for %(title)s."
 msgstr ""
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:40
@@ -9880,7 +9886,7 @@ msgstr ""
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:122
 #, python-format
-msgid "Transform your %(org)s %(type)s into a full master’s degree"
+msgid "Transform your %(org)s program into a full master’s degree"
 msgstr ""
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:125

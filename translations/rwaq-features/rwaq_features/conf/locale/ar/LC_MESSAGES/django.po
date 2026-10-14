@@ -1,0 +1,521 @@
+# Rwaq features, Arabic translation.
+msgid ""
+msgstr ""
+"Project-Id-Version: rwaq-features\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2026-10-05 11:40+0000\n"
+"PO-Revision-Date: 2026-10-05 11:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+
+msgid "0 means indeterminate; frontend renders '—'."
+msgstr ""
+
+msgid "Active"
+msgstr "نشط"
+
+msgid "Add"
+msgstr ""
+
+msgid "Admin enrollment"
+msgstr "تسجيل بواسطة مشرف"
+
+msgid "Admin user who triggered this report. Null if user was later deleted."
+msgstr ""
+
+msgid "Amount"
+msgstr ""
+
+msgid "Arabic display name for the organisation"
+msgstr ""
+
+msgid "Arabic display name for this category"
+msgstr ""
+
+msgid "Archived"
+msgstr ""
+
+msgid "Auto-generated on creation: program-v1:<org>+<program_type>+<batch>"
+msgstr ""
+
+msgid "Batch identifier, e.g. '2026' or 'Batch-1'"
+msgstr ""
+
+msgid "Card thumbnail image for the program"
+msgstr ""
+
+msgid "Cart"
+msgstr ""
+
+msgid "Category of this program"
+msgstr ""
+
+msgid "Collected (SAR)"
+msgstr "المحصّل (ر.س)"
+
+msgid "Complete"
+msgstr ""
+
+msgid "Completed"
+msgstr "مكتمل"
+
+msgid "Completion Summary"
+msgstr ""
+
+msgid "Coupon code"
+msgstr "رمز القسيمة"
+
+msgid "Coupons"
+msgstr "القسائم"
+
+msgid "Course Categories"
+msgstr ""
+
+msgid "Course Category"
+msgstr ""
+
+msgid "Course Category Assignment"
+msgstr ""
+
+msgid "Course Category Assignments"
+msgstr ""
+
+msgid "Course Pricing"
+msgstr ""
+
+msgid "Course Slug"
+msgstr ""
+
+msgid "Course Slugs"
+msgstr ""
+
+msgid "Course Statistics"
+msgstr ""
+
+msgid "Course key, e.g. 'course-v1:org+course+run'"
+msgstr ""
+
+msgid "Date and time (UTC)"
+msgstr "التاريخ والوقت (UTC)"
+
+msgid "Date the enrollment was created (may be back-dated)"
+msgstr ""
+
+msgid "Date the learner completed all program requirements"
+msgstr ""
+
+msgid "Date the program becomes available to learners"
+msgstr ""
+
+msgid "Date the program closes for new enrollments"
+msgstr ""
+
+msgid "Detailed program description"
+msgstr ""
+
+msgid "Discount (SAR)"
+msgstr "الخصم (ر.س)"
+
+msgid "Display name, e.g. 'Specialized Training'"
+msgstr ""
+
+msgid "Draft"
+msgstr ""
+
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+msgid "Email is required."
+msgstr ""
+
+msgid "English display name for this category (e.g. 'Programming')"
+msgstr ""
+
+msgid "Enrolled by"
+msgstr "تم التسجيل بواسطة"
+
+msgid "Enrollment"
+msgstr ""
+
+msgid "Enrollment & Progress"
+msgstr ""
+
+msgid "Enrollments"
+msgstr ""
+
+msgid ""
+"Explicit slug for this course's WordPress URL. Must be unique across all "
+"courses."
+msgstr ""
+
+msgid "Extended program description"
+msgstr ""
+
+msgid "Failed"
+msgstr "فشل"
+
+msgid "Filters"
+msgstr "عوامل التصفية"
+
+msgid "Free"
+msgstr ""
+
+msgid "Generated at"
+msgstr "تاريخ الإنشاء"
+
+msgid ""
+"Hide this program from the Studio authoring MFE's program list and the "
+"public WordPress program listing. For test/scratch programs — toggle from "
+"the admin panel, not meant to be user-facing."
+msgstr ""
+
+msgid "Human-assigned program number, e.g. 'PROGRAM101'"
+msgstr ""
+
+msgid "Human-readable program name"
+msgstr ""
+
+msgid "ISO 4217 currency code of regular_price and sale_price."
+msgstr ""
+
+msgid ""
+"If an account exists with this email in the legacy platform, we will send "
+"you an email to set your password."
+msgstr ""
+
+msgid "In Progress"
+msgstr ""
+
+msgid "Instructor"
+msgstr ""
+
+msgid "Instructor Course"
+msgstr ""
+
+msgid "Instructor Courses"
+msgstr ""
+
+msgid "Instructor bio/detail (rich text)"
+msgstr ""
+
+msgid "Instructor linked to this course"
+msgstr ""
+
+msgid "Instructor photo"
+msgstr ""
+
+msgid "Instructor's display name"
+msgstr ""
+
+msgid "Instructors"
+msgstr ""
+
+msgid "Item"
+msgstr "العنصر"
+
+msgid "Item discount (SAR)"
+msgstr "خصم العنصر (ر.س)"
+
+msgid "Item paid (SAR)"
+msgstr "المدفوع مقابل العنصر (ر.س)"
+
+msgid "Key"
+msgstr "المفتاح"
+
+msgid "Learner Summary"
+msgstr ""
+
+msgid "Learner enrolled in the program"
+msgstr ""
+
+msgid "Only active categories appear as filters on the course catalog page."
+msgstr ""
+
+msgid "Order"
+msgstr "الطلب"
+
+msgid "Order value (SAR)"
+msgstr "قيمة الطلب (ر.س)"
+
+msgid "Orders"
+msgstr "الطلبات"
+
+msgid "Organization"
+msgstr "المؤسسة"
+
+msgid "Organization Membership Audit Log"
+msgstr ""
+
+msgid "Organization Membership Audit Logs"
+msgstr ""
+
+msgid "Organization that owns this program"
+msgstr ""
+
+msgid "Paid"
+msgstr "مدفوع"
+
+msgid "Paid via"
+msgstr "طريقة الدفع"
+
+msgid "Payment failed"
+msgstr "فشل الدفع"
+
+msgid "Pending"
+msgstr "قيد الانتظار"
+
+msgid "Percentage"
+msgstr "نسبة مئوية"
+
+msgid "Price (SAR)"
+msgstr "السعر (ر.س)"
+
+msgid "Product"
+msgstr ""
+
+msgid "Program"
+msgstr ""
+
+msgid "Program Course"
+msgstr ""
+
+msgid "Program Courses"
+msgstr ""
+
+msgid "Program Report Task"
+msgstr ""
+
+msgid "Program Report Tasks"
+msgstr ""
+
+msgid "Program Type"
+msgstr ""
+
+msgid "Program Types"
+msgstr ""
+
+msgid "Program the learner is enrolled in"
+msgstr ""
+
+msgid "Program this course belongs to"
+msgstr ""
+
+msgid "Program-only course"
+msgstr ""
+
+msgid "Programs"
+msgstr ""
+
+msgid "Publication / availability status of this program"
+msgstr ""
+
+msgid "Reason"
+msgstr "السبب"
+
+msgid "Regular price, sent to WordPress as regular_price."
+msgstr ""
+
+msgid ""
+"Regular price, sent to WordPress as regular_price. Only is_paid courses have"
+" one."
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Revoke reason"
+msgstr "سبب الإلغاء"
+
+msgid "Revoked"
+msgstr "ملغى"
+
+msgid "Revoked at"
+msgstr "تاريخ الإلغاء"
+
+msgid "Role"
+msgstr ""
+
+msgid "Rwaq Admin"
+msgstr ""
+
+msgid "Rwaq Admin Role"
+msgstr ""
+
+msgid "Rwaq Admin Roles"
+msgstr ""
+
+msgid "Rwaq Organization Profile"
+msgstr ""
+
+msgid "Rwaq Organization Profiles"
+msgstr ""
+
+msgid "Rwaq payments: order history"
+msgstr "مدفوعات رواق: سجل الطلبات"
+
+msgid ""
+"S3 object key for the generated CSV. Null until the task completes. Pre-"
+"signed URLs are generated on demand from this key — never stored."
+msgstr ""
+
+msgid ""
+"Sale price, sent to WordPress as sale_price. Leave empty when the course is "
+"not on sale."
+msgstr ""
+
+msgid ""
+"Sale price, sent to WordPress as sale_price. Leave empty when the program is"
+" not on sale."
+msgstr ""
+
+msgid "Scope"
+msgstr "تنطبق على"
+
+msgid "Short code used in program keys, e.g. 'STP'"
+msgstr ""
+
+msgid "Source"
+msgstr "المصدر"
+
+msgid ""
+"Staff member who created this enrollment on behalf of the learner. Null when"
+" the learner self-enrolled."
+msgstr ""
+
+msgid "Status"
+msgstr "الحالة"
+
+msgid "The Global Staff user who performed this action."
+msgstr ""
+
+msgid "The admin who enrolled the learner. Admin enrollments only."
+msgstr ""
+
+msgid "The admin who revoked this item."
+msgstr ""
+
+msgid "The amount off, or the percentage off."
+msgstr ""
+
+msgid "The buyer's email, as WordPress sent it."
+msgstr ""
+
+msgid "The category assigned to this course"
+msgstr ""
+
+msgid "The item a product coupon applies to. Empty for cart coupons."
+msgstr ""
+
+msgid "The money this coupon took off the order, as WooCommerce applied it."
+msgstr ""
+
+msgid "The organization this Organization Admin grant/revoke applies to."
+msgstr ""
+
+msgid "The platform Organization this profile extends"
+msgstr ""
+
+msgid "The user who was granted or revoked Organization Admin status."
+msgstr ""
+
+msgid "Title"
+msgstr "العنوان"
+
+msgid ""
+"Total discount on this item: its product coupons plus its share of cart "
+"coupons."
+msgstr ""
+
+msgid "Type"
+msgstr "النوع"
+
+msgid ""
+"URL-friendly identifier derived from the name at creation time. Never "
+"changes after creation so WordPress URLs stay stable."
+msgstr ""
+
+msgid "Unique identifier compatible with OpenedX catalog conventions"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Username"
+msgstr "اسم المستخدم"
+
+msgid "When an admin unenrolled the learner and revoked this item."
+msgstr ""
+
+msgid ""
+"When enabled, the organisation's logo replaces the default badge on program "
+"certificates. Only takes effect when the org also has a logo uploaded."
+msgstr ""
+
+msgid ""
+"When enabled, this course's pricing is set from the Rwaq admin panel and the"
+" Studio course page shows it read-only. Only settable from the admin panel —"
+" a course author cannot grant themselves pricing control by toggling it in "
+"Studio."
+msgstr ""
+
+msgid ""
+"Whether a program certificate should be issued when a learner completes all "
+"courses"
+msgstr ""
+
+msgid ""
+"Whether this enrollment is currently active. Set to False to unenroll "
+"without losing history."
+msgstr ""
+
+msgid "Whether this program is featured/highlighted in listings"
+msgstr ""
+
+msgid "Whether this record is an ADD (grant) or REMOVE (revoke)."
+msgstr ""
+
+msgid "Why an admin enrolled the learner."
+msgstr ""
+
+msgid "Why an admin revoked this item."
+msgstr ""
+
+msgid "WooCommerce order ID. Empty for admin enrollments."
+msgstr ""
+
+msgid "WordPress purchase"
+msgstr "شراء عبر ووردبريس"
+
+msgid ""
+"YouTube video ID for the instructor's featured video (e.g. dQw4w9WgXcQ)"
+msgstr ""
+
+msgid ""
+"YouTube video ID for the organization's featured video (e.g. dQw4w9WgXcQ)"
+msgstr ""
+
+msgid "YouTube video ID for the program intro video (e.g. dQw4w9WgXcQ)"
+msgstr ""
+
+msgid ""
+"is_free: learners enroll at no cost. is_paid: the course is sold on its own."
+" is_program_only: the course is offered only through the one program it is "
+"added to, so it carries no price of its own."
+msgstr ""
+
+msgid "is_free: learners enroll at no cost. is_paid: this program is sold."
+msgstr ""
+
+msgid "no"
+msgstr "لا"
+
+msgid "none"
+msgstr "لا شيء"
+
+msgid "yes"
+msgstr "نعم"

@@ -2794,6 +2794,9 @@
   "course-authoring.studio-home.programs.tab.filter.draft": "Draft",
   "course-authoring.studio-home.programs.tab.filter.active": "Active",
   "course-authoring.studio-home.programs.tab.filter.archived": "Archived",
+  "course-authoring.studio-home.programs.tab.type.all": "All types",
+  "course-authoring.studio-home.programs.tab.type.free": "Free",
+  "course-authoring.studio-home.programs.tab.type.paid": "Paid",
   "course-authoring.studio-home.programs.tab.pagination-info": "Showing {length} of {total}",
   "course-authoring.studio-home.new-program.title": "Create New Program",
   "course-authoring.studio-home.new-program.name.label": "Program Name",
@@ -3020,6 +3023,5 @@
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.all-types": "All types",
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.free": "Free",
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.paid": "Paid",
-  "course-authoring.studio-home.courses.tab.pricing-filter-menu.program-only": "Program-only",
-  "course-authoring.studio-home.courses.tab.pricing-filter-menu.no-type": "No type"
+  "course-authoring.studio-home.courses.tab.pricing-filter-menu.program-only": "Program-only"
 }

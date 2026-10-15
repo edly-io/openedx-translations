@@ -775,6 +775,30 @@
     "defaultMessage": "Filter: {label}",
     "description": "rwaq.admin.courses.chip.filter"
   },
+  "rwaq.admin.courses.type.label": {
+    "defaultMessage": "Type",
+    "description": "rwaq.admin.courses.type.label"
+  },
+  "rwaq.admin.courses.type.all": {
+    "defaultMessage": "All types",
+    "description": "rwaq.admin.courses.type.all"
+  },
+  "rwaq.admin.courses.type.free": {
+    "defaultMessage": "Free",
+    "description": "rwaq.admin.courses.type.free"
+  },
+  "rwaq.admin.courses.type.paid": {
+    "defaultMessage": "Paid",
+    "description": "rwaq.admin.courses.type.paid"
+  },
+  "rwaq.admin.courses.type.programOnly": {
+    "defaultMessage": "Program-only",
+    "description": "rwaq.admin.courses.type.programOnly"
+  },
+  "rwaq.admin.courses.chip.type": {
+    "defaultMessage": "Type: {label}",
+    "description": "rwaq.admin.courses.chip.type"
+  },
   "rwaq.admin.courses.chip.org": {
     "defaultMessage": "Org: {org}",
     "description": "rwaq.admin.courses.chip.org"
@@ -1050,6 +1074,10 @@
   "rwaq.admin.csvDownload.download": {
     "defaultMessage": "Download CSV",
     "description": "rwaq.admin.csvDownload.download"
+  },
+  "rwaq.admin.csvDownload.downloading": {
+    "defaultMessage": "Downloading…",
+    "description": "rwaq.admin.csvDownload.downloading"
   },
   "rwaq.admin.csvDownload.failed": {
     "defaultMessage": "Could not download the CSV.",
@@ -2178,6 +2206,26 @@
   "rwaq.admin.programs.chip.filter": {
     "defaultMessage": "Filter: {label}",
     "description": "rwaq.admin.programs.chip.filter"
+  },
+  "rwaq.admin.programs.type.label": {
+    "defaultMessage": "Type",
+    "description": "rwaq.admin.programs.type.label"
+  },
+  "rwaq.admin.programs.type.all": {
+    "defaultMessage": "All types",
+    "description": "rwaq.admin.programs.type.all"
+  },
+  "rwaq.admin.programs.type.free": {
+    "defaultMessage": "Free",
+    "description": "rwaq.admin.programs.type.free"
+  },
+  "rwaq.admin.programs.type.paid": {
+    "defaultMessage": "Paid",
+    "description": "rwaq.admin.programs.type.paid"
+  },
+  "rwaq.admin.programs.chip.type": {
+    "defaultMessage": "Type: {label}",
+    "description": "rwaq.admin.programs.chip.type"
   },
   "rwaq.admin.programs.chip.search": {
     "defaultMessage": "Search: {term}",
@@ -3603,6 +3651,10 @@
   "rwaq.admin.payments.csv": {
     "defaultMessage": "Download CSV",
     "description": "rwaq.admin.payments.csv"
+  },
+  "rwaq.admin.payments.csv.downloading": {
+    "defaultMessage": "Downloading…",
+    "description": "rwaq.admin.payments.csv.downloading"
   },
   "rwaq.admin.payments.csv.failed": {
     "defaultMessage": "Could not download the CSV.",

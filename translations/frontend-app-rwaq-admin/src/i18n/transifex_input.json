@@ -3516,6 +3516,10 @@
     "defaultMessage": "All partners",
     "description": "rwaq.admin.payments.partner.all"
   },
+  "rwaq.admin.payments.partner.subscriptions": {
+    "defaultMessage": "Rwaq (subscriptions)",
+    "description": "rwaq.admin.payments.partner.subscriptions"
+  },
   "rwaq.admin.payments.chip.partner": {
     "defaultMessage": "Partner: {org}",
     "description": "rwaq.admin.payments.chip.partner"
@@ -3549,24 +3553,48 @@
     "description": "rwaq.admin.payments.kpi.discounts"
   },
   "rwaq.admin.payments.kpi.collected": {
-    "defaultMessage": "Revenue",
+    "defaultMessage": "Total revenue",
     "description": "rwaq.admin.payments.kpi.collected"
   },
   "rwaq.admin.payments.info.orders": {
-    "defaultMessage": "Completed WordPress orders with at least one paid item.",
+    "defaultMessage": "Completed WordPress orders with at least one paid item, subscription payments included. For a single partner, only its courses and programs count. Rwaq (subscriptions) counts only subscription payments.",
     "description": "rwaq.admin.payments.info.orders"
   },
   "rwaq.admin.payments.info.orderValue": {
-    "defaultMessage": "The list price of every paid item, before coupons.",
+    "defaultMessage": "The list price of every paid item, subscription payments included, before coupons.",
     "description": "rwaq.admin.payments.info.orderValue"
   },
   "rwaq.admin.payments.info.discounts": {
-    "defaultMessage": "What product and cart coupons took off the paid items. A cart coupon is spread over the items in its cart.",
+    "defaultMessage": "What product and cart coupons took off the paid items, subscription payments included. A cart coupon is spread over the items in its cart.",
     "description": "rwaq.admin.payments.info.discounts"
   },
   "rwaq.admin.payments.info.collected": {
-    "defaultMessage": "What learners paid after coupons, on completed WordPress orders. This is money received from learners, not money paid out. Items an admin later revoked still count. Admin enrollments are free and never count.",
+    "defaultMessage": "What learners paid after coupons, on completed WordPress orders, subscription payments included. This is money received from learners, not money paid out. Items an admin later revoked still count. Admin enrollments are free and never count.",
     "description": "rwaq.admin.payments.info.collected"
+  },
+  "rwaq.admin.payments.kpi.contentRevenue": {
+    "defaultMessage": "Courses and Programs revenue",
+    "description": "rwaq.admin.payments.kpi.contentRevenue"
+  },
+  "rwaq.admin.payments.kpi.subscriptionRevenue": {
+    "defaultMessage": "Subscription revenue",
+    "description": "rwaq.admin.payments.kpi.subscriptionRevenue"
+  },
+  "rwaq.admin.payments.info.contentRevenue": {
+    "defaultMessage": "What learners paid for courses and programs, after coupons. {orders, plural, one {# order} other {# orders}}.",
+    "description": "rwaq.admin.payments.info.contentRevenue"
+  },
+  "rwaq.admin.payments.info.subscriptionRevenue": {
+    "defaultMessage": "What learners paid for subscriptions, after coupons. It is 0 when a single partner is selected. {orders, plural, one {# order} other {# orders}}.",
+    "description": "rwaq.admin.payments.info.subscriptionRevenue"
+  },
+  "rwaq.admin.payments.series.content": {
+    "defaultMessage": "Courses and Programs",
+    "description": "rwaq.admin.payments.series.content"
+  },
+  "rwaq.admin.payments.series.subscriptions": {
+    "defaultMessage": "Subscriptions",
+    "description": "rwaq.admin.payments.series.subscriptions"
   },
   "rwaq.admin.payments.trends.title": {
     "defaultMessage": "Trends",
@@ -3600,14 +3628,6 @@
     "defaultMessage": "Orders over time",
     "description": "rwaq.admin.payments.chart.orders"
   },
-  "rwaq.admin.payments.series.collected": {
-    "defaultMessage": "Revenue (SAR)",
-    "description": "rwaq.admin.payments.series.collected"
-  },
-  "rwaq.admin.payments.series.orders": {
-    "defaultMessage": "Orders",
-    "description": "rwaq.admin.payments.series.orders"
-  },
   "rwaq.admin.payments.chart.allTime": {
     "defaultMessage": "All time",
     "description": "rwaq.admin.payments.chart.allTime"
@@ -3625,11 +3645,11 @@
     "description": "rwaq.admin.payments.chart.unavailable"
   },
   "rwaq.admin.payments.info.chartCollected": {
-    "defaultMessage": "Revenue per day, week or month of the order date, in SAR.",
+    "defaultMessage": "Revenue per day, week or month of the order date, in SAR. Courses and Programs and subscriptions are shown apart, and their sum is the Total revenue tile.",
     "description": "rwaq.admin.payments.info.chartCollected"
   },
   "rwaq.admin.payments.info.chartOrders": {
-    "defaultMessage": "Completed paid orders per day, week or month of the order date.",
+    "defaultMessage": "Completed paid orders per day, week or month of the order date. Courses and Programs and subscriptions are shown apart. An order with both kinds counts in each.",
     "description": "rwaq.admin.payments.info.chartOrders"
   },
   "rwaq.admin.payments.info.ordersTab": {
@@ -4228,14 +4248,6 @@
     "defaultMessage": "Admin",
     "description": "rwaq.admin.payments.subscriptions.source.admin"
   },
-  "rwaq.admin.payments.subscriptions.kpi.revenue": {
-    "defaultMessage": "Subscription revenue",
-    "description": "rwaq.admin.payments.subscriptions.kpi.revenue"
-  },
-  "rwaq.admin.payments.subscriptions.kpi.revenue-info": {
-    "defaultMessage": "Amount collected from WordPress subscription payments in the period.",
-    "description": "rwaq.admin.payments.subscriptions.kpi.revenue-info"
-  },
   "rwaq.admin.payments.subscriptions.sort.ends-desc": {
     "defaultMessage": "Ends, latest first",
     "description": "rwaq.admin.payments.subscriptions.sort.ends-desc"
@@ -4323,6 +4335,14 @@
   "rwaq.admin.payments.subscriptions.kpi.cancelled-info": {
     "defaultMessage": "Subscriptions the learner cancelled that still have access until their end date. A count as of today, not affected by the period.",
     "description": "rwaq.admin.payments.subscriptions.kpi.cancelled-info"
+  },
+  "rwaq.admin.payments.subscriptions.kpi.total": {
+    "defaultMessage": "Total subscriptions",
+    "description": "rwaq.admin.payments.subscriptions.kpi.total"
+  },
+  "rwaq.admin.payments.subscriptions.kpi.total-info": {
+    "defaultMessage": "All subscriptions today: active, expired and cancelled. Revoked ones are not counted. A count as of today, not affected by the period.",
+    "description": "rwaq.admin.payments.subscriptions.kpi.total-info"
   },
   "rwaq.admin.dataTable.expandColumn": {
     "defaultMessage": "Show details",

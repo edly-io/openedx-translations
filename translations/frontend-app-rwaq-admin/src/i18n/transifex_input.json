@@ -4371,5 +4371,17 @@
   "rwaq.admin.programs.learners.subscriptionNote": {
     "defaultMessage": "Learners join and leave this program through their Rwaq subscription.",
     "description": "rwaq.admin.programs.learners.subscriptionNote"
+  },
+  "rwaq.admin.programs.pricing.free-description": {
+    "defaultMessage": "Learners enroll at no cost.",
+    "description": "rwaq.admin.programs.pricing.free-description"
+  },
+  "rwaq.admin.programs.pricing.paid-description": {
+    "defaultMessage": "Sold at the price set below.",
+    "description": "rwaq.admin.programs.pricing.paid-description"
+  },
+  "rwaq.admin.programs.pricing.subscription-description": {
+    "defaultMessage": "Learners reach this program through the Rwaq subscription. It has no price of its own.",
+    "description": "rwaq.admin.programs.pricing.subscription-description"
   }
 }

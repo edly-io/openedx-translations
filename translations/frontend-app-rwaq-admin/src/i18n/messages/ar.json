@@ -1092,5 +1092,8 @@
   "rwaq.admin.users.enrollments.subscriptionNote": "يُدار عبر اشتراك المتعلم",
   "rwaq.admin.users.enroll.subscriptionCourse": "ضمن اشتراك رواق. ينضم إليه المتعلمون عبر اشتراكهم.",
   "rwaq.admin.users.enroll.programOnlyCourse": "مساق ضمن برنامج فقط. سجّل المتعلم في برنامجه بدلاً من ذلك.",
-  "rwaq.admin.programs.learners.subscriptionNote": "ينضم المتعلمون إلى هذا البرنامج ويغادرونه عبر اشتراكهم في رواق."
+  "rwaq.admin.programs.learners.subscriptionNote": "ينضم المتعلمون إلى هذا البرنامج ويغادرونه عبر اشتراكهم في رواق.",
+  "rwaq.admin.programs.pricing.free-description": "يسجّل المتعلمون دون أي تكلفة.",
+  "rwaq.admin.programs.pricing.paid-description": "يُباع بالسعر المحدد أدناه.",
+  "rwaq.admin.programs.pricing.subscription-description": "يصل المتعلمون إلى هذا البرنامج عبر اشتراك رواق، وليس له سعر خاص."
 }

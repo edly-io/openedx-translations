@@ -3029,5 +3029,8 @@
   "course-authoring.schedule-section.pricing.category-subscription.description": "Learners reach this course through the Rwaq subscription. It has no price of its own.",
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.subscription": "Part of Subscription",
   "programs.detail.field.pricing.subscription": "Part of Subscription",
-  "programs.enrollment.subscription-note": "Learners join this program through their Rwaq subscription."
+  "programs.enrollment.subscription-note": "Learners join this program through their Rwaq subscription.",
+  "programs.detail.field.pricing.free.description": "Learners enroll at no cost.",
+  "programs.detail.field.pricing.paid.description": "Sold at the price set below.",
+  "programs.detail.field.pricing.subscription.description": "Learners reach this program through the Rwaq subscription. It has no price of its own."
 }

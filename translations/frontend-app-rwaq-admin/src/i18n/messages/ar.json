@@ -305,6 +305,7 @@
   "rwaq.admin.dashboard.info.registrations": "حسابات المتعلمين الجديدة المسجّلة هذا الشهر الميلادي مقارنةً بالشهر الماضي.",
   "rwaq.admin.dashboard.info.registrationTrend": "الحسابات المسجّلة في كل شهر، بما فيها الحسابات المعطّلة والحسابات القديمة. لا تشمل حسابات الطاقم وحسابات الخدمة.",
   "rwaq.admin.dashboard.platformTotals.title": "المستخدمون",
+  "rwaq.admin.dashboard.platformTotals.divider": "أرقام كل الوقت، لا يؤثر عليها النطاق الزمني",
   "rwaq.admin.dashboard.info.platformTotals": "أرقام المنصة كاملة لكل الوقت. لا ينطبق عليها النطاق الزمني. تشمل الأعداد الحسابات المعطّلة والحسابات القديمة، ولا تشمل حسابات الطاقم وحسابات الخدمة.",
   "rwaq.admin.dashboard.platformTotals.col.metric": "المقياس",
   "rwaq.admin.dashboard.platformTotals.col.value": "القيمة",

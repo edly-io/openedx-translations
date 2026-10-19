@@ -1223,6 +1223,10 @@
     "defaultMessage": "Users",
     "description": "rwaq.admin.dashboard.platformTotals.title"
   },
+  "rwaq.admin.dashboard.platformTotals.divider": {
+    "defaultMessage": "All-time figures, not affected by the date range",
+    "description": "rwaq.admin.dashboard.platformTotals.divider"
+  },
   "rwaq.admin.dashboard.info.platformTotals": {
     "defaultMessage": "All-time figures for the whole platform. The date range does not apply. Counts include deactivated and legacy accounts. Staff and service accounts are excluded.",
     "description": "rwaq.admin.dashboard.info.platformTotals"

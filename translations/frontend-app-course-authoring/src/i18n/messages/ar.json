@@ -2794,6 +2794,9 @@
   "course-authoring.studio-home.programs.tab.filter.draft": "مسودة",
   "course-authoring.studio-home.programs.tab.filter.active": "نشط",
   "course-authoring.studio-home.programs.tab.filter.archived": "مؤرشف",
+  "course-authoring.studio-home.programs.tab.type.all": "جميع الأنواع",
+  "course-authoring.studio-home.programs.tab.type.free": "مجاني",
+  "course-authoring.studio-home.programs.tab.type.paid": "مدفوع",
   "course-authoring.studio-home.programs.tab.pagination-info": "عرض {length} من {total}",
   "course-authoring.studio-home.new-program.title": "إنشاء برنامج جديد",
   "course-authoring.studio-home.new-program.name.label": "اسم البرنامج",
@@ -2992,7 +2995,7 @@
   "course-authoring.schedule-section.instructor-access.modal.cancel": "إلغاء",
   "course-authoring.schedule-section.instructor-access.modal.no-results": "لا يوجد مدرّسون مطابقون لبحثك.",
   "course-authoring.schedule-section.instructor-access.modal.add-error": "فشل ربط المدرّس. يُرجى المحاولة مرة أخرى.",
-  "course-authoring.schedule-section.instructor-access.modal.empty": "لا توجد ملفات مدرّسين حتى الآن. أنشئ واحداً من شاشة المدرّسين في الصفحة الرئيسية للاستوديو أولاً.",
+  "course-authoring.schedule-section.instructor-access.modal.empty": "لا توجد ملفات مدرّسين لعرضها. ابحث بالاسم للعثور على الملفات غير المرتبطة بأي مساق، أو أنشئ واحداً من شاشة المدرّسين في الصفحة الرئيسية للاستوديو.",
   "instructors.detail.field.featured.requires-course": "اربط أيضاً هذا المدرّس بدورة واحدة على الأقل، وإلا فلن تظهر أي دورات لهذا المدرّس المميز في صفحة تفاصيله.",
   "course-authoring.schedule-section.pricing.title": "نوع المساق",
   "course-authoring.schedule-section.pricing.description": "حدّد كيف يحصل المتعلمون على هذا المساق. تُنشر الأسعار على الموقع التسويقي.",
@@ -3020,6 +3023,5 @@
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.all-types": "كل الأنواع",
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.free": "مجاني",
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.paid": "مدفوع",
-  "course-authoring.studio-home.courses.tab.pricing-filter-menu.program-only": "ضمن برنامج فقط",
-  "course-authoring.studio-home.courses.tab.pricing-filter-menu.no-type": "بدون نوع"
+  "course-authoring.studio-home.courses.tab.pricing-filter-menu.program-only": "ضمن برنامج فقط"
 }

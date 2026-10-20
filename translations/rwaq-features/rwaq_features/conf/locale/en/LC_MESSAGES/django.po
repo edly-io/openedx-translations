@@ -19,6 +19,12 @@ msgstr ""
 msgid "Active"
 msgstr ""
 
+msgid "Active enrollments"
+msgstr ""
+
+msgid "Active enrollments in period"
+msgstr ""
+
 msgid "Add"
 msgstr ""
 
@@ -26,6 +32,9 @@ msgid "Admin enrollment"
 msgstr ""
 
 msgid "Admin user who triggered this report. Null if user was later deleted."
+msgstr ""
+
+msgid "Admins"
 msgstr ""
 
 msgid "Amount"
@@ -37,10 +46,19 @@ msgstr ""
 msgid "Arabic display name for this category"
 msgstr ""
 
+msgid "Arabic name"
+msgstr ""
+
 msgid "Archived"
 msgstr ""
 
+msgid "Authentication method"
+msgstr ""
+
 msgid "Auto-generated on creation: program-v1:<org>+<program_type>+<batch>"
+msgstr ""
+
+msgid "Batch"
 msgstr ""
 
 msgid "Batch identifier, e.g. '2026' or 'Batch-1'"
@@ -50,6 +68,15 @@ msgid "Card thumbnail image for the program"
 msgstr ""
 
 msgid "Cart"
+msgstr ""
+
+msgid "Categories"
+msgstr ""
+
+msgid "Category ID"
+msgstr ""
+
+msgid "Category name"
 msgstr ""
 
 msgid "Category of this program"
@@ -85,6 +112,9 @@ msgstr ""
 msgid "Course Category Assignments"
 msgstr ""
 
+msgid "Course ID"
+msgstr ""
+
 msgid "Course Pricing"
 msgstr ""
 
@@ -98,6 +128,15 @@ msgid "Course Statistics"
 msgstr ""
 
 msgid "Course key, e.g. 'course-v1:org+course+run'"
+msgstr ""
+
+msgid "Course name"
+msgstr ""
+
+msgid "Courses"
+msgstr ""
+
+msgid "Created"
 msgstr ""
 
 msgid "Date and time (UTC)"
@@ -130,7 +169,13 @@ msgstr ""
 msgid "Email"
 msgstr ""
 
+msgid "Email confirmed"
+msgstr ""
+
 msgid "Email is required."
+msgstr ""
+
+msgid "End date"
 msgstr ""
 
 msgid "English display name for this category (e.g. 'Programming')"
@@ -153,10 +198,16 @@ msgid ""
 "courses."
 msgstr ""
 
+msgid "Enrollments in period"
+msgstr ""
+
 msgid "Extended program description"
 msgstr ""
 
 msgid "Failed"
+msgstr ""
+
+msgid "Featured"
 msgstr ""
 
 msgid "Filters"
@@ -172,6 +223,9 @@ msgid ""
 "Hide this program from the Studio authoring MFE's program list and the "
 "public WordPress program listing. For test/scratch programs — toggle from "
 "the admin panel, not meant to be user-facing."
+msgstr ""
+
+msgid "Hidden"
 msgstr ""
 
 msgid "Human-assigned program number, e.g. 'PROGRAM101'"
@@ -213,6 +267,21 @@ msgid "Instructor's display name"
 msgstr ""
 
 msgid "Instructors"
+msgstr ""
+
+msgid "Joined"
+msgstr ""
+
+msgid "Last login"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Organization name"
+msgstr ""
+
+msgid "Organizations"
 msgstr ""
 
 msgid "Item"
@@ -299,10 +368,19 @@ msgstr ""
 msgid "Program Types"
 msgstr ""
 
+msgid "Program key"
+msgstr ""
+
+msgid "Program name"
+msgstr ""
+
 msgid "Program the learner is enrolled in"
 msgstr ""
 
 msgid "Program this course belongs to"
+msgstr ""
+
+msgid "Program type"
 msgstr ""
 
 msgid "Program-only course"
@@ -338,6 +416,9 @@ msgid "Revoked at"
 msgstr ""
 
 msgid "Role"
+msgstr ""
+
+msgid "Roles"
 msgstr ""
 
 msgid "Rwaq Admin"
@@ -376,7 +457,13 @@ msgstr ""
 msgid "Scope"
 msgstr ""
 
+msgid "Self-paced"
+msgstr ""
+
 msgid "Short code used in program keys, e.g. 'STP'"
+msgstr ""
+
+msgid "Short name"
 msgstr ""
 
 msgid "Source"
@@ -385,6 +472,9 @@ msgstr ""
 msgid ""
 "Staff member who created this enrollment on behalf of the learner. Null when"
 " the learner self-enrolled."
+msgstr ""
+
+msgid "Start date"
 msgstr ""
 
 msgid "Status"
@@ -439,13 +529,22 @@ msgid ""
 "changes after creation so WordPress URLs stay stable."
 msgstr ""
 
+msgid "Unenrolled"
+msgstr ""
+
 msgid "Unique identifier compatible with OpenedX catalog conventions"
 msgstr ""
 
 msgid "User"
 msgstr ""
 
+msgid "User ID"
+msgstr ""
+
 msgid "Username"
+msgstr ""
+
+msgid "Users"
 msgstr ""
 
 msgid "When an admin unenrolled the learner and revoked this item."
@@ -519,3 +618,4 @@ msgstr ""
 
 msgid "yes"
 msgstr ""
+

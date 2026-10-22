@@ -144,5 +144,10 @@
   "learner-dash.courseCard.banners.credit.requestCredit": "Request Credit",
   "learner-dash.courseCard.banners.credit.viewCredit": "View Credit",
   "learner-dash.courseCard.banners.credit.viewDetails": "View Details",
-  "learner-dash.page.title": "Learner Home | {siteName}"
+  "learner-dash.page.title": "Learner Home | {siteName}",
+  "learner-dash.courseCard.banners.subscriptionExpired": "Your Rwaq subscription ended on {accessExpirationDate}. {renewLink}",
+  "learner-dash.courseCard.banners.subscriptionEndingSoon": "Your subscription is about to end on {subscriptionEndsAt}. {renewLink}",
+  "learner-dash.courseCard.banners.subscriptionRequired": "This course is part of the Rwaq subscription. {renewLink}",
+  "learner-dash.courseCard.banners.subscribe": "Subscribe to continue",
+  "learner-dash.courseCard.banners.renewSubscription": "Renew it to continue"
 }

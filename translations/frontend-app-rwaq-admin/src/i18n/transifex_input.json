@@ -795,6 +795,10 @@
     "defaultMessage": "Program-only",
     "description": "rwaq.admin.courses.type.programOnly"
   },
+  "rwaq.admin.courses.type.subscription": {
+    "defaultMessage": "Part of Subscription",
+    "description": "rwaq.admin.courses.type.subscription"
+  },
   "rwaq.admin.courses.chip.type": {
     "defaultMessage": "Type: {label}",
     "description": "rwaq.admin.courses.chip.type"
@@ -2319,6 +2323,10 @@
     "defaultMessage": "Paid",
     "description": "rwaq.admin.programs.type.paid"
   },
+  "rwaq.admin.programs.type.subscription": {
+    "defaultMessage": "Part of Subscription",
+    "description": "rwaq.admin.programs.type.subscription"
+  },
   "rwaq.admin.programs.chip.type": {
     "defaultMessage": "Type: {label}",
     "description": "rwaq.admin.programs.chip.type"
@@ -3604,6 +3612,10 @@
     "defaultMessage": "All partners",
     "description": "rwaq.admin.payments.partner.all"
   },
+  "rwaq.admin.payments.partner.subscriptions": {
+    "defaultMessage": "Rwaq (subscriptions)",
+    "description": "rwaq.admin.payments.partner.subscriptions"
+  },
   "rwaq.admin.payments.chip.partner": {
     "defaultMessage": "Partner: {org}",
     "description": "rwaq.admin.payments.chip.partner"
@@ -3637,24 +3649,48 @@
     "description": "rwaq.admin.payments.kpi.discounts"
   },
   "rwaq.admin.payments.kpi.collected": {
-    "defaultMessage": "Revenue",
+    "defaultMessage": "Total revenue",
     "description": "rwaq.admin.payments.kpi.collected"
   },
   "rwaq.admin.payments.info.orders": {
-    "defaultMessage": "Completed WordPress orders with at least one paid item.",
+    "defaultMessage": "Completed WordPress orders with at least one paid item, subscription payments included. For a single partner, only its courses and programs count. Rwaq (subscriptions) counts only subscription payments.",
     "description": "rwaq.admin.payments.info.orders"
   },
   "rwaq.admin.payments.info.orderValue": {
-    "defaultMessage": "The list price of every paid item, before coupons.",
+    "defaultMessage": "The list price of every paid item, subscription payments included, before coupons.",
     "description": "rwaq.admin.payments.info.orderValue"
   },
   "rwaq.admin.payments.info.discounts": {
-    "defaultMessage": "What product and cart coupons took off the paid items. A cart coupon is spread over the items in its cart.",
+    "defaultMessage": "What product and cart coupons took off the paid items, subscription payments included. A cart coupon is spread over the items in its cart.",
     "description": "rwaq.admin.payments.info.discounts"
   },
   "rwaq.admin.payments.info.collected": {
-    "defaultMessage": "What learners paid after coupons, on completed WordPress orders. This is money received from learners, not money paid out. Items an admin later revoked still count. Admin enrollments are free and never count.",
+    "defaultMessage": "What learners paid after coupons, on completed WordPress orders, subscription payments included. This is money received from learners, not money paid out. Items an admin later revoked still count. Admin enrollments are free and never count.",
     "description": "rwaq.admin.payments.info.collected"
+  },
+  "rwaq.admin.payments.kpi.contentRevenue": {
+    "defaultMessage": "Courses and Programs revenue",
+    "description": "rwaq.admin.payments.kpi.contentRevenue"
+  },
+  "rwaq.admin.payments.kpi.subscriptionRevenue": {
+    "defaultMessage": "Subscription revenue",
+    "description": "rwaq.admin.payments.kpi.subscriptionRevenue"
+  },
+  "rwaq.admin.payments.info.contentRevenue": {
+    "defaultMessage": "What learners paid for courses and programs, after coupons. {orders, plural, one {# order} other {# orders}}.",
+    "description": "rwaq.admin.payments.info.contentRevenue"
+  },
+  "rwaq.admin.payments.info.subscriptionRevenue": {
+    "defaultMessage": "What learners paid for subscriptions, after coupons. It is 0 when a single partner is selected. {orders, plural, one {# order} other {# orders}}.",
+    "description": "rwaq.admin.payments.info.subscriptionRevenue"
+  },
+  "rwaq.admin.payments.series.content": {
+    "defaultMessage": "Courses and Programs",
+    "description": "rwaq.admin.payments.series.content"
+  },
+  "rwaq.admin.payments.series.subscriptions": {
+    "defaultMessage": "Subscriptions",
+    "description": "rwaq.admin.payments.series.subscriptions"
   },
   "rwaq.admin.payments.trends.title": {
     "defaultMessage": "Trends",
@@ -3688,14 +3724,6 @@
     "defaultMessage": "Orders over time",
     "description": "rwaq.admin.payments.chart.orders"
   },
-  "rwaq.admin.payments.series.collected": {
-    "defaultMessage": "Revenue (SAR)",
-    "description": "rwaq.admin.payments.series.collected"
-  },
-  "rwaq.admin.payments.series.orders": {
-    "defaultMessage": "Orders",
-    "description": "rwaq.admin.payments.series.orders"
-  },
   "rwaq.admin.payments.chart.allTime": {
     "defaultMessage": "All time",
     "description": "rwaq.admin.payments.chart.allTime"
@@ -3713,11 +3741,11 @@
     "description": "rwaq.admin.payments.chart.unavailable"
   },
   "rwaq.admin.payments.info.chartCollected": {
-    "defaultMessage": "Revenue per day, week or month of the order date, in SAR.",
+    "defaultMessage": "Revenue per day, week or month of the order date, in SAR. Courses and Programs and subscriptions are shown apart, and their sum is the Total revenue tile.",
     "description": "rwaq.admin.payments.info.chartCollected"
   },
   "rwaq.admin.payments.info.chartOrders": {
-    "defaultMessage": "Completed paid orders per day, week or month of the order date.",
+    "defaultMessage": "Completed paid orders per day, week or month of the order date. Courses and Programs and subscriptions are shown apart. An order with both kinds counts in each.",
     "description": "rwaq.admin.payments.info.chartOrders"
   },
   "rwaq.admin.payments.info.ordersTab": {
@@ -4164,49 +4192,17 @@
     "defaultMessage": "Professional, no ID verification",
     "description": "rwaq.admin.users.mode.noIdProfessional"
   },
-  "rwaq.admin.subscription-plan.label": {
-    "defaultMessage": "Subscription plan",
-    "description": "rwaq.admin.subscription-plan.label"
-  },
-  "rwaq.admin.subscription-plan.none": {
-    "defaultMessage": "No plan (the learner already has a subscription)",
-    "description": "rwaq.admin.subscription-plan.none"
-  },
-  "rwaq.admin.subscription-plan.help": {
-    "defaultMessage": "Pick a plan for a learner who has no live subscription. It gives them access to all subscription content from today.",
-    "description": "rwaq.admin.subscription-plan.help"
-  },
-  "rwaq.admin.subscription-plan.monthly": {
-    "defaultMessage": "Monthly",
-    "description": "rwaq.admin.subscription-plan.monthly"
-  },
-  "rwaq.admin.subscription-plan.yearly": {
-    "defaultMessage": "Yearly",
-    "description": "rwaq.admin.subscription-plan.yearly"
-  },
   "rwaq.admin.programs.pricing.subscription": {
-    "defaultMessage": "Is part of Subscription",
+    "defaultMessage": "Part of Subscription",
     "description": "rwaq.admin.programs.pricing.subscription"
   },
-  "rwaq.admin.courses.modal.enroll.successSubscription": {
-    "defaultMessage": "User enrolled. Their subscription runs until {date}.",
-    "description": "rwaq.admin.courses.modal.enroll.successSubscription"
-  },
   "rwaq.admin.courses.pricing.subscription": {
-    "defaultMessage": "Is part of Subscription",
+    "defaultMessage": "Part of Subscription",
     "description": "rwaq.admin.courses.pricing.subscription"
   },
   "rwaq.admin.courses.pricing.subscription-description": {
     "defaultMessage": "Learners reach this course through the Rwaq subscription. It has no price of its own.",
     "description": "rwaq.admin.courses.pricing.subscription-description"
-  },
-  "rwaq.admin.users.enroll.alreadySubscription": {
-    "defaultMessage": "Already enrolled. Pick it to grant a subscription if theirs has ended.",
-    "description": "rwaq.admin.users.enroll.alreadySubscription"
-  },
-  "rwaq.admin.users.enroll.successSubscription": {
-    "defaultMessage": "Enrolled in {course}. Their subscription runs until {date}.",
-    "description": "rwaq.admin.users.enroll.successSubscription"
   },
   "rwaq.admin.payments.tab.subscriptions": {
     "defaultMessage": "Subscriptions",
@@ -4296,6 +4292,10 @@
     "defaultMessage": "Learner",
     "description": "rwaq.admin.payments.subscriptions.col.learner"
   },
+  "rwaq.admin.payments.subscriptions.col.subscriptionId": {
+    "defaultMessage": "Subscription ID",
+    "description": "rwaq.admin.payments.subscriptions.col.subscriptionId"
+  },
   "rwaq.admin.payments.subscriptions.col.plan": {
     "defaultMessage": "Plan",
     "description": "rwaq.admin.payments.subscriptions.col.plan"
@@ -4343,14 +4343,6 @@
   "rwaq.admin.payments.subscriptions.source.admin": {
     "defaultMessage": "Admin",
     "description": "rwaq.admin.payments.subscriptions.source.admin"
-  },
-  "rwaq.admin.payments.subscriptions.kpi.revenue": {
-    "defaultMessage": "Subscription revenue",
-    "description": "rwaq.admin.payments.subscriptions.kpi.revenue"
-  },
-  "rwaq.admin.payments.subscriptions.kpi.revenue-info": {
-    "defaultMessage": "Amount collected from WordPress subscription payments in the period.",
-    "description": "rwaq.admin.payments.subscriptions.kpi.revenue-info"
   },
   "rwaq.admin.payments.subscriptions.sort.ends-desc": {
     "defaultMessage": "Ends, latest first",
@@ -4440,32 +4432,52 @@
     "defaultMessage": "Subscriptions the learner cancelled that still have access until their end date. A count as of today, not affected by the period.",
     "description": "rwaq.admin.payments.subscriptions.kpi.cancelled-info"
   },
+  "rwaq.admin.payments.subscriptions.kpi.total": {
+    "defaultMessage": "Total subscriptions",
+    "description": "rwaq.admin.payments.subscriptions.kpi.total"
+  },
+  "rwaq.admin.payments.subscriptions.kpi.total-info": {
+    "defaultMessage": "All subscriptions today: active, expired and cancelled. Revoked ones are not counted. A count as of today, not affected by the period.",
+    "description": "rwaq.admin.payments.subscriptions.kpi.total-info"
+  },
   "rwaq.admin.dataTable.expandColumn": {
     "defaultMessage": "Show details",
     "description": "rwaq.admin.dataTable.expandColumn"
   },
-  "rwaq.admin.subscription-plan.placeholder": {
-    "defaultMessage": "Select a plan",
-    "description": "rwaq.admin.subscription-plan.placeholder"
+  "rwaq.admin.courseDetail.enrollments.subscriptionNote": {
+    "defaultMessage": "Learners join this course through their Rwaq subscription.",
+    "description": "rwaq.admin.courseDetail.enrollments.subscriptionNote"
   },
   "rwaq.admin.courseDetail.enrollments.programOnlyNote": {
     "defaultMessage": "This course is offered only through its program. Enroll the learner in the program instead.",
     "description": "rwaq.admin.courseDetail.enrollments.programOnlyNote"
   },
+  "rwaq.admin.users.enrollments.subscriptionNote": {
+    "defaultMessage": "Managed by the learner's subscription",
+    "description": "rwaq.admin.users.enrollments.subscriptionNote"
+  },
+  "rwaq.admin.users.enroll.subscriptionCourse": {
+    "defaultMessage": "Part of the Rwaq subscription. Learners join it through their subscription.",
+    "description": "rwaq.admin.users.enroll.subscriptionCourse"
+  },
   "rwaq.admin.users.enroll.programOnlyCourse": {
     "defaultMessage": "Program-only course. Enroll the learner in its program instead.",
     "description": "rwaq.admin.users.enroll.programOnlyCourse"
   },
-  "rwaq.admin.subscription-plan.helpLive": {
-    "defaultMessage": "This learner already has a subscription (ends {date}). No plan is needed.",
-    "description": "rwaq.admin.subscription-plan.helpLive"
+  "rwaq.admin.programs.learners.subscriptionNote": {
+    "defaultMessage": "Learners join and leave this program through their Rwaq subscription.",
+    "description": "rwaq.admin.programs.learners.subscriptionNote"
   },
-  "rwaq.admin.subscription-plan.helpBulk": {
-    "defaultMessage": "The plan gives each learner access to all subscription content from today. Learners who already have a live subscription keep theirs and the plan is not applied to them.",
-    "description": "rwaq.admin.subscription-plan.helpBulk"
+  "rwaq.admin.programs.pricing.free-description": {
+    "defaultMessage": "Learners enroll at no cost.",
+    "description": "rwaq.admin.programs.pricing.free-description"
   },
-  "rwaq.admin.subscription-plan.required": {
-    "defaultMessage": "Please select a plan.",
-    "description": "rwaq.admin.subscription-plan.required"
+  "rwaq.admin.programs.pricing.paid-description": {
+    "defaultMessage": "Sold at the price set below.",
+    "description": "rwaq.admin.programs.pricing.paid-description"
+  },
+  "rwaq.admin.programs.pricing.subscription-description": {
+    "defaultMessage": "Learners reach this program through the Rwaq subscription. It has no price of its own.",
+    "description": "rwaq.admin.programs.pricing.subscription-description"
   }
 }

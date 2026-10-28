@@ -2797,6 +2797,7 @@
   "course-authoring.studio-home.programs.tab.type.all": "جميع الأنواع",
   "course-authoring.studio-home.programs.tab.type.free": "مجاني",
   "course-authoring.studio-home.programs.tab.type.paid": "مدفوع",
+  "course-authoring.studio-home.programs.tab.type.subscription": "ضمن الاشتراك",
   "course-authoring.studio-home.programs.tab.pagination-info": "عرض {length} من {total}",
   "course-authoring.studio-home.new-program.title": "إنشاء برنامج جديد",
   "course-authoring.studio-home.new-program.name.label": "اسم البرنامج",
@@ -3023,5 +3024,13 @@
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.all-types": "كل الأنواع",
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.free": "مجاني",
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.paid": "مدفوع",
-  "course-authoring.studio-home.courses.tab.pricing-filter-menu.program-only": "ضمن برنامج فقط"
+  "course-authoring.studio-home.courses.tab.pricing-filter-menu.program-only": "ضمن برنامج فقط",
+  "course-authoring.schedule-section.pricing.category-subscription": "ضمن الاشتراك",
+  "course-authoring.schedule-section.pricing.category-subscription.description": "يصل المتعلمون إلى هذا المساق عبر اشتراك رواق، وليس له سعر خاص.",
+  "course-authoring.studio-home.courses.tab.pricing-filter-menu.subscription": "ضمن الاشتراك",
+  "programs.detail.field.pricing.subscription": "ضمن الاشتراك",
+  "programs.enrollment.subscription-note": "ينضم المتعلمون إلى هذا البرنامج عبر اشتراكهم في رواق.",
+  "programs.detail.field.pricing.free.description": "يسجّل المتعلمون دون أي تكلفة.",
+  "programs.detail.field.pricing.paid.description": "يُباع بالسعر المحدد أدناه.",
+  "programs.detail.field.pricing.subscription.description": "يصل المتعلمون إلى هذا البرنامج عبر اشتراك رواق، وليس له سعر خاص."
 }

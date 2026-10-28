@@ -2797,6 +2797,7 @@
   "course-authoring.studio-home.programs.tab.type.all": "All types",
   "course-authoring.studio-home.programs.tab.type.free": "Free",
   "course-authoring.studio-home.programs.tab.type.paid": "Paid",
+  "course-authoring.studio-home.programs.tab.type.subscription": "Part of Subscription",
   "course-authoring.studio-home.programs.tab.pagination-info": "Showing {length} of {total}",
   "course-authoring.studio-home.new-program.title": "Create New Program",
   "course-authoring.studio-home.new-program.name.label": "Program Name",
@@ -3023,5 +3024,13 @@
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.all-types": "All types",
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.free": "Free",
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.paid": "Paid",
-  "course-authoring.studio-home.courses.tab.pricing-filter-menu.program-only": "Program-only"
+  "course-authoring.studio-home.courses.tab.pricing-filter-menu.program-only": "Program-only",
+  "course-authoring.schedule-section.pricing.category-subscription": "Part of Subscription",
+  "course-authoring.schedule-section.pricing.category-subscription.description": "Learners reach this course through the Rwaq subscription. It has no price of its own.",
+  "course-authoring.studio-home.courses.tab.pricing-filter-menu.subscription": "Part of Subscription",
+  "programs.detail.field.pricing.subscription": "Part of Subscription",
+  "programs.enrollment.subscription-note": "Learners join this program through their Rwaq subscription.",
+  "programs.detail.field.pricing.free.description": "Learners enroll at no cost.",
+  "programs.detail.field.pricing.paid.description": "Sold at the price set below.",
+  "programs.detail.field.pricing.subscription.description": "Learners reach this program through the Rwaq subscription. It has no price of its own."
 }

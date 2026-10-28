@@ -64,6 +64,9 @@ msgstr "الدفعة"
 msgid "Batch identifier, e.g. '2026' or 'Batch-1'"
 msgstr ""
 
+msgid "Cancelled"
+msgstr "ملغى"
+
 msgid "Card thumbnail image for the program"
 msgstr ""
 
@@ -284,6 +287,9 @@ msgstr "اسم المؤسسة"
 msgid "Organizations"
 msgstr "المؤسسات"
 
+msgid "Part of Subscription"
+msgstr "ضمن الاشتراك"
+
 msgid "Item"
 msgstr "العنصر"
 
@@ -301,6 +307,9 @@ msgstr ""
 
 msgid "Learner enrolled in the program"
 msgstr ""
+
+msgid "Monthly"
+msgstr "شهرية"
 
 msgid "Only active categories appear as filters on the course catalog page."
 msgstr ""
@@ -480,6 +489,9 @@ msgstr "تاريخ البدء"
 msgid "Status"
 msgstr "الحالة"
 
+msgid "Subscription ends"
+msgstr "انتهاء الاشتراك"
+
 msgid "The Global Staff user who performed this action."
 msgstr ""
 
@@ -590,6 +602,9 @@ msgstr ""
 msgid "WordPress purchase"
 msgstr "شراء عبر ووردبريس"
 
+msgid "Yearly"
+msgstr "سنوية"
+
 msgid ""
 "YouTube video ID for the instructor's featured video (e.g. dQw4w9WgXcQ)"
 msgstr ""
@@ -600,6 +615,9 @@ msgstr ""
 
 msgid "YouTube video ID for the program intro video (e.g. dQw4w9WgXcQ)"
 msgstr ""
+
+msgid "Your Rwaq subscription ended on {expiration_date}. Renew it to continue {course_name}."
+msgstr "انتهى اشتراكك في رواق في {expiration_date}. جدّد اشتراكك لمتابعة {course_name}."
 
 msgid ""
 "is_free: learners enroll at no cost. is_paid: the course is sold on its own."
@@ -616,6 +634,12 @@ msgstr "لا"
 msgid "none"
 msgstr "لا شيء"
 
+msgid "this course"
+msgstr "هذه الدورة التدريبية"
+
 msgid "yes"
 msgstr "نعم"
+
+msgid "{course_name} is part of the Rwaq subscription. Subscribe to continue."
+msgstr "{course_name} ضمن اشتراك رواق. اشترك للمتابعة."
 

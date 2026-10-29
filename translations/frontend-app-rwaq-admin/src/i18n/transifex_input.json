@@ -1392,7 +1392,7 @@
     "description": "rwaq.admin.dashboard.modes.colShare"
   },
   "rwaq.admin.dashboard.modes.hint": {
-    "defaultMessage": "Rwaq runs its access model on honor, so a drift toward audit is worth checking.",
+    "defaultMessage": "{siteName} runs its access model on honor, so a drift toward audit is worth checking.",
     "description": "rwaq.admin.dashboard.modes.hint"
   },
   "rwaq.admin.dashboard.modes.title": {
@@ -2724,7 +2724,7 @@
     "description": "rwaq.admin.sidenav.dashboard"
   },
   "rwaq.admin.sidenav.logoAlt": {
-    "defaultMessage": "Rwaq",
+    "defaultMessage": "Logo",
     "description": "rwaq.admin.sidenav.logoAlt"
   },
   "rwaq.admin.sidenav.navAriaLabel": {
@@ -3601,7 +3601,7 @@
     "description": "rwaq.admin.payments.error"
   },
   "rwaq.admin.payments.forbidden": {
-    "defaultMessage": "Orders & Payments are visible to Rwaq superadmins only.",
+    "defaultMessage": "Orders & Payments are visible to {siteName} superadmins only.",
     "description": "rwaq.admin.payments.forbidden"
   },
   "rwaq.admin.payments.partner": {
@@ -3613,7 +3613,7 @@
     "description": "rwaq.admin.payments.partner.all"
   },
   "rwaq.admin.payments.partner.subscriptions": {
-    "defaultMessage": "Rwaq (subscriptions)",
+    "defaultMessage": "{siteName} (subscriptions)",
     "description": "rwaq.admin.payments.partner.subscriptions"
   },
   "rwaq.admin.payments.chip.partner": {
@@ -3653,7 +3653,7 @@
     "description": "rwaq.admin.payments.kpi.collected"
   },
   "rwaq.admin.payments.info.orders": {
-    "defaultMessage": "Completed WordPress orders with at least one paid item, subscription payments included. For a single partner, only its courses and programs count. Rwaq (subscriptions) counts only subscription payments.",
+    "defaultMessage": "Completed WordPress orders with at least one paid item, subscription payments included. For a single partner, only its courses and programs count. {siteName} (subscriptions) counts only subscription payments.",
     "description": "rwaq.admin.payments.info.orders"
   },
   "rwaq.admin.payments.info.orderValue": {
@@ -4093,7 +4093,7 @@
     "description": "rwaq.admin.programs.learners.unenroll.action"
   },
   "rwaq.admin.programs.learners.unenroll.body": {
-    "defaultMessage": "Unenroll {name} from this program and all its courses? Their grades and any certificate stay on record. A free program can be rejoined at any time. A paid program can only be rejoined by a learner who bought it on the Rwaq website. Otherwise an admin can enroll them again.",
+    "defaultMessage": "Unenroll {name} from this program and all its courses? Their grades and any certificate stay on record. A free program can be rejoined at any time. A paid program can only be rejoined by a learner who bought it on the {siteName} website. Otherwise an admin can enroll them again.",
     "description": "rwaq.admin.programs.learners.unenroll.body"
   },
   "rwaq.admin.programs.learners.unenroll.error": {
@@ -4201,7 +4201,7 @@
     "description": "rwaq.admin.courses.pricing.subscription"
   },
   "rwaq.admin.courses.pricing.subscription-description": {
-    "defaultMessage": "Learners reach this course through the Rwaq subscription. It has no price of its own.",
+    "defaultMessage": "Learners reach this course through the {siteName} subscription. It has no price of its own.",
     "description": "rwaq.admin.courses.pricing.subscription-description"
   },
   "rwaq.admin.payments.tab.subscriptions": {
@@ -4253,7 +4253,7 @@
     "description": "rwaq.admin.payments.subscriptions.title"
   },
   "rwaq.admin.payments.subscriptions.info": {
-    "defaultMessage": "Rwaq subscriptions paid or granted in the date range. All subscription revenue is Rwaq's.",
+    "defaultMessage": "{siteName} subscriptions paid or granted in the date range. All subscription revenue is {siteName}'s.",
     "description": "rwaq.admin.payments.subscriptions.info"
   },
   "rwaq.admin.payments.subscriptions.how": {
@@ -4445,7 +4445,7 @@
     "description": "rwaq.admin.dataTable.expandColumn"
   },
   "rwaq.admin.courseDetail.enrollments.subscriptionNote": {
-    "defaultMessage": "Learners join this course through their Rwaq subscription.",
+    "defaultMessage": "Learners join this course through their {siteName} subscription.",
     "description": "rwaq.admin.courseDetail.enrollments.subscriptionNote"
   },
   "rwaq.admin.courseDetail.enrollments.programOnlyNote": {
@@ -4457,7 +4457,7 @@
     "description": "rwaq.admin.users.enrollments.subscriptionNote"
   },
   "rwaq.admin.users.enroll.subscriptionCourse": {
-    "defaultMessage": "Part of the Rwaq subscription. Learners join it through their subscription.",
+    "defaultMessage": "Part of the {siteName} subscription. Learners join it through their subscription.",
     "description": "rwaq.admin.users.enroll.subscriptionCourse"
   },
   "rwaq.admin.users.enroll.programOnlyCourse": {
@@ -4465,7 +4465,7 @@
     "description": "rwaq.admin.users.enroll.programOnlyCourse"
   },
   "rwaq.admin.programs.learners.subscriptionNote": {
-    "defaultMessage": "Learners join and leave this program through their Rwaq subscription.",
+    "defaultMessage": "Learners join and leave this program through their {siteName} subscription.",
     "description": "rwaq.admin.programs.learners.subscriptionNote"
   },
   "rwaq.admin.programs.pricing.free-description": {
@@ -4477,7 +4477,7 @@
     "description": "rwaq.admin.programs.pricing.paid-description"
   },
   "rwaq.admin.programs.pricing.subscription-description": {
-    "defaultMessage": "Learners reach this program through the Rwaq subscription. It has no price of its own.",
+    "defaultMessage": "Learners reach this program through the {siteName} subscription. It has no price of its own.",
     "description": "rwaq.admin.programs.pricing.subscription-description"
   }
 }

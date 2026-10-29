@@ -3020,17 +3020,18 @@
   "course-authoring.schedule-section.pricing.error-save-failed": "Could not save the course type. Please try again.",
   "course-authoring.schedule-section.pricing.error-load-failed": "Could not load the course type. Refresh the page to try again.",
   "course-authoring.schedule-section.pricing.part-of-program": "This course is in the program {program}. Its type cannot change while it is in the program.",
-  "course-authoring.schedule-section.pricing.managed-by-admin": "The type and price of this course are managed by the Rwaq admin and cannot be changed here.",
+  "course-authoring.schedule-section.pricing.managed-by-admin": "The type and price of this course are managed by the {siteName} admin and cannot be changed here.",
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.all-types": "All types",
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.free": "Free",
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.paid": "Paid",
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.program-only": "Program-only",
   "course-authoring.schedule-section.pricing.category-subscription": "Part of Subscription",
-  "course-authoring.schedule-section.pricing.category-subscription.description": "Learners reach this course through the Rwaq subscription. It has no price of its own.",
+  "course-authoring.schedule-section.pricing.category-subscription.description": "Learners reach this course through the {siteName} subscription. It has no price of its own.",
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.subscription": "Part of Subscription",
   "programs.detail.field.pricing.subscription": "Part of Subscription",
-  "programs.enrollment.subscription-note": "Learners join this program through their Rwaq subscription.",
+  "programs.enrollment.subscription-note": "Learners join this program through their {siteName} subscription.",
   "programs.detail.field.pricing.free.description": "Learners enroll at no cost.",
   "programs.detail.field.pricing.paid.description": "Sold at the price set below.",
-  "programs.detail.field.pricing.subscription.description": "Learners reach this program through the Rwaq subscription. It has no price of its own."
+  "programs.detail.field.pricing.subscription.description": "Learners reach this program through the {siteName} subscription. It has no price of its own.",
+  "programs.enrollment.paid-admin-only": "This is a paid program. Only {siteName} admins can enroll learners into it."
 }

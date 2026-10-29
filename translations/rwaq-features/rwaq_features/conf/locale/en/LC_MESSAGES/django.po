@@ -430,22 +430,22 @@ msgstr ""
 msgid "Roles"
 msgstr ""
 
-msgid "Rwaq Admin"
+msgid "Platform Admin"
 msgstr ""
 
-msgid "Rwaq Admin Role"
+msgid "Platform Admin Role"
 msgstr ""
 
-msgid "Rwaq Admin Roles"
+msgid "Platform Admin Roles"
 msgstr ""
 
-msgid "Rwaq Organization Profile"
+msgid "Organization Profile"
 msgstr ""
 
-msgid "Rwaq Organization Profiles"
+msgid "Organization Profiles"
 msgstr ""
 
-msgid "Rwaq payments: order history"
+msgid "{platform_name} payments: order history"
 msgstr ""
 
 msgid ""
@@ -568,7 +568,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"When enabled, this course's pricing is set from the Rwaq admin panel and the"
+"When enabled, this course's pricing is set from the platform admin panel and the"
 " Studio course page shows it read-only. Only settable from the admin panel —"
 " a course author cannot grant themselves pricing control by toggling it in "
 "Studio."
@@ -616,7 +616,7 @@ msgstr ""
 msgid "YouTube video ID for the program intro video (e.g. dQw4w9WgXcQ)"
 msgstr ""
 
-msgid "Your Rwaq subscription ended on {expiration_date}. Renew it to continue {course_name}."
+msgid "Your {platform_name} subscription ended on {expiration_date}. Renew it to continue {course_name}."
 msgstr ""
 
 msgid ""
@@ -640,6 +640,6 @@ msgstr ""
 msgid "yes"
 msgstr ""
 
-msgid "{course_name} is part of the Rwaq subscription. Subscribe to continue."
+msgid "{course_name} is part of the {platform_name} subscription. Subscribe to continue."
 msgstr ""
 

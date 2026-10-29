@@ -430,23 +430,23 @@ msgstr ""
 msgid "Roles"
 msgstr "الأدوار"
 
-msgid "Rwaq Admin"
+msgid "Platform Admin"
 msgstr ""
 
-msgid "Rwaq Admin Role"
+msgid "Platform Admin Role"
 msgstr ""
 
-msgid "Rwaq Admin Roles"
+msgid "Platform Admin Roles"
 msgstr ""
 
-msgid "Rwaq Organization Profile"
+msgid "Organization Profile"
 msgstr ""
 
-msgid "Rwaq Organization Profiles"
+msgid "Organization Profiles"
 msgstr ""
 
-msgid "Rwaq payments: order history"
-msgstr "مدفوعات رواق: سجل الطلبات"
+msgid "{platform_name} payments: order history"
+msgstr "مدفوعات {platform_name}: سجل الطلبات"
 
 msgid ""
 "S3 object key for the generated CSV. Null until the task completes. Pre-"
@@ -568,7 +568,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"When enabled, this course's pricing is set from the Rwaq admin panel and the"
+"When enabled, this course's pricing is set from the platform admin panel and the"
 " Studio course page shows it read-only. Only settable from the admin panel —"
 " a course author cannot grant themselves pricing control by toggling it in "
 "Studio."
@@ -616,8 +616,8 @@ msgstr ""
 msgid "YouTube video ID for the program intro video (e.g. dQw4w9WgXcQ)"
 msgstr ""
 
-msgid "Your Rwaq subscription ended on {expiration_date}. Renew it to continue {course_name}."
-msgstr "انتهى اشتراكك في رواق في {expiration_date}. جدّد اشتراكك لمتابعة {course_name}."
+msgid "Your {platform_name} subscription ended on {expiration_date}. Renew it to continue {course_name}."
+msgstr "انتهى اشتراكك في {platform_name} في {expiration_date}. جدّد اشتراكك لمتابعة {course_name}."
 
 msgid ""
 "is_free: learners enroll at no cost. is_paid: the course is sold on its own."
@@ -640,6 +640,6 @@ msgstr "هذه الدورة التدريبية"
 msgid "yes"
 msgstr "نعم"
 
-msgid "{course_name} is part of the Rwaq subscription. Subscribe to continue."
-msgstr "{course_name} ضمن اشتراك رواق. اشترك للمتابعة."
+msgid "{course_name} is part of the {platform_name} subscription. Subscribe to continue."
+msgstr "{course_name} ضمن اشتراك {platform_name}. اشترك للمتابعة."
 

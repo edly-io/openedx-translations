@@ -28,6 +28,9 @@ msgstr "التسجيلات النشطة"
 msgid "Active enrollments in period"
 msgstr "التسجيلات النشطة في الفترة"
 
+msgid "Active programs"
+msgstr "البرامج النشطة"
+
 msgid "Add"
 msgstr ""
 
@@ -56,13 +59,22 @@ msgid "Arabic name"
 msgstr "الاسم بالعربية"
 
 msgid "Archived"
-msgstr ""
+msgstr "مؤرشف"
+
+msgid "As of date"
+msgstr "حتى تاريخ"
 
 msgid "Authentication method"
 msgstr "طريقة المصادقة"
 
 msgid "Auto-generated on creation: program-v1:<org>+<program_type>+<batch>"
 msgstr ""
+
+msgid "Average courses per program"
+msgstr "متوسط المساقات لكل برنامج"
+
+msgid "Average grade (%)"
+msgstr "متوسط الدرجة (%)"
 
 msgid "Batch"
 msgstr "الدفعة"
@@ -82,6 +94,9 @@ msgstr ""
 msgid "Categories"
 msgstr "التصنيفات"
 
+msgid "Category"
+msgstr "الفئة"
+
 msgid "Category ID"
 msgstr "معرّف التصنيف"
 
@@ -90,6 +105,18 @@ msgstr "اسم التصنيف"
 
 msgid "Category of this program"
 msgstr ""
+
+msgid "Certificate coverage (%)"
+msgstr "تغطية الشهادات (%)"
+
+msgid "Certificate issuance (%)"
+msgstr "نسبة إصدار الشهادات (%)"
+
+msgid "Certificates earned"
+msgstr "الشهادات المكتسبة"
+
+msgid "Certificates issued"
+msgstr "الشهادات الصادرة"
 
 msgid "Collected (SAR)"
 msgstr "المحصّل (ر.س)"
@@ -100,14 +127,23 @@ msgstr ""
 msgid "Completed"
 msgstr "مكتمل"
 
+msgid "Completion rate (%)"
+msgstr "نسبة الإكمال (%)"
+
 msgid "Completion Summary"
 msgstr ""
+
+msgid "Completions"
+msgstr "عمليات الإكمال"
 
 msgid "Coupon code"
 msgstr "رمز القسيمة"
 
 msgid "Coupons"
 msgstr "القسائم"
+
+msgid "Course"
+msgstr "المساق"
 
 msgid "Course Categories"
 msgstr ""
@@ -133,6 +169,12 @@ msgstr ""
 msgid "Course Slugs"
 msgstr ""
 
+msgid "Course started from"
+msgstr "بداية المساق من"
+
+msgid "Course started to"
+msgstr "بداية المساق إلى"
+
 msgid "Course Statistics"
 msgstr ""
 
@@ -144,6 +186,18 @@ msgstr "اسم المساق"
 
 msgid "Courses"
 msgstr "المساقات"
+
+msgid "Courses enrolled"
+msgstr "المساقات المسجل فيها"
+
+msgid "Courses passed"
+msgstr "المساقات المجتازة"
+
+msgid "Courses with a certificate"
+msgstr "المساقات التي لها شهادة"
+
+msgid "Courses without dates"
+msgstr "المساقات بلا تواريخ"
 
 msgid "Created"
 msgstr "تاريخ الإنشاء"
@@ -173,7 +227,7 @@ msgid "Display name, e.g. 'Specialized Training'"
 msgstr ""
 
 msgid "Draft"
-msgstr ""
+msgstr "مسودة"
 
 msgid "Email"
 msgstr "البريد الإلكتروني"
@@ -187,11 +241,17 @@ msgstr ""
 msgid "End date"
 msgstr "تاريخ الانتهاء"
 
+msgid "Ended courses"
+msgstr "المساقات المنتهية"
+
 msgid "English display name for this category (e.g. 'Programming')"
 msgstr ""
 
 msgid "Enrolled by"
 msgstr "تم التسجيل بواسطة"
+
+msgid "Enrolled learners"
+msgstr "المتعلمون المسجلون"
 
 msgid "Enrollment"
 msgstr ""
@@ -206,6 +266,9 @@ msgid ""
 "Explicit slug for this course's WordPress URL. Must be unique across all "
 "courses."
 msgstr ""
+
+msgid "Enrollments in courses with a certificate"
+msgstr "التسجيلات في المساقات التي لها شهادة"
 
 msgid "Enrollments in period"
 msgstr "التسجيلات في الفترة"
@@ -228,6 +291,9 @@ msgstr ""
 msgid "free"
 msgstr "مجاني"
 
+msgid "Full name"
+msgstr "الاسم الكامل"
+
 msgid "Generated at"
 msgstr "تاريخ الإنشاء"
 
@@ -236,6 +302,9 @@ msgid ""
 "public WordPress program listing. For test/scratch programs — toggle from "
 "the admin panel, not meant to be user-facing."
 msgstr ""
+
+msgid "Grade or certificate data is not available on this server."
+msgstr "بيانات الدرجات أو الشهادات غير متاحة على هذا الخادم."
 
 msgid "Hidden"
 msgstr "مخفي"
@@ -320,6 +389,27 @@ msgstr "لا يمكن إضافة إلا المساقات من نوع «مساق 
 msgid "Organization name"
 msgstr "اسم المؤسسة"
 
+msgid "Organization not found."
+msgstr "المؤسسة غير موجودة."
+
+msgid "Organization report: certificates"
+msgstr "تقرير المؤسسة: الشهادات"
+
+msgid "Organization report: course lifecycle"
+msgstr "تقرير المؤسسة: دورة حياة المساقات"
+
+msgid "Organization report: courses"
+msgstr "تقرير المؤسسة: المساقات"
+
+msgid "Organization report: learners"
+msgstr "تقرير المؤسسة: المتعلمون"
+
+msgid "Organization report: program funnel"
+msgstr "تقرير المؤسسة: مسار البرامج"
+
+msgid "Organization report: revenue"
+msgstr "تقرير المؤسسة: الإيرادات"
+
 msgid "Organizations"
 msgstr "المؤسسات"
 
@@ -383,6 +473,12 @@ msgstr "طريقة الدفع"
 msgid "part of the subscription"
 msgstr "ضمن الاشتراك"
 
+msgid "Pass rate (%)"
+msgstr "نسبة النجاح (%)"
+
+msgid "Passed learners"
+msgstr "المتعلمون الناجحون"
+
 msgid "Payment failed"
 msgstr "فشل الدفع"
 
@@ -405,13 +501,19 @@ msgid "Product"
 msgstr ""
 
 msgid "Program"
-msgstr ""
+msgstr "البرنامج"
+
+msgid "Program completions"
+msgstr "إكمال البرامج"
 
 msgid "Program Course"
 msgstr ""
 
 msgid "Program Courses"
 msgstr ""
+
+msgid "Program enrollments"
+msgstr "التسجيلات في البرامج"
 
 msgid "Program Report Task"
 msgstr ""
@@ -444,7 +546,7 @@ msgid "Program-only course"
 msgstr ""
 
 msgid "Programs"
-msgstr ""
+msgstr "البرامج"
 
 msgid "Publication / availability status of this program"
 msgstr ""
@@ -477,6 +579,9 @@ msgstr ""
 
 msgid "Roles"
 msgstr "الأدوار"
+
+msgid "Running courses"
+msgstr "المساقات الجارية"
 
 msgid "Rwaq Admin"
 msgstr ""
@@ -519,6 +624,9 @@ msgstr "يجب أن يكون سعر العرض أقل من السعر."
 
 msgid "Scope"
 msgstr "تنطبق على"
+
+msgid "Search"
+msgstr "بحث"
 
 msgid "Self-paced"
 msgstr "ذاتي الوتيرة"
@@ -585,6 +693,12 @@ msgstr "هذا المساق موجود بالفعل في البرنامج {progr
 msgid "This course is in the program {program}. Remove it from the program before changing its type."
 msgstr "هذا المساق ضمن البرنامج {program}. أزله من البرنامج قبل تغيير نوعه."
 
+msgid "This is not an organization."
+msgstr "هذه ليست مؤسسة."
+
+msgid "This query parameter is required."
+msgstr "هذا المعامل مطلوب."
+
 msgid "Title"
 msgstr "العنوان"
 
@@ -606,6 +720,9 @@ msgstr "ملغى تسجيلهم"
 
 msgid "Unique identifier compatible with OpenedX catalog conventions"
 msgstr ""
+
+msgid "Upcoming courses"
+msgstr "المساقات القادمة"
 
 msgid "User"
 msgstr ""

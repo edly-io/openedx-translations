@@ -16,6 +16,9 @@ msgstr ""
 msgid "0 means indeterminate; frontend renders '—'."
 msgstr ""
 
+msgid "A paid course or program needs a price."
+msgstr "يحتاج المساق أو البرنامج المدفوع إلى سعر."
+
 msgid "Active"
 msgstr "نشط"
 
@@ -39,6 +42,9 @@ msgstr "المسؤولون"
 
 msgid "Amount"
 msgstr ""
+
+msgid "another type"
+msgstr "نوع آخر"
 
 msgid "Arabic display name for the organisation"
 msgstr ""
@@ -219,6 +225,9 @@ msgstr "عوامل التصفية"
 msgid "Free"
 msgstr ""
 
+msgid "free"
+msgstr "مجاني"
+
 msgid "Generated at"
 msgstr "تاريخ الإنشاء"
 
@@ -272,20 +281,50 @@ msgstr ""
 msgid "Instructors"
 msgstr ""
 
+msgid "It's a free program. Learners have already enrolled into this program. Create a new program to make it {target}."
+msgstr "هذا برنامج مجاني. سجّل متعلمون في هذا البرنامج بالفعل. أنشئ برنامجًا جديدًا ليصبح {target}."
+
+msgid "It's a paid program. Learners have already bought this program. Create a new program to make it {target}."
+msgstr "هذا برنامج مدفوع. اشترى متعلمون هذا البرنامج بالفعل. أنشئ برنامجًا جديدًا ليصبح {target}."
+
+msgid "It's a subscription program. Learners have already enrolled into this program. Create a new program to make it {target}."
+msgstr "هذا برنامج ضمن الاشتراك. سجّل متعلمون في هذا البرنامج بالفعل. أنشئ برنامجًا جديدًا ليصبح {target}."
+
 msgid "Joined"
 msgstr "تاريخ الانضمام"
 
 msgid "Last login"
 msgstr "آخر تسجيل دخول"
 
+msgid "Learners have already enrolled in this free course, so its type cannot change. Create a rerun of the course to offer it with another type."
+msgstr "سجّل متعلمون بالفعل في هذا المساق المجاني، لذلك لا يمكن تغيير نوعه. أنشئ إعادة تشغيل للمساق لتقديمه بنوع آخر."
+
+msgid "Learners have already enrolled in this subscription course, so its type cannot change. Create a rerun of the course to offer it with another type."
+msgstr "سجّل متعلمون بالفعل في هذا المساق ضمن الاشتراك، لذلك لا يمكن تغيير نوعه. أنشئ إعادة تشغيل للمساق لتقديمه بنوع آخر."
+
+msgid "Learners have bought this course, so it must stay paid. Create a rerun of the course to offer it with another type."
+msgstr "اشترى متعلمون هذا المساق، لذلك يجب أن يبقى مدفوعًا. أنشئ إعادة تشغيل للمساق لتقديمه بنوع آخر."
+
+msgid "Learners of this program have already enrolled in this course. It can no longer be removed from the program."
+msgstr "سبق أن سجّل متعلمو هذا البرنامج في هذا المساق، ولم يعد بالإمكان إزالته من البرنامج."
+
 msgid "Name"
 msgstr "الاسم"
+
+msgid "Only courses from the program's organization can be added to it."
+msgstr "لا يمكن إضافة إلا مساقات مؤسسة البرنامج إليه."
+
+msgid "Only Program-only courses can be added to a program. Set the course type to Program-only course first."
+msgstr "لا يمكن إضافة إلا المساقات من نوع «مساق ضمن برنامج فقط» إلى البرنامج. اضبط نوع المساق على «مساق ضمن برنامج فقط» أولًا."
 
 msgid "Organization name"
 msgstr "اسم المؤسسة"
 
 msgid "Organizations"
 msgstr "المؤسسات"
+
+msgid "paid"
+msgstr "مدفوع"
 
 msgid "Part of Subscription"
 msgstr "ضمن الاشتراك"
@@ -341,6 +380,9 @@ msgstr "مدفوع"
 msgid "Paid via"
 msgstr "طريقة الدفع"
 
+msgid "part of the subscription"
+msgstr "ضمن الاشتراك"
+
 msgid "Payment failed"
 msgstr "فشل الدفع"
 
@@ -352,6 +394,12 @@ msgstr "نسبة مئوية"
 
 msgid "Price (SAR)"
 msgstr "السعر (ر.س)"
+
+msgid "Price must be greater than 0."
+msgstr "يجب أن يكون السعر أكبر من 0."
+
+msgid "pricing_category must be one of: {values}."
+msgstr "يجب أن تكون قيمة pricing_category إحدى القيم التالية: {values}."
 
 msgid "Product"
 msgstr ""
@@ -463,6 +511,12 @@ msgid ""
 " not on sale."
 msgstr ""
 
+msgid "Sale price must be greater than 0."
+msgstr "يجب أن يكون سعر العرض أكبر من 0."
+
+msgid "Sale price must be lower than the price."
+msgstr "يجب أن يكون سعر العرض أقل من السعر."
+
 msgid "Scope"
 msgstr "تنطبق على"
 
@@ -524,6 +578,12 @@ msgstr ""
 
 msgid "The user who was granted or revoked Organization Admin status."
 msgstr ""
+
+msgid "This course is already in the program {program}. A course can be in one program only. Create a rerun to add it to another program."
+msgstr "هذا المساق موجود بالفعل في البرنامج {program}. يمكن أن يكون المساق في برنامج واحد فقط. أنشئ إعادة تشغيل لإضافته إلى برنامج آخر."
+
+msgid "This course is in the program {program}. Remove it from the program before changing its type."
+msgstr "هذا المساق ضمن البرنامج {program}. أزله من البرنامج قبل تغيير نوعه."
 
 msgid "Title"
 msgstr "العنوان"
@@ -643,3 +703,11 @@ msgstr "نعم"
 msgid "{course_name} is part of the {platform_name} subscription. Subscribe to continue."
 msgstr "{course_name} ضمن اشتراك {platform_name}. اشترك للمتابعة."
 
+msgid "{field} can have at most 2 decimal places."
+msgstr "يمكن أن يحتوي {field} على خانتين عشريتين كحد أقصى."
+
+msgid "{field} must be a decimal number."
+msgstr "يجب أن يكون {field} رقمًا عشريًا."
+
+msgid "{field} must be less than {maximum}."
+msgstr "يجب أن يكون {field} أقل من {maximum}."

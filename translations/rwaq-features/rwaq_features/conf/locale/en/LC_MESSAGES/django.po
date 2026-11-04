@@ -16,6 +16,9 @@ msgstr ""
 msgid "0 means indeterminate; frontend renders '—'."
 msgstr ""
 
+msgid "A paid course or program needs a price."
+msgstr ""
+
 msgid "Active"
 msgstr ""
 
@@ -38,6 +41,9 @@ msgid "Admins"
 msgstr ""
 
 msgid "Amount"
+msgstr ""
+
+msgid "another type"
 msgstr ""
 
 msgid "Arabic display name for the organisation"
@@ -219,6 +225,9 @@ msgstr ""
 msgid "Free"
 msgstr ""
 
+msgid "free"
+msgstr ""
+
 msgid "Generated at"
 msgstr ""
 
@@ -272,19 +281,49 @@ msgstr ""
 msgid "Instructors"
 msgstr ""
 
+msgid "It's a free program. Learners have already enrolled into this program. Create a new program to make it {target}."
+msgstr ""
+
+msgid "It's a paid program. Learners have already bought this program. Create a new program to make it {target}."
+msgstr ""
+
+msgid "It's a subscription program. Learners have already enrolled into this program. Create a new program to make it {target}."
+msgstr ""
+
 msgid "Joined"
 msgstr ""
 
 msgid "Last login"
 msgstr ""
 
+msgid "Learners have already enrolled in this free course, so its type cannot change. Create a rerun of the course to offer it with another type."
+msgstr ""
+
+msgid "Learners have already enrolled in this subscription course, so its type cannot change. Create a rerun of the course to offer it with another type."
+msgstr ""
+
+msgid "Learners have bought this course, so it must stay paid. Create a rerun of the course to offer it with another type."
+msgstr ""
+
+msgid "Learners of this program have already enrolled in this course. It can no longer be removed from the program."
+msgstr ""
+
 msgid "Name"
+msgstr ""
+
+msgid "Only courses from the program's organization can be added to it."
+msgstr ""
+
+msgid "Only Program-only courses can be added to a program. Set the course type to Program-only course first."
 msgstr ""
 
 msgid "Organization name"
 msgstr ""
 
 msgid "Organizations"
+msgstr ""
+
+msgid "paid"
 msgstr ""
 
 msgid "Part of Subscription"
@@ -341,6 +380,9 @@ msgstr ""
 msgid "Paid via"
 msgstr ""
 
+msgid "part of the subscription"
+msgstr ""
+
 msgid "Payment failed"
 msgstr ""
 
@@ -351,6 +393,12 @@ msgid "Percentage"
 msgstr ""
 
 msgid "Price (SAR)"
+msgstr ""
+
+msgid "Price must be greater than 0."
+msgstr ""
+
+msgid "pricing_category must be one of: {values}."
 msgstr ""
 
 msgid "Product"
@@ -463,6 +511,12 @@ msgid ""
 " not on sale."
 msgstr ""
 
+msgid "Sale price must be greater than 0."
+msgstr ""
+
+msgid "Sale price must be lower than the price."
+msgstr ""
+
 msgid "Scope"
 msgstr ""
 
@@ -523,6 +577,12 @@ msgid "The platform Organization this profile extends"
 msgstr ""
 
 msgid "The user who was granted or revoked Organization Admin status."
+msgstr ""
+
+msgid "This course is already in the program {program}. A course can be in one program only. Create a rerun to add it to another program."
+msgstr ""
+
+msgid "This course is in the program {program}. Remove it from the program before changing its type."
 msgstr ""
 
 msgid "Title"
@@ -643,3 +703,11 @@ msgstr ""
 msgid "{course_name} is part of the {platform_name} subscription. Subscribe to continue."
 msgstr ""
 
+msgid "{field} can have at most 2 decimal places."
+msgstr ""
+
+msgid "{field} must be a decimal number."
+msgstr ""
+
+msgid "{field} must be less than {maximum}."
+msgstr ""

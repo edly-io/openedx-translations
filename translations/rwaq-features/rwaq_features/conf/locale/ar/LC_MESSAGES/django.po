@@ -711,3 +711,6 @@ msgstr "يجب أن يكون {field} رقمًا عشريًا."
 
 msgid "{field} must be less than {maximum}."
 msgstr "يجب أن يكون {field} أقل من {maximum}."
+
+msgid "A program with this organization, program type and run already exists."
+msgstr "يوجد بالفعل برنامج بالمؤسسة ونوع البرنامج والدورة نفسها."

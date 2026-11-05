@@ -157,6 +157,9 @@ msgstr ""
 msgid "Course Category Assignments"
 msgstr ""
 
+msgid "Course enrollments"
+msgstr "التسجيلات في المساقات"
+
 msgid "Course ID"
 msgstr "معرّف المساق"
 
@@ -189,6 +192,12 @@ msgstr "المساقات"
 
 msgid "Courses enrolled"
 msgstr "المساقات المسجل فيها"
+
+msgid "Courses in progress"
+msgstr "المساقات قيد التقدم"
+
+msgid "Courses not started"
+msgstr "المساقات التي لم تبدأ"
 
 msgid "Courses passed"
 msgstr "المساقات المجتازة"
@@ -361,6 +370,9 @@ msgstr "هذا برنامج ضمن الاشتراك. سجّل متعلمون ف�
 
 msgid "Joined"
 msgstr "تاريخ الانضمام"
+
+msgid "Last activity date"
+msgstr "تاريخ آخر نشاط"
 
 msgid "Last login"
 msgstr "آخر تسجيل دخول"
@@ -547,6 +559,12 @@ msgstr ""
 
 msgid "Programs"
 msgstr "البرامج"
+
+msgid "Programs completed"
+msgstr "البرامج المكتملة"
+
+msgid "Programs enrolled"
+msgstr "البرامج المسجل فيها"
 
 msgid "Publication / availability status of this program"
 msgstr ""
@@ -735,6 +753,9 @@ msgstr "اسم المستخدم"
 
 msgid "Users"
 msgstr "المستخدمون"
+
+msgid "Videos completed"
+msgstr "مقاطع الفيديو المكتملة"
 
 msgid "When an admin unenrolled the learner and revoked this item."
 msgstr ""

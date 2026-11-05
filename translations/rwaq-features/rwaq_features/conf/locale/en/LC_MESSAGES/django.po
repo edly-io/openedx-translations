@@ -735,3 +735,54 @@ msgstr ""
 
 msgid "A program with this organization, program type and run already exists."
 msgstr ""
+
+msgid "Always false: prices are entered before VAT."
+msgstr ""
+
+msgid "Course status"
+msgstr ""
+
+msgid "Discounts given (SAR)"
+msgstr ""
+
+msgid "Item VAT (SAR)"
+msgstr ""
+
+msgid "Item net sales (SAR)"
+msgstr ""
+
+msgid "Item total collected (SAR)"
+msgstr ""
+
+msgid "Net sales (SAR)"
+msgstr ""
+
+msgid "Price after discounts, before VAT."
+msgstr ""
+
+msgid "Price before discounts and VAT."
+msgstr ""
+
+msgid "Total collected (SAR)"
+msgstr ""
+
+msgid "VAT (SAR)"
+msgstr ""
+
+msgid "VAT charged."
+msgstr ""
+
+msgid "VAT collected (SAR)"
+msgstr ""
+
+msgid "VAT label"
+msgstr ""
+
+msgid "VAT rate (%)"
+msgstr ""
+
+msgid "VAT rate in percent, as WooCommerce charged it."
+msgstr ""
+
+msgid "What the buyer paid: net amount plus VAT."
+msgstr ""

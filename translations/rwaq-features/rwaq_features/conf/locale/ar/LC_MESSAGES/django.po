@@ -852,3 +852,54 @@ msgstr "يجب أن يكون {field} أقل من {maximum}."
 
 msgid "A program with this organization, program type and run already exists."
 msgstr "يوجد بالفعل برنامج بالمؤسسة ونوع البرنامج والدورة نفسها."
+
+msgid "Always false: prices are entered before VAT."
+msgstr "دائمًا «لا»: تُدخل الأسعار قبل ضريبة القيمة المضافة."
+
+msgid "Course status"
+msgstr "حالة المساق"
+
+msgid "Discounts given (SAR)"
+msgstr "الخصومات الممنوحة (ر.س)"
+
+msgid "Item VAT (SAR)"
+msgstr "ضريبة القيمة المضافة للعنصر (ر.س)"
+
+msgid "Item net sales (SAR)"
+msgstr "صافي مبيعات العنصر (ر.س)"
+
+msgid "Item total collected (SAR)"
+msgstr "إجمالي المبالغ المحصلة للعنصر (ر.س)"
+
+msgid "Net sales (SAR)"
+msgstr "صافي المبيعات (ر.س)"
+
+msgid "Price after discounts, before VAT."
+msgstr "السعر بعد الخصومات وقبل ضريبة القيمة المضافة."
+
+msgid "Price before discounts and VAT."
+msgstr "السعر قبل الخصومات وضريبة القيمة المضافة."
+
+msgid "Total collected (SAR)"
+msgstr "إجمالي المبالغ المحصلة (ر.س)"
+
+msgid "VAT (SAR)"
+msgstr "ضريبة القيمة المضافة (ر.س)"
+
+msgid "VAT charged."
+msgstr "ضريبة القيمة المضافة المحتسبة."
+
+msgid "VAT collected (SAR)"
+msgstr "ضريبة القيمة المضافة المحصلة (ر.س)"
+
+msgid "VAT label"
+msgstr "اسم الضريبة"
+
+msgid "VAT rate (%)"
+msgstr "نسبة الضريبة (%)"
+
+msgid "VAT rate in percent, as WooCommerce charged it."
+msgstr "نسبة ضريبة القيمة المضافة المئوية كما احتسبها ووكومرس."
+
+msgid "What the buyer paid: net amount plus VAT."
+msgstr "ما دفعه المشتري: الصافي زائد ضريبة القيمة المضافة."

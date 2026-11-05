@@ -19,6 +19,9 @@ msgstr ""
 msgid "A paid course or program needs a price."
 msgstr "يحتاج المساق أو البرنامج المدفوع إلى سعر."
 
+msgid "A program with this organization, program type and run already exists."
+msgstr "يوجد بالفعل برنامج بالمؤسسة ونوع البرنامج والدورة نفسها."
+
 msgid "Active"
 msgstr "نشط"
 

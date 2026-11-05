@@ -124,6 +124,9 @@ msgstr ""
 msgid "Course Category Assignments"
 msgstr ""
 
+msgid "Course enrollments"
+msgstr ""
+
 msgid "Course ID"
 msgstr ""
 
@@ -146,6 +149,12 @@ msgid "Course name"
 msgstr ""
 
 msgid "Courses"
+msgstr ""
+
+msgid "Courses in progress"
+msgstr ""
+
+msgid "Courses not started"
 msgstr ""
 
 msgid "Created"
@@ -294,6 +303,9 @@ msgid "It's a subscription program. Learners have already enrolled into this pro
 msgstr ""
 
 msgid "Joined"
+msgstr ""
+
+msgid "Last activity date"
 msgstr ""
 
 msgid "Last login"
@@ -447,6 +459,12 @@ msgid "Program-only course"
 msgstr ""
 
 msgid "Programs"
+msgstr ""
+
+msgid "Programs completed"
+msgstr ""
+
+msgid "Programs enrolled"
 msgstr ""
 
 msgid "Publication / availability status of this program"
@@ -620,6 +638,9 @@ msgid "Username"
 msgstr ""
 
 msgid "Users"
+msgstr ""
+
+msgid "Videos completed"
 msgstr ""
 
 msgid "When an admin unenrolled the learner and revoked this item."

@@ -711,3 +711,6 @@ msgstr ""
 
 msgid "{field} must be less than {maximum}."
 msgstr ""
+
+msgid "A program with this organization, program type and run already exists."
+msgstr ""

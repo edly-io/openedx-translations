@@ -4041,7 +4041,7 @@
     "description": "rwaq.admin.courses.pricing.part-of-program-notice"
   },
   "rwaq.admin.courses.pricing.price-label": {
-    "defaultMessage": "Price ({currency})",
+    "defaultMessage": "Price before VAT ({currency})",
     "description": "rwaq.admin.courses.pricing.price-label"
   },
   "rwaq.admin.courses.pricing.program-only": {
@@ -4057,7 +4057,7 @@
     "description": "rwaq.admin.courses.pricing.sale-price-hint"
   },
   "rwaq.admin.courses.pricing.sale-price-label": {
-    "defaultMessage": "Discounted Price / Sale Price ({currency})",
+    "defaultMessage": "Discounted Price / Sale Price before VAT ({currency})",
     "description": "rwaq.admin.courses.pricing.sale-price-label"
   },
   "rwaq.admin.courses.pricing.save": {
@@ -4157,7 +4157,7 @@
     "description": "rwaq.admin.programs.pricing.paid"
   },
   "rwaq.admin.programs.pricing.price-label": {
-    "defaultMessage": "Price ({currency})",
+    "defaultMessage": "Price before VAT ({currency})",
     "description": "rwaq.admin.programs.pricing.price-label"
   },
   "rwaq.admin.programs.pricing.sale-price-hint": {
@@ -4165,7 +4165,7 @@
     "description": "rwaq.admin.programs.pricing.sale-price-hint"
   },
   "rwaq.admin.programs.pricing.sale-price-label": {
-    "defaultMessage": "Discounted Price / Sale Price ({currency})",
+    "defaultMessage": "Discounted Price / Sale Price before VAT ({currency})",
     "description": "rwaq.admin.programs.pricing.sale-price-label"
   },
   "rwaq.admin.programs.pricing.save": {
@@ -4675,5 +4675,21 @@
   "rwaq.admin.payments.subscriptions.sort.net": {
     "defaultMessage": "Net sales, highest first",
     "description": "rwaq.admin.payments.subscriptions.sort.net"
+  },
+  "rwaq.admin.courses.pricing.price-with-vat": {
+    "defaultMessage": "Learner pays {amount} {currency} including {rate}% {label}",
+    "description": "rwaq.admin.courses.pricing.price-with-vat"
+  },
+  "rwaq.admin.courses.pricing.vat-fallback-label": {
+    "defaultMessage": "VAT",
+    "description": "rwaq.admin.courses.pricing.vat-fallback-label"
+  },
+  "rwaq.admin.programs.pricing.price-with-vat": {
+    "defaultMessage": "Learner pays {amount} {currency} including {rate}% {label}",
+    "description": "rwaq.admin.programs.pricing.price-with-vat"
+  },
+  "rwaq.admin.programs.pricing.vat-fallback-label": {
+    "defaultMessage": "VAT",
+    "description": "rwaq.admin.programs.pricing.vat-fallback-label"
   }
 }

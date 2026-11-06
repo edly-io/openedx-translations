@@ -3009,9 +3009,15 @@
   "course-authoring.schedule-section.pricing.category-program-only": "Program-only course",
   "course-authoring.schedule-section.pricing.category-program-only.description": "Offered only through the one program it is added to.",
   "course-authoring.schedule-section.pricing.no-type-hint": "This course has no type yet. Choose one and save.",
-  "course-authoring.schedule-section.pricing.price-label": "Price ({currency})",
+  "course-authoring.schedule-section.pricing.price-label": {
+    "defaultMessage": "Price before VAT ({currency})",
+    "description": "course-authoring.schedule-section.pricing.price-label"
+  },
   "course-authoring.schedule-section.pricing.price-hint": "Regular price shown on the marketing site.",
-  "course-authoring.schedule-section.pricing.discount-label": "Discounted Price / Sale Price ({currency})",
+  "course-authoring.schedule-section.pricing.discount-label": {
+    "defaultMessage": "Discounted Price / Sale Price before VAT ({currency})",
+    "description": "course-authoring.schedule-section.pricing.discount-label"
+  },
   "course-authoring.schedule-section.pricing.discount-hint": "Optional. Leave empty when the course is not on sale.",
   "course-authoring.schedule-section.pricing.discount-percentage": "{percentage}% off",
   "course-authoring.schedule-section.pricing.save-btn": "Save course type",
@@ -3038,9 +3044,15 @@
   "programs.detail.field.pricing-category": "Pricing type",
   "programs.detail.field.pricing.free": "Free",
   "programs.detail.field.pricing.paid": "Paid",
-  "programs.detail.field.price": "Price ({currency})",
+  "programs.detail.field.price": {
+    "defaultMessage": "Price before VAT ({currency})",
+    "description": "programs.detail.field.price"
+  },
   "programs.detail.field.price.hint": "Regular price shown on the marketing site.",
-  "programs.detail.field.sale-price": "Discounted Price / Sale Price ({currency})",
+  "programs.detail.field.sale-price": {
+    "defaultMessage": "Discounted Price / Sale Price before VAT ({currency})",
+    "description": "programs.detail.field.sale-price"
+  },
   "programs.detail.field.discount-percentage": "{percentage}% off",
   "programs.detail.field.sale-price.hint": "Optional. Leave empty when the program is not on sale.",
   "programs.detail.field.pricing.courses-note": "Courses inside a paid program are not priced separately. The program is the sellable unit.",
@@ -3054,5 +3066,21 @@
   "programs.courses.modal.list-hint": "Only Program-only courses that are not in another program are listed.",
   "programs.enrollment.paid-admin-only": "This is a paid program. Only Rwaq admins can enroll learners into it.",
   "programs.enrollment.modal.reason": "Reason (optional)",
-  "programs.enrollment.modal.reason-help": "For a paid program, kept with the learner's enrollment record."
+  "programs.enrollment.modal.reason-help": "For a paid program, kept with the learner's enrollment record.",
+  "course-authoring.schedule-section.pricing.price-with-vat": {
+    "defaultMessage": "Learner pays {amount} {currency} including {rate}% {label}",
+    "description": "Preview of the final price. The amount has 2 decimals, the rate is a plain number and the label is the tax name."
+  },
+  "course-authoring.schedule-section.pricing.vat-label-fallback": {
+    "defaultMessage": "VAT",
+    "description": "Tax name used in the price preview when the API sends no label."
+  },
+  "programs.detail.field.price-with-vat": {
+    "defaultMessage": "Learner pays {amount} {currency} including {rate}% {label}",
+    "description": "programs.detail.field.price-with-vat"
+  },
+  "programs.detail.field.vat-label-fallback": {
+    "defaultMessage": "VAT",
+    "description": "programs.detail.field.vat-label-fallback"
+  }
 }

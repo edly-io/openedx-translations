@@ -804,7 +804,7 @@
     "description": "rwaq.admin.courses.chip.type"
   },
   "rwaq.admin.courses.chip.org": {
-    "defaultMessage": "Org: {org}",
+    "defaultMessage": "Organization: {org}",
     "description": "rwaq.admin.courses.chip.org"
   },
   "rwaq.admin.courses.chip.search": {
@@ -3637,7 +3637,7 @@
     "description": "rwaq.admin.payments.tab.orders"
   },
   "rwaq.admin.payments.kpi.orders": {
-    "defaultMessage": "Orders",
+    "defaultMessage": "Total orders",
     "description": "rwaq.admin.payments.kpi.orders"
   },
   "rwaq.admin.payments.kpi.orderValue": {
@@ -3649,7 +3649,7 @@
     "description": "rwaq.admin.payments.kpi.discounts"
   },
   "rwaq.admin.payments.kpi.collected": {
-    "defaultMessage": "Total revenue",
+    "defaultMessage": "Total collected",
     "description": "rwaq.admin.payments.kpi.collected"
   },
   "rwaq.admin.payments.info.orders": {
@@ -3665,15 +3665,15 @@
     "description": "rwaq.admin.payments.info.discounts"
   },
   "rwaq.admin.payments.info.collected": {
-    "defaultMessage": "What learners paid after coupons, on completed WordPress orders, subscription payments included. This is money received from learners, not money paid out. Items an admin later revoked still count. Admin enrollments are free and never count.",
+    "defaultMessage": "What learners paid after coupons, on completed WordPress orders, subscription payments included. This is money received from learners, not money paid out. Items an admin later revoked still count. Admin grant orders are free and never count.",
     "description": "rwaq.admin.payments.info.collected"
   },
   "rwaq.admin.payments.kpi.contentRevenue": {
-    "defaultMessage": "Courses and Programs revenue",
+    "defaultMessage": "Courses and Programs net sales",
     "description": "rwaq.admin.payments.kpi.contentRevenue"
   },
   "rwaq.admin.payments.kpi.subscriptionRevenue": {
-    "defaultMessage": "Subscription revenue",
+    "defaultMessage": "Subscription net sales",
     "description": "rwaq.admin.payments.kpi.subscriptionRevenue"
   },
   "rwaq.admin.payments.info.contentRevenue": {
@@ -3717,7 +3717,7 @@
     "description": "rwaq.admin.payments.trends.weekOf"
   },
   "rwaq.admin.payments.chart.collected": {
-    "defaultMessage": "Revenue over time",
+    "defaultMessage": "Net sales over time",
     "description": "rwaq.admin.payments.chart.collected"
   },
   "rwaq.admin.payments.chart.orders": {
@@ -3741,7 +3741,7 @@
     "description": "rwaq.admin.payments.chart.unavailable"
   },
   "rwaq.admin.payments.info.chartCollected": {
-    "defaultMessage": "Revenue per day, week or month of the order date, in SAR. Courses and Programs and subscriptions are shown apart, and their sum is the Total revenue tile.",
+    "defaultMessage": "Net sales per day, week or month of the order date, in SAR, before VAT. Courses and Programs and subscriptions are shown apart, and their sum is the Net sales tile.",
     "description": "rwaq.admin.payments.info.chartCollected"
   },
   "rwaq.admin.payments.info.chartOrders": {
@@ -3753,7 +3753,7 @@
     "description": "rwaq.admin.payments.info.ordersTab"
   },
   "rwaq.admin.payments.how.orders": {
-    "defaultMessage": "Revenue is what the learner paid after coupons. Purchases are WordPress payments. Admin grants are free enrollments and are not revenue.",
+    "defaultMessage": "Net sales are the price after coupons, before VAT. Total collected adds the VAT. Purchases are WordPress payments. Admin grants are free enrollments with no amounts.",
     "description": "rwaq.admin.payments.how.orders"
   },
   "rwaq.admin.payments.sort": {
@@ -3793,7 +3793,7 @@
     "description": "rwaq.admin.payments.sort.dateAsc"
   },
   "rwaq.admin.payments.sort.paidDesc": {
-    "defaultMessage": "Revenue, highest first",
+    "defaultMessage": "Total collected, highest first",
     "description": "rwaq.admin.payments.sort.paidDesc"
   },
   "rwaq.admin.payments.col.orderValue": {
@@ -3801,7 +3801,7 @@
     "description": "rwaq.admin.payments.col.orderValue"
   },
   "rwaq.admin.payments.col.collected": {
-    "defaultMessage": "Revenue (SAR)",
+    "defaultMessage": "Total collected (SAR)",
     "description": "rwaq.admin.payments.col.collected"
   },
   "rwaq.admin.payments.col.content": {
@@ -3861,7 +3861,7 @@
     "description": "rwaq.admin.payments.col.source"
   },
   "rwaq.admin.payments.info.col.order": {
-    "defaultMessage": "The WordPress order ID. Admin grants have no WordPress order and show as Admin enrollment.",
+    "defaultMessage": "The WordPress order ID. Admin grants have no WordPress order and show as Admin grant order.",
     "description": "rwaq.admin.payments.info.col.order"
   },
   "rwaq.admin.payments.info.col.date": {
@@ -3901,11 +3901,11 @@
     "description": "rwaq.admin.payments.info.col.orderPaidPartner"
   },
   "rwaq.admin.payments.info.col.source": {
-    "defaultMessage": "Purchase is a WordPress payment. Admin grant is a free enrollment by an admin and never counts as revenue.",
+    "defaultMessage": "Purchase is a WordPress payment. Admin grant is a free enrollment by an admin, with no amounts.",
     "description": "rwaq.admin.payments.info.col.source"
   },
   "rwaq.admin.payments.orders.admin": {
-    "defaultMessage": "Admin enrollment #{id}",
+    "defaultMessage": "Admin grant order #{id}",
     "description": "rwaq.admin.payments.orders.admin"
   },
   "rwaq.admin.payments.source": {
@@ -3969,7 +3969,7 @@
     "description": "rwaq.admin.payments.orders.revoked"
   },
   "rwaq.admin.payments.info.revoked": {
-    "defaultMessage": "An admin unenrolled the learner on {date}. Reason: {reason}. The payment still counts as revenue.",
+    "defaultMessage": "An admin unenrolled the learner on {date}. Reason: {reason}. The payment still counts in the totals.",
     "description": "rwaq.admin.payments.info.revoked"
   },
   "rwaq.admin.payments.orders.reason": {
@@ -4041,7 +4041,7 @@
     "description": "rwaq.admin.courses.pricing.part-of-program-notice"
   },
   "rwaq.admin.courses.pricing.price-label": {
-    "defaultMessage": "Price ({currency})",
+    "defaultMessage": "Price before VAT ({currency})",
     "description": "rwaq.admin.courses.pricing.price-label"
   },
   "rwaq.admin.courses.pricing.program-only": {
@@ -4057,7 +4057,7 @@
     "description": "rwaq.admin.courses.pricing.sale-price-hint"
   },
   "rwaq.admin.courses.pricing.sale-price-label": {
-    "defaultMessage": "Discounted Price / Sale Price ({currency})",
+    "defaultMessage": "Discounted Price / Sale Price before VAT ({currency})",
     "description": "rwaq.admin.courses.pricing.sale-price-label"
   },
   "rwaq.admin.courses.pricing.save": {
@@ -4157,7 +4157,7 @@
     "description": "rwaq.admin.programs.pricing.paid"
   },
   "rwaq.admin.programs.pricing.price-label": {
-    "defaultMessage": "Price ({currency})",
+    "defaultMessage": "Price before VAT ({currency})",
     "description": "rwaq.admin.programs.pricing.price-label"
   },
   "rwaq.admin.programs.pricing.sale-price-hint": {
@@ -4165,7 +4165,7 @@
     "description": "rwaq.admin.programs.pricing.sale-price-hint"
   },
   "rwaq.admin.programs.pricing.sale-price-label": {
-    "defaultMessage": "Discounted Price / Sale Price ({currency})",
+    "defaultMessage": "Discounted Price / Sale Price before VAT ({currency})",
     "description": "rwaq.admin.programs.pricing.sale-price-label"
   },
   "rwaq.admin.programs.pricing.save": {
@@ -4253,11 +4253,11 @@
     "description": "rwaq.admin.payments.subscriptions.title"
   },
   "rwaq.admin.payments.subscriptions.info": {
-    "defaultMessage": "{siteName} subscriptions paid or granted in the date range. All subscription revenue is {siteName}'s.",
+    "defaultMessage": "{siteName} subscriptions paid or granted in the date range. All subscription sales are {siteName}'s.",
     "description": "rwaq.admin.payments.subscriptions.info"
   },
   "rwaq.admin.payments.subscriptions.how": {
-    "defaultMessage": "Amounts count WordPress payments in the range. Admin grants are listed but never count as revenue.",
+    "defaultMessage": "Amounts count WordPress payments in the range. Admin grants are listed but carry no amounts.",
     "description": "rwaq.admin.payments.subscriptions.how"
   },
   "rwaq.admin.payments.subscriptions.search": {
@@ -4321,7 +4321,7 @@
     "description": "rwaq.admin.payments.subscriptions.col.payments"
   },
   "rwaq.admin.payments.subscriptions.col.collected": {
-    "defaultMessage": "Collected (SAR)",
+    "defaultMessage": "Total collected (SAR)",
     "description": "rwaq.admin.payments.subscriptions.col.collected"
   },
   "rwaq.admin.payments.subscriptions.col.discounts": {
@@ -4353,7 +4353,7 @@
     "description": "rwaq.admin.payments.subscriptions.sort.ends-asc"
   },
   "rwaq.admin.payments.subscriptions.sort.collected": {
-    "defaultMessage": "Collected, highest first",
+    "defaultMessage": "Total collected, highest first",
     "description": "rwaq.admin.payments.subscriptions.sort.collected"
   },
   "rwaq.admin.payments.subscriptions.sort.learner": {
@@ -4479,5 +4479,217 @@
   "rwaq.admin.programs.pricing.subscription-description": {
     "defaultMessage": "Learners reach this program through the {siteName} subscription. It has no price of its own.",
     "description": "rwaq.admin.programs.pricing.subscription-description"
+  },
+  "rwaq.admin.orgs.reports.title": {
+    "defaultMessage": "Organization reports",
+    "description": "rwaq.admin.orgs.reports.title"
+  },
+  "rwaq.admin.orgs.reports.column.report": {
+    "defaultMessage": "Report",
+    "description": "rwaq.admin.orgs.reports.column.report"
+  },
+  "rwaq.admin.orgs.reports.column.details": {
+    "defaultMessage": "Details",
+    "description": "rwaq.admin.orgs.reports.column.details"
+  },
+  "rwaq.admin.orgs.reports.column.download": {
+    "defaultMessage": "Download",
+    "description": "rwaq.admin.orgs.reports.column.download"
+  },
+  "rwaq.admin.orgs.reports.caption": {
+    "defaultMessage": "Reports of the organization",
+    "description": "rwaq.admin.orgs.reports.caption"
+  },
+  "rwaq.admin.orgs.reports.courses.title": {
+    "defaultMessage": "Courses",
+    "description": "rwaq.admin.orgs.reports.courses.title"
+  },
+  "rwaq.admin.orgs.reports.courses.details": {
+    "defaultMessage": "One row per course: enrolled and passed learners, pass rate, average grade and certificates.",
+    "description": "rwaq.admin.orgs.reports.courses.details"
+  },
+  "rwaq.admin.orgs.reports.learners.title": {
+    "defaultMessage": "Learners",
+    "description": "rwaq.admin.orgs.reports.learners.title"
+  },
+  "rwaq.admin.orgs.reports.learners.details": {
+    "defaultMessage": "One row per learner: courses enrolled and passed, average grade and certificates earned.",
+    "description": "rwaq.admin.orgs.reports.learners.details"
+  },
+  "rwaq.admin.orgs.reports.revenue.title": {
+    "defaultMessage": "Net sales",
+    "description": "rwaq.admin.orgs.reports.revenue.title"
+  },
+  "rwaq.admin.orgs.reports.revenue.details": {
+    "defaultMessage": "One row per order item: buyer, course or program, price, discount and amount paid.",
+    "description": "rwaq.admin.orgs.reports.revenue.details"
+  },
+  "rwaq.admin.orgs.reports.funnel.title": {
+    "defaultMessage": "Program funnel",
+    "description": "rwaq.admin.orgs.reports.funnel.title"
+  },
+  "rwaq.admin.orgs.reports.funnel.details": {
+    "defaultMessage": "Programs, program enrollments and completions, and the completion rate.",
+    "description": "rwaq.admin.orgs.reports.funnel.details"
+  },
+  "rwaq.admin.orgs.reports.lifecycle.title": {
+    "defaultMessage": "Course lifecycle",
+    "description": "rwaq.admin.orgs.reports.lifecycle.title"
+  },
+  "rwaq.admin.orgs.reports.lifecycle.details": {
+    "defaultMessage": "How many courses are upcoming, running or ended today, and how many have no dates.",
+    "description": "rwaq.admin.orgs.reports.lifecycle.details"
+  },
+  "rwaq.admin.orgs.reports.certificates.title": {
+    "defaultMessage": "Certificates",
+    "description": "rwaq.admin.orgs.reports.certificates.title"
+  },
+  "rwaq.admin.orgs.reports.certificates.details": {
+    "defaultMessage": "Courses with a certificate, certificates issued and the issuance rate.",
+    "description": "rwaq.admin.orgs.reports.certificates.details"
+  },
+  "rwaq.admin.courses.org.label": {
+    "defaultMessage": "Organization",
+    "description": "rwaq.admin.courses.org.label"
+  },
+  "rwaq.admin.courses.org.all": {
+    "defaultMessage": "All organizations",
+    "description": "rwaq.admin.courses.org.all"
+  },
+  "rwaq.admin.programs.org.label": {
+    "defaultMessage": "Organization",
+    "description": "rwaq.admin.programs.org.label"
+  },
+  "rwaq.admin.programs.org.all": {
+    "defaultMessage": "All organizations",
+    "description": "rwaq.admin.programs.org.all"
+  },
+  "rwaq.admin.programs.chip.org": {
+    "defaultMessage": "Organization: {org}",
+    "description": "rwaq.admin.programs.chip.org"
+  },
+  "rwaq.admin.payments.kpi.adminEnrollments": {
+    "defaultMessage": "Admin grant orders",
+    "description": "rwaq.admin.payments.kpi.adminEnrollments"
+  },
+  "rwaq.admin.payments.info.adminEnrollments": {
+    "defaultMessage": "How many of the orders are free enrollments by an admin. They carry no money, so they add to the Orders count only.",
+    "description": "rwaq.admin.payments.info.adminEnrollments"
+  },
+  "rwaq.admin.payments.info.gross": {
+    "defaultMessage": "The list price of every item, subscription payments included, before coupons and VAT.",
+    "description": "rwaq.admin.payments.info.gross"
+  },
+  "rwaq.admin.payments.info.netSales": {
+    "defaultMessage": "Gross sales minus discounts, before VAT. For a single partner, only its courses and programs count. Items an admin later revoked still count.",
+    "description": "rwaq.admin.payments.info.netSales"
+  },
+  "rwaq.admin.payments.info.vat": {
+    "defaultMessage": "The VAT WooCommerce charged on the orders, at the rate of each order. For a single partner, only the VAT on its items.",
+    "description": "rwaq.admin.payments.info.vat"
+  },
+  "rwaq.admin.payments.info.totalCollected": {
+    "defaultMessage": "Net sales plus VAT: what learners paid on completed orders. This is money received from learners, not money paid out. For a single partner, only what was paid for its items.",
+    "description": "rwaq.admin.payments.info.totalCollected"
+  },
+  "rwaq.admin.payments.info.contentNetSales": {
+    "defaultMessage": "Net sales of courses and programs: after coupons, before VAT. {orders, plural, one {# order} other {# orders}}.",
+    "description": "rwaq.admin.payments.info.contentNetSales"
+  },
+  "rwaq.admin.payments.info.col.orderNet": {
+    "defaultMessage": "Order value minus discounts, before VAT.",
+    "description": "rwaq.admin.payments.info.col.orderNet"
+  },
+  "rwaq.admin.payments.info.col.orderNetPartner": {
+    "defaultMessage": "This partner's items minus their discounts, before VAT. Other partners' items in the same order are left out.",
+    "description": "rwaq.admin.payments.info.col.orderNetPartner"
+  },
+  "rwaq.admin.payments.info.col.orderVat": {
+    "defaultMessage": "The VAT charged on the order.",
+    "description": "rwaq.admin.payments.info.col.orderVat"
+  },
+  "rwaq.admin.payments.info.col.orderVatPartner": {
+    "defaultMessage": "The VAT charged on this partner's items. Other partners' items in the same order are left out.",
+    "description": "rwaq.admin.payments.info.col.orderVatPartner"
+  },
+  "rwaq.admin.payments.kpi.gross": {
+    "defaultMessage": "Gross sales",
+    "description": "rwaq.admin.payments.kpi.gross"
+  },
+  "rwaq.admin.payments.kpi.netSales": {
+    "defaultMessage": "Net sales",
+    "description": "rwaq.admin.payments.kpi.netSales"
+  },
+  "rwaq.admin.payments.kpi.vat": {
+    "defaultMessage": "VAT collected",
+    "description": "rwaq.admin.payments.kpi.vat"
+  },
+  "rwaq.admin.payments.kpi.totalCollected": {
+    "defaultMessage": "Total collected",
+    "description": "rwaq.admin.payments.kpi.totalCollected"
+  },
+  "rwaq.admin.payments.kpi.contentNetSales": {
+    "defaultMessage": "Courses and Programs net sales",
+    "description": "rwaq.admin.payments.kpi.contentNetSales"
+  },
+  "rwaq.admin.payments.kpi.subscriptionNetSales": {
+    "defaultMessage": "Subscription net sales",
+    "description": "rwaq.admin.payments.kpi.subscriptionNetSales"
+  },
+  "rwaq.admin.payments.info.subscriptionNetSales": {
+    "defaultMessage": "Net sales of subscriptions: after coupons, before VAT. It is 0 when a single partner is selected. {orders, plural, one {# order} other {# orders}}.",
+    "description": "rwaq.admin.payments.info.subscriptionNetSales"
+  },
+  "rwaq.admin.payments.sort.collectedDesc": {
+    "defaultMessage": "Total collected, highest first",
+    "description": "rwaq.admin.payments.sort.collectedDesc"
+  },
+  "rwaq.admin.payments.sort.netDesc": {
+    "defaultMessage": "Net sales, highest first",
+    "description": "rwaq.admin.payments.sort.netDesc"
+  },
+  "rwaq.admin.payments.sort.grossDesc": {
+    "defaultMessage": "Order value, highest first",
+    "description": "rwaq.admin.payments.sort.grossDesc"
+  },
+  "rwaq.admin.payments.col.netSales": {
+    "defaultMessage": "Net sales (SAR)",
+    "description": "rwaq.admin.payments.col.netSales"
+  },
+  "rwaq.admin.payments.col.vat": {
+    "defaultMessage": "VAT (SAR)",
+    "description": "rwaq.admin.payments.col.vat"
+  },
+  "rwaq.admin.payments.col.net": {
+    "defaultMessage": "Net (SAR)",
+    "description": "rwaq.admin.payments.col.net"
+  },
+  "rwaq.admin.payments.subscriptions.col.netSales": {
+    "defaultMessage": "Net sales (SAR)",
+    "description": "rwaq.admin.payments.subscriptions.col.netSales"
+  },
+  "rwaq.admin.payments.subscriptions.col.vat": {
+    "defaultMessage": "VAT (SAR)",
+    "description": "rwaq.admin.payments.subscriptions.col.vat"
+  },
+  "rwaq.admin.payments.subscriptions.sort.net": {
+    "defaultMessage": "Net sales, highest first",
+    "description": "rwaq.admin.payments.subscriptions.sort.net"
+  },
+  "rwaq.admin.courses.pricing.price-with-vat": {
+    "defaultMessage": "Learner pays {amount} {currency} including {rate}% {label}",
+    "description": "rwaq.admin.courses.pricing.price-with-vat"
+  },
+  "rwaq.admin.courses.pricing.vat-fallback-label": {
+    "defaultMessage": "VAT",
+    "description": "rwaq.admin.courses.pricing.vat-fallback-label"
+  },
+  "rwaq.admin.programs.pricing.price-with-vat": {
+    "defaultMessage": "Learner pays {amount} {currency} including {rate}% {label}",
+    "description": "rwaq.admin.programs.pricing.price-with-vat"
+  },
+  "rwaq.admin.programs.pricing.vat-fallback-label": {
+    "defaultMessage": "VAT",
+    "description": "rwaq.admin.programs.pricing.vat-fallback-label"
   }
 }

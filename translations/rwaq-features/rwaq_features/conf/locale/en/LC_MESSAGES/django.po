@@ -121,6 +121,9 @@ msgstr ""
 msgid "Course Category Assignments"
 msgstr ""
 
+msgid "Course enrollments"
+msgstr ""
+
 msgid "Course ID"
 msgstr ""
 
@@ -143,6 +146,12 @@ msgid "Course name"
 msgstr ""
 
 msgid "Courses"
+msgstr ""
+
+msgid "Courses in progress"
+msgstr ""
+
+msgid "Courses not started"
 msgstr ""
 
 msgid "Created"
@@ -291,6 +300,9 @@ msgid "It's a subscription program. Learners have already enrolled into this pro
 msgstr ""
 
 msgid "Joined"
+msgstr ""
+
+msgid "Last activity date"
 msgstr ""
 
 msgid "Last login"
@@ -444,6 +456,12 @@ msgid "Program-only course"
 msgstr ""
 
 msgid "Programs"
+msgstr ""
+
+msgid "Programs completed"
+msgstr ""
+
+msgid "Programs enrolled"
 msgstr ""
 
 msgid "Publication / availability status of this program"
@@ -619,6 +637,9 @@ msgstr ""
 msgid "Users"
 msgstr ""
 
+msgid "Videos completed"
+msgstr ""
+
 msgid "When an admin unenrolled the learner and revoked this item."
 msgstr ""
 
@@ -713,4 +734,55 @@ msgid "{field} must be less than {maximum}."
 msgstr ""
 
 msgid "A program with this organization, program type and run already exists."
+msgstr ""
+
+msgid "Always false: prices are entered before VAT."
+msgstr ""
+
+msgid "Course status"
+msgstr ""
+
+msgid "Discounts given (SAR)"
+msgstr ""
+
+msgid "Item VAT (SAR)"
+msgstr ""
+
+msgid "Item net sales (SAR)"
+msgstr ""
+
+msgid "Item total collected (SAR)"
+msgstr ""
+
+msgid "Net sales (SAR)"
+msgstr ""
+
+msgid "Price after discounts, before VAT."
+msgstr ""
+
+msgid "Price before discounts and VAT."
+msgstr ""
+
+msgid "Total collected (SAR)"
+msgstr ""
+
+msgid "VAT (SAR)"
+msgstr ""
+
+msgid "VAT charged."
+msgstr ""
+
+msgid "VAT collected (SAR)"
+msgstr ""
+
+msgid "VAT label"
+msgstr ""
+
+msgid "VAT rate (%)"
+msgstr ""
+
+msgid "VAT rate in percent, as WooCommerce charged it."
+msgstr ""
+
+msgid "What the buyer paid: net amount plus VAT."
 msgstr ""

@@ -46,6 +46,39 @@ msgstr "المسؤولون"
 msgid "Amount"
 msgstr ""
 
+msgid "Average courses passed per learner"
+msgstr "متوسط المساقات المجتازة لكل متعلم"
+
+msgid "Certificate offered"
+msgstr "الشهادة متاحة"
+
+msgid "Course length"
+msgstr "مدة المساق"
+
+msgid "Enrollment end date"
+msgstr "تاريخ انتهاء التسجيل"
+
+msgid "Enrollment start date"
+msgstr "تاريخ بدء التسجيل"
+
+msgid "Learners in progress"
+msgstr "المتعلمون قيد التقدم"
+
+msgid "Learners not started"
+msgstr "المتعلمون الذين لم يبدؤوا"
+
+msgid "Passing grade (%)"
+msgstr "درجة النجاح (%)"
+
+msgid "Price type"
+msgstr "نوع التسعير"
+
+msgid "Regular price (SAR)"
+msgstr "السعر العادي (ر.س)"
+
+msgid "Sale price (SAR)"
+msgstr "سعر التخفيض (ر.س)"
+
 msgid "another type"
 msgstr "نوع آخر"
 

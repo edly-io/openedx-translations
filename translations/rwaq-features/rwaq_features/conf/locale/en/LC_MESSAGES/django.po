@@ -46,6 +46,39 @@ msgstr ""
 msgid "Amount"
 msgstr ""
 
+msgid "Average courses passed per learner"
+msgstr ""
+
+msgid "Certificate offered"
+msgstr ""
+
+msgid "Course length"
+msgstr ""
+
+msgid "Enrollment end date"
+msgstr ""
+
+msgid "Enrollment start date"
+msgstr ""
+
+msgid "Learners in progress"
+msgstr ""
+
+msgid "Learners not started"
+msgstr ""
+
+msgid "Passing grade (%)"
+msgstr ""
+
+msgid "Price type"
+msgstr ""
+
+msgid "Regular price (SAR)"
+msgstr ""
+
+msgid "Sale price (SAR)"
+msgstr ""
+
 msgid "another type"
 msgstr ""
 

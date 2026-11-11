@@ -2307,7 +2307,7 @@
   "course-authoring.studio-home.processing.course-item.footer.in-progress.hyperlink": "تحديثه",
   "course-authoring.studio-home.processing.course-item.action.in-progress": "الضبط كتشغيل ثانٍ",
   "course-authoring.studio-home.processing.course-item.action.failed": "خطأ في الاعدادات",
-  "course-authoring.studio-home.processing.course-item.footer.failed": "حدث خطأ في النظام أثناء معالجة المساق الخاص بك. يرجى الانتقال إلى المساق الأصلي لمحاولة إعادة تشغيلها مرة أخرى، أو الاتصال بمدير مشروعك للحصول على المساعدة.",
+  "course-authoring.studio-home.processing.course-item.footer.failed": "حدث خطأ في النظام أثناء معالجة المساق الخاص بك. يرجى الانتقال إلى المساق الأصلي لمحاولة إعادة تشغيله مرة أخرى، أو الاتصال بمدير مشروعك للحصول على المساعدة.",
   "course-authoring.studio-home.processing.course-item.footer.failed.button": "تجاهَل",
   "authoring.videoEditor.selectVideoModal.title": "أضِف مقطعاً مرئياً",
   "authoring.texteditor.imagesettingsmodal.titleLabel": "إعدادات الصورة",
@@ -3076,7 +3076,5 @@
   "programs.enrollment.modal.reason": "السبب (اختياري)",
   "programs.enrollment.modal.reason-help": "للبرنامج المدفوع، يُحفظ مع سجل تسجيل المتعلم.",
   "course-authoring.schedule-section.pricing.price-with-vat": "يدفع المتعلم {amount} {currency} شاملة {rate}% {label}",
-  "course-authoring.schedule-section.pricing.vat-label-fallback": "ضريبة القيمة المضافة",
-  "programs.detail.field.price-with-vat": "يدفع المتعلم {amount} {currency} شاملة {rate}% {label}",
-  "programs.detail.field.vat-label-fallback": "ضريبة القيمة المضافة"
+  "course-authoring.schedule-section.pricing.vat-label-fallback": "ضريبة القيمة المضافة"
 }

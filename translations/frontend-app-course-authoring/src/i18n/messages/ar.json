@@ -671,6 +671,8 @@
   "course-authoring.course-outline.publish-modal.button.cancel": "ألغِ",
   "course-authoring.course-outline.publish-modal.button.label": "انشر",
   "course-authoring.course-outline.section.badge.section-highlights": "يسلط الضوء على القسم",
+  "course-authoring.schedule.basic.promotion.small-text": "(لتسجيل الطلاب وإتاحة الوصول)",
+  "course-authoring.studio-home.instructors.card.course-count": "{count, plural, zero {لا مساقات} one {مساق واحد} two {مساقان} few {# مساقات} many {# مساقًا} other {# مساق}}",
   "course-authoring.course-outline.section.subsection-modal.title": "اختَر قِسماً فرعياً",
   "course-authoring.course-outline.status-bar.start-date": "تاريخ البدء",
   "course-authoring.course-outline.status-bar.pacing-type": "نوع وتيرة التعلّم ",

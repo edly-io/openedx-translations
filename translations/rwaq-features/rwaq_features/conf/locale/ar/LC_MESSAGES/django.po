@@ -1128,3 +1128,9 @@ msgstr "صحيح في الصف الذي أدخل فيه المتعلم الرم�
 
 msgid "Typed the code here"
 msgstr "أُدخل الرمز هنا"
+
+msgid "Course not found."
+msgstr "المساق غير موجود."
+
+msgid "Invalid course id."
+msgstr "معرّف المساق غير صالح."

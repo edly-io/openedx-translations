@@ -755,6 +755,7 @@
   "rwaq.admin.users.enrollments.actions": "الإجراءات",
   "rwaq.admin.users.enrollments.active": "نشط",
   "rwaq.admin.users.enrollments.certificate": "الشهادة",
+  "rwaq.admin.users.enrollments.certificateEarned": "مكتسبة",
   "rwaq.admin.users.enrollments.conflict": "تغيّر هذا التسجيل بينما كان مفتوحًا لديك. أعد التحميل لمعرفة حالته الحالية، ثم حاول مرة أخرى.",
   "rwaq.admin.users.enrollments.count": "{count, plural, zero {لا تسجيلات} one {تسجيل واحد} two {تسجيلان} few {# تسجيلات} many {# تسجيلًا} other {# تسجيل}}",
   "rwaq.admin.users.enrollments.course": "المساق",

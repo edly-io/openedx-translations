@@ -26780,3 +26780,18 @@ msgstr "انضم كشريك"
 msgid "Join as Instructor"
 msgstr "انضم كمحاضر"
 
+#: xmodule/templates/html/iframe.yaml
+msgid "IFrame Tool"
+msgstr "أداة الإطار المضمَّن (IFrame)"
+
+#: xmodule/templates/html/raw.yaml
+msgid "Raw HTML"
+msgstr "HTML خام"
+
+#: xmodule/templates/html/zooming_image.yaml
+msgid "Zooming Image Tool"
+msgstr "أداة تكبير الصور"
+
+#: xmodule/templates/html/announcement.yaml
+msgid "Announcement"
+msgstr "إعلان"

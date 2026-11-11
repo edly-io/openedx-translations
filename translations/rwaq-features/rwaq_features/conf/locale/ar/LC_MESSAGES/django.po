@@ -260,7 +260,10 @@ msgid "Date the program becomes available to learners"
 msgstr ""
 
 msgid "Date the program closes for new enrollments"
-msgstr ""
+msgstr "تاريخ إغلاق التسجيلات الجديدة في البرنامج"
+
+msgid "Date the program closes for new enrollments. Leave empty for an open-ended program."
+msgstr "تاريخ إغلاق التسجيلات الجديدة في البرنامج. اتركه فارغًا إذا لم يكن للبرنامج تاريخ إغلاق."
 
 msgid "Detailed program description"
 msgstr ""
@@ -285,6 +288,9 @@ msgstr ""
 
 msgid "End date"
 msgstr "تاريخ الانتهاء"
+
+msgid "Ended"
+msgstr "منتهٍ"
 
 msgid "Ended courses"
 msgstr "المساقات المنتهية"
@@ -393,7 +399,7 @@ msgid "Instructor's display name"
 msgstr ""
 
 msgid "Instructors"
-msgstr ""
+msgstr "المدرّسون"
 
 msgid "It's a free program. Learners have already enrolled into this program. Create a new program to make it {target}."
 msgstr "هذا برنامج مجاني. سجّل متعلمون في هذا البرنامج بالفعل. أنشئ برنامجًا جديدًا ليصبح {target}."
@@ -487,6 +493,9 @@ msgstr ""
 
 msgid "Monthly"
 msgstr "شهرية"
+
+msgid "Not started"
+msgstr "لم يبدأ"
 
 msgid "Only active categories appear as filters on the course catalog page."
 msgstr ""
@@ -633,6 +642,9 @@ msgstr ""
 
 msgid "Roles"
 msgstr "الأدوار"
+
+msgid "Running"
+msgstr "جارٍ"
 
 msgid "Running courses"
 msgstr "المساقات الجارية"

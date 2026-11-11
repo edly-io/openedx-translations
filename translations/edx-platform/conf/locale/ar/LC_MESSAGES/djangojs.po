@@ -10252,3 +10252,11 @@ msgstr "حالة الشهادة:"
 #: lms/templates/learner_dashboard/certificate_status.underscore:4
 msgid "Certificate Purchased"
 msgstr "تم شراء الشهادة"
+
+#: lms/templates/learner_dashboard/explore_new_programs.underscore:2
+msgid "Browse recently launched courses and see what's new in your favorite subjects"
+msgstr "تصفح المساقات التي أُطلقت حديثًا واكتشف الجديد في موضوعاتك المفضلة"
+
+#: lms/templates/learner_dashboard/explore_new_programs.underscore:6
+msgid "Explore new programs"
+msgstr "استكشف البرامج الجديدة"

@@ -936,3 +936,9 @@ msgstr "نسبة ضريبة القيمة المضافة المئوية كما ا
 
 msgid "What the buyer paid: net amount plus VAT."
 msgstr "ما دفعه المشتري: الصافي زائد ضريبة القيمة المضافة."
+
+msgid "Course not found."
+msgstr "المساق غير موجود."
+
+msgid "Invalid course id."
+msgstr "معرّف المساق غير صالح."

@@ -3082,5 +3082,11 @@
   "programs.detail.field.vat-label-fallback": {
     "defaultMessage": "VAT",
     "description": "programs.detail.field.vat-label-fallback"
-  }
+  },
+  "course-authoring.schedule-section.pricing.category-enrollment-code": "Enrollment code",
+  "course-authoring.schedule-section.pricing.category-enrollment-code.description": "Learners enroll at no cost, but only with an enrollment code. It has no price of its own.",
+  "programs.detail.field.pricing.enrollment-code": "Enrollment code",
+  "programs.detail.field.pricing.enrollment-code.description": "Learners enroll at no cost, but only with an enrollment code. It has no price of its own.",
+  "course-authoring.studio-home.courses.tab.pricing-filter-menu.enrollment-code": "Enrollment code",
+  "course-authoring.studio-home.programs.tab.type.enrollment-code": "Enrollment code"
 }

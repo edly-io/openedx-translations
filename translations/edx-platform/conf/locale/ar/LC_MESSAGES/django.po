@@ -26030,7 +26030,7 @@ msgid ""
 "{link_start}homepage{link_end} ."
 msgstr ""
 "لا يمكن العثور على الصفحة المطلوبة، العودة إلى "
-"{link_start}homepage{link_end} ."
+"{link_start}الصفحة الرئيسية{link_end} ."
 
 #: lms/templates/static_templates/429.html:9
 #: lms/templates/static_templates/429.html:14
@@ -26783,3 +26783,19 @@ msgstr "انضم كمحاضر"
 #: tutorindigo/templates/indigo/lms/templates/footer.html
 msgid "Rwaq"
 msgstr "رواق"
+
+#: xmodule/templates/html/iframe.yaml
+msgid "IFrame Tool"
+msgstr "أداة الإطار المضمَّن (IFrame)"
+
+#: xmodule/templates/html/raw.yaml
+msgid "Raw HTML"
+msgstr "HTML خام"
+
+#: xmodule/templates/html/zooming_image.yaml
+msgid "Zooming Image Tool"
+msgstr "أداة تكبير الصور"
+
+#: xmodule/templates/html/announcement.yaml
+msgid "Announcement"
+msgstr "إعلان"

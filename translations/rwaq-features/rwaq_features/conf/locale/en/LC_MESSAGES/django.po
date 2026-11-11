@@ -819,3 +819,147 @@ msgstr ""
 
 msgid "What the buyer paid: net amount plus VAT."
 msgstr ""
+
+msgid "After this moment the code refuses new uses. Empty means it never expires."
+msgstr ""
+
+msgid "Course key, e.g. 'course-v1:org+course+run'. Empty when the code covers a program."
+msgstr ""
+
+msgid "How many learners can use this code. 1 means a single use."
+msgstr ""
+
+msgid "Switched off codes refuse every use."
+msgstr ""
+
+msgid "The admin who created the code."
+msgstr ""
+
+msgid "The code learners type, 6 to 8 letters and numbers, stored uppercase."
+msgstr ""
+
+msgid "The program. Empty when the code covers a course."
+msgstr ""
+
+msgid "A code is 6 to 8 letters and numbers."
+msgstr ""
+
+msgid "All uses of this code are taken."
+msgstr ""
+
+msgid "Codes can only be made for a course or program of the Enrollment code type."
+msgstr ""
+
+msgid "Could not generate a free code. Try again."
+msgstr ""
+
+msgid "Enrollment for this course is closed."
+msgstr ""
+
+msgid "Enrollment is not open for this program."
+msgstr ""
+
+msgid "Enter your enrollment code."
+msgstr ""
+
+msgid "Give either a course or a program."
+msgstr ""
+
+msgid "The expiry date must be in the future."
+msgstr ""
+
+msgid "The usage limit cannot be lower than the number of uses so far."
+msgstr ""
+
+msgid "The usage limit must be at least 1."
+msgstr ""
+
+msgid "This code already exists."
+msgstr ""
+
+msgid "This code does not apply to this course."
+msgstr ""
+
+msgid "This code does not apply to this program."
+msgstr ""
+
+msgid "This code is no longer valid."
+msgstr ""
+
+msgid "This code is switched off or has expired."
+msgstr ""
+
+msgid "This code was not found."
+msgstr ""
+
+msgid "This code was used, so it cannot be deleted. Switch it off instead."
+msgstr ""
+
+msgid "This course is full."
+msgstr ""
+
+msgid "This course was not found."
+msgstr ""
+
+msgid "This program was not found."
+msgstr ""
+
+msgid "Too many wrong attempts. Try again in an hour."
+msgstr ""
+
+msgid "You are already enrolled."
+msgstr ""
+
+msgid "You are enrolled."
+msgstr ""
+
+msgid "Code"
+msgstr ""
+
+msgid "Course or program"
+msgstr ""
+
+msgid "Enrollment code uses"
+msgstr ""
+
+msgid "Invalid course or program."
+msgstr ""
+
+msgid "Student"
+msgstr ""
+
+msgid "The code and its course or program cannot be changed."
+msgstr ""
+
+msgid "The expiry date is not valid."
+msgstr ""
+
+msgid "The usage limit must be a whole number."
+msgstr ""
+
+msgid "Used on"
+msgstr ""
+
+msgid "Enrollment code"
+msgstr ""
+
+msgid "is_free: learners enroll at no cost. is_paid: the course is sold on its own. is_program_only: the course is offered only through the one program it is added to, so it carries no price of its own. is_part_of_subscription: the course is reached only through the Rwaq subscription, so it carries no price of its own. is_enrollment_code: the course is free but learners need an enrollment code to join."
+msgstr ""
+
+msgid "Enrollment in this course is restricted. Enter your enrollment code."
+msgstr ""
+
+msgid "Enrollment in this program is restricted. Enter your enrollment code."
+msgstr ""
+
+msgid "It's a restricted program. Learners have already enrolled into this program. Create a new program to make it {target}."
+msgstr ""
+
+msgid "Learners have already enrolled in this restricted course, so its type cannot change. Create a rerun of the course to offer it with another type."
+msgstr ""
+
+msgid "restricted by enrollment code"
+msgstr ""
+
+msgid "is_free: learners enroll at no cost. is_paid: this program is sold. is_part_of_subscription: this program is reached only through the Rwaq subscription. is_enrollment_code: this program is free but learners need an enrollment code to join."
+msgstr ""

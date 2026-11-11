@@ -936,3 +936,147 @@ msgstr "نسبة ضريبة القيمة المضافة المئوية كما ا
 
 msgid "What the buyer paid: net amount plus VAT."
 msgstr "ما دفعه المشتري: الصافي زائد ضريبة القيمة المضافة."
+
+msgid "After this moment the code refuses new uses. Empty means it never expires."
+msgstr "بعد هذه اللحظة يرفض الرمز أي استخدام جديد. الفراغ يعني أنه لا ينتهي."
+
+msgid "Course key, e.g. 'course-v1:org+course+run'. Empty when the code covers a program."
+msgstr "مفتاح المساق، مثل 'course-v1:org+course+run'. فارغ عندما يغطي الرمز برنامجًا."
+
+msgid "How many learners can use this code. 1 means a single use."
+msgstr "عدد المتعلمين الذين يمكنهم استخدام هذا الرمز. القيمة 1 تعني استخدامًا واحدًا."
+
+msgid "Switched off codes refuse every use."
+msgstr "الرموز المعطّلة ترفض كل استخدام."
+
+msgid "The admin who created the code."
+msgstr "المشرف الذي أنشأ الرمز."
+
+msgid "The code learners type, 6 to 8 letters and numbers, stored uppercase."
+msgstr "الرمز الذي يكتبه المتعلمون، من 6 إلى 8 أحرف وأرقام، ويُحفظ بأحرف كبيرة."
+
+msgid "The program. Empty when the code covers a course."
+msgstr "البرنامج. فارغ عندما يغطي الرمز مساقًا."
+
+msgid "A code is 6 to 8 letters and numbers."
+msgstr "يتكوّن الرمز من 6 إلى 8 أحرف وأرقام."
+
+msgid "All uses of this code are taken."
+msgstr "استُنفدت كل استخدامات هذا الرمز."
+
+msgid "Codes can only be made for a course or program of the Enrollment code type."
+msgstr "لا يمكن إنشاء الرموز إلا لمساق أو برنامج من نوع رمز التسجيل."
+
+msgid "Could not generate a free code. Try again."
+msgstr "تعذّر توليد رمز غير مستخدم. حاول مرة أخرى."
+
+msgid "Enrollment for this course is closed."
+msgstr "التسجيل في هذا المساق مغلق."
+
+msgid "Enrollment is not open for this program."
+msgstr "التسجيل غير متاح في هذا البرنامج."
+
+msgid "Enter your enrollment code."
+msgstr "أدخل رمز التسجيل."
+
+msgid "Give either a course or a program."
+msgstr "حدّد مساقًا أو برنامجًا."
+
+msgid "The expiry date must be in the future."
+msgstr "يجب أن يكون تاريخ الانتهاء في المستقبل."
+
+msgid "The usage limit cannot be lower than the number of uses so far."
+msgstr "لا يمكن أن يقل حد الاستخدام عن عدد الاستخدامات حتى الآن."
+
+msgid "The usage limit must be at least 1."
+msgstr "يجب ألا يقل حد الاستخدام عن 1."
+
+msgid "This code already exists."
+msgstr "هذا الرمز موجود بالفعل."
+
+msgid "This code does not apply to this course."
+msgstr "هذا الرمز لا ينطبق على هذا المساق."
+
+msgid "This code does not apply to this program."
+msgstr "هذا الرمز لا ينطبق على هذا البرنامج."
+
+msgid "This code is no longer valid."
+msgstr "هذا الرمز لم يعد صالحًا."
+
+msgid "This code is switched off or has expired."
+msgstr "هذا الرمز معطّل أو منتهي الصلاحية."
+
+msgid "This code was not found."
+msgstr "لم يُعثر على هذا الرمز."
+
+msgid "This code was used, so it cannot be deleted. Switch it off instead."
+msgstr "استُخدم هذا الرمز لذلك لا يمكن حذفه. عطّله بدلًا من ذلك."
+
+msgid "This course is full."
+msgstr "هذا المساق مكتمل العدد."
+
+msgid "This course was not found."
+msgstr "لم يُعثر على هذا المساق."
+
+msgid "This program was not found."
+msgstr "لم يُعثر على هذا البرنامج."
+
+msgid "Too many wrong attempts. Try again in an hour."
+msgstr "محاولات خاطئة كثيرة. حاول مرة أخرى بعد ساعة."
+
+msgid "You are already enrolled."
+msgstr "أنت مسجَّل بالفعل."
+
+msgid "You are enrolled."
+msgstr "تم تسجيلك."
+
+msgid "Code"
+msgstr "الرمز"
+
+msgid "Course or program"
+msgstr "المساق أو البرنامج"
+
+msgid "Enrollment code uses"
+msgstr "استخدامات رموز التسجيل"
+
+msgid "Invalid course or program."
+msgstr "مساق أو برنامج غير صالح."
+
+msgid "Student"
+msgstr "الطالب"
+
+msgid "The code and its course or program cannot be changed."
+msgstr "لا يمكن تغيير الرمز ولا المساق أو البرنامج المرتبط به."
+
+msgid "The expiry date is not valid."
+msgstr "تاريخ الانتهاء غير صالح."
+
+msgid "The usage limit must be a whole number."
+msgstr "يجب أن يكون حد الاستخدام عددًا صحيحًا."
+
+msgid "Used on"
+msgstr "تاريخ الاستخدام"
+
+msgid "Enrollment code"
+msgstr "رمز التسجيل"
+
+msgid "is_free: learners enroll at no cost. is_paid: the course is sold on its own. is_program_only: the course is offered only through the one program it is added to, so it carries no price of its own. is_part_of_subscription: the course is reached only through the Rwaq subscription, so it carries no price of its own. is_enrollment_code: the course is free but learners need an enrollment code to join."
+msgstr "is_free: يسجّل المتعلمون مجانًا. is_paid: يُباع المساق وحده. is_program_only: يُقدَّم المساق فقط عبر البرنامج الوحيد الذي أُضيف إليه، لذلك لا سعر له. is_part_of_subscription: يصل المتعلمون إلى المساق فقط عبر اشتراك رواق، لذلك لا سعر له. is_enrollment_code: المساق مجاني لكن المتعلمين يحتاجون إلى رمز تسجيل للانضمام."
+
+msgid "Enrollment in this course is restricted. Enter your enrollment code."
+msgstr "التسجيل في هذا المساق مقيّد. أدخل رمز التسجيل."
+
+msgid "Enrollment in this program is restricted. Enter your enrollment code."
+msgstr "التسجيل في هذا البرنامج مقيّد. أدخل رمز التسجيل."
+
+msgid "It's a restricted program. Learners have already enrolled into this program. Create a new program to make it {target}."
+msgstr "هذا برنامج مقيّد. سبق أن سجّل متعلمون في هذا البرنامج. أنشئ برنامجًا جديدًا ليكون {target}."
+
+msgid "Learners have already enrolled in this restricted course, so its type cannot change. Create a rerun of the course to offer it with another type."
+msgstr "سبق أن سجّل متعلمون في هذا المساق المقيّد، لذلك لا يمكن تغيير نوعه. أنشئ إعادة تشغيل للمساق لتقديمه بنوع آخر."
+
+msgid "restricted by enrollment code"
+msgstr "مقيّد برمز التسجيل"
+
+msgid "is_free: learners enroll at no cost. is_paid: this program is sold. is_part_of_subscription: this program is reached only through the Rwaq subscription. is_enrollment_code: this program is free but learners need an enrollment code to join."
+msgstr "is_free: يسجّل المتعلمون مجانًا. is_paid: يُباع هذا البرنامج. is_part_of_subscription: يصل المتعلمون إلى هذا البرنامج فقط عبر اشتراك رواق. is_enrollment_code: هذا البرنامج مجاني لكن المتعلمين يحتاجون إلى رمز تسجيل للانضمام."

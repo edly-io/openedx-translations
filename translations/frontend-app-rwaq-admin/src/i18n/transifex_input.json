@@ -5092,18 +5092,6 @@
     "defaultMessage": "All courses and programs",
     "description": "rwaq.admin.enrollmentCodes.uses.allItems"
   },
-  "rwaq.admin.enrollmentCodes.section.title": {
-    "defaultMessage": "Enrollment codes",
-    "description": "rwaq.admin.enrollmentCodes.section.title"
-  },
-  "rwaq.admin.enrollmentCodes.section.courseDescription": {
-    "defaultMessage": "Learners join this course with one of these codes.",
-    "description": "rwaq.admin.enrollmentCodes.section.courseDescription"
-  },
-  "rwaq.admin.enrollmentCodes.section.programDescription": {
-    "defaultMessage": "Learners join this program with one of these codes.",
-    "description": "rwaq.admin.enrollmentCodes.section.programDescription"
-  },
   "rwaq.admin.enrollmentCodes.col.scope": {
     "defaultMessage": "Scope",
     "description": "rwaq.admin.enrollmentCodes.col.scope"
@@ -5229,20 +5217,8 @@
     "description": "rwaq.admin.enrollmentCodes.pricing.addCodeBanner"
   },
   "rwaq.admin.enrollmentCodes.pricing.addCodeAction": {
-    "defaultMessage": "Add a code",
+    "defaultMessage": "Add enrollment code",
     "description": "rwaq.admin.enrollmentCodes.pricing.addCodeAction"
-  },
-  "rwaq.admin.enrollmentCodes.tab.details": {
-    "defaultMessage": "Details",
-    "description": "rwaq.admin.enrollmentCodes.tab.details"
-  },
-  "rwaq.admin.enrollmentCodes.tab.enrollmentCode": {
-    "defaultMessage": "Enrollment code",
-    "description": "rwaq.admin.enrollmentCodes.tab.enrollmentCode"
-  },
-  "rwaq.admin.enrollmentCodes.section.orgDescription": {
-    "defaultMessage": "An organization code works for every Enrollment code course and program of this organization.",
-    "description": "rwaq.admin.enrollmentCodes.section.orgDescription"
   },
   "rwaq.admin.enrollmentCodes.usage.title": {
     "defaultMessage": "Usage of {code}",

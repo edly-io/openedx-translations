@@ -26783,27 +26783,3 @@ msgstr "انضم كمحاضر"
 #: tutorindigo/templates/indigo/lms/templates/footer.html
 msgid "Rwaq"
 msgstr "رواق"
-
-#: tutorindigo/templates/indigo/lms/templates/rwaq_enrollment_code.html
-msgid "Enrollment in this program is restricted. Enter your enrollment code to enroll."
-msgstr "التسجيل في هذا البرنامج مقيّد. أدخل رمز التسجيل للانضمام."
-
-#: tutorindigo/templates/indigo/lms/templates/rwaq_enrollment_code.html
-msgid "Enrollment in this course is restricted. Enter your enrollment code to enroll."
-msgstr "التسجيل في هذا المساق مقيّد. أدخل رمز التسجيل للانضمام."
-
-#: tutorindigo/templates/indigo/lms/templates/rwaq_enrollment_code.html
-msgid "Enrollment code"
-msgstr "رمز التسجيل"
-
-#: tutorindigo/templates/indigo/lms/templates/rwaq_enrollment_code.html
-msgid "Could not enroll. Please try again."
-msgstr "تعذّر التسجيل. حاول مرة أخرى."
-
-#: tutorindigo/templates/indigo/lms/templates/rwaq_enrollment_code.html
-msgid "Enrollment in this course is restricted"
-msgstr "التسجيل في هذا المساق مقيّد"
-
-#: tutorindigo/templates/indigo/lms/templates/rwaq_enrollment_code.html
-msgid "Sign in to enter your enrollment code"
-msgstr "سجّل الدخول لإدخال رمز التسجيل"

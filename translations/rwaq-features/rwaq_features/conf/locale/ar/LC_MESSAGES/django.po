@@ -1039,9 +1039,6 @@ msgstr "المساق أو البرنامج"
 msgid "Enrollment code uses"
 msgstr "استخدامات رموز التسجيل"
 
-msgid "Invalid course or program."
-msgstr "مساق أو برنامج غير صالح."
-
 msgid "Student"
 msgstr "الطالب"
 
@@ -1080,3 +1077,36 @@ msgstr "مقيّد برمز التسجيل"
 
 msgid "is_free: learners enroll at no cost. is_paid: this program is sold. is_part_of_subscription: this program is reached only through the Rwaq subscription. is_enrollment_code: this program is free but learners need an enrollment code to join."
 msgstr "is_free: يسجّل المتعلمون مجانًا. is_paid: يُباع هذا البرنامج. is_part_of_subscription: يصل المتعلمون إلى هذا البرنامج فقط عبر اشتراك رواق. is_enrollment_code: هذا البرنامج مجاني لكن المتعلمين يحتاجون إلى رمز تسجيل للانضمام."
+
+msgid "Choose one course, one program or one organization."
+msgstr "اختر مساقًا واحدًا أو برنامجًا واحدًا أو منظمة واحدة."
+
+msgid "Enrollment code courses only. Keeps the course out of the public catalog. The direct link and the partner page still show it."
+msgstr "لمساقات رمز التسجيل فقط. يُبقي المساق خارج الكتالوج العام. يظل الرابط المباشر وصفحة الشريك يعرضانه."
+
+msgid "Enrollment code programs only. Keeps the program out of the public catalog. The direct link and the partner page still show it."
+msgstr "لبرامج رمز التسجيل فقط. يُبقي البرنامج خارج الكتالوج العام. يظل الرابط المباشر وصفحة الشريك يعرضانه."
+
+msgid "Only an Enrollment code course can be hidden from the catalog."
+msgstr "لا يمكن إخفاء مساق من الكتالوج إلا إذا كان من نوع رمز التسجيل."
+
+msgid "Only an Enrollment code program can be hidden from the catalog."
+msgstr "لا يمكن إخفاء برنامج من الكتالوج إلا إذا كان من نوع رمز التسجيل."
+
+msgid "The organization an organization code covers. Empty for a course or program code."
+msgstr "المنظمة التي يغطيها رمز المنظمة. فارغ لرمز المساق أو البرنامج."
+
+msgid "This course has an enrollment code. Delete or switch off its code in the Enrollment code tab first."
+msgstr "لهذا المساق رمز تسجيل. احذف رمزه أو أوقفه من تبويب رمز التسجيل أولًا."
+
+msgid "This organization was not found."
+msgstr "لم يتم العثور على هذه المنظمة."
+
+msgid "This program has an enrollment code. Delete or switch off its code in the Enrollment code tab first."
+msgstr "لهذا البرنامج رمز تسجيل. احذف رمزه أو أوقفه من تبويب رمز التسجيل أولًا."
+
+msgid "True on the row where the learner typed the code. Other rows are items joined later through it."
+msgstr "صحيح في الصف الذي أدخل فيه المتعلم الرمز. الصفوف الأخرى عناصر انضم إليها لاحقًا عبر الرمز."
+
+msgid "Typed the code here"
+msgstr "أُدخل الرمز هنا"

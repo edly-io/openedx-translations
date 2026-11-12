@@ -922,9 +922,6 @@ msgstr ""
 msgid "Enrollment code uses"
 msgstr ""
 
-msgid "Invalid course or program."
-msgstr ""
-
 msgid "Student"
 msgstr ""
 
@@ -962,4 +959,37 @@ msgid "restricted by enrollment code"
 msgstr ""
 
 msgid "is_free: learners enroll at no cost. is_paid: this program is sold. is_part_of_subscription: this program is reached only through the Rwaq subscription. is_enrollment_code: this program is free but learners need an enrollment code to join."
+msgstr ""
+
+msgid "Choose one course, one program or one organization."
+msgstr ""
+
+msgid "Enrollment code courses only. Keeps the course out of the public catalog. The direct link and the partner page still show it."
+msgstr ""
+
+msgid "Enrollment code programs only. Keeps the program out of the public catalog. The direct link and the partner page still show it."
+msgstr ""
+
+msgid "Only an Enrollment code course can be hidden from the catalog."
+msgstr ""
+
+msgid "Only an Enrollment code program can be hidden from the catalog."
+msgstr ""
+
+msgid "The organization an organization code covers. Empty for a course or program code."
+msgstr ""
+
+msgid "This course has an enrollment code. Delete or switch off its code in the Enrollment code tab first."
+msgstr ""
+
+msgid "This organization was not found."
+msgstr ""
+
+msgid "This program has an enrollment code. Delete or switch off its code in the Enrollment code tab first."
+msgstr ""
+
+msgid "True on the row where the learner typed the code. Other rows are items joined later through it."
+msgstr ""
+
+msgid "Typed the code here"
 msgstr ""

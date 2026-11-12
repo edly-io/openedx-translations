@@ -6590,6 +6590,10 @@ msgstr "مسافة عمودية"
 msgid "View"
 msgstr "عرض"
 
+#: lms/templates/learner_dashboard/course_enroll.underscore:7
+msgid "View Course"
+msgstr "استعراض المساق"
+
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:1215

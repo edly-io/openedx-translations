@@ -3060,9 +3060,10 @@
   "programs.detail.field.price-with-vat": "يدفع المتعلم {amount} {currency} شاملة {rate}% {label}",
   "programs.detail.field.vat-label-fallback": "ضريبة القيمة المضافة",
   "course-authoring.schedule-section.pricing.category-enrollment-code": "رمز التسجيل",
-  "course-authoring.schedule-section.pricing.category-enrollment-code.description": "يسجّل المتعلمون مجانًا ولكن برمز تسجيل فقط. لا يوجد سعر لهذا المساق.",
+  "course-authoring.schedule-section.pricing.category-enrollment-code.description": "دورة مجانية مقيّدة لا يمكن للمتعلمين الالتحاق بها إلا باستخدام رمز تسجيل.",
   "programs.detail.field.pricing.enrollment-code": "رمز التسجيل",
-  "programs.detail.field.pricing.enrollment-code.description": "يسجّل المتعلمون مجانًا ولكن برمز تسجيل فقط. لا يوجد سعر لهذا البرنامج.",
+  "programs.detail.field.pricing.enrollment-code.description": "برنامج مجاني مقيّد لا يمكن للمتعلمين الالتحاق به إلا باستخدام رمز تسجيل.",
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.enrollment-code": "رمز التسجيل",
-  "course-authoring.studio-home.programs.tab.type.enrollment-code": "رمز التسجيل"
+  "course-authoring.studio-home.programs.tab.type.enrollment-code": "رمز التسجيل",
+  "course-authoring.schedule-section.pricing.categories-removed": "مساق رمز التسجيل لا يمكن أن يحتوي على تصنيفات، لذلك تمت إزالة هذه التصنيفات: {categories}."
 }

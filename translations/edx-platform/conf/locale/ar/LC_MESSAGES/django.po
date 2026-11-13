@@ -8933,6 +8933,14 @@ msgstr ""
 msgid "<{p}><{strong}>{course_update_content}</{strong}></{p}>"
 msgstr "<{p}><{strong}>{course_update_content}</{strong}></{p}>"
 
+#: openedx/core/djangoapps/notifications/base_notification.py:196
+msgid ""
+"Notifications for when a submission is made for ORA that includes staff "
+"grading step."
+msgstr ""
+"إشعارات عند تقديم إجابة لتقييم الإجابات المفتوحة (ORA) يتضمن خطوة تقييم "
+"الموظفين."
+
 #: openedx/core/djangoapps/notifications/base_notification.py:202
 #, python-brace-format
 msgid ""

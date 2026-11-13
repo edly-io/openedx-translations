@@ -838,7 +838,7 @@ msgstr ""
 msgid "The code learners type, 6 to 8 letters and numbers, stored uppercase."
 msgstr ""
 
-msgid "The program. Empty when the code covers a course."
+msgid "The program. Empty when the code covers a course, and after the program was deleted."
 msgstr ""
 
 msgid "A code is 6 to 8 letters and numbers."
@@ -884,6 +884,12 @@ msgid "This code does not apply to this program."
 msgstr ""
 
 msgid "This code is no longer valid."
+msgstr ""
+
+msgid "This code no longer covers a course or program."
+msgstr ""
+
+msgid "This code no longer covers an organization."
 msgstr ""
 
 msgid "This code is switched off or has expired."
@@ -970,22 +976,34 @@ msgstr ""
 msgid "Enrollment code programs only. Keeps the program out of the public catalog. The direct link and the partner page still show it."
 msgstr ""
 
+msgid "An Enrollment code course cannot have categories."
+msgstr ""
+
 msgid "Only an Enrollment code course can be hidden from the catalog."
 msgstr ""
 
-msgid "Only an Enrollment code program can be hidden from the catalog."
+msgid "The organization an organization code covers. Empty for a course or program code, and after the organization was deleted (the snapshot fields keep its name)."
 msgstr ""
 
-msgid "The organization an organization code covers. Empty for a course or program code."
+msgid "Name of the organization, kept when the organization is deleted."
 msgstr ""
 
-msgid "This course has an enrollment code. Delete or switch off its code in the Enrollment code tab first."
+msgid "Short name of the organization, kept when the organization is deleted."
+msgstr ""
+
+msgid "Username of the admin who created the code, kept when that account is deleted."
+msgstr ""
+
+msgid "Username of the learner, kept when the account is deleted. No email is kept."
+msgstr ""
+
+msgid "This course has an enrollment code. Delete its code or mark it inactive on the Enrollment codes page first."
 msgstr ""
 
 msgid "This organization was not found."
 msgstr ""
 
-msgid "This program has an enrollment code. Delete or switch off its code in the Enrollment code tab first."
+msgid "This program has an enrollment code. Delete its code or mark it inactive on the Enrollment codes page first."
 msgstr ""
 
 msgid "True on the row where the learner typed the code. Other rows are items joined later through it."

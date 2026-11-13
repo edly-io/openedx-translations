@@ -955,8 +955,8 @@ msgstr "المشرف الذي أنشأ الرمز."
 msgid "The code learners type, 6 to 8 letters and numbers, stored uppercase."
 msgstr "الرمز الذي يكتبه المتعلمون، من 6 إلى 8 أحرف وأرقام، ويُحفظ بأحرف كبيرة."
 
-msgid "The program. Empty when the code covers a course."
-msgstr "البرنامج. فارغ عندما يغطي الرمز مساقًا."
+msgid "The program. Empty when the code covers a course, and after the program was deleted."
+msgstr "البرنامج. فارغ عندما يغطي الرمز مساقًا، وبعد حذف البرنامج."
 
 msgid "A code is 6 to 8 letters and numbers."
 msgstr "يتكوّن الرمز من 6 إلى 8 أحرف وأرقام."
@@ -1002,6 +1002,12 @@ msgstr "هذا الرمز لا ينطبق على هذا البرنامج."
 
 msgid "This code is no longer valid."
 msgstr "هذا الرمز لم يعد صالحًا."
+
+msgid "This code no longer covers a course or program."
+msgstr "هذا الرمز لم يعد يغطي أي مساق أو برنامج."
+
+msgid "This code no longer covers an organization."
+msgstr "هذا الرمز لم يعد يغطي أي منظمة."
 
 msgid "This code is switched off or has expired."
 msgstr "هذا الرمز معطّل أو منتهي الصلاحية."
@@ -1087,23 +1093,35 @@ msgstr "لمساقات رمز التسجيل فقط. يُبقي المساق خ�
 msgid "Enrollment code programs only. Keeps the program out of the public catalog. The direct link and the partner page still show it."
 msgstr "لبرامج رمز التسجيل فقط. يُبقي البرنامج خارج الكتالوج العام. يظل الرابط المباشر وصفحة الشريك يعرضانه."
 
+msgid "An Enrollment code course cannot have categories."
+msgstr "لا يمكن أن يحتوي مساق رمز التسجيل على تصنيفات."
+
 msgid "Only an Enrollment code course can be hidden from the catalog."
 msgstr "لا يمكن إخفاء مساق من الكتالوج إلا إذا كان من نوع رمز التسجيل."
 
-msgid "Only an Enrollment code program can be hidden from the catalog."
-msgstr "لا يمكن إخفاء برنامج من الكتالوج إلا إذا كان من نوع رمز التسجيل."
+msgid "The organization an organization code covers. Empty for a course or program code, and after the organization was deleted (the snapshot fields keep its name)."
+msgstr "المنظمة التي يغطيها رمز المنظمة. فارغ لرمز المساق أو البرنامج، وبعد حذف المنظمة (تحتفظ حقول النسخة المحفوظة باسمها)."
 
-msgid "The organization an organization code covers. Empty for a course or program code."
-msgstr "المنظمة التي يغطيها رمز المنظمة. فارغ لرمز المساق أو البرنامج."
+msgid "Name of the organization, kept when the organization is deleted."
+msgstr "اسم المنظمة، يُحفظ عند حذف المنظمة."
 
-msgid "This course has an enrollment code. Delete or switch off its code in the Enrollment code tab first."
-msgstr "لهذا المساق رمز تسجيل. احذف رمزه أو أوقفه من تبويب رمز التسجيل أولًا."
+msgid "Short name of the organization, kept when the organization is deleted."
+msgstr "الاسم المختصر للمنظمة، يُحفظ عند حذف المنظمة."
+
+msgid "Username of the admin who created the code, kept when that account is deleted."
+msgstr "اسم المستخدم للمشرف الذي أنشأ الرمز، يُحفظ عند حذف حسابه."
+
+msgid "Username of the learner, kept when the account is deleted. No email is kept."
+msgstr "اسم المستخدم للمتعلم، يُحفظ عند حذف الحساب. لا يُحفظ البريد الإلكتروني."
+
+msgid "This course has an enrollment code. Delete its code or mark it inactive on the Enrollment codes page first."
+msgstr "لهذا المساق رمز تسجيل. احذف رمزه أو عطّله من صفحة رموز التسجيل أولًا."
 
 msgid "This organization was not found."
 msgstr "لم يتم العثور على هذه المنظمة."
 
-msgid "This program has an enrollment code. Delete or switch off its code in the Enrollment code tab first."
-msgstr "لهذا البرنامج رمز تسجيل. احذف رمزه أو أوقفه من تبويب رمز التسجيل أولًا."
+msgid "This program has an enrollment code. Delete its code or mark it inactive on the Enrollment codes page first."
+msgstr "لهذا البرنامج رمز تسجيل. احذف رمزه أو عطّله من صفحة رموز التسجيل أولًا."
 
 msgid "True on the row where the learner typed the code. Other rows are items joined later through it."
 msgstr "صحيح في الصف الذي أدخل فيه المتعلم الرمز. الصفوف الأخرى عناصر انضم إليها لاحقًا عبر الرمز."

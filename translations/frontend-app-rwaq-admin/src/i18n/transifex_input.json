@@ -4025,11 +4025,11 @@
     "description": "rwaq.admin.courses.pricing.free-description"
   },
   "rwaq.admin.courses.pricing.managed-hint": {
-    "defaultMessage": "When enabled, course authors see the pricing fields in Studio but cannot change them. Org admin can still change them.",
+    "defaultMessage": "When enabled, course authors can see the course type and pricing in Studio but cannot change them. Org admins can still change them.",
     "description": "rwaq.admin.courses.pricing.managed-hint"
   },
   "rwaq.admin.courses.pricing.managed-label": {
-    "defaultMessage": "Manage pricing from the admin panel",
+    "defaultMessage": "Manage course type and pricing from the admin panel",
     "description": "rwaq.admin.courses.pricing.managed-label"
   },
   "rwaq.admin.courses.pricing.paid": {
@@ -4185,7 +4185,7 @@
     "description": "rwaq.admin.programs.pricing.saving"
   },
   "rwaq.admin.programs.pricing.title": {
-    "defaultMessage": "Pricing",
+    "defaultMessage": "Program type and pricing",
     "description": "rwaq.admin.programs.pricing.title"
   },
   "rwaq.admin.sidenav.payments": {
@@ -4695,5 +4695,645 @@
   "rwaq.admin.programs.pricing.vat-fallback-label": {
     "defaultMessage": "VAT",
     "description": "rwaq.admin.programs.pricing.vat-fallback-label"
+  },
+  "rwaq.admin.sidenav.enrollmentCodes": {
+    "defaultMessage": "Enrollment codes",
+    "description": "rwaq.admin.sidenav.enrollmentCodes"
+  },
+  "rwaq.admin.courses.type.enrollmentCode": {
+    "defaultMessage": "Enrollment code",
+    "description": "rwaq.admin.courses.type.enrollmentCode"
+  },
+  "rwaq.admin.courses.pricing.enrollment-code": {
+    "defaultMessage": "Enrollment code",
+    "description": "rwaq.admin.courses.pricing.enrollment-code"
+  },
+  "rwaq.admin.courses.pricing.enrollment-code-description": {
+    "defaultMessage": "A free, restricted course that learners can only join with an enrollment code.",
+    "description": "rwaq.admin.courses.pricing.enrollment-code-description"
+  },
+  "rwaq.admin.enrollmentCodes.title": {
+    "defaultMessage": "Enrollment codes",
+    "description": "rwaq.admin.enrollmentCodes.title"
+  },
+  "rwaq.admin.enrollmentCodes.forbidden": {
+    "defaultMessage": "Enrollment codes are visible to Rwaq superadmins only.",
+    "description": "rwaq.admin.enrollmentCodes.forbidden"
+  },
+  "rwaq.admin.enrollmentCodes.error": {
+    "defaultMessage": "Could not load enrollment codes.",
+    "description": "rwaq.admin.enrollmentCodes.error"
+  },
+  "rwaq.admin.enrollmentCodes.tab.codes": {
+    "defaultMessage": "Codes",
+    "description": "rwaq.admin.enrollmentCodes.tab.codes"
+  },
+  "rwaq.admin.enrollmentCodes.tab.uses": {
+    "defaultMessage": "Uses",
+    "description": "rwaq.admin.enrollmentCodes.tab.uses"
+  },
+  "rwaq.admin.enrollmentCodes.codes.search": {
+    "defaultMessage": "Search by code, course, program or organization, or creator",
+    "description": "rwaq.admin.enrollmentCodes.codes.search"
+  },
+  "rwaq.admin.enrollmentCodes.create": {
+    "defaultMessage": "Create code",
+    "description": "rwaq.admin.enrollmentCodes.create"
+  },
+  "rwaq.admin.enrollmentCodes.col.code": {
+    "defaultMessage": "Code",
+    "description": "rwaq.admin.enrollmentCodes.col.code"
+  },
+  "rwaq.admin.enrollmentCodes.col.item": {
+    "defaultMessage": "Covers",
+    "description": "rwaq.admin.enrollmentCodes.col.item"
+  },
+  "rwaq.admin.enrollmentCodes.col.createdBy": {
+    "defaultMessage": "Created by",
+    "description": "rwaq.admin.enrollmentCodes.col.createdBy"
+  },
+  "rwaq.admin.enrollmentCodes.col.usage": {
+    "defaultMessage": "Used / limit",
+    "description": "rwaq.admin.enrollmentCodes.col.usage"
+  },
+  "rwaq.admin.enrollmentCodes.col.expires": {
+    "defaultMessage": "Expires",
+    "description": "rwaq.admin.enrollmentCodes.col.expires"
+  },
+  "rwaq.admin.enrollmentCodes.col.status": {
+    "defaultMessage": "Status",
+    "description": "rwaq.admin.enrollmentCodes.col.status"
+  },
+  "rwaq.admin.enrollmentCodes.col.actions": {
+    "defaultMessage": "Actions",
+    "description": "rwaq.admin.enrollmentCodes.col.actions"
+  },
+  "rwaq.admin.enrollmentCodes.noExpiry": {
+    "defaultMessage": "Never",
+    "description": "rwaq.admin.enrollmentCodes.noExpiry"
+  },
+  "rwaq.admin.enrollmentCodes.kind.course": {
+    "defaultMessage": "Course",
+    "description": "rwaq.admin.enrollmentCodes.kind.course"
+  },
+  "rwaq.admin.enrollmentCodes.kind.program": {
+    "defaultMessage": "Program",
+    "description": "rwaq.admin.enrollmentCodes.kind.program"
+  },
+  "rwaq.admin.enrollmentCodes.status.active": {
+    "defaultMessage": "Active",
+    "description": "rwaq.admin.enrollmentCodes.status.active"
+  },
+  "rwaq.admin.enrollmentCodes.status.switchedOff": {
+    "defaultMessage": "Inactive",
+    "description": "rwaq.admin.enrollmentCodes.status.switchedOff"
+  },
+  "rwaq.admin.enrollmentCodes.status.expired": {
+    "defaultMessage": "Expired",
+    "description": "rwaq.admin.enrollmentCodes.status.expired"
+  },
+  "rwaq.admin.enrollmentCodes.status.usedUp": {
+    "defaultMessage": "Used up",
+    "description": "rwaq.admin.enrollmentCodes.status.usedUp"
+  },
+  "rwaq.admin.enrollmentCodes.copyCode": {
+    "defaultMessage": "Copy code {code}",
+    "description": "rwaq.admin.enrollmentCodes.copyCode"
+  },
+  "rwaq.admin.enrollmentCodes.codeCopied": {
+    "defaultMessage": "Code copied.",
+    "description": "rwaq.admin.enrollmentCodes.codeCopied"
+  },
+  "rwaq.admin.enrollmentCodes.codeCopyFailed": {
+    "defaultMessage": "Could not copy the code.",
+    "description": "rwaq.admin.enrollmentCodes.codeCopyFailed"
+  },
+  "rwaq.admin.enrollmentCodes.action.viewCard": {
+    "defaultMessage": "View card",
+    "description": "rwaq.admin.enrollmentCodes.action.viewCard"
+  },
+  "rwaq.admin.enrollmentCodes.action.viewUses": {
+    "defaultMessage": "View uses",
+    "description": "rwaq.admin.enrollmentCodes.action.viewUses"
+  },
+  "rwaq.admin.enrollmentCodes.action.switchOff": {
+    "defaultMessage": "Mark inactive",
+    "description": "rwaq.admin.enrollmentCodes.action.switchOff"
+  },
+  "rwaq.admin.enrollmentCodes.action.switchOn": {
+    "defaultMessage": "Mark active",
+    "description": "rwaq.admin.enrollmentCodes.action.switchOn"
+  },
+  "rwaq.admin.enrollmentCodes.action.edit": {
+    "defaultMessage": "Edit",
+    "description": "rwaq.admin.enrollmentCodes.action.edit"
+  },
+  "rwaq.admin.enrollmentCodes.action.delete": {
+    "defaultMessage": "Delete",
+    "description": "rwaq.admin.enrollmentCodes.action.delete"
+  },
+  "rwaq.admin.enrollmentCodes.switchedOff": {
+    "defaultMessage": "Code {code} is now inactive.",
+    "description": "rwaq.admin.enrollmentCodes.switchedOff"
+  },
+  "rwaq.admin.enrollmentCodes.switchedOn": {
+    "defaultMessage": "Code {code} is now active.",
+    "description": "rwaq.admin.enrollmentCodes.switchedOn"
+  },
+  "rwaq.admin.enrollmentCodes.switchFailed": {
+    "defaultMessage": "Could not change the code. Please try again.",
+    "description": "rwaq.admin.enrollmentCodes.switchFailed"
+  },
+  "rwaq.admin.enrollmentCodes.filter.all": {
+    "defaultMessage": "All",
+    "description": "rwaq.admin.enrollmentCodes.filter.all"
+  },
+  "rwaq.admin.enrollmentCodes.filter.status": {
+    "defaultMessage": "Status",
+    "description": "rwaq.admin.enrollmentCodes.filter.status"
+  },
+  "rwaq.admin.enrollmentCodes.filter.kind": {
+    "defaultMessage": "Scope",
+    "description": "rwaq.admin.enrollmentCodes.filter.kind"
+  },
+  "rwaq.admin.enrollmentCodes.chip.search": {
+    "defaultMessage": "Search: {term}",
+    "description": "rwaq.admin.enrollmentCodes.chip.search"
+  },
+  "rwaq.admin.enrollmentCodes.chip.status": {
+    "defaultMessage": "Status: {label}",
+    "description": "rwaq.admin.enrollmentCodes.chip.status"
+  },
+  "rwaq.admin.enrollmentCodes.chip.kind": {
+    "defaultMessage": "Type: {label}",
+    "description": "rwaq.admin.enrollmentCodes.chip.kind"
+  },
+  "rwaq.admin.enrollmentCodes.chip.code": {
+    "defaultMessage": "Code: {code}",
+    "description": "rwaq.admin.enrollmentCodes.chip.code"
+  },
+  "rwaq.admin.enrollmentCodes.chip.item": {
+    "defaultMessage": "Item: {name}",
+    "description": "rwaq.admin.enrollmentCodes.chip.item"
+  },
+  "rwaq.admin.enrollmentCodes.form.createTitle": {
+    "defaultMessage": "Create enrollment code",
+    "description": "rwaq.admin.enrollmentCodes.form.createTitle"
+  },
+  "rwaq.admin.enrollmentCodes.form.createSubmit": {
+    "defaultMessage": "Create",
+    "description": "rwaq.admin.enrollmentCodes.form.createSubmit"
+  },
+  "rwaq.admin.enrollmentCodes.form.editTitle": {
+    "defaultMessage": "Edit enrollment code",
+    "description": "rwaq.admin.enrollmentCodes.form.editTitle"
+  },
+  "rwaq.admin.enrollmentCodes.form.editSubmit": {
+    "defaultMessage": "Save",
+    "description": "rwaq.admin.enrollmentCodes.form.editSubmit"
+  },
+  "rwaq.admin.enrollmentCodes.form.cancel": {
+    "defaultMessage": "Cancel",
+    "description": "rwaq.admin.enrollmentCodes.form.cancel"
+  },
+  "rwaq.admin.enrollmentCodes.form.codeLabel": {
+    "defaultMessage": "Code",
+    "description": "rwaq.admin.enrollmentCodes.form.codeLabel"
+  },
+  "rwaq.admin.enrollmentCodes.form.codeHelp": {
+    "defaultMessage": "6 to 8 letters and numbers. Leave it empty and the system generates one.",
+    "description": "rwaq.admin.enrollmentCodes.form.codeHelp"
+  },
+  "rwaq.admin.enrollmentCodes.form.codeInvalid": {
+    "defaultMessage": "Use 6 to 8 letters and numbers, nothing else.",
+    "description": "rwaq.admin.enrollmentCodes.form.codeInvalid"
+  },
+  "rwaq.admin.enrollmentCodes.form.generate": {
+    "defaultMessage": "Generate",
+    "description": "rwaq.admin.enrollmentCodes.form.generate"
+  },
+  "rwaq.admin.enrollmentCodes.form.itemLabel": {
+    "defaultMessage": "Course or program",
+    "description": "rwaq.admin.enrollmentCodes.form.itemLabel"
+  },
+  "rwaq.admin.enrollmentCodes.form.itemRequired": {
+    "defaultMessage": "Choose a course or a program.",
+    "description": "rwaq.admin.enrollmentCodes.form.itemRequired"
+  },
+  "rwaq.admin.enrollmentCodes.form.itemSearch": {
+    "defaultMessage": "Search by name",
+    "description": "rwaq.admin.enrollmentCodes.form.itemSearch"
+  },
+  "rwaq.admin.enrollmentCodes.form.itemPlaceholder": {
+    "defaultMessage": "Choose…",
+    "description": "rwaq.admin.enrollmentCodes.form.itemPlaceholder"
+  },
+  "rwaq.admin.enrollmentCodes.form.itemGroupCourses": {
+    "defaultMessage": "Courses",
+    "description": "rwaq.admin.enrollmentCodes.form.itemGroupCourses"
+  },
+  "rwaq.admin.enrollmentCodes.form.itemGroupPrograms": {
+    "defaultMessage": "Programs",
+    "description": "rwaq.admin.enrollmentCodes.form.itemGroupPrograms"
+  },
+  "rwaq.admin.enrollmentCodes.form.itemHelp": {
+    "defaultMessage": "Only courses and programs of type Enrollment code are listed.",
+    "description": "rwaq.admin.enrollmentCodes.form.itemHelp"
+  },
+  "rwaq.admin.enrollmentCodes.form.itemLoadFailed": {
+    "defaultMessage": "Could not load the courses and programs.",
+    "description": "rwaq.admin.enrollmentCodes.form.itemLoadFailed"
+  },
+  "rwaq.admin.enrollmentCodes.form.multiUsage": {
+    "defaultMessage": "Multiple Usage (specify how many times this code can be used)",
+    "description": "rwaq.admin.enrollmentCodes.form.multiUsage"
+  },
+  "rwaq.admin.enrollmentCodes.form.multiUsageHelp": {
+    "defaultMessage": "Unchecked, the code works once.",
+    "description": "rwaq.admin.enrollmentCodes.form.multiUsageHelp"
+  },
+  "rwaq.admin.enrollmentCodes.form.maxUsesLabel": {
+    "defaultMessage": "Number of uses",
+    "description": "rwaq.admin.enrollmentCodes.form.maxUsesLabel"
+  },
+  "rwaq.admin.enrollmentCodes.form.maxUsesInvalid": {
+    "defaultMessage": "Enter a whole number, 1 or more.",
+    "description": "rwaq.admin.enrollmentCodes.form.maxUsesInvalid"
+  },
+  "rwaq.admin.enrollmentCodes.form.maxUsesBelowUses": {
+    "defaultMessage": "The limit cannot be below the {used} uses already made.",
+    "description": "rwaq.admin.enrollmentCodes.form.maxUsesBelowUses"
+  },
+  "rwaq.admin.enrollmentCodes.form.usedSoFar": {
+    "defaultMessage": "Used so far: {used}",
+    "description": "rwaq.admin.enrollmentCodes.form.usedSoFar"
+  },
+  "rwaq.admin.enrollmentCodes.form.expiresLabel": {
+    "defaultMessage": "Expires on (optional)",
+    "description": "rwaq.admin.enrollmentCodes.form.expiresLabel"
+  },
+  "rwaq.admin.enrollmentCodes.form.expiresHelp": {
+    "defaultMessage": "Leave it empty for a code that never expires.",
+    "description": "rwaq.admin.enrollmentCodes.form.expiresHelp"
+  },
+  "rwaq.admin.enrollmentCodes.form.activeLabel": {
+    "defaultMessage": "Code is active",
+    "description": "rwaq.admin.enrollmentCodes.form.activeLabel"
+  },
+  "rwaq.admin.enrollmentCodes.form.activeHelp": {
+    "defaultMessage": "Turn it off to mark the code inactive and stop new enrollments with it.",
+    "description": "rwaq.admin.enrollmentCodes.form.activeHelp"
+  },
+  "rwaq.admin.enrollmentCodes.form.editReadOnlyNote": {
+    "defaultMessage": "The code and what it covers cannot be changed.",
+    "description": "rwaq.admin.enrollmentCodes.form.editReadOnlyNote"
+  },
+  "rwaq.admin.enrollmentCodes.form.saveFailed": {
+    "defaultMessage": "Could not save the code. Please try again.",
+    "description": "rwaq.admin.enrollmentCodes.form.saveFailed"
+  },
+  "rwaq.admin.enrollmentCodes.form.saved": {
+    "defaultMessage": "Code saved.",
+    "description": "rwaq.admin.enrollmentCodes.form.saved"
+  },
+  "rwaq.admin.enrollmentCodes.delete.title": {
+    "defaultMessage": "Delete enrollment code",
+    "description": "rwaq.admin.enrollmentCodes.delete.title"
+  },
+  "rwaq.admin.enrollmentCodes.delete.body": {
+    "defaultMessage": "Delete the code {code}? It has no uses. This cannot be undone.",
+    "description": "rwaq.admin.enrollmentCodes.delete.body"
+  },
+  "rwaq.admin.enrollmentCodes.delete.submit": {
+    "defaultMessage": "Delete",
+    "description": "rwaq.admin.enrollmentCodes.delete.submit"
+  },
+  "rwaq.admin.enrollmentCodes.delete.failed": {
+    "defaultMessage": "Could not delete the code. Please try again.",
+    "description": "rwaq.admin.enrollmentCodes.delete.failed"
+  },
+  "rwaq.admin.enrollmentCodes.delete.done": {
+    "defaultMessage": "Code {code} deleted.",
+    "description": "rwaq.admin.enrollmentCodes.delete.done"
+  },
+  "rwaq.admin.enrollmentCodes.card.titleCreated": {
+    "defaultMessage": "Enrollment code created",
+    "description": "rwaq.admin.enrollmentCodes.card.titleCreated"
+  },
+  "rwaq.admin.enrollmentCodes.card.title": {
+    "defaultMessage": "Enrollment code",
+    "description": "rwaq.admin.enrollmentCodes.card.title"
+  },
+  "rwaq.admin.enrollmentCodes.card.loading": {
+    "defaultMessage": "Loading the card",
+    "description": "rwaq.admin.enrollmentCodes.card.loading"
+  },
+  "rwaq.admin.enrollmentCodes.card.loadFailed": {
+    "defaultMessage": "Could not load the card. Please try again.",
+    "description": "rwaq.admin.enrollmentCodes.card.loadFailed"
+  },
+  "rwaq.admin.enrollmentCodes.card.close": {
+    "defaultMessage": "Close",
+    "description": "rwaq.admin.enrollmentCodes.card.close"
+  },
+  "rwaq.admin.enrollmentCodes.card.downloadHtml": {
+    "defaultMessage": "Download HTML",
+    "description": "rwaq.admin.enrollmentCodes.card.downloadHtml"
+  },
+  "rwaq.admin.enrollmentCodes.card.downloadImage": {
+    "defaultMessage": "Download Image",
+    "description": "rwaq.admin.enrollmentCodes.card.downloadImage"
+  },
+  "rwaq.admin.enrollmentCodes.card.copyCode": {
+    "defaultMessage": "Copy Code",
+    "description": "rwaq.admin.enrollmentCodes.card.copyCode"
+  },
+  "rwaq.admin.enrollmentCodes.card.exporting": {
+    "defaultMessage": "Preparing…",
+    "description": "rwaq.admin.enrollmentCodes.card.exporting"
+  },
+  "rwaq.admin.enrollmentCodes.card.exportFailed": {
+    "defaultMessage": "Could not create the file. Please try again.",
+    "description": "rwaq.admin.enrollmentCodes.card.exportFailed"
+  },
+  "rwaq.admin.enrollmentCodes.uses.search": {
+    "defaultMessage": "Search by student name, username or email",
+    "description": "rwaq.admin.enrollmentCodes.uses.search"
+  },
+  "rwaq.admin.enrollmentCodes.col.student": {
+    "defaultMessage": "Student",
+    "description": "rwaq.admin.enrollmentCodes.col.student"
+  },
+  "rwaq.admin.enrollmentCodes.col.usedOn": {
+    "defaultMessage": "Used on",
+    "description": "rwaq.admin.enrollmentCodes.col.usedOn"
+  },
+  "rwaq.admin.enrollmentCodes.col.enrolled": {
+    "defaultMessage": "Enrollment",
+    "description": "rwaq.admin.enrollmentCodes.col.enrolled"
+  },
+  "rwaq.admin.enrollmentCodes.enrolled.still": {
+    "defaultMessage": "Still enrolled",
+    "description": "rwaq.admin.enrollmentCodes.enrolled.still"
+  },
+  "rwaq.admin.enrollmentCodes.enrolled.left": {
+    "defaultMessage": "Left",
+    "description": "rwaq.admin.enrollmentCodes.enrolled.left"
+  },
+  "rwaq.admin.enrollmentCodes.uses.codeFilter": {
+    "defaultMessage": "Code",
+    "description": "rwaq.admin.enrollmentCodes.uses.codeFilter"
+  },
+  "rwaq.admin.enrollmentCodes.uses.codePlaceholder": {
+    "defaultMessage": "Part of a code",
+    "description": "rwaq.admin.enrollmentCodes.uses.codePlaceholder"
+  },
+  "rwaq.admin.enrollmentCodes.uses.itemFilter": {
+    "defaultMessage": "Course or program",
+    "description": "rwaq.admin.enrollmentCodes.uses.itemFilter"
+  },
+  "rwaq.admin.enrollmentCodes.uses.allItems": {
+    "defaultMessage": "All courses and programs",
+    "description": "rwaq.admin.enrollmentCodes.uses.allItems"
+  },
+  "rwaq.admin.enrollmentCodes.col.scope": {
+    "defaultMessage": "Scope",
+    "description": "rwaq.admin.enrollmentCodes.col.scope"
+  },
+  "rwaq.admin.enrollmentCodes.col.organization": {
+    "defaultMessage": "Organization",
+    "description": "rwaq.admin.enrollmentCodes.col.organization"
+  },
+  "rwaq.admin.enrollmentCodes.col.typedHere": {
+    "defaultMessage": "Typed the code here",
+    "description": "rwaq.admin.enrollmentCodes.col.typedHere"
+  },
+  "rwaq.admin.enrollmentCodes.usage.usedOf": {
+    "defaultMessage": "Used {count} of {max}",
+    "description": "rwaq.admin.enrollmentCodes.usage.usedOf"
+  },
+  "rwaq.admin.enrollmentCodes.usage.remaining": {
+    "defaultMessage": "{count} left",
+    "description": "rwaq.admin.enrollmentCodes.usage.remaining"
+  },
+  "rwaq.admin.enrollmentCodes.usage.covers": {
+    "defaultMessage": "Covers {count, plural, one {# course or program} other {# courses and programs}}",
+    "description": "rwaq.admin.enrollmentCodes.usage.covers"
+  },
+  "rwaq.admin.enrollmentCodes.usage.joined": {
+    "defaultMessage": "{count, plural, one {# item joined} other {# items joined}}",
+    "description": "rwaq.admin.enrollmentCodes.usage.joined"
+  },
+  "rwaq.admin.enrollmentCodes.yes": {
+    "defaultMessage": "Yes",
+    "description": "rwaq.admin.enrollmentCodes.yes"
+  },
+  "rwaq.admin.enrollmentCodes.no": {
+    "defaultMessage": "No",
+    "description": "rwaq.admin.enrollmentCodes.no"
+  },
+  "rwaq.admin.enrollmentCodes.kind.organization": {
+    "defaultMessage": "Organization",
+    "description": "rwaq.admin.enrollmentCodes.kind.organization"
+  },
+  "rwaq.admin.enrollmentCodes.action.viewUsage": {
+    "defaultMessage": "View details of {code}",
+    "description": "rwaq.admin.enrollmentCodes.action.viewUsage"
+  },
+  "rwaq.admin.enrollmentCodes.filter.organization": {
+    "defaultMessage": "Organization",
+    "description": "rwaq.admin.enrollmentCodes.filter.organization"
+  },
+  "rwaq.admin.enrollmentCodes.filter.allOrganizations": {
+    "defaultMessage": "All organizations",
+    "description": "rwaq.admin.enrollmentCodes.filter.allOrganizations"
+  },
+  "rwaq.admin.enrollmentCodes.filter.scope": {
+    "defaultMessage": "Scope",
+    "description": "rwaq.admin.enrollmentCodes.filter.scope"
+  },
+  "rwaq.admin.enrollmentCodes.chip.organization": {
+    "defaultMessage": "Organization: {name}",
+    "description": "rwaq.admin.enrollmentCodes.chip.organization"
+  },
+  "rwaq.admin.enrollmentCodes.chip.scope": {
+    "defaultMessage": "Scope: {label}",
+    "description": "rwaq.admin.enrollmentCodes.chip.scope"
+  },
+  "rwaq.admin.enrollmentCodes.form.scopeLabel": {
+    "defaultMessage": "The code covers",
+    "description": "rwaq.admin.enrollmentCodes.form.scopeLabel"
+  },
+  "rwaq.admin.enrollmentCodes.form.scopeCourse": {
+    "defaultMessage": "Course",
+    "description": "rwaq.admin.enrollmentCodes.form.scopeCourse"
+  },
+  "rwaq.admin.enrollmentCodes.form.scopeProgram": {
+    "defaultMessage": "Program",
+    "description": "rwaq.admin.enrollmentCodes.form.scopeProgram"
+  },
+  "rwaq.admin.enrollmentCodes.form.scopeOrganization": {
+    "defaultMessage": "Organization",
+    "description": "rwaq.admin.enrollmentCodes.form.scopeOrganization"
+  },
+  "rwaq.admin.enrollmentCodes.form.courseLabel": {
+    "defaultMessage": "Course",
+    "description": "rwaq.admin.enrollmentCodes.form.courseLabel"
+  },
+  "rwaq.admin.enrollmentCodes.form.programLabel": {
+    "defaultMessage": "Program",
+    "description": "rwaq.admin.enrollmentCodes.form.programLabel"
+  },
+  "rwaq.admin.enrollmentCodes.form.organizationLabel": {
+    "defaultMessage": "Organization",
+    "description": "rwaq.admin.enrollmentCodes.form.organizationLabel"
+  },
+  "rwaq.admin.enrollmentCodes.form.organizationHelp": {
+    "defaultMessage": "The code works for every Enrollment code course and program of this organization, now and later.",
+    "description": "rwaq.admin.enrollmentCodes.form.organizationHelp"
+  },
+  "rwaq.admin.enrollmentCodes.form.organizationPlaceholder": {
+    "defaultMessage": "Choose an organization…",
+    "description": "rwaq.admin.enrollmentCodes.form.organizationPlaceholder"
+  },
+  "rwaq.admin.enrollmentCodes.form.organizationRequired": {
+    "defaultMessage": "Choose an organization.",
+    "description": "rwaq.admin.enrollmentCodes.form.organizationRequired"
+  },
+  "rwaq.admin.enrollmentCodes.card.qrMissing": {
+    "defaultMessage": "The public site address is not set, so no QR code can be made.",
+    "description": "rwaq.admin.enrollmentCodes.card.qrMissing"
+  },
+  "rwaq.admin.enrollmentCodes.card.linkLabel": {
+    "defaultMessage": "The QR code opens: {url}",
+    "description": "rwaq.admin.enrollmentCodes.card.linkLabel"
+  },
+  "rwaq.admin.enrollmentCodes.pricing.hideFromCatalog": {
+    "defaultMessage": "Hide from catalog",
+    "description": "rwaq.admin.enrollmentCodes.pricing.hideFromCatalog"
+  },
+  "rwaq.admin.enrollmentCodes.pricing.hideFromCatalogHelp": {
+    "defaultMessage": "Learners can still open it by link, QR code and on the partner page.",
+    "description": "rwaq.admin.enrollmentCodes.pricing.hideFromCatalogHelp"
+  },
+  "rwaq.admin.enrollmentCodes.pricing.addCodeBanner": {
+    "defaultMessage": "Add an enrollment code so learners can join.",
+    "description": "rwaq.admin.enrollmentCodes.pricing.addCodeBanner"
+  },
+  "rwaq.admin.enrollmentCodes.pricing.addCodeAction": {
+    "defaultMessage": "Add enrollment code",
+    "description": "rwaq.admin.enrollmentCodes.pricing.addCodeAction"
+  },
+  "rwaq.admin.enrollmentCodes.usage.title": {
+    "defaultMessage": "Details of {code}",
+    "description": "rwaq.admin.enrollmentCodes.usage.title"
+  },
+  "rwaq.admin.enrollmentCodes.usage.itemsTitle": {
+    "defaultMessage": "Courses and programs",
+    "description": "rwaq.admin.enrollmentCodes.usage.itemsTitle"
+  },
+  "rwaq.admin.enrollmentCodes.usage.itemsLoadFailed": {
+    "defaultMessage": "Could not load the courses and programs.",
+    "description": "rwaq.admin.enrollmentCodes.usage.itemsLoadFailed"
+  },
+  "rwaq.admin.enrollmentCodes.usage.noItems": {
+    "defaultMessage": "No Enrollment code course or program is covered yet.",
+    "description": "rwaq.admin.enrollmentCodes.usage.noItems"
+  },
+  "rwaq.admin.enrollmentCodes.usage.col.item": {
+    "defaultMessage": "Course or program",
+    "description": "rwaq.admin.enrollmentCodes.usage.col.item"
+  },
+  "rwaq.admin.enrollmentCodes.usage.col.type": {
+    "defaultMessage": "Type",
+    "description": "rwaq.admin.enrollmentCodes.usage.col.type"
+  },
+  "rwaq.admin.enrollmentCodes.usage.col.learners": {
+    "defaultMessage": "Learners joined",
+    "description": "rwaq.admin.enrollmentCodes.usage.col.learners"
+  },
+  "rwaq.admin.enrollmentCodes.usage.learnersTitle": {
+    "defaultMessage": "Learners",
+    "description": "rwaq.admin.enrollmentCodes.usage.learnersTitle"
+  },
+  "rwaq.admin.enrollmentCodes.usage.expires": {
+    "defaultMessage": "Expires: {date}",
+    "description": "rwaq.admin.enrollmentCodes.usage.expires"
+  },
+  "rwaq.admin.programs.type.enrollmentCode": {
+    "defaultMessage": "Enrollment code",
+    "description": "rwaq.admin.programs.type.enrollmentCode"
+  },
+  "rwaq.admin.programs.pricing.enrollment-code": {
+    "defaultMessage": "Enrollment code",
+    "description": "rwaq.admin.programs.pricing.enrollment-code"
+  },
+  "rwaq.admin.programs.pricing.enrollment-code-description": {
+    "defaultMessage": "A free, restricted program that learners can only join with an enrollment code.",
+    "description": "rwaq.admin.programs.pricing.enrollment-code-description"
+  },
+  "rwaq.admin.courses.pricing.settings-save": {
+    "defaultMessage": "Save settings",
+    "description": "rwaq.admin.courses.pricing.settings-save"
+  },
+  "rwaq.admin.enrollment-codes.view-codes-action": {
+    "defaultMessage": "View enrollment codes",
+    "description": "rwaq.admin.enrollment-codes.view-codes-action"
+  },
+  "rwaq.admin.enrollmentCodes.itemFilterActive": {
+    "defaultMessage": "Showing codes for this item.",
+    "description": "rwaq.admin.enrollmentCodes.itemFilterActive"
+  },
+  "rwaq.admin.enrollmentCodes.itemFilterClear": {
+    "defaultMessage": "Show all codes",
+    "description": "rwaq.admin.enrollmentCodes.itemFilterClear"
+  },
+  "rwaq.admin.courses.settings.title": {
+    "defaultMessage": "Settings",
+    "description": "rwaq.admin.courses.settings.title"
+  },
+  "rwaq.admin.courses.settings.saved": {
+    "defaultMessage": "Settings saved.",
+    "description": "rwaq.admin.courses.settings.saved"
+  },
+  "rwaq.admin.enrollmentCodes.pricing.hideFromCatalogDisabled": {
+    "defaultMessage": "Save the course as an Enrollment code course to enable this setting.",
+    "description": "rwaq.admin.enrollmentCodes.pricing.hideFromCatalogDisabled"
+  },
+  "rwaq.admin.enrollmentCodes.filter.coveredItem": {
+    "defaultMessage": "{type}: {name}",
+    "description": "rwaq.admin.enrollmentCodes.filter.coveredItem"
+  },
+  "rwaq.admin.enrollmentCodes.filter.covers": {
+    "defaultMessage": "Covers: {name}",
+    "description": "rwaq.admin.enrollmentCodes.filter.covers"
+  },
+  "rwaq.admin.enrollmentCodes.empty.coveringHintProgram": {
+    "defaultMessage": "No codes were made for this program alone. Organization codes also cover it: set Scope to All to see them.",
+    "description": "rwaq.admin.enrollmentCodes.empty.coveringHintProgram"
+  },
+  "rwaq.admin.enrollmentCodes.empty.coveringHintCourse": {
+    "defaultMessage": "No codes were made for this course alone. Organization codes also cover it: set Scope to All to see them.",
+    "description": "rwaq.admin.enrollmentCodes.empty.coveringHintCourse"
+  },
+  "rwaq.admin.enrollmentCodes.usage.viewLearners": {
+    "defaultMessage": "View uses",
+    "description": "rwaq.admin.enrollmentCodes.usage.viewLearners"
+  },
+  "rwaq.admin.enrollmentCodes.usage.remainingLabel": {
+    "defaultMessage": "Remaining",
+    "description": "rwaq.admin.enrollmentCodes.usage.remainingLabel"
+  },
+  "rwaq.admin.enrollmentCodes.usage.joinedLabel": {
+    "defaultMessage": "Items joined",
+    "description": "rwaq.admin.enrollmentCodes.usage.joinedLabel"
+  },
+  "rwaq.admin.courses.pricing.categoriesRemoved": {
+    "defaultMessage": "An Enrollment code course cannot have categories, so these were removed: {categories}.",
+    "description": "rwaq.admin.courses.pricing.categoriesRemoved"
+  },
+  "rwaq.admin.enrollmentCodes.usage.backToCodes": {
+    "defaultMessage": "Back to enrollment codes",
+    "description": "rwaq.admin.enrollmentCodes.usage.backToCodes"
   }
 }

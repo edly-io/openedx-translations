@@ -3092,5 +3092,12 @@
   "programs.detail.field.vat-label-fallback": {
     "defaultMessage": "VAT",
     "description": "programs.detail.field.vat-label-fallback"
-  }
+  },
+  "course-authoring.schedule-section.pricing.category-enrollment-code": "Enrollment code",
+  "course-authoring.schedule-section.pricing.category-enrollment-code.description": "A free, restricted course that learners can only join with an enrollment code.",
+  "programs.detail.field.pricing.enrollment-code": "Enrollment code",
+  "programs.detail.field.pricing.enrollment-code.description": "A free, restricted program that learners can only join with an enrollment code.",
+  "course-authoring.studio-home.courses.tab.pricing-filter-menu.enrollment-code": "Enrollment code",
+  "course-authoring.studio-home.programs.tab.type.enrollment-code": "Enrollment code",
+  "course-authoring.schedule-section.pricing.categories-removed": "An Enrollment code course cannot have categories, so these were removed: {categories}."
 }

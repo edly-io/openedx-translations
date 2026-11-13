@@ -2751,6 +2751,10 @@
     "defaultMessage": "Users",
     "description": "rwaq.admin.sidenav.users"
   },
+  "rwaq.admin.stats.activeEnrollmentsPerMonth.title": {
+    "defaultMessage": "Active enrollments per month",
+    "description": "rwaq.admin.stats.activeEnrollmentsPerMonth.title"
+  },
   "rwaq.admin.topbar.account": {
     "defaultMessage": "Account menu",
     "description": "rwaq.admin.topbar.account"

@@ -1287,6 +1287,7 @@
   "rwaq.admin.programs.stats.series.completed": "المكتملون",
   "rwaq.admin.programs.stats.series.enrolled": "المسجّلون",
   "rwaq.admin.programs.stats.totalCourses.info": "المساقات المرتبطة بهذا البرنامج.",
+  "rwaq.admin.stats.activeEnrollmentsPerMonth.title": "التسجيلات النشطة في كل شهر",
   "rwaq.admin.stats.chart.empty": "لا توجد بيانات للعرض بعد.",
   "rwaq.admin.stats.chart.unavailable": "غير متاح",
   "rwaq.admin.stats.enrollmentsPerMonth.title": "التسجيلات في كل شهر",

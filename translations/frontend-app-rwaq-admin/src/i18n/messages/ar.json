@@ -1228,6 +1228,7 @@
   "rwaq.admin.enrollmentCodes.form.editSubmit": "حفظ",
   "rwaq.admin.enrollmentCodes.form.cancel": "إلغاء",
   "rwaq.admin.enrollmentCodes.form.codeLabel": "الرمز",
+  "rwaq.admin.enrollmentCodes.form.codeLabelOptional": "الرمز (اختياري)",
   "rwaq.admin.enrollmentCodes.form.codeHelp": "من 6 إلى 8 أحرف وأرقام. اتركه فارغًا ليولّد النظام رمزًا.",
   "rwaq.admin.enrollmentCodes.form.codeInvalid": "استخدم من 6 إلى 8 أحرف وأرقام فقط.",
   "rwaq.admin.enrollmentCodes.form.generate": "توليد",

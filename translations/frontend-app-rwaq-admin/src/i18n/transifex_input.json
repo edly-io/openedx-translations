@@ -5065,12 +5065,16 @@
     "description": "rwaq.admin.enrollmentCodes.form.itemRequired"
   },
   "rwaq.admin.enrollmentCodes.form.itemSearch": {
-    "defaultMessage": "Search by name",
+    "defaultMessage": "Search by name or ID",
     "description": "rwaq.admin.enrollmentCodes.form.itemSearch"
   },
-  "rwaq.admin.enrollmentCodes.form.itemPlaceholder": {
-    "defaultMessage": "Choose…",
-    "description": "rwaq.admin.enrollmentCodes.form.itemPlaceholder"
+  "rwaq.admin.enrollmentCodes.form.itemNoResults": {
+    "defaultMessage": "No matching courses or programs.",
+    "description": "rwaq.admin.enrollmentCodes.form.itemNoResults"
+  },
+  "rwaq.admin.enrollmentCodes.form.itemClear": {
+    "defaultMessage": "Clear the choice",
+    "description": "rwaq.admin.enrollmentCodes.form.itemClear"
   },
   "rwaq.admin.enrollmentCodes.form.itemGroupCourses": {
     "defaultMessage": "Courses",

@@ -1333,8 +1333,6 @@
   "rwaq.admin.enrollmentCodes.pricing.hideFromCatalogDisabled": "احفظ الدورة كدورة برمز تسجيل لتفعيل هذا الإعداد.",
   "rwaq.admin.enrollmentCodes.filter.coveredItem": "{type}: {name}",
   "rwaq.admin.enrollmentCodes.filter.covers": "يشمل: {name}",
-  "rwaq.admin.enrollmentCodes.empty.coveringHintProgram": "لم يتم إنشاء رموز لهذا البرنامج وحده. رموز المؤسسة تشمله أيضاً: اضبط النطاق على الكل لعرضها.",
-  "rwaq.admin.enrollmentCodes.empty.coveringHintCourse": "لم يتم إنشاء رموز لهذا المساق وحده. رموز المؤسسة تشمله أيضاً: اضبط النطاق على الكل لعرضها.",
   "rwaq.admin.enrollmentCodes.usage.viewLearners": "عرض الاستخدامات",
   "rwaq.admin.enrollmentCodes.usage.remainingLabel": "المتبقي",
   "rwaq.admin.enrollmentCodes.usage.joinedLabel": "العناصر الملتحق بها",

@@ -5332,14 +5332,6 @@
     "defaultMessage": "Covers: {name}",
     "description": "rwaq.admin.enrollmentCodes.filter.covers"
   },
-  "rwaq.admin.enrollmentCodes.empty.coveringHintProgram": {
-    "defaultMessage": "No codes were made for this program alone. Organization codes also cover it: set Scope to All to see them.",
-    "description": "rwaq.admin.enrollmentCodes.empty.coveringHintProgram"
-  },
-  "rwaq.admin.enrollmentCodes.empty.coveringHintCourse": {
-    "defaultMessage": "No codes were made for this course alone. Organization codes also cover it: set Scope to All to see them.",
-    "description": "rwaq.admin.enrollmentCodes.empty.coveringHintCourse"
-  },
   "rwaq.admin.enrollmentCodes.usage.viewLearners": {
     "defaultMessage": "View uses",
     "description": "rwaq.admin.enrollmentCodes.usage.viewLearners"

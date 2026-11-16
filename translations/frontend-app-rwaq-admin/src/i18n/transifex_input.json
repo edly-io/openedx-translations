@@ -1603,6 +1603,46 @@
     "defaultMessage": "Try again",
     "description": "rwaq.admin.errorState.retry"
   },
+  "rwaq.admin.exports.dates.all": {
+    "defaultMessage": "All dates",
+    "description": "rwaq.admin.exports.dates.all"
+  },
+  "rwaq.admin.exports.dates.createdFrom": {
+    "defaultMessage": "Created from (UTC)",
+    "description": "rwaq.admin.exports.dates.createdFrom"
+  },
+  "rwaq.admin.exports.dates.createdTo": {
+    "defaultMessage": "Created to (UTC)",
+    "description": "rwaq.admin.exports.dates.createdTo"
+  },
+  "rwaq.admin.exports.dates.custom": {
+    "defaultMessage": "Custom dates",
+    "description": "rwaq.admin.exports.dates.custom"
+  },
+  "rwaq.admin.exports.dates.joinedFrom": {
+    "defaultMessage": "Joined from (UTC)",
+    "description": "rwaq.admin.exports.dates.joinedFrom"
+  },
+  "rwaq.admin.exports.dates.joinedTo": {
+    "defaultMessage": "Joined to (UTC)",
+    "description": "rwaq.admin.exports.dates.joinedTo"
+  },
+  "rwaq.admin.exports.dates.lastMonth": {
+    "defaultMessage": "Last month",
+    "description": "rwaq.admin.exports.dates.lastMonth"
+  },
+  "rwaq.admin.exports.dates.month": {
+    "defaultMessage": "This month",
+    "description": "rwaq.admin.exports.dates.month"
+  },
+  "rwaq.admin.exports.dates.presets": {
+    "defaultMessage": "Date range (UTC)",
+    "description": "rwaq.admin.exports.dates.presets"
+  },
+  "rwaq.admin.exports.dates.year": {
+    "defaultMessage": "This year",
+    "description": "rwaq.admin.exports.dates.year"
+  },
   "rwaq.admin.filterBar.searchLabel": {
     "defaultMessage": "Search",
     "description": "rwaq.admin.filterBar.searchLabel"
@@ -1970,6 +2010,14 @@
   "rwaq.admin.orgs.form.tooLong": {
     "defaultMessage": "This value is too long.",
     "description": "rwaq.admin.orgs.form.tooLong"
+  },
+  "rwaq.admin.orgs.reports.learnersDetail.details": {
+    "defaultMessage": "One row per learner and course, with progress and activity. Staff enrollments are flagged.",
+    "description": "rwaq.admin.orgs.reports.learnersDetail.details"
+  },
+  "rwaq.admin.orgs.reports.learnersDetail.title": {
+    "defaultMessage": "Learner details",
+    "description": "rwaq.admin.orgs.reports.learnersDetail.title"
   },
   "rwaq.admin.orgs.search.placeholder": {
     "defaultMessage": "Search by name or short name…",
@@ -3868,6 +3916,14 @@
     "defaultMessage": "Source",
     "description": "rwaq.admin.payments.col.source"
   },
+  "rwaq.admin.payments.col.paymentMethod": {
+    "defaultMessage": "Payment method",
+    "description": "rwaq.admin.payments.col.paymentMethod"
+  },
+  "rwaq.admin.payments.info.col.paymentMethod": {
+    "defaultMessage": "How the buyer paid, such as mada, Visa or Mastercard. Orders received before this was recorded show the gateway name.",
+    "description": "rwaq.admin.payments.info.col.paymentMethod"
+  },
   "rwaq.admin.payments.info.col.order": {
     "defaultMessage": "The WordPress order ID. Admin grants have no WordPress order and show as Admin grant order.",
     "description": "rwaq.admin.payments.info.col.order"
@@ -4545,7 +4601,7 @@
     "description": "rwaq.admin.orgs.reports.funnel.title"
   },
   "rwaq.admin.orgs.reports.funnel.details": {
-    "defaultMessage": "Programs, program enrollments and completions, and the completion rate.",
+    "defaultMessage": "One row per program: courses, enrollments, completions and payment totals.",
     "description": "rwaq.admin.orgs.reports.funnel.details"
   },
   "rwaq.admin.orgs.reports.lifecycle.title": {

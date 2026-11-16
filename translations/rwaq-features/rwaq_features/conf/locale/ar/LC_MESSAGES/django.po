@@ -308,7 +308,7 @@ msgid "Enrollment & Progress"
 msgstr ""
 
 msgid "Enrollments"
-msgstr ""
+msgstr "التسجيلات"
 
 msgid ""
 "Explicit slug for this course's WordPress URL. Must be unique across all "
@@ -1146,3 +1146,189 @@ msgstr "المساق غير موجود."
 
 msgid "Invalid course id."
 msgstr "معرّف المساق غير صالح."
+
+msgid "Audit enrollments"
+msgstr "تسجيلات نمط الاستماع"
+
+msgid "Average progress of started learners (%)"
+msgstr "متوسط تقدم المتعلمين الذين بدؤوا (%)"
+
+msgid "Cancellation reason"
+msgstr "سبب الإلغاء"
+
+msgid "Cancelled at"
+msgstr "تاريخ الإلغاء"
+
+msgid "Certificate Issue Date or Course Completion Date"
+msgstr "تاريخ إصدار الشهادة أو إتمام المساق"
+
+msgid "Certificate date"
+msgstr "تاريخ الشهادة"
+
+msgid "Certificate status"
+msgstr "حالة الشهادة"
+
+msgid "Completion date"
+msgstr "تاريخ الإتمام"
+
+msgid "Content"
+msgstr "المحتوى"
+
+msgid "Country"
+msgstr "البلد"
+
+msgid "Coupon"
+msgstr "القسيمة"
+
+msgid "Course Progress (%)"
+msgstr "التقدم في المساق (%)"
+
+msgid "Course end date"
+msgstr "تاريخ انتهاء المساق"
+
+msgid "Course enrollment active"
+msgstr "التسجيل في المساق نشط"
+
+msgid "Course enrollment date"
+msgstr "تاريخ التسجيل في المساق"
+
+msgid "Course enrollment mode"
+msgstr "نمط التسجيل في المساق"
+
+msgid "Course last activity"
+msgstr "آخر نشاط في المساق"
+
+msgid "Course start date"
+msgstr "تاريخ بدء المساق"
+
+msgid "Courses remaining"
+msgstr "المساقات المتبقية"
+
+msgid "Courses total"
+msgstr "إجمالي المساقات"
+
+msgid "Created from"
+msgstr "تاريخ الإنشاء من"
+
+msgid "Created to"
+msgstr "تاريخ الإنشاء إلى"
+
+msgid "Discounts (SAR)"
+msgstr "الخصومات (ر.س)"
+
+msgid "End date must not be before start date."
+msgstr "يجب ألا يسبق تاريخ الانتهاء تاريخ البدء."
+
+msgid "Ends at"
+msgstr "تاريخ الانتهاء"
+
+msgid "Enrolled via"
+msgstr "التسجيل عبر"
+
+msgid "Enrollment Date"
+msgstr "تاريخ التسجيل"
+
+msgid "Enrollment active"
+msgstr "التسجيل نشط"
+
+msgid "Enrollment date"
+msgstr "تاريخ التسجيل"
+
+msgid "Enrollment mode"
+msgstr "نمط التسجيل"
+
+msgid "Expected a date in YYYY-MM-DD format."
+msgstr "يجب إدخال التاريخ بصيغة YYYY-MM-DD."
+
+msgid "Filter"
+msgstr "عامل التصفية"
+
+msgid "Grade (%)"
+msgstr "الدرجة (%)"
+
+msgid "Grade letter"
+msgstr "التقدير الحرفي"
+
+msgid "Has admins"
+msgstr "لديها مسؤولون"
+
+msgid "Honor enrollments"
+msgstr "تسجيلات النمط الشرفي"
+
+msgid "In progress"
+msgstr "قيد التقدم"
+
+msgid "Is legacy"
+msgstr "حساب من المنصة السابقة"
+
+msgid "Is staff"
+msgstr "من فريق العمل"
+
+msgid "Joined from"
+msgstr "تاريخ الانضمام من"
+
+msgid "Joined to"
+msgstr "تاريخ الانضمام إلى"
+
+msgid "Learners"
+msgstr "المتعلمون"
+
+msgid "Linked course IDs"
+msgstr "معرّفات المساقات المرتبطة"
+
+msgid "Organization report: learner details"
+msgstr "تقرير المؤسسة: تفاصيل المتعلمين"
+
+msgid "Passed"
+msgstr "اجتاز"
+
+msgid "Passed date"
+msgstr "تاريخ الاجتياز"
+
+msgid "Payments"
+msgstr "المدفوعات"
+
+msgid "Plan"
+msgstr "الخطة"
+
+msgid "Program completion date"
+msgstr "تاريخ إتمام البرنامج"
+
+msgid "Program end date"
+msgstr "تاريخ انتهاء البرنامج"
+
+msgid "Program enrollment active"
+msgstr "التسجيل في البرنامج نشط"
+
+msgid "Program enrollment date"
+msgstr "تاريخ التسجيل في البرنامج"
+
+msgid "Program keys"
+msgstr "معرّفات البرامج"
+
+msgid "Program start date"
+msgstr "تاريخ بدء البرنامج"
+
+msgid "Program status"
+msgstr "حالة البرنامج"
+
+msgid "Progress (%)"
+msgstr "التقدم (%)"
+
+msgid "Rwaq payments: subscriptions"
+msgstr "مدفوعات رواق: الاشتراكات"
+
+msgid "Search by"
+msgstr "البحث حسب"
+
+msgid "Search term"
+msgstr "عبارة البحث"
+
+msgid "Starts at"
+msgstr "تاريخ البدء"
+
+msgid "Subscription ID"
+msgstr "معرّف الاشتراك"
+
+msgid "User courses"
+msgstr "مساقات المستخدم"

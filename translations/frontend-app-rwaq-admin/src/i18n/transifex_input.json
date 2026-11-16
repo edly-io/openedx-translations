@@ -5044,6 +5044,10 @@
     "defaultMessage": "Code",
     "description": "rwaq.admin.enrollmentCodes.form.codeLabel"
   },
+  "rwaq.admin.enrollmentCodes.form.codeLabelOptional": {
+    "defaultMessage": "Code (optional)",
+    "description": "rwaq.admin.enrollmentCodes.form.codeLabelOptional"
+  },
   "rwaq.admin.enrollmentCodes.form.codeHelp": {
     "defaultMessage": "6 to 8 letters and numbers. Leave it empty and the system generates one.",
     "description": "rwaq.admin.enrollmentCodes.form.codeHelp"

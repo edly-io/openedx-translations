@@ -5212,9 +5212,13 @@
     "defaultMessage": "The code works for every Enrollment code course and program of this organization, now and later.",
     "description": "rwaq.admin.enrollmentCodes.form.organizationHelp"
   },
-  "rwaq.admin.enrollmentCodes.form.organizationPlaceholder": {
-    "defaultMessage": "Choose an organization…",
-    "description": "rwaq.admin.enrollmentCodes.form.organizationPlaceholder"
+  "rwaq.admin.enrollmentCodes.form.organizationSearch": {
+    "defaultMessage": "Search by name or short name",
+    "description": "rwaq.admin.enrollmentCodes.form.organizationSearch"
+  },
+  "rwaq.admin.enrollmentCodes.form.organizationNoResults": {
+    "defaultMessage": "No matching organizations.",
+    "description": "rwaq.admin.enrollmentCodes.form.organizationNoResults"
   },
   "rwaq.admin.enrollmentCodes.form.organizationRequired": {
     "defaultMessage": "Choose an organization.",

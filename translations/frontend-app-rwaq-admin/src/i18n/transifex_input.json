@@ -4768,6 +4768,18 @@
     "defaultMessage": "Actions",
     "description": "rwaq.admin.enrollmentCodes.col.actions"
   },
+  "rwaq.admin.enrollmentCodes.col.active": {
+    "defaultMessage": "Active",
+    "description": "rwaq.admin.enrollmentCodes.col.active"
+  },
+  "rwaq.admin.enrollmentCodes.switch.on": {
+    "defaultMessage": "On",
+    "description": "rwaq.admin.enrollmentCodes.switch.on"
+  },
+  "rwaq.admin.enrollmentCodes.switch.off": {
+    "defaultMessage": "Off",
+    "description": "rwaq.admin.enrollmentCodes.switch.off"
+  },
   "rwaq.admin.enrollmentCodes.noExpiry": {
     "defaultMessage": "Never",
     "description": "rwaq.admin.enrollmentCodes.noExpiry"

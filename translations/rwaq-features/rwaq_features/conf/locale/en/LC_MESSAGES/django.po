@@ -49,16 +49,25 @@ msgstr ""
 msgid "Average courses passed per learner"
 msgstr ""
 
+msgid "Certificate Issue Date"
+msgstr ""
+
 msgid "Certificate offered"
 msgstr ""
 
 msgid "Course length"
 msgstr ""
 
+msgid "Course progress (%)"
+msgstr ""
+
 msgid "Enrollment end date"
 msgstr ""
 
 msgid "Enrollment start date"
+msgstr ""
+
+msgid "Enrollment track"
 msgstr ""
 
 msgid "Learners in progress"

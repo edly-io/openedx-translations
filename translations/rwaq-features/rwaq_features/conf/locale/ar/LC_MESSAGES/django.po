@@ -49,17 +49,26 @@ msgstr ""
 msgid "Average courses passed per learner"
 msgstr "متوسط المساقات المجتازة لكل متعلم"
 
+msgid "Certificate Issue Date"
+msgstr "تاريخ إصدار الشهادة"
+
 msgid "Certificate offered"
 msgstr "الشهادة متاحة"
 
 msgid "Course length"
 msgstr "مدة المساق"
 
+msgid "Course progress (%)"
+msgstr "تقدم المساق (%)"
+
 msgid "Enrollment end date"
 msgstr "تاريخ انتهاء التسجيل"
 
 msgid "Enrollment start date"
 msgstr "تاريخ بدء التسجيل"
+
+msgid "Enrollment track"
+msgstr "مسار التسجيل"
 
 msgid "Learners in progress"
 msgstr "المتعلمون قيد التقدم"

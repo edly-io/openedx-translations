@@ -1328,7 +1328,7 @@
   "rwaq.admin.users.listStats.legacy": "الحسابات القديمة المنقولة",
   "rwaq.admin.users.listStats.legacy.hint": "{remaining} من {total} لم تسجّل الدخول بعد",
   "rwaq.admin.users.listStats.legacy.info": "الحسابات المستوردة من المنصة القديمة التي سجّلت الدخول في المنصة الجديدة، من أصل جميع الحسابات المستوردة.",
-  "rwaq.admin.users.listStats.newThisMonth": "جدد هذا الشهر",
+  "rwaq.admin.users.listStats.newThisMonth": "متعلمون جدد هذا الشهر",
   "rwaq.admin.users.listStats.newThisMonth.info": "الحسابات النشطة المُنشأة في هذا الشهر الميلادي، مقارنةً بالشهر الماضي. لا تُحتسب حسابات الموظفين والمشرفين الخارقين وحسابات الخدمة.",
   "rwaq.admin.users.listStats.registrations.info": "الحسابات المُنشأة في كل شهر، نشطة كانت أم لا. هي السلسلة نفسها في لوحة المعلومات.",
   "rwaq.admin.users.listStats.registrations.title": "التسجيلات في كل شهر",

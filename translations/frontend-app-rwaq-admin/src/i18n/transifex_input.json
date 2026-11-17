@@ -5511,5 +5511,9 @@
   "rwaq.admin.enrollmentCodes.form.organizationNoResults": {
     "defaultMessage": "No matching organizations.",
     "description": "rwaq.admin.enrollmentCodes.form.organizationNoResults"
+  },
+  "rwaq.admin.stats.activeEnrollmentsPerMonth.title": {
+    "defaultMessage": "Active enrollments per month",
+    "description": "rwaq.admin.stats.activeEnrollmentsPerMonth.title"
   }
 }

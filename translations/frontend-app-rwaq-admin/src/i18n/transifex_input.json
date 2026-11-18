@@ -4900,6 +4900,18 @@
     "defaultMessage": "Actions",
     "description": "rwaq.admin.enrollmentCodes.col.actions"
   },
+  "rwaq.admin.enrollmentCodes.col.active": {
+    "defaultMessage": "Active",
+    "description": "rwaq.admin.enrollmentCodes.col.active"
+  },
+  "rwaq.admin.enrollmentCodes.switch.on": {
+    "defaultMessage": "On",
+    "description": "rwaq.admin.enrollmentCodes.switch.on"
+  },
+  "rwaq.admin.enrollmentCodes.switch.off": {
+    "defaultMessage": "Off",
+    "description": "rwaq.admin.enrollmentCodes.switch.off"
+  },
   "rwaq.admin.enrollmentCodes.noExpiry": {
     "defaultMessage": "Never",
     "description": "rwaq.admin.enrollmentCodes.noExpiry"
@@ -5032,6 +5044,10 @@
     "defaultMessage": "Code",
     "description": "rwaq.admin.enrollmentCodes.form.codeLabel"
   },
+  "rwaq.admin.enrollmentCodes.form.codeLabelOptional": {
+    "defaultMessage": "Code (optional)",
+    "description": "rwaq.admin.enrollmentCodes.form.codeLabelOptional"
+  },
   "rwaq.admin.enrollmentCodes.form.codeHelp": {
     "defaultMessage": "6 to 8 letters and numbers. Leave it empty and the system generates one.",
     "description": "rwaq.admin.enrollmentCodes.form.codeHelp"
@@ -5053,12 +5069,16 @@
     "description": "rwaq.admin.enrollmentCodes.form.itemRequired"
   },
   "rwaq.admin.enrollmentCodes.form.itemSearch": {
-    "defaultMessage": "Search by name",
+    "defaultMessage": "Search by name or ID",
     "description": "rwaq.admin.enrollmentCodes.form.itemSearch"
   },
-  "rwaq.admin.enrollmentCodes.form.itemPlaceholder": {
-    "defaultMessage": "Choose…",
-    "description": "rwaq.admin.enrollmentCodes.form.itemPlaceholder"
+  "rwaq.admin.enrollmentCodes.form.itemNoResults": {
+    "defaultMessage": "No matching courses or programs.",
+    "description": "rwaq.admin.enrollmentCodes.form.itemNoResults"
+  },
+  "rwaq.admin.enrollmentCodes.form.itemClear": {
+    "defaultMessage": "Clear the choice",
+    "description": "rwaq.admin.enrollmentCodes.form.itemClear"
   },
   "rwaq.admin.enrollmentCodes.form.itemGroupCourses": {
     "defaultMessage": "Courses",
@@ -5324,9 +5344,13 @@
     "defaultMessage": "The code works for every Enrollment code course and program of this organization, now and later.",
     "description": "rwaq.admin.enrollmentCodes.form.organizationHelp"
   },
-  "rwaq.admin.enrollmentCodes.form.organizationPlaceholder": {
-    "defaultMessage": "Choose an organization…",
-    "description": "rwaq.admin.enrollmentCodes.form.organizationPlaceholder"
+  "rwaq.admin.enrollmentCodes.form.organizationSearch": {
+    "defaultMessage": "Search by name or short name",
+    "description": "rwaq.admin.enrollmentCodes.form.organizationSearch"
+  },
+  "rwaq.admin.enrollmentCodes.form.organizationNoResults": {
+    "defaultMessage": "No matching organizations.",
+    "description": "rwaq.admin.enrollmentCodes.form.organizationNoResults"
   },
   "rwaq.admin.enrollmentCodes.form.organizationRequired": {
     "defaultMessage": "Choose an organization.",
@@ -5447,14 +5471,6 @@
   "rwaq.admin.enrollmentCodes.filter.covers": {
     "defaultMessage": "Covers: {name}",
     "description": "rwaq.admin.enrollmentCodes.filter.covers"
-  },
-  "rwaq.admin.enrollmentCodes.empty.coveringHintProgram": {
-    "defaultMessage": "No codes were made for this program alone. Organization codes also cover it: set Scope to All to see them.",
-    "description": "rwaq.admin.enrollmentCodes.empty.coveringHintProgram"
-  },
-  "rwaq.admin.enrollmentCodes.empty.coveringHintCourse": {
-    "defaultMessage": "No codes were made for this course alone. Organization codes also cover it: set Scope to All to see them.",
-    "description": "rwaq.admin.enrollmentCodes.empty.coveringHintCourse"
   },
   "rwaq.admin.enrollmentCodes.usage.viewLearners": {
     "defaultMessage": "View uses",

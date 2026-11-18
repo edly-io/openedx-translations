@@ -3083,5 +3083,15 @@
   "programs.detail.field.pricing.enrollment-code.description": "برنامج مجاني مقيّد لا يمكن للمتعلمين الالتحاق به إلا باستخدام رمز تسجيل.",
   "course-authoring.studio-home.courses.tab.pricing-filter-menu.enrollment-code": "رمز التسجيل",
   "course-authoring.studio-home.programs.tab.type.enrollment-code": "رمز التسجيل",
-  "course-authoring.schedule-section.pricing.categories-removed": "مساق رمز التسجيل لا يمكن أن يحتوي على تصنيفات، لذلك تمت إزالة هذه التصنيفات: {categories}."
+  "course-authoring.schedule-section.pricing.categories-removed": "مساق رمز التسجيل لا يمكن أن يحتوي على تصنيفات، لذلك تمت إزالة هذه التصنيفات: {categories}.",
+  "course-authoring.schedule-section.categories.title": "تصنيفات المقرر",
+  "course-authoring.schedule-section.categories.description": "اختر تصنيفات هذا المقرر. يُحفظ كل تغيير فورًا.",
+  "course-authoring.schedule-section.categories.select": "اختر التصنيفات",
+  "course-authoring.schedule-section.categories.none-selected": "لم تُحدد أي تصنيفات.",
+  "course-authoring.schedule-section.categories.loading": "جارٍ تحميل التصنيفات",
+  "course-authoring.schedule-section.categories.saving": "جارٍ حفظ تغييرات التصنيفات",
+  "course-authoring.schedule-section.categories.empty": "لا توجد تصنيفات متاحة.",
+  "course-authoring.schedule-section.categories.load-failed": "تعذر تحميل التصنيفات. يُرجى المحاولة مجددًا.",
+  "course-authoring.schedule-section.categories.save-failed": "تعذر حفظ تغيير التصنيف. يُرجى المحاولة مجددًا.",
+  "course-authoring.schedule-section.categories.retry": "إعادة المحاولة"
 }

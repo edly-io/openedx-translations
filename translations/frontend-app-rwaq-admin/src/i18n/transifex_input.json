@@ -4849,7 +4849,7 @@
     "description": "rwaq.admin.enrollmentCodes.title"
   },
   "rwaq.admin.enrollmentCodes.forbidden": {
-    "defaultMessage": "Enrollment codes are visible to Rwaq superadmins only.",
+    "defaultMessage": "Enrollment codes are visible to {siteName} superadmins only.",
     "description": "rwaq.admin.enrollmentCodes.forbidden"
   },
   "rwaq.admin.enrollmentCodes.error": {

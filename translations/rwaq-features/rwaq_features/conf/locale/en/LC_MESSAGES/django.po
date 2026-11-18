@@ -955,7 +955,7 @@ msgstr ""
 msgid "Enrollment code"
 msgstr ""
 
-msgid "is_free: learners enroll at no cost. is_paid: the course is sold on its own. is_program_only: the course is offered only through the one program it is added to, so it carries no price of its own. is_part_of_subscription: the course is reached only through the Rwaq subscription, so it carries no price of its own. is_enrollment_code: the course is free but learners need an enrollment code to join."
+msgid "is_free: learners enroll at no cost. is_paid: the course is sold on its own. is_program_only: the course is offered only through the one program it is added to, so it carries no price of its own. is_part_of_subscription: the course is reached only through the platform subscription, so it carries no price of its own. is_enrollment_code: the course is free but learners need an enrollment code to join."
 msgstr ""
 
 msgid "Enrollment in this course is restricted. Enter your enrollment code."
@@ -973,7 +973,7 @@ msgstr ""
 msgid "restricted by enrollment code"
 msgstr ""
 
-msgid "is_free: learners enroll at no cost. is_paid: this program is sold. is_part_of_subscription: this program is reached only through the Rwaq subscription. is_enrollment_code: this program is free but learners need an enrollment code to join."
+msgid "is_free: learners enroll at no cost. is_paid: this program is sold. is_part_of_subscription: this program is reached only through the platform subscription. is_enrollment_code: this program is free but learners need an enrollment code to join."
 msgstr ""
 
 msgid "Choose one course, one program or one organization."

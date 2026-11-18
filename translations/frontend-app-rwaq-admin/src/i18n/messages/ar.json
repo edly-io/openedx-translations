@@ -1193,7 +1193,7 @@
   "rwaq.admin.courses.pricing.enrollment-code": "رمز التسجيل",
   "rwaq.admin.courses.pricing.enrollment-code-description": "دورة مجانية مقيّدة لا يمكن للمتعلمين الالتحاق بها إلا باستخدام رمز تسجيل.",
   "rwaq.admin.enrollmentCodes.title": "رموز التسجيل",
-  "rwaq.admin.enrollmentCodes.forbidden": "رموز التسجيل متاحة لمشرفي رواق العامين فقط.",
+  "rwaq.admin.enrollmentCodes.forbidden": "رموز التسجيل متاحة للمشرفين العامين في {siteName} فقط.",
   "rwaq.admin.enrollmentCodes.error": "تعذّر تحميل رموز التسجيل.",
   "rwaq.admin.enrollmentCodes.tab.codes": "الرموز",
   "rwaq.admin.enrollmentCodes.tab.uses": "الاستخدامات",

@@ -1084,8 +1084,8 @@ msgstr "تاريخ الاستخدام"
 msgid "Enrollment code"
 msgstr "رمز التسجيل"
 
-msgid "is_free: learners enroll at no cost. is_paid: the course is sold on its own. is_program_only: the course is offered only through the one program it is added to, so it carries no price of its own. is_part_of_subscription: the course is reached only through the Rwaq subscription, so it carries no price of its own. is_enrollment_code: the course is free but learners need an enrollment code to join."
-msgstr "is_free: يسجّل المتعلمون مجانًا. is_paid: يُباع المساق وحده. is_program_only: يُقدَّم المساق فقط عبر البرنامج الوحيد الذي أُضيف إليه، لذلك لا سعر له. is_part_of_subscription: يصل المتعلمون إلى المساق فقط عبر اشتراك رواق، لذلك لا سعر له. is_enrollment_code: المساق مجاني لكن المتعلمين يحتاجون إلى رمز تسجيل للانضمام."
+msgid "is_free: learners enroll at no cost. is_paid: the course is sold on its own. is_program_only: the course is offered only through the one program it is added to, so it carries no price of its own. is_part_of_subscription: the course is reached only through the platform subscription, so it carries no price of its own. is_enrollment_code: the course is free but learners need an enrollment code to join."
+msgstr "is_free: يسجّل المتعلمون مجانًا. is_paid: يُباع المساق وحده. is_program_only: يُقدَّم المساق فقط عبر البرنامج الوحيد الذي أُضيف إليه، لذلك لا سعر له. is_part_of_subscription: يصل المتعلمون إلى المساق فقط عبر اشتراك المنصة، لذلك لا سعر له. is_enrollment_code: المساق مجاني لكن المتعلمين يحتاجون إلى رمز تسجيل للانضمام."
 
 msgid "Enrollment in this course is restricted. Enter your enrollment code."
 msgstr "التسجيل في هذا المساق مقيّد. أدخل رمز التسجيل."
@@ -1102,8 +1102,8 @@ msgstr "سبق أن سجّل متعلمون في هذا المساق المقي�
 msgid "restricted by enrollment code"
 msgstr "مقيّد برمز التسجيل"
 
-msgid "is_free: learners enroll at no cost. is_paid: this program is sold. is_part_of_subscription: this program is reached only through the Rwaq subscription. is_enrollment_code: this program is free but learners need an enrollment code to join."
-msgstr "is_free: يسجّل المتعلمون مجانًا. is_paid: يُباع هذا البرنامج. is_part_of_subscription: يصل المتعلمون إلى هذا البرنامج فقط عبر اشتراك رواق. is_enrollment_code: هذا البرنامج مجاني لكن المتعلمين يحتاجون إلى رمز تسجيل للانضمام."
+msgid "is_free: learners enroll at no cost. is_paid: this program is sold. is_part_of_subscription: this program is reached only through the platform subscription. is_enrollment_code: this program is free but learners need an enrollment code to join."
+msgstr "is_free: يسجّل المتعلمون مجانًا. is_paid: يُباع هذا البرنامج. is_part_of_subscription: يصل المتعلمون إلى هذا البرنامج فقط عبر اشتراك المنصة. is_enrollment_code: هذا البرنامج مجاني لكن المتعلمين يحتاجون إلى رمز تسجيل للانضمام."
 
 msgid "Choose one course, one program or one organization."
 msgstr "اختر مساقًا واحدًا أو برنامجًا واحدًا أو منظمة واحدة."
@@ -1324,8 +1324,8 @@ msgstr "حالة البرنامج"
 msgid "Progress (%)"
 msgstr "التقدم (%)"
 
-msgid "Rwaq payments: subscriptions"
-msgstr "مدفوعات رواق: الاشتراكات"
+msgid "{platform_name} payments: subscriptions"
+msgstr "مدفوعات {platform_name}: الاشتراكات"
 
 msgid "Search by"
 msgstr "البحث حسب"

@@ -1505,6 +1505,8 @@
   "rwaq.admin.stats.lifecycle.running": "جارية",
   "rwaq.admin.stats.lifecycle.title": "دورة حياة المساقات",
   "rwaq.admin.stats.lifecycle.upcoming": "قادمة",
+  "rwaq.admin.stats.refresh": "تحديث الإحصاءات",
+  "rwaq.admin.stats.refreshFailed": "تعذّر تحديث الإحصاءات. حاول مرة أخرى بعد قليل.",
   "rwaq.admin.stats.retry": "حاول مرة أخرى",
   "rwaq.admin.stats.series.enrollments": "التسجيلات",
   "rwaq.admin.stats.series.organizations": "المؤسسات",

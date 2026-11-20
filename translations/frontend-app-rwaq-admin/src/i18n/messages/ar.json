@@ -1582,7 +1582,9 @@
   "rwaq.admin.programs.learners.status.invited": "مدعو",
   "rwaq.admin.programs.learners.cancelInvite": "إلغاء الدعوة",
   "rwaq.admin.programs.learners.cancelInviteError": "تعذّر إلغاء الدعوة.",
-  "rwaq.admin.programs.learners.invitedCount": "{count} مدعو",
+  "rwaq.admin.programs.learners.invitedCount": "{count, plural, zero {لا يوجد مدعوون} one {مدعو واحد} two {مدعوان} few {# مدعوين} many {# مدعوًا} other {# مدعو}}",
+  "rwaq.admin.programs.bulkEnroll.pendingWithoutAutoEnroll": "ستبقى الدعوات معلّقة ولن يتم تسجيل المتعلمين تلقائيًا.",
+  "rwaq.admin.programs.bulkEnroll.pendingWithoutNotification": "لم يتم إرسال بريد إلكتروني بالدعوة.",
   "rwaq.admin.programs.learners.search": "البحث عن المتعلمين والدعوات",
   "rwaq.admin.programs.bulkEnroll.autoEnroll": "تسجيل الأشخاص تلقائيًا عند إنشاء حساب باستخدام عنوان البريد هذا",
   "rwaq.admin.programs.bulkEnroll.notify": "إرسال إشعار بالبريد الإلكتروني",
@@ -1594,10 +1596,10 @@
   "rwaq.admin.programEmail.myself": "أنا فقط",
   "rwaq.admin.programEmail.active": "جميع المتعلمين المسجلين حاليًا",
   "rwaq.admin.programEmail.notCompleted": "غير المكتملين",
-  "rwaq.admin.programEmail.count": "{count} مستلم، و{skipped} ألغوا الاشتراك",
+  "rwaq.admin.programEmail.count": "{count, plural, zero {لا يوجد مستلمون} one {مستلم واحد} two {مستلمان} few {# مستلمين} many {# مستلمًا} other {# مستلم}}، وعدد الملغين للاشتراك: {skipped}",
   "rwaq.admin.programEmail.previewError": "تعذّر تحميل عدد المستلمين.",
   "rwaq.admin.programEmail.send": "إرسال البريد الإلكتروني",
-  "rwaq.admin.programEmail.confirm": "هل تريد إرسال هذا البريد إلى {count} مستلم؟",
+  "rwaq.admin.programEmail.confirm": "هل تريد إرسال هذا البريد إلى {count, plural, zero {لا أحد} one {مستلم واحد} two {مستلمين اثنين} few {# مستلمين} many {# مستلمًا} other {# مستلم}}؟",
   "rwaq.admin.programEmail.confirmSend": "تأكيد الإرسال",
   "rwaq.admin.programEmail.cancel": "إلغاء",
   "rwaq.admin.programEmail.queued": "تم تقديم البريد الإلكتروني. تحقق من سجل الرسائل لمعرفة حالته.",
@@ -1609,5 +1611,7 @@
   "rwaq.admin.programEmail.status.sending": "جارٍ الإرسال",
   "rwaq.admin.programEmail.status.complete": "مكتمل",
   "rwaq.admin.programEmail.status.failed": "فشل",
-  "rwaq.admin.stats.rangeNote": "عرض بيانات الفترة المحددة. تبقى أرقام الحالة الحالية دون تغيير."
+  "rwaq.admin.stats.rangeNote": "عرض بيانات الفترة المحددة بالتوقيت العالمي المنسق (UTC). تبقى أرقام الحالة الحالية دون تغيير.",
+  "rwaq.admin.stats.period": "فترة الإحصاءات",
+  "rwaq.admin.programs.learners.courseEnrollmentFailed": "تعذّر التسجيل في المساق: {course}"
 }

@@ -1374,3 +1374,41 @@ msgstr "لقد ألغيت الاشتراك في رسائل %(name)s الإلكت
 
 msgid "Unsubscribe from emails for %(name)s?"
 msgstr "هل تريد إلغاء الاشتراك في رسائل %(name)s الإلكترونية؟"
+
+msgid "You do not administer this program's organization."
+msgstr "لا تدير المؤسسة التابعة لهذا البرنامج."
+
+msgid "Only Rwaq admins can enroll learners into a paid program."
+msgstr "يمكن لمسؤولي رواق فقط تسجيل المتعلمين في برنامج مدفوع."
+
+msgid "Invalid recipients."
+msgstr "المستلمون غير صالحون."
+
+msgid "This invitation is no longer pending."
+msgstr "لم تعد هذه الدعوة معلّقة."
+
+
+msgid "Program enrollment: %(program)s"
+msgstr "التسجيل في البرنامج: %(program)s"
+
+msgid "You are enrolled in %(program)s."
+msgstr "تم تسجيلك في برنامج %(program)s."
+
+msgid "Register for a program: %(program)s"
+msgstr "التسجيل في البرنامج: %(program)s"
+
+msgid "Register or activate your account with %(email)s."
+msgstr "يرجى التسجيل أو تفعيل حسابك باستخدام %(email)s."
+
+msgid "You will be enrolled after activation."
+msgstr "سيتم تسجيلك في البرنامج بعد تفعيل حسابك."
+
+
+msgid "Could not create invitation"
+msgstr "تعذّر إنشاء الدعوة"
+
+msgid "Could not enroll learner"
+msgstr "تعذّر تسجيل المتعلم"
+
+msgid "Could not enroll learner in course"
+msgstr "تعذّر تسجيل المتعلم في المساق"

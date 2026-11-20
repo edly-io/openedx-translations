@@ -1609,6 +1609,5 @@
   "rwaq.admin.programEmail.status.sending": "جارٍ الإرسال",
   "rwaq.admin.programEmail.status.complete": "مكتمل",
   "rwaq.admin.programEmail.status.failed": "فشل",
-  "rwaq.admin.stats.rangeNote": "عرض بيانات الفترة المحددة. تبقى أرقام الحالة الحالية دون تغيير.",
-  "rwaq.admin.stats.refreshFailed": "تعذّر تحديث الإحصاءات. حاول مرة أخرى."
+  "rwaq.admin.stats.rangeNote": "عرض بيانات الفترة المحددة. تبقى أرقام الحالة الحالية دون تغيير."
 }

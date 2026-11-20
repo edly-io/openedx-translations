@@ -1483,7 +1483,7 @@
   "rwaq.admin.programs.stats.enrolled.info": "التسجيلات النشطة في هذا البرنامج.",
   "rwaq.admin.programs.stats.inProgress": "قيد التقدّم",
   "rwaq.admin.programs.stats.inProgress.info": "المتعلمون الذين لم يكملوا البرنامج ولديهم نشاط في أحد مساقاته أو نجحوا فيه.",
-  "rwaq.admin.programs.stats.month.info": "التسجيلات النشطة حسب شهر تاريخ التسجيل، والإكمالات حسب شهر تاريخ الإكمال.",
+  "rwaq.admin.programs.stats.month.info": "التسجيلات النشطة حسب تاريخ التسجيل، والإكمالات حسب تاريخ الإكمال. تشمل الإكمالات المتعلمين الذين سجلوا خارج الفترة المحددة.",
   "rwaq.admin.programs.stats.month.title": "التسجيلات والإكمالات",
   "rwaq.admin.programs.stats.notStarted": "لم يبدؤوا",
   "rwaq.admin.programs.stats.notStarted.info": "المتعلمون الذين لم يكملوا البرنامج وليس لديهم نشاط في مساقاته ولم ينجحوا في أي منها.",
@@ -1609,5 +1609,6 @@
   "rwaq.admin.programEmail.status.sending": "جارٍ الإرسال",
   "rwaq.admin.programEmail.status.complete": "مكتمل",
   "rwaq.admin.programEmail.status.failed": "فشل",
-  "rwaq.admin.stats.rangeNote": "عرض بيانات الفترة المحددة. تبقى أرقام الحالة الحالية دون تغيير."
+  "rwaq.admin.stats.rangeNote": "عرض بيانات الفترة المحددة. تبقى أرقام الحالة الحالية دون تغيير.",
+  "rwaq.admin.stats.refreshFailed": "تعذّر تحديث الإحصاءات. حاول مرة أخرى."
 }

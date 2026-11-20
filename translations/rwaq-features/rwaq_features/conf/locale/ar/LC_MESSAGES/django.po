@@ -1360,6 +1360,9 @@ msgstr "مدعو"
 msgid "Email preferences"
 msgstr "تفضيلات البريد الإلكتروني"
 
+msgid "Your email preference has been saved."
+msgstr "تم حفظ تفضيلات البريد الإلكتروني."
+
 msgid "Subscribe again"
 msgstr "إعادة الاشتراك"
 

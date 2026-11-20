@@ -223,6 +223,12 @@ msgstr "بداية المساق من"
 msgid "Course started to"
 msgstr "بداية المساق إلى"
 
+msgid "Enrollment date from"
+msgstr "تاريخ التسجيل من"
+
+msgid "Enrollment date to"
+msgstr "تاريخ التسجيل إلى"
+
 msgid "Course Statistics"
 msgstr ""
 
@@ -1341,3 +1347,27 @@ msgstr "معرّف الاشتراك"
 
 msgid "User courses"
 msgstr "مساقات المستخدم"
+
+msgid "Program learners"
+msgstr "متعلمو البرنامج"
+
+msgid "Enrolled"
+msgstr "مسجل"
+
+msgid "Invited"
+msgstr "مدعو"
+
+msgid "Email preferences"
+msgstr "تفضيلات البريد الإلكتروني"
+
+msgid "Subscribe again"
+msgstr "إعادة الاشتراك"
+
+msgid "Unsubscribe"
+msgstr "إلغاء الاشتراك"
+
+msgid "You are unsubscribed from emails for %(name)s."
+msgstr "لقد ألغيت الاشتراك في رسائل %(name)s الإلكترونية."
+
+msgid "Unsubscribe from emails for %(name)s?"
+msgstr "هل تريد إلغاء الاشتراك في رسائل %(name)s الإلكترونية؟"

@@ -1072,6 +1072,29 @@ msgstr "الرمز"
 msgid "Course or program"
 msgstr "المساق أو البرنامج"
 
+msgid "Code ID"
+msgstr "معرّف الرمز"
+
+msgid "Code name"
+msgstr "اسم الرمز"
+
+msgid "Program ID"
+msgstr "معرّف البرنامج"
+
+msgid "Enter a code name."
+msgstr "أدخل اسم الرمز."
+
+msgid "The code name must be {max_length} characters or fewer."
+msgstr "يجب ألا يزيد اسم الرمز عن {max_length} حرفًا."
+
+msgctxt "enrollment status"
+msgid "enrolled"
+msgstr "مسجّل"
+
+msgctxt "enrollment status"
+msgid "left"
+msgstr "انسحب"
+
 msgid "Enrollment code uses"
 msgstr "استخدامات رموز التسجيل"
 
@@ -1156,8 +1179,14 @@ msgstr "لهذا البرنامج رمز تسجيل. احذف رمزه أو عط
 msgid "True on the row where the learner typed the code. Other rows are items joined later through it."
 msgstr "صحيح في الصف الذي أدخل فيه المتعلم الرمز. الصفوف الأخرى عناصر انضم إليها لاحقًا عبر الرمز."
 
-msgid "Typed the code here"
-msgstr "أُدخل الرمز هنا"
+msgid "Redeemed the code"
+msgstr "فعّل الرمز"
+
+msgid "Redeemed"
+msgstr "فعّل الرمز"
+
+msgid "Joined through the same code"
+msgstr "انضم عبر الرمز نفسه"
 
 msgid "Audit enrollments"
 msgstr "تسجيلات نمط الاستماع"

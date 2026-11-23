@@ -1243,6 +1243,9 @@ msgstr "تاريخ التسجيل"
 msgid "Enrollment active"
 msgstr "التسجيل نشط"
 
+msgid "Enrollment status"
+msgstr "حالة التسجيل"
+
 msgid "Enrollment date"
 msgstr "تاريخ التسجيل"
 
@@ -1347,9 +1350,6 @@ msgstr "مساقات المستخدم"
 
 msgid "Account status"
 msgstr "حالة الحساب"
-
-msgid "Enrollment status"
-msgstr "حالة التسجيل"
 
 msgid "Not enrolled"
 msgstr "غير مسجل"

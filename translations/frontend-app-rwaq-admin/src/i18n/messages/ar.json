@@ -1476,6 +1476,8 @@
   "rwaq.admin.enrollmentCodes.card.exporting": "جارٍ التحضير…",
   "rwaq.admin.enrollmentCodes.card.exportFailed": "تعذّر إنشاء الملف. حاول مرة أخرى.",
   "rwaq.admin.enrollmentCodes.uses.search": "ابحث باسم الطالب أو اسم المستخدم أو البريد الإلكتروني",
+  "rwaq.admin.enrollmentCodes.uses.redeemed": "فعّل الرمز",
+  "rwaq.admin.enrollmentCodes.uses.joinedThrough": "انضم عبر الرمز نفسه",
   "rwaq.admin.enrollmentCodes.col.student": "الطالب",
   "rwaq.admin.enrollmentCodes.col.usedOn": "تاريخ الاستخدام",
   "rwaq.admin.enrollmentCodes.col.enrolled": "التسجيل",
@@ -1591,7 +1593,5 @@
   "rwaq.admin.enrollmentCodes.form.itemClear": "مسح الاختيار",
   "rwaq.admin.enrollmentCodes.form.organizationSearch": "ابحث بالاسم أو الاسم المختصر",
   "rwaq.admin.enrollmentCodes.form.organizationNoResults": "لا توجد منظمات مطابقة.",
-  "rwaq.admin.stats.activeEnrollmentsPerMonth.title": "التسجيلات النشطة في كل شهر",
-  "rwaq.admin.enrollmentCodes.uses.redeemed": "فعّل الرمز",
-  "rwaq.admin.enrollmentCodes.uses.joinedThrough": "انضم عبر الرمز نفسه"
+  "rwaq.admin.stats.activeEnrollmentsPerMonth.title": "التسجيلات النشطة في كل شهر"
 }

@@ -1069,6 +1069,29 @@ msgstr "الرمز"
 msgid "Course or program"
 msgstr "المساق أو البرنامج"
 
+msgid "Code ID"
+msgstr "معرّف الرمز"
+
+msgid "Code name"
+msgstr "اسم الرمز"
+
+msgid "Program ID"
+msgstr "معرّف البرنامج"
+
+msgid "Enter a code name."
+msgstr "أدخل اسم الرمز."
+
+msgid "The code name must be {max_length} characters or fewer."
+msgstr "يجب ألا يزيد اسم الرمز عن {max_length} حرفًا."
+
+msgctxt "enrollment status"
+msgid "enrolled"
+msgstr "مسجّل"
+
+msgctxt "enrollment status"
+msgid "left"
+msgstr "انسحب"
+
 msgid "Enrollment code uses"
 msgstr "استخدامات رموز التسجيل"
 
@@ -1246,6 +1269,9 @@ msgstr "تاريخ التسجيل"
 msgid "Enrollment active"
 msgstr "التسجيل نشط"
 
+msgid "Enrollment status"
+msgstr "حالة التسجيل"
+
 msgid "Enrollment date"
 msgstr "تاريخ التسجيل"
 
@@ -1347,29 +1373,3 @@ msgstr "معرّف الاشتراك"
 
 msgid "User courses"
 msgstr "مساقات المستخدم"
-
-msgid "Code ID"
-msgstr "معرّف الرمز"
-
-msgid "Code name"
-msgstr "اسم الرمز"
-
-msgid "Program ID"
-msgstr "معرّف البرنامج"
-
-msgid "Enrollment status"
-msgstr "حالة التسجيل"
-
-msgid "Enter a code name."
-msgstr "أدخل اسم الرمز."
-
-msgid "The code name must be {max_length} characters or fewer."
-msgstr "يجب ألا يزيد اسم الرمز عن {max_length} حرفًا."
-
-msgctxt "enrollment status"
-msgid "enrolled"
-msgstr "مسجّل"
-
-msgctxt "enrollment status"
-msgid "left"
-msgstr "انسحب"

@@ -3102,6 +3102,7 @@
   "programs.enrollment.invited-count": "{count, plural, zero {لا يوجد مدعوون} one {مدعو واحد} two {مدعوان} few {# مدعوين} many {# مدعوًا} other {# مدعو}}",
   "programs.enrollment.course-failed": "تعذّر التسجيل في المساق: {course}",
   "programs.enrollment.cancel-invite": "إلغاء الدعوة",
+  "programs.enrollment.cancel-invite-for": "إلغاء دعوة {email}",
   "programs.enrollment.cancel-error": "تعذّر إلغاء الدعوة.",
   "programs.enrollment.download-csv": "تنزيل ملف CSV",
   "programs.enrollment.download-error": "تعذّر تنزيل ملف CSV.",

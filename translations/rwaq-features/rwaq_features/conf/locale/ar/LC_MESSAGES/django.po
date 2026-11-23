@@ -1395,7 +1395,7 @@ msgid "You are enrolled in %(program)s."
 msgstr "تم تسجيلك في برنامج %(program)s."
 
 msgid "Register for a program: %(program)s"
-msgstr "التسجيل في البرنامج: %(program)s"
+msgstr "سجّل في البرنامج: %(program)s"
 
 msgid "Register or activate your account with %(email)s."
 msgstr "يرجى التسجيل أو تفعيل حسابك باستخدام %(email)s."

@@ -3825,7 +3825,7 @@
     "description": "rwaq.admin.payments.type.program"
   },
   "rwaq.admin.payments.orders.search": {
-    "defaultMessage": "Search by username, email, order ID or coupon code",
+    "defaultMessage": "Search by full name, username, email, order ID or coupon code",
     "description": "rwaq.admin.payments.orders.search"
   },
   "rwaq.admin.payments.col.order": {
@@ -4261,7 +4261,7 @@
     "description": "rwaq.admin.payments.subscriptions.how"
   },
   "rwaq.admin.payments.subscriptions.search": {
-    "defaultMessage": "Search by username or email",
+    "defaultMessage": "Search by full name, username or email",
     "description": "rwaq.admin.payments.subscriptions.search"
   },
   "rwaq.admin.payments.subscriptions.status": {

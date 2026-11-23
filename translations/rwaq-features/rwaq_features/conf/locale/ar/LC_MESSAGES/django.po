@@ -618,7 +618,7 @@ msgid "Program type"
 msgstr "نوع البرنامج"
 
 msgid "Program-only course"
-msgstr ""
+msgstr "مساق ضمن برنامج فقط"
 
 msgid "Programs"
 msgstr "البرامج"
@@ -1415,3 +1415,24 @@ msgstr "تعذّر تسجيل المتعلم"
 
 msgid "Could not enroll learner in course"
 msgstr "تعذّر تسجيل المتعلم في المساق"
+
+msgid "Account status"
+msgstr "حالة الحساب"
+
+msgid "Enrollment status"
+msgstr "حالة التسجيل"
+
+msgid "Not enrolled"
+msgstr "غير مسجل"
+
+msgid "Password"
+msgstr "كلمة المرور"
+
+msgid "Program completed"
+msgstr "تم إتمام البرنامج"
+
+msgid "learner"
+msgstr "متعلم"
+
+msgid "Inactive"
+msgstr "غير نشط"

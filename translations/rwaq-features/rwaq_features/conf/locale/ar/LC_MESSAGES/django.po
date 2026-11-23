@@ -16,6 +16,9 @@ msgstr ""
 msgid "0 means indeterminate; frontend renders '—'."
 msgstr ""
 
+msgid "A course with this slug already exists."
+msgstr "يوجد مساق آخر يستخدم هذا الرابط المختصر بالفعل."
+
 msgid "A paid course or program needs a price."
 msgstr "يحتاج المساق أو البرنامج المدفوع إلى سعر."
 

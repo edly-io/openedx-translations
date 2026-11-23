@@ -1448,6 +1448,7 @@
   "rwaq.admin.enrollmentCodes.delete.done": "تم حذف الرمز {code}.",
   "rwaq.admin.enrollmentCodes.card.titleCreated": "تم إنشاء رمز التسجيل",
   "rwaq.admin.enrollmentCodes.card.title": "رمز التسجيل",
+  "rwaq.admin.enrollmentCodes.card.expires": "ينتهي في {date}",
   "rwaq.admin.enrollmentCodes.card.loading": "جارٍ تحميل البطاقة",
   "rwaq.admin.enrollmentCodes.card.loadFailed": "تعذّر تحميل البطاقة. حاول مرة أخرى.",
   "rwaq.admin.enrollmentCodes.card.close": "إغلاق",

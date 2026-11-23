@@ -1395,7 +1395,7 @@
   "rwaq.admin.enrollmentCodes.info.actions": "الإجراءات المتاحة لهذا الرمز.",
   "rwaq.admin.enrollmentCodes.info.student": "المتعلم الذي استخدم الرمز.",
   "rwaq.admin.enrollmentCodes.info.usedOn": "وقت التحاق المتعلم بالمساق أو البرنامج باستخدام الرمز.",
-  "rwaq.admin.enrollmentCodes.info.typedHere": "يوضح ما إذا كان المتعلم قد أدخل الرمز لهذا التسجيل أو التحق لاحقًا باستخدام الرمز نفسه.",
+  "rwaq.admin.enrollmentCodes.info.typedHere": "يوضح ما إذا كان المتعلم قد فعّل الرمز لهذا التسجيل أو التحق لاحقًا باستخدام الرمز نفسه.",
   "rwaq.admin.enrollmentCodes.info.enrolled": "يوضح ما إذا كان المتعلم لا يزال مسجّلًا أم انسحب.",
   "rwaq.admin.enrollmentCodes.col.code": "الرمز",
   "rwaq.admin.enrollmentCodes.col.item": "يغطي",
@@ -1490,7 +1490,7 @@
   "rwaq.admin.programs.pricing.enrollment-code-description": "برنامج مجاني مقيّد لا يمكن للمتعلمين الالتحاق به إلا باستخدام رمز تسجيل.",
   "rwaq.admin.enrollmentCodes.col.scope": "تنطبق على",
   "rwaq.admin.enrollmentCodes.col.organization": "المنظمة",
-  "rwaq.admin.enrollmentCodes.col.typedHere": "أُدخل الرمز هنا",
+  "rwaq.admin.enrollmentCodes.col.typedHere": "فعّل الرمز",
   "rwaq.admin.enrollmentCodes.usage.usedOf": "استُخدم {count} من {max}",
   "rwaq.admin.enrollmentCodes.usage.remaining": "المتبقي {count}",
   "rwaq.admin.enrollmentCodes.usage.covers": "يغطي {count, plural, zero {لا مساقات ولا برامج} one {مساقًا أو برنامجًا واحدًا} two {مساقين أو برنامجين} few {# مساقات وبرامج} many {# مساقًا وبرنامجًا} other {# مساق وبرنامج}}",
@@ -1591,5 +1591,7 @@
   "rwaq.admin.enrollmentCodes.form.itemClear": "مسح الاختيار",
   "rwaq.admin.enrollmentCodes.form.organizationSearch": "ابحث بالاسم أو الاسم المختصر",
   "rwaq.admin.enrollmentCodes.form.organizationNoResults": "لا توجد منظمات مطابقة.",
-  "rwaq.admin.stats.activeEnrollmentsPerMonth.title": "التسجيلات النشطة في كل شهر"
+  "rwaq.admin.stats.activeEnrollmentsPerMonth.title": "التسجيلات النشطة في كل شهر",
+  "rwaq.admin.enrollmentCodes.uses.redeemed": "فعّل الرمز",
+  "rwaq.admin.enrollmentCodes.uses.joinedThrough": "انضم عبر الرمز نفسه"
 }

@@ -5097,7 +5097,7 @@
     "description": "rwaq.admin.enrollmentCodes.col.organization"
   },
   "rwaq.admin.enrollmentCodes.col.typedHere": {
-    "defaultMessage": "Typed the code here",
+    "defaultMessage": "Redeemed the code",
     "description": "rwaq.admin.enrollmentCodes.col.typedHere"
   },
   "rwaq.admin.enrollmentCodes.usage.usedOf": {
@@ -5585,11 +5585,19 @@
     "description": "rwaq.admin.enrollmentCodes.info.usedOn"
   },
   "rwaq.admin.enrollmentCodes.info.typedHere": {
-    "defaultMessage": "Whether the learner entered the code for this enrollment or joined later through the same code.",
+    "defaultMessage": "Whether the learner redeemed the code for this enrollment or joined later through the same code.",
     "description": "rwaq.admin.enrollmentCodes.info.typedHere"
   },
   "rwaq.admin.enrollmentCodes.info.enrolled": {
     "defaultMessage": "Whether the learner is still enrolled or has left.",
     "description": "rwaq.admin.enrollmentCodes.info.enrolled"
+  },
+  "rwaq.admin.enrollmentCodes.uses.redeemed": {
+    "defaultMessage": "Redeemed",
+    "description": "rwaq.admin.enrollmentCodes.uses.redeemed"
+  },
+  "rwaq.admin.enrollmentCodes.uses.joinedThrough": {
+    "defaultMessage": "Joined through the same code",
+    "description": "rwaq.admin.enrollmentCodes.uses.joinedThrough"
   }
 }

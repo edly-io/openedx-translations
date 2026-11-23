@@ -4729,7 +4729,7 @@
     "description": "rwaq.admin.enrollmentCodes.tab.uses"
   },
   "rwaq.admin.enrollmentCodes.codes.search": {
-    "defaultMessage": "Search by code, course, program or organization, or creator",
+    "defaultMessage": "Search by code, code name, course, program, organization or creator",
     "description": "rwaq.admin.enrollmentCodes.codes.search"
   },
   "rwaq.admin.enrollmentCodes.create": {

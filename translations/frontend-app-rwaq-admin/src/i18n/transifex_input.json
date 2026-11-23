@@ -5515,5 +5515,25 @@
   "rwaq.admin.stats.activeEnrollmentsPerMonth.title": {
     "defaultMessage": "Active enrollments per month",
     "description": "rwaq.admin.stats.activeEnrollmentsPerMonth.title"
+  },
+  "rwaq.admin.categories.col.enrollments": {
+    "defaultMessage": "Enrollments",
+    "description": "rwaq.admin.categories.col.enrollments"
+  },
+  "rwaq.admin.categories.sort.coursesAsc": {
+    "defaultMessage": "Courses (fewest first)",
+    "description": "rwaq.admin.categories.sort.coursesAsc"
+  },
+  "rwaq.admin.categories.sort.coursesDesc": {
+    "defaultMessage": "Courses (most first)",
+    "description": "rwaq.admin.categories.sort.coursesDesc"
+  },
+  "rwaq.admin.categories.sort.enrollmentsAsc": {
+    "defaultMessage": "Enrollments (fewest first)",
+    "description": "rwaq.admin.categories.sort.enrollmentsAsc"
+  },
+  "rwaq.admin.categories.sort.enrollmentsDesc": {
+    "defaultMessage": "Enrollments (most first)",
+    "description": "rwaq.admin.categories.sort.enrollmentsDesc"
   }
 }

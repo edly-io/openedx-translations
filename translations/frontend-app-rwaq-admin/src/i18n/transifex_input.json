@@ -3881,7 +3881,7 @@
     "description": "rwaq.admin.payments.type.program"
   },
   "rwaq.admin.payments.orders.search": {
-    "defaultMessage": "Search by username, email, order ID or coupon code",
+    "defaultMessage": "Search by full name, username, email, order ID or coupon code",
     "description": "rwaq.admin.payments.orders.search"
   },
   "rwaq.admin.payments.col.order": {
@@ -4325,7 +4325,7 @@
     "description": "rwaq.admin.payments.subscriptions.how"
   },
   "rwaq.admin.payments.subscriptions.search": {
-    "defaultMessage": "Search by username or email",
+    "defaultMessage": "Search by full name, username or email",
     "description": "rwaq.admin.payments.subscriptions.search"
   },
   "rwaq.admin.payments.subscriptions.status": {
@@ -5515,6 +5515,26 @@
   "rwaq.admin.enrollmentCodes.usage.backToCodes": {
     "defaultMessage": "Back to enrollment codes",
     "description": "rwaq.admin.enrollmentCodes.usage.backToCodes"
+  },
+  "rwaq.admin.categories.col.enrollments": {
+    "defaultMessage": "Enrollments",
+    "description": "rwaq.admin.categories.col.enrollments"
+  },
+  "rwaq.admin.categories.sort.coursesAsc": {
+    "defaultMessage": "Courses (fewest first)",
+    "description": "rwaq.admin.categories.sort.coursesAsc"
+  },
+  "rwaq.admin.categories.sort.coursesDesc": {
+    "defaultMessage": "Courses (most first)",
+    "description": "rwaq.admin.categories.sort.coursesDesc"
+  },
+  "rwaq.admin.categories.sort.enrollmentsAsc": {
+    "defaultMessage": "Enrollments (fewest first)",
+    "description": "rwaq.admin.categories.sort.enrollmentsAsc"
+  },
+  "rwaq.admin.categories.sort.enrollmentsDesc": {
+    "defaultMessage": "Enrollments (most first)",
+    "description": "rwaq.admin.categories.sort.enrollmentsDesc"
   },
   "rwaq.admin.enrollmentCodes.col.codeName": {
     "defaultMessage": "Code name",

@@ -346,6 +346,7 @@
   "rwaq.admin.dashboard.lifecycle.title": "مراحل المساق",
   "rwaq.admin.dashboard.lifecycle.upcoming": "قادم",
   "rwaq.admin.dashboard.modes.colMode": "الوضع",
+  "rwaq.admin.dashboard.modes.colEnrollments": "التسجيلات النشطة",
   "rwaq.admin.dashboard.modes.colShare": "النسبة",
   "rwaq.admin.dashboard.modes.hint": "يعتمد رواق على وضع الشرف (honor) في نموذج الوصول، لذا يستحق أي تحوّل نحو الوضع التجريبي (audit) المراجعة.",
   "rwaq.admin.dashboard.modes.title": "أوضاع التسجيل",
@@ -1572,6 +1573,5 @@
   "rwaq.admin.enrollmentCodes.form.itemClear": "مسح الاختيار",
   "rwaq.admin.enrollmentCodes.form.organizationSearch": "ابحث بالاسم أو الاسم المختصر",
   "rwaq.admin.enrollmentCodes.form.organizationNoResults": "لا توجد منظمات مطابقة.",
-  "rwaq.admin.stats.activeEnrollmentsPerMonth.title": "التسجيلات النشطة في كل شهر",
-  "rwaq.admin.dashboard.modes.colEnrollments": "التسجيلات النشطة"
+  "rwaq.admin.stats.activeEnrollmentsPerMonth.title": "التسجيلات النشطة في كل شهر"
 }

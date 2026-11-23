@@ -1387,6 +1387,10 @@
     "defaultMessage": "Mode",
     "description": "rwaq.admin.dashboard.modes.colMode"
   },
+  "rwaq.admin.dashboard.modes.colEnrollments": {
+    "defaultMessage": "Active Enrolments",
+    "description": "rwaq.admin.dashboard.modes.colEnrollments"
+  },
   "rwaq.admin.dashboard.modes.colShare": {
     "defaultMessage": "Share",
     "description": "rwaq.admin.dashboard.modes.colShare"
@@ -5416,6 +5420,30 @@
     "defaultMessage": "Active enrollments in honor mode. Staff, superusers and service accounts are not counted. Other modes are not in this tile.",
     "description": "rwaq.admin.courses.listStats.honor.info"
   },
+  "rwaq.admin.orgs.stats.learners": {
+    "defaultMessage": "Learners with activity",
+    "description": "rwaq.admin.orgs.stats.learners"
+  },
+  "rwaq.admin.orgs.stats.activeEnrollments": {
+    "defaultMessage": "Enrollments with activity",
+    "description": "rwaq.admin.orgs.stats.activeEnrollments"
+  },
+  "rwaq.admin.courses.listStats.enrollments": {
+    "defaultMessage": "Enrollments with activity",
+    "description": "rwaq.admin.courses.listStats.enrollments"
+  },
+  "rwaq.admin.programs.listStats.enrollments": {
+    "defaultMessage": "Program enrollments (visible programs)",
+    "description": "rwaq.admin.programs.listStats.enrollments"
+  },
+  "rwaq.admin.users.listStats.learners": {
+    "defaultMessage": "Learners with activity",
+    "description": "rwaq.admin.users.listStats.learners"
+  },
+  "rwaq.admin.courses.stats.activeLearners": {
+    "defaultMessage": "Learners with activity",
+    "description": "rwaq.admin.courses.stats.activeLearners"
+  },
   "rwaq.admin.courses.stats.avgProgress": {
     "defaultMessage": "Avg progress of started learners",
     "description": "rwaq.admin.courses.stats.avgProgress"
@@ -5515,33 +5543,5 @@
   "rwaq.admin.stats.activeEnrollmentsPerMonth.title": {
     "defaultMessage": "Active enrollments per month",
     "description": "rwaq.admin.stats.activeEnrollmentsPerMonth.title"
-  },
-  "rwaq.admin.dashboard.modes.colEnrollments": {
-    "defaultMessage": "Active Enrolments",
-    "description": "rwaq.admin.dashboard.modes.colEnrollments"
-  },
-  "rwaq.admin.orgs.stats.learners": {
-    "defaultMessage": "Learners with activity",
-    "description": "rwaq.admin.orgs.stats.learners"
-  },
-  "rwaq.admin.orgs.stats.activeEnrollments": {
-    "defaultMessage": "Enrollments with activity",
-    "description": "rwaq.admin.orgs.stats.activeEnrollments"
-  },
-  "rwaq.admin.courses.listStats.enrollments": {
-    "defaultMessage": "Enrollments with activity",
-    "description": "rwaq.admin.courses.listStats.enrollments"
-  },
-  "rwaq.admin.programs.listStats.enrollments": {
-    "defaultMessage": "Program enrollments (visible programs)",
-    "description": "rwaq.admin.programs.listStats.enrollments"
-  },
-  "rwaq.admin.users.listStats.learners": {
-    "defaultMessage": "Learners with activity",
-    "description": "rwaq.admin.users.listStats.learners"
-  },
-  "rwaq.admin.courses.stats.activeLearners": {
-    "defaultMessage": "Learners with activity",
-    "description": "rwaq.admin.courses.stats.activeLearners"
   }
 }

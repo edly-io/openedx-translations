@@ -1316,7 +1316,7 @@
     "description": "rwaq.admin.dashboard.kpi.coursesRunning"
   },
   "rwaq.admin.dashboard.kpi.enrollments": {
-    "defaultMessage": "Active Enrolments",
+    "defaultMessage": "Enrollments with activity",
     "description": "rwaq.admin.dashboard.kpi.enrollments"
   },
   "rwaq.admin.dashboard.kpi.enrollmentsRange": {
@@ -1324,7 +1324,7 @@
     "description": "rwaq.admin.dashboard.kpi.enrollmentsRange"
   },
   "rwaq.admin.dashboard.kpi.learners": {
-    "defaultMessage": "Active Learners",
+    "defaultMessage": "Learners with activity",
     "description": "rwaq.admin.dashboard.kpi.learners"
   },
   "rwaq.admin.dashboard.kpi.learnersRange": {
@@ -1382,6 +1382,10 @@
   "rwaq.admin.dashboard.lifecycle.upcoming": {
     "defaultMessage": "Upcoming",
     "description": "rwaq.admin.dashboard.lifecycle.upcoming"
+  },
+  "rwaq.admin.dashboard.modes.colEnrollments": {
+    "defaultMessage": "Active Enrolments",
+    "description": "rwaq.admin.dashboard.modes.colEnrollments"
   },
   "rwaq.admin.dashboard.modes.colMode": {
     "defaultMessage": "Mode",
@@ -5515,5 +5519,29 @@
   "rwaq.admin.enrollmentCodes.usage.backToCodes": {
     "defaultMessage": "Back to enrollment codes",
     "description": "rwaq.admin.enrollmentCodes.usage.backToCodes"
+  },
+  "rwaq.admin.orgs.stats.learners": {
+    "defaultMessage": "Learners with activity",
+    "description": "rwaq.admin.orgs.stats.learners"
+  },
+  "rwaq.admin.orgs.stats.activeEnrollments": {
+    "defaultMessage": "Enrollments with activity",
+    "description": "rwaq.admin.orgs.stats.activeEnrollments"
+  },
+  "rwaq.admin.courses.listStats.enrollments": {
+    "defaultMessage": "Enrollments with activity",
+    "description": "rwaq.admin.courses.listStats.enrollments"
+  },
+  "rwaq.admin.programs.listStats.enrollments": {
+    "defaultMessage": "Program enrollments (visible programs)",
+    "description": "rwaq.admin.programs.listStats.enrollments"
+  },
+  "rwaq.admin.users.listStats.learners": {
+    "defaultMessage": "Learners with activity",
+    "description": "rwaq.admin.users.listStats.learners"
+  },
+  "rwaq.admin.courses.stats.activeLearners": {
+    "defaultMessage": "Learners with activity",
+    "description": "rwaq.admin.courses.stats.activeLearners"
   }
 }

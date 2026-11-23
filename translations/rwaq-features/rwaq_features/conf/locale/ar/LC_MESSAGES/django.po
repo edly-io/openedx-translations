@@ -790,6 +790,9 @@ msgid ""
 "changes after creation so WordPress URLs stay stable."
 msgstr ""
 
+msgid "Enrolled"
+msgstr "مسجل"
+
 msgid "Unenrolled"
 msgstr "ملغى تسجيلهم"
 

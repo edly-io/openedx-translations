@@ -5248,6 +5248,10 @@
     "defaultMessage": "Expires: {date}",
     "description": "rwaq.admin.enrollmentCodes.usage.expires"
   },
+  "rwaq.admin.enrollmentCodes.card.expires": {
+    "defaultMessage": "Expires on {date}",
+    "description": "rwaq.admin.enrollmentCodes.card.expires"
+  },
   "rwaq.admin.programs.type.enrollmentCode": {
     "defaultMessage": "Enrollment code",
     "description": "rwaq.admin.programs.type.enrollmentCode"

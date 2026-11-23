@@ -1394,3 +1394,6 @@ msgstr "متعلم"
 
 msgid "Inactive"
 msgstr "غير نشط"
+
+msgid "A course with this slug already exists."
+msgstr "يوجد مساق آخر يستخدم هذا الرابط المختصر بالفعل."

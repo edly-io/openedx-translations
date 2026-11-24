@@ -16,6 +16,9 @@ msgstr ""
 msgid "0 means indeterminate; frontend renders '—'."
 msgstr ""
 
+msgid "A course with this slug already exists."
+msgstr "يوجد مساق آخر يستخدم هذا الرابط المختصر بالفعل."
+
 msgid "A paid course or program needs a price."
 msgstr "يحتاج المساق أو البرنامج المدفوع إلى سعر."
 
@@ -222,6 +225,12 @@ msgstr "بداية المساق من"
 
 msgid "Course started to"
 msgstr "بداية المساق إلى"
+
+msgid "Enrollment date from"
+msgstr "تاريخ التسجيل من"
+
+msgid "Enrollment date to"
+msgstr "تاريخ التسجيل إلى"
 
 msgid "Course Statistics"
 msgstr ""
@@ -790,9 +799,6 @@ msgid ""
 "changes after creation so WordPress URLs stay stable."
 msgstr ""
 
-msgid "Enrolled"
-msgstr "مسجل"
-
 msgid "Unenrolled"
 msgstr "ملغى تسجيلهم"
 
@@ -961,12 +967,6 @@ msgstr "نسبة ضريبة القيمة المضافة المئوية كما ا
 msgid "What the buyer paid: net amount plus VAT."
 msgstr "ما دفعه المشتري: الصافي زائد ضريبة القيمة المضافة."
 
-msgid "Course not found."
-msgstr "المساق غير موجود."
-
-msgid "Invalid course id."
-msgstr "معرّف المساق غير صالح."
-
 msgid "After this moment the code refuses new uses. Empty means it never expires."
 msgstr "بعد هذه اللحظة يرفض الرمز أي استخدام جديد. الفراغ يعني أنه لا ينتهي."
 
@@ -1072,29 +1072,6 @@ msgstr "الرمز"
 msgid "Course or program"
 msgstr "المساق أو البرنامج"
 
-msgid "Code ID"
-msgstr "معرّف الرمز"
-
-msgid "Code name"
-msgstr "اسم الرمز"
-
-msgid "Program ID"
-msgstr "معرّف البرنامج"
-
-msgid "Enter a code name."
-msgstr "أدخل اسم الرمز."
-
-msgid "The code name must be {max_length} characters or fewer."
-msgstr "يجب ألا يزيد اسم الرمز عن {max_length} حرفًا."
-
-msgctxt "enrollment status"
-msgid "enrolled"
-msgstr "مسجّل"
-
-msgctxt "enrollment status"
-msgid "left"
-msgstr "انسحب"
-
 msgid "Enrollment code uses"
 msgstr "استخدامات رموز التسجيل"
 
@@ -1188,6 +1165,12 @@ msgstr "فعّل الرمز"
 msgid "Joined through the same code"
 msgstr "انضم عبر الرمز نفسه"
 
+msgid "Course not found."
+msgstr "المساق غير موجود."
+
+msgid "Invalid course id."
+msgstr "معرّف المساق غير صالح."
+
 msgid "Audit enrollments"
 msgstr "تسجيلات نمط الاستماع"
 
@@ -1271,9 +1254,6 @@ msgstr "تاريخ التسجيل"
 
 msgid "Enrollment active"
 msgstr "التسجيل نشط"
-
-msgid "Enrollment status"
-msgstr "حالة التسجيل"
 
 msgid "Enrollment date"
 msgstr "تاريخ التسجيل"
@@ -1377,8 +1357,76 @@ msgstr "معرّف الاشتراك"
 msgid "User courses"
 msgstr "مساقات المستخدم"
 
+msgid "Program learners"
+msgstr "متعلمو البرنامج"
+
+msgid "Enrolled"
+msgstr "مسجل"
+
+msgid "Invited"
+msgstr "مدعو"
+
+msgid "Email preferences"
+msgstr "تفضيلات البريد الإلكتروني"
+
+msgid "Your email preference has been saved."
+msgstr "تم حفظ تفضيلات البريد الإلكتروني."
+
+msgid "Subscribe again"
+msgstr "إعادة الاشتراك"
+
+msgid "Unsubscribe"
+msgstr "إلغاء الاشتراك"
+
+msgid "You are unsubscribed from emails for %(name)s."
+msgstr "لقد ألغيت الاشتراك في رسائل %(name)s الإلكترونية."
+
+msgid "Unsubscribe from emails for %(name)s?"
+msgstr "هل تريد إلغاء الاشتراك في رسائل %(name)s الإلكترونية؟"
+
+msgid "You do not administer this program's organization."
+msgstr "لا تدير المؤسسة التابعة لهذا البرنامج."
+
+msgid "Only Rwaq admins can enroll learners into a paid program."
+msgstr "يمكن لمسؤولي رواق فقط تسجيل المتعلمين في برنامج مدفوع."
+
+msgid "Invalid recipients."
+msgstr "المستلمون غير صالحون."
+
+msgid "This invitation is no longer pending."
+msgstr "لم تعد هذه الدعوة معلّقة."
+
+
+msgid "Program enrollment: %(program)s"
+msgstr "التسجيل في البرنامج: %(program)s"
+
+msgid "You are enrolled in %(program)s."
+msgstr "تم تسجيلك في برنامج %(program)s."
+
+msgid "Register for a program: %(program)s"
+msgstr "سجّل في البرنامج: %(program)s"
+
+msgid "Register or activate your account with %(email)s."
+msgstr "يرجى التسجيل أو تفعيل حسابك باستخدام %(email)s."
+
+msgid "You will be enrolled after activation."
+msgstr "سيتم تسجيلك في البرنامج بعد تفعيل حسابك."
+
+
+msgid "Could not create invitation"
+msgstr "تعذّر إنشاء الدعوة"
+
+msgid "Could not enroll learner"
+msgstr "تعذّر تسجيل المتعلم"
+
+msgid "Could not enroll learner in course"
+msgstr "تعذّر تسجيل المتعلم في المساق"
+
 msgid "Account status"
 msgstr "حالة الحساب"
+
+msgid "Enrollment status"
+msgstr "حالة التسجيل"
 
 msgid "Not enrolled"
 msgstr "غير مسجل"
@@ -1395,5 +1443,25 @@ msgstr "متعلم"
 msgid "Inactive"
 msgstr "غير نشط"
 
-msgid "A course with this slug already exists."
-msgstr "يوجد مساق آخر يستخدم هذا الرابط المختصر بالفعل."
+msgid "Code ID"
+msgstr "معرّف الرمز"
+
+msgid "Code name"
+msgstr "اسم الرمز"
+
+msgid "Program ID"
+msgstr "معرّف البرنامج"
+
+msgid "Enter a code name."
+msgstr "أدخل اسم الرمز."
+
+msgid "The code name must be {max_length} characters or fewer."
+msgstr "يجب ألا يزيد اسم الرمز عن {max_length} حرفًا."
+
+msgctxt "enrollment status"
+msgid "enrolled"
+msgstr "مسجّل"
+
+msgctxt "enrollment status"
+msgid "left"
+msgstr "انسحب"

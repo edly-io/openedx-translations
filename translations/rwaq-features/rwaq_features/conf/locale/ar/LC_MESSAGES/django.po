@@ -609,7 +609,7 @@ msgid "Program type"
 msgstr "نوع البرنامج"
 
 msgid "Program-only course"
-msgstr ""
+msgstr "مساق ضمن برنامج فقط"
 
 msgid "Programs"
 msgstr "البرامج"
@@ -789,6 +789,9 @@ msgid ""
 "URL-friendly identifier derived from the name at creation time. Never "
 "changes after creation so WordPress URLs stay stable."
 msgstr ""
+
+msgid "Enrolled"
+msgstr "مسجل"
 
 msgid "Unenrolled"
 msgstr "ملغى تسجيلهم"
@@ -1069,6 +1072,29 @@ msgstr "الرمز"
 msgid "Course or program"
 msgstr "المساق أو البرنامج"
 
+msgid "Code ID"
+msgstr "معرّف الرمز"
+
+msgid "Code name"
+msgstr "اسم الرمز"
+
+msgid "Program ID"
+msgstr "معرّف البرنامج"
+
+msgid "Enter a code name."
+msgstr "أدخل اسم الرمز."
+
+msgid "The code name must be {max_length} characters or fewer."
+msgstr "يجب ألا يزيد اسم الرمز عن {max_length} حرفًا."
+
+msgctxt "enrollment status"
+msgid "enrolled"
+msgstr "مسجّل"
+
+msgctxt "enrollment status"
+msgid "left"
+msgstr "انسحب"
+
 msgid "Enrollment code uses"
 msgstr "استخدامات رموز التسجيل"
 
@@ -1153,8 +1179,14 @@ msgstr "لهذا البرنامج رمز تسجيل. احذف رمزه أو عط
 msgid "True on the row where the learner typed the code. Other rows are items joined later through it."
 msgstr "صحيح في الصف الذي أدخل فيه المتعلم الرمز. الصفوف الأخرى عناصر انضم إليها لاحقًا عبر الرمز."
 
-msgid "Typed the code here"
-msgstr "أُدخل الرمز هنا"
+msgid "Redeemed the code"
+msgstr "فعّل الرمز"
+
+msgid "Redeemed"
+msgstr "فعّل الرمز"
+
+msgid "Joined through the same code"
+msgstr "انضم عبر الرمز نفسه"
 
 msgid "Audit enrollments"
 msgstr "تسجيلات نمط الاستماع"
@@ -1239,6 +1271,9 @@ msgstr "تاريخ التسجيل"
 
 msgid "Enrollment active"
 msgstr "التسجيل نشط"
+
+msgid "Enrollment status"
+msgstr "حالة التسجيل"
 
 msgid "Enrollment date"
 msgstr "تاريخ التسجيل"
@@ -1341,3 +1376,24 @@ msgstr "معرّف الاشتراك"
 
 msgid "User courses"
 msgstr "مساقات المستخدم"
+
+msgid "Account status"
+msgstr "حالة الحساب"
+
+msgid "Not enrolled"
+msgstr "غير مسجل"
+
+msgid "Password"
+msgstr "كلمة المرور"
+
+msgid "Program completed"
+msgstr "تم إتمام البرنامج"
+
+msgid "learner"
+msgstr "متعلم"
+
+msgid "Inactive"
+msgstr "غير نشط"
+
+msgid "A course with this slug already exists."
+msgstr "يوجد مساق آخر يستخدم هذا الرابط المختصر بالفعل."

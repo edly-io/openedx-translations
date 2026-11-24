@@ -335,6 +335,26 @@
     "defaultMessage": "Name (Z–A)",
     "description": "rwaq.admin.categories.sort.nameDesc"
   },
+  "rwaq.admin.categories.col.enrollments": {
+    "defaultMessage": "Enrollments",
+    "description": "rwaq.admin.categories.col.enrollments"
+  },
+  "rwaq.admin.categories.sort.coursesAsc": {
+    "defaultMessage": "Courses (fewest first)",
+    "description": "rwaq.admin.categories.sort.coursesAsc"
+  },
+  "rwaq.admin.categories.sort.coursesDesc": {
+    "defaultMessage": "Courses (most first)",
+    "description": "rwaq.admin.categories.sort.coursesDesc"
+  },
+  "rwaq.admin.categories.sort.enrollmentsAsc": {
+    "defaultMessage": "Enrollments (fewest first)",
+    "description": "rwaq.admin.categories.sort.enrollmentsAsc"
+  },
+  "rwaq.admin.categories.sort.enrollmentsDesc": {
+    "defaultMessage": "Enrollments (most first)",
+    "description": "rwaq.admin.categories.sort.enrollmentsDesc"
+  },
   "rwaq.admin.categories.sort.newest": {
     "defaultMessage": "Newest first",
     "description": "rwaq.admin.categories.sort.newest"
@@ -1316,7 +1336,7 @@
     "description": "rwaq.admin.dashboard.kpi.coursesRunning"
   },
   "rwaq.admin.dashboard.kpi.enrollments": {
-    "defaultMessage": "Active Enrolments",
+    "defaultMessage": "Enrollments with activity",
     "description": "rwaq.admin.dashboard.kpi.enrollments"
   },
   "rwaq.admin.dashboard.kpi.enrollmentsRange": {
@@ -1324,7 +1344,7 @@
     "description": "rwaq.admin.dashboard.kpi.enrollmentsRange"
   },
   "rwaq.admin.dashboard.kpi.learners": {
-    "defaultMessage": "Active Learners",
+    "defaultMessage": "Learners with activity",
     "description": "rwaq.admin.dashboard.kpi.learners"
   },
   "rwaq.admin.dashboard.kpi.learnersRange": {
@@ -1386,6 +1406,10 @@
   "rwaq.admin.dashboard.modes.colMode": {
     "defaultMessage": "Mode",
     "description": "rwaq.admin.dashboard.modes.colMode"
+  },
+  "rwaq.admin.dashboard.modes.colEnrollments": {
+    "defaultMessage": "Active Enrolments",
+    "description": "rwaq.admin.dashboard.modes.colEnrollments"
   },
   "rwaq.admin.dashboard.modes.colShare": {
     "defaultMessage": "Share",
@@ -3825,7 +3849,7 @@
     "description": "rwaq.admin.payments.type.program"
   },
   "rwaq.admin.payments.orders.search": {
-    "defaultMessage": "Search by username, email, order ID or coupon code",
+    "defaultMessage": "Search by full name, username, email, order ID or coupon code",
     "description": "rwaq.admin.payments.orders.search"
   },
   "rwaq.admin.payments.col.order": {
@@ -4261,7 +4285,7 @@
     "description": "rwaq.admin.payments.subscriptions.how"
   },
   "rwaq.admin.payments.subscriptions.search": {
-    "defaultMessage": "Search by username or email",
+    "defaultMessage": "Search by full name, username or email",
     "description": "rwaq.admin.payments.subscriptions.search"
   },
   "rwaq.admin.payments.subscriptions.status": {
@@ -4729,7 +4753,7 @@
     "description": "rwaq.admin.enrollmentCodes.tab.uses"
   },
   "rwaq.admin.enrollmentCodes.codes.search": {
-    "defaultMessage": "Search by code, course, program or organization, or creator",
+    "defaultMessage": "Search by code, code name, course, program, organization or creator",
     "description": "rwaq.admin.enrollmentCodes.codes.search"
   },
   "rwaq.admin.enrollmentCodes.create": {
@@ -5052,6 +5076,90 @@
     "defaultMessage": "Search by student name, username or email",
     "description": "rwaq.admin.enrollmentCodes.uses.search"
   },
+  "rwaq.admin.enrollmentCodes.col.codeName": {
+    "defaultMessage": "Code name",
+    "description": "rwaq.admin.enrollmentCodes.col.codeName"
+  },
+  "rwaq.admin.enrollmentCodes.create.codeNameRequired": {
+    "defaultMessage": "Enter a code name.",
+    "description": "rwaq.admin.enrollmentCodes.create.codeNameRequired"
+  },
+  "rwaq.admin.enrollmentCodes.uses.codeNamePlaceholder": {
+    "defaultMessage": "Part of a code name",
+    "description": "rwaq.admin.enrollmentCodes.uses.codeNamePlaceholder"
+  },
+  "rwaq.admin.enrollmentCodes.info.code": {
+    "defaultMessage": "The code the learner enters to enroll.",
+    "description": "rwaq.admin.enrollmentCodes.info.code"
+  },
+  "rwaq.admin.enrollmentCodes.info.codeName": {
+    "defaultMessage": "The name the admin gave this code.",
+    "description": "rwaq.admin.enrollmentCodes.info.codeName"
+  },
+  "rwaq.admin.enrollmentCodes.info.scope": {
+    "defaultMessage": "Whether the code covers an organization, a course or a program.",
+    "description": "rwaq.admin.enrollmentCodes.info.scope"
+  },
+  "rwaq.admin.enrollmentCodes.info.item": {
+    "defaultMessage": "The organization, course or program the code covers.",
+    "description": "rwaq.admin.enrollmentCodes.info.item"
+  },
+  "rwaq.admin.enrollmentCodes.info.useItem": {
+    "defaultMessage": "The course or program the learner joined using the code.",
+    "description": "rwaq.admin.enrollmentCodes.info.useItem"
+  },
+  "rwaq.admin.enrollmentCodes.info.organization": {
+    "defaultMessage": "The organization associated with the code or its content.",
+    "description": "rwaq.admin.enrollmentCodes.info.organization"
+  },
+  "rwaq.admin.enrollmentCodes.info.createdBy": {
+    "defaultMessage": "The username of the admin who created the code.",
+    "description": "rwaq.admin.enrollmentCodes.info.createdBy"
+  },
+  "rwaq.admin.enrollmentCodes.info.usage": {
+    "defaultMessage": "The number of learners who used the code and the maximum allowed.",
+    "description": "rwaq.admin.enrollmentCodes.info.usage"
+  },
+  "rwaq.admin.enrollmentCodes.info.expires": {
+    "defaultMessage": "The date when the code stops accepting new uses.",
+    "description": "rwaq.admin.enrollmentCodes.info.expires"
+  },
+  "rwaq.admin.enrollmentCodes.info.status": {
+    "defaultMessage": "The code is active, switched off, expired or used up.",
+    "description": "rwaq.admin.enrollmentCodes.info.status"
+  },
+  "rwaq.admin.enrollmentCodes.info.active": {
+    "defaultMessage": "Use the switch, when available, to turn the code on or off.",
+    "description": "rwaq.admin.enrollmentCodes.info.active"
+  },
+  "rwaq.admin.enrollmentCodes.info.actions": {
+    "defaultMessage": "The available actions for this code.",
+    "description": "rwaq.admin.enrollmentCodes.info.actions"
+  },
+  "rwaq.admin.enrollmentCodes.info.student": {
+    "defaultMessage": "The learner who used the code.",
+    "description": "rwaq.admin.enrollmentCodes.info.student"
+  },
+  "rwaq.admin.enrollmentCodes.info.usedOn": {
+    "defaultMessage": "When the learner joined the course or program through the code.",
+    "description": "rwaq.admin.enrollmentCodes.info.usedOn"
+  },
+  "rwaq.admin.enrollmentCodes.info.typedHere": {
+    "defaultMessage": "Whether the learner redeemed the code for this enrollment or joined later through the same code.",
+    "description": "rwaq.admin.enrollmentCodes.info.typedHere"
+  },
+  "rwaq.admin.enrollmentCodes.info.enrolled": {
+    "defaultMessage": "Whether the learner is still enrolled or has left.",
+    "description": "rwaq.admin.enrollmentCodes.info.enrolled"
+  },
+  "rwaq.admin.enrollmentCodes.uses.redeemed": {
+    "defaultMessage": "Redeemed",
+    "description": "rwaq.admin.enrollmentCodes.uses.redeemed"
+  },
+  "rwaq.admin.enrollmentCodes.uses.joinedThrough": {
+    "defaultMessage": "Joined through the same code",
+    "description": "rwaq.admin.enrollmentCodes.uses.joinedThrough"
+  },
   "rwaq.admin.enrollmentCodes.col.student": {
     "defaultMessage": "Student",
     "description": "rwaq.admin.enrollmentCodes.col.student"
@@ -5097,7 +5205,7 @@
     "description": "rwaq.admin.enrollmentCodes.col.organization"
   },
   "rwaq.admin.enrollmentCodes.col.typedHere": {
-    "defaultMessage": "Typed the code here",
+    "defaultMessage": "Redeemed the code",
     "description": "rwaq.admin.enrollmentCodes.col.typedHere"
   },
   "rwaq.admin.enrollmentCodes.usage.usedOf": {
@@ -5247,6 +5355,10 @@
   "rwaq.admin.enrollmentCodes.usage.expires": {
     "defaultMessage": "Expires: {date}",
     "description": "rwaq.admin.enrollmentCodes.usage.expires"
+  },
+  "rwaq.admin.enrollmentCodes.card.expires": {
+    "defaultMessage": "Expires on {date}",
+    "description": "rwaq.admin.enrollmentCodes.card.expires"
   },
   "rwaq.admin.programs.type.enrollmentCode": {
     "defaultMessage": "Enrollment code",
@@ -5415,6 +5527,30 @@
   "rwaq.admin.courses.listStats.honor.info": {
     "defaultMessage": "Active enrollments in honor mode. Staff, superusers and service accounts are not counted. Other modes are not in this tile.",
     "description": "rwaq.admin.courses.listStats.honor.info"
+  },
+  "rwaq.admin.orgs.stats.learners": {
+    "defaultMessage": "Learners with activity",
+    "description": "rwaq.admin.orgs.stats.learners"
+  },
+  "rwaq.admin.orgs.stats.activeEnrollments": {
+    "defaultMessage": "Enrollments with activity",
+    "description": "rwaq.admin.orgs.stats.activeEnrollments"
+  },
+  "rwaq.admin.courses.listStats.enrollments": {
+    "defaultMessage": "Enrollments with activity",
+    "description": "rwaq.admin.courses.listStats.enrollments"
+  },
+  "rwaq.admin.programs.listStats.enrollments": {
+    "defaultMessage": "Program enrollments (visible programs)",
+    "description": "rwaq.admin.programs.listStats.enrollments"
+  },
+  "rwaq.admin.users.listStats.learners": {
+    "defaultMessage": "Learners with activity",
+    "description": "rwaq.admin.users.listStats.learners"
+  },
+  "rwaq.admin.courses.stats.activeLearners": {
+    "defaultMessage": "Learners with activity",
+    "description": "rwaq.admin.courses.stats.activeLearners"
   },
   "rwaq.admin.courses.stats.avgProgress": {
     "defaultMessage": "Avg progress of started learners",

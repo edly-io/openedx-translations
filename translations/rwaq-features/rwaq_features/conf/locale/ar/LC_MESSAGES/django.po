@@ -1465,3 +1465,64 @@ msgstr "مسجّل"
 msgctxt "enrollment status"
 msgid "left"
 msgstr "انسحب"
+
+msgid "You have been enrolled in %(program_name)s"
+msgstr "تم تسجيلك في برنامج %(program_name)s"
+
+msgid "You have been registered for the program %(program_name)s"
+msgstr "تم تسجيلك في برنامج %(program_name)s"
+
+msgid ""
+"You have been enrolled in %(program_name)s at %(site_name)s by a member of "
+"the staff. This program will now appear on your %(site_name)s dashboard."
+msgstr ""
+"تم تسجيلك في برنامج %(program_name)s في %(site_name)s بواسطة أحد أعضاء فريق "
+"العمل. سيظهر هذا البرنامج الآن في لوحة معلوماتك على %(site_name)s."
+
+msgid "Get access to program materials now"
+msgstr "الوصول إلى مواد البرنامج الآن"
+
+msgid "You have been invited to register for %(program_name)s"
+msgstr "تمت دعوتك للتسجيل في برنامج %(program_name)s"
+
+msgid "You have been invited to %(program_name)s"
+msgstr "لقد تمت دعوتك إلى برنامج %(program_name)s"
+
+msgid ""
+"You have been invited to join %(program_name)s at %(site_name)s by a member "
+"of the staff."
+msgstr ""
+"تمت دعوتك للانضمام إلى برنامج %(program_name)s في %(site_name)s بواسطة أحد "
+"أعضاء فريق العمل."
+
+msgid ""
+"Once you have registered and activated your account, you will see "
+"%(program_name)s listed on your dashboard."
+msgstr ""
+"بمجرد تسجيل حسابك وتنشيطه، سترى برنامج %(program_name)s مدرجًا في لوحة "
+"معلوماتك."
+
+msgid "This email was automatically sent from %(platform_name)s."
+msgstr "تم إرسال هذا البريد الإلكتروني تلقائيًا من %(platform_name)s."
+
+msgid "You are receiving this email at address %(email)s because you are enrolled in"
+msgstr "تتلقى هذا البريد الإلكتروني على العنوان %(email)s لأنك مسجل في"
+
+msgid ""
+"You are receiving this email at address %(email)s because you are enrolled "
+"in %(program_name)s."
+msgstr ""
+"تتلقى هذا البريد الإلكتروني على العنوان %(email)s لأنك مسجل في "
+"%(program_name)s."
+
+msgid "To stop receiving email like this, update your program email settings"
+msgstr ""
+"لإيقاف تلقي رسائل البريد الإلكتروني من هذا النوع، يمكنك تحديث إعدادات البريد "
+"الإلكتروني للبرنامج"
+
+msgid ""
+"To stop receiving email like this, update your program email settings here: "
+"%(preferences_url)s"
+msgstr ""
+"لإيقاف تلقي رسائل البريد الإلكتروني من هذا النوع، يمكنك تحديث إعدادات البريد "
+"الإلكتروني للبرنامج هنا: %(preferences_url)s"

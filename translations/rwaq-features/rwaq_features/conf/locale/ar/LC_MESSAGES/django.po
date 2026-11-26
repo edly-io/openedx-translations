@@ -458,6 +458,9 @@ msgstr "لا يمكن إضافة إلا مساقات مؤسسة البرنامج
 msgid "Only Program-only courses can be added to a program. Set the course type to Program-only course first."
 msgstr "لا يمكن إضافة إلا المساقات من نوع «مساق ضمن برنامج فقط» إلى البرنامج. اضبط نوع المساق على «مساق ضمن برنامج فقط» أولًا."
 
+msgid "Organization code"
+msgstr "رمز المؤسسة"
+
 msgid "Organization name"
 msgstr "اسم المؤسسة"
 

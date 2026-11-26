@@ -1501,3 +1501,28 @@ msgid ""
 msgstr ""
 "بمجرد تسجيل حسابك وتنشيطه، سترى برنامج %(program_name)s مدرجًا في لوحة "
 "معلوماتك."
+
+msgid "This email was automatically sent from %(platform_name)s."
+msgstr "تم إرسال هذا البريد الإلكتروني تلقائيًا من %(platform_name)s."
+
+msgid "You are receiving this email at address %(email)s because you are enrolled in"
+msgstr "تتلقى هذا البريد الإلكتروني على العنوان %(email)s لأنك مسجل في"
+
+msgid ""
+"You are receiving this email at address %(email)s because you are enrolled "
+"in %(program_name)s."
+msgstr ""
+"تتلقى هذا البريد الإلكتروني على العنوان %(email)s لأنك مسجل في "
+"%(program_name)s."
+
+msgid "To stop receiving email like this, update your program email settings"
+msgstr ""
+"لإيقاف تلقي رسائل البريد الإلكتروني من هذا النوع، يمكنك تحديث إعدادات البريد "
+"الإلكتروني للبرنامج"
+
+msgid ""
+"To stop receiving email like this, update your program email settings here: "
+"%(preferences_url)s"
+msgstr ""
+"لإيقاف تلقي رسائل البريد الإلكتروني من هذا النوع، يمكنك تحديث إعدادات البريد "
+"الإلكتروني للبرنامج هنا: %(preferences_url)s"
